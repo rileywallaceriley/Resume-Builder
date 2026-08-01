@@ -16,7 +16,7 @@ import {
   Sparkles,
   WandSparkles,
 } from 'lucide-react'
-import { rileyResume as activeResume } from './data/rileyResume'
+import { rileyResume } from './data/rileyResume'
 import type { ResumeSectionId } from './domain/resume'
 import { getTemplate } from './templates/registry'
 
@@ -45,7 +45,7 @@ export default function App() {
           <span>Career Agent</span>
         </a>
         <div className="document-title">
-          <span>{activeResume.basics.name}</span>
+          <span>{rileyResume.basics.name}</span>
           <span className="title-divider" />
           <button type="button">Product Designer Resume <ChevronDown size={14} /></button>
         </div>
@@ -116,7 +116,7 @@ export default function App() {
           </div>
           <div className="preview-stage">
             <div className="page-scaler" style={{ '--preview-scale': zoom / 100 } as CSSProperties}>
-              {template.render({ document: activeResume, accentColor })}
+              {template.render({ document: rileyResume, accentColor })}
             </div>
           </div>
         </section>
