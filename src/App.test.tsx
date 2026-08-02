@@ -14,7 +14,6 @@ describe('App', () => {
     expect(screen.getAllByText('Riley Wallace')).not.toHaveLength(0)
     expect(screen.queryByText('Olivia Bennett')).not.toBeInTheDocument()
   })
-
   it('exports through an independent print document', () => {
     const open = vi.spyOn(window, 'open').mockImplementation(() => null)
     const print = vi.spyOn(window, 'print').mockImplementation(() => undefined)
@@ -30,5 +29,6 @@ describe('App', () => {
     expect(target).toBe('_blank')
     expect(features).toBe('noopener,noreferrer')
     expect(print).not.toHaveBeenCalled()
+  })
   })
 })

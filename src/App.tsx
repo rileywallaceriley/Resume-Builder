@@ -18,6 +18,7 @@ import {
 } from 'lucide-react'
 import { rileyResume } from './data/rileyResume'
 import type { ResumeSectionId } from './domain/resume'
+import { PrintableResume } from './print/PrintableResume'
 import { getTemplate } from './templates/registry'
 
 const sections: { id: ResumeSectionId; label: string; icon: typeof CircleUserRound }[] = [
@@ -131,6 +132,7 @@ export default function App() {
           </div>
         </section>
       </main>
+      <PrintableResume document={rileyResume} accentColor={accentColor} />
     </div>
   )
 }
