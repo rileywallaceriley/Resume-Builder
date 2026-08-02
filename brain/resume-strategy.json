@@ -1,0 +1,241 @@
+{
+  "_comment": "Rules for deriving temporary ResumeDocument outputs. The data array is intentionally empty; _template and _example are documentation and are not source records.",
+  "schemaVersion": "2.0.0",
+  "entityType": "resume-strategy",
+  "schema": {
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "brain/resume-strategy.json.schema.json",
+    "title": "Resume Strategy",
+    "description": "Rules for deriving temporary ResumeDocument outputs.",
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "_comment": {
+        "type": "string"
+      },
+      "id": {
+        "type": "string"
+      },
+      "createdAt": {
+        "type": "string"
+      },
+      "updatedAt": {
+        "type": "string"
+      },
+      "tags": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "relatedObjects": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "objectType": {
+              "type": "string"
+            },
+            "objectId": {
+              "type": "string"
+            },
+            "relationship": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "objectType",
+            "objectId",
+            "relationship"
+          ]
+        }
+      },
+      "onePageRules": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "twoPageRules": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "accomplishmentPrioritization": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "globalRules": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "tailoringRules": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "technicalWriting": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "marketing": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "leadership": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "contentStrategy": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "editorial": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "ai": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "automation": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "required": [
+          "technicalWriting",
+          "marketing",
+          "leadership",
+          "contentStrategy",
+          "editorial",
+          "ai",
+          "automation"
+        ]
+      },
+      "selectionGuardrails": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      }
+    },
+    "required": [
+      "_comment",
+      "id",
+      "createdAt",
+      "updatedAt",
+      "tags",
+      "relatedObjects",
+      "onePageRules",
+      "twoPageRules",
+      "accomplishmentPrioritization",
+      "globalRules",
+      "tailoringRules",
+      "selectionGuardrails"
+    ]
+  },
+  "data": [],
+  "_template": {
+    "_comment": "Rules for transforming Brain knowledge into a temporary ResumeDocument. Contains policy, never professional facts.",
+    "id": "",
+    "createdAt": "",
+    "updatedAt": "",
+    "tags": [],
+    "relatedObjects": [],
+    "onePageRules": [],
+    "twoPageRules": [],
+    "accomplishmentPrioritization": [],
+    "globalRules": [],
+    "tailoringRules": {
+      "technicalWriting": [],
+      "marketing": [],
+      "leadership": [],
+      "contentStrategy": [],
+      "editorial": [],
+      "ai": [],
+      "automation": []
+    },
+    "selectionGuardrails": []
+  },
+  "_example": {
+    "_comment": "Rules for transforming Brain knowledge into a temporary ResumeDocument. Contains policy, never professional facts.",
+    "id": "00000000-0000-4000-8000-000000000001",
+    "createdAt": "2026-01-01T00:00:00Z",
+    "updatedAt": "2026-01-01T00:00:00Z",
+    "tags": [
+      "example-tag"
+    ],
+    "relatedObjects": [
+      {
+        "objectType": "achievement",
+        "objectId": "00000000-0000-4000-8000-000000000002",
+        "relationship": "supports"
+      }
+    ],
+    "onePageRules": [
+      "Use for early-career or narrowly scoped applications when all decisive evidence fits legibly."
+    ],
+    "twoPageRules": [
+      "Use when relevant depth, leadership scope, or multiple evidence-rich roles materially improve the decision."
+    ],
+    "accomplishmentPrioritization": [
+      "Target relevance",
+      "Magnitude of impact",
+      "Evidence confidence",
+      "Recency"
+    ],
+    "globalRules": [
+      "Treat the Brain as the only factual source.",
+      "Never infer a metric.",
+      "Preserve factual meaning when compressing.",
+      "Generate ResumeDocument as temporary output only."
+    ],
+    "tailoringRules": {
+      "technicalWriting": [
+        "Prioritize audience outcomes, domain complexity, research rigor, and samples."
+      ],
+      "marketing": [
+        "Prioritize customer insight, positioning, campaigns, and growth impact."
+      ],
+      "leadership": [
+        "Prioritize organizational scope, decisions, talent development, and business outcomes."
+      ],
+      "contentStrategy": [
+        "Prioritize systems, governance, audience strategy, and portfolio impact."
+      ],
+      "editorial": [
+        "Prioritize editorial judgment, process, quality, and publishing outcomes."
+      ],
+      "ai": [
+        "Prioritize applied AI outcomes, evaluation, responsible use, and human workflows."
+      ],
+      "automation": [
+        "Prioritize repeatable systems, time savings, reliability, and measurable scale."
+      ]
+    },
+    "selectionGuardrails": [
+      "Exclude private data unless explicitly authorized.",
+      "Flag missing or conflicting evidence for human review."
+    ]
+  }
+}

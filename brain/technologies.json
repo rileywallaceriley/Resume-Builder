@@ -1,0 +1,180 @@
+{
+  "_comment": "Tools and platforms with evidence and recency. The data array is intentionally empty; _template and _example are documentation and are not source records.",
+  "schemaVersion": "2.0.0",
+  "entityType": "technologies",
+  "schema": {
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "brain/technologies.json.schema.json",
+    "title": "Technologies",
+    "description": "Tools and platforms with evidence and recency.",
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "_comment": {
+        "type": "string"
+      },
+      "id": {
+        "type": "string"
+      },
+      "createdAt": {
+        "type": "string"
+      },
+      "updatedAt": {
+        "type": "string"
+      },
+      "tags": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "relatedObjects": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "objectType": {
+              "type": "string"
+            },
+            "objectId": {
+              "type": "string"
+            },
+            "relationship": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "objectType",
+            "objectId",
+            "relationship"
+          ]
+        }
+      },
+      "name": {
+        "type": "string"
+      },
+      "category": {
+        "type": "string"
+      },
+      "description": {
+        "type": "string"
+      },
+      "proficiency": {
+        "type": "string"
+      },
+      "years": {
+        "type": "number"
+      },
+      "lastUsedAt": {
+        "type": "string"
+      },
+      "useCases": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "supportingProjects": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "supportingExperience": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "evidence": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "relatedSkills": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      }
+    },
+    "required": [
+      "_comment",
+      "id",
+      "createdAt",
+      "updatedAt",
+      "tags",
+      "relatedObjects",
+      "name",
+      "category",
+      "description",
+      "proficiency",
+      "years",
+      "lastUsedAt",
+      "useCases",
+      "supportingProjects",
+      "supportingExperience",
+      "evidence",
+      "relatedSkills"
+    ]
+  },
+  "data": [],
+  "_template": {
+    "_comment": "A tool, language, platform, or framework with recency, use cases, and evidence.",
+    "id": "",
+    "createdAt": "",
+    "updatedAt": "",
+    "tags": [],
+    "relatedObjects": [],
+    "name": "",
+    "category": "",
+    "description": "",
+    "proficiency": "",
+    "years": 0,
+    "lastUsedAt": "",
+    "useCases": [],
+    "supportingProjects": [],
+    "supportingExperience": [],
+    "evidence": [],
+    "relatedSkills": []
+  },
+  "_example": {
+    "_comment": "A tool, language, platform, or framework with recency, use cases, and evidence.",
+    "id": "00000000-0000-4000-8000-000000000001",
+    "createdAt": "2026-01-01T00:00:00Z",
+    "updatedAt": "2026-01-01T00:00:00Z",
+    "tags": [
+      "example-tag"
+    ],
+    "relatedObjects": [
+      {
+        "objectType": "achievement",
+        "objectId": "00000000-0000-4000-8000-000000000002",
+        "relationship": "supports"
+      }
+    ],
+    "name": "Example Technology",
+    "category": "platform",
+    "description": "How and why the technology is used.",
+    "proficiency": "advanced",
+    "years": 4,
+    "lastUsedAt": "2025-01",
+    "useCases": [
+      "Example use case"
+    ],
+    "supportingProjects": [
+      "00000000-0000-4000-8000-000000000030"
+    ],
+    "supportingExperience": [
+      "00000000-0000-4000-8000-000000000070"
+    ],
+    "evidence": [
+      "00000000-0000-4000-8000-000000000060"
+    ],
+    "relatedSkills": [
+      "00000000-0000-4000-8000-000000000050"
+    ]
+  }
+}

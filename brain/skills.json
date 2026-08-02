@@ -1,0 +1,308 @@
+{
+  "_comment": "Categorized, evidence-backed capabilities. The data array is intentionally empty; _template and _example are documentation and are not source records.",
+  "schemaVersion": "2.0.0",
+  "entityType": "skills",
+  "schema": {
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "brain/skills.json.schema.json",
+    "title": "Skills",
+    "description": "Categorized, evidence-backed capabilities.",
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "_comment": {
+        "type": "string"
+      },
+      "id": {
+        "type": "string"
+      },
+      "createdAt": {
+        "type": "string"
+      },
+      "updatedAt": {
+        "type": "string"
+      },
+      "tags": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "relatedObjects": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "objectType": {
+              "type": "string"
+            },
+            "objectId": {
+              "type": "string"
+            },
+            "relationship": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "objectType",
+            "objectId",
+            "relationship"
+          ]
+        }
+      },
+      "category": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "createdAt": {
+            "type": "string"
+          },
+          "updatedAt": {
+            "type": "string"
+          },
+          "tags": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "relatedObjects": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "objectType": {
+                  "type": "string"
+                },
+                "objectId": {
+                  "type": "string"
+                },
+                "relationship": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "objectType",
+                "objectId",
+                "relationship"
+              ]
+            }
+          },
+          "name": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "createdAt",
+          "updatedAt",
+          "tags",
+          "relatedObjects",
+          "name",
+          "description"
+        ]
+      },
+      "skills": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "createdAt": {
+              "type": "string"
+            },
+            "updatedAt": {
+              "type": "string"
+            },
+            "tags": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "relatedObjects": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                  "objectType": {
+                    "type": "string"
+                  },
+                  "objectId": {
+                    "type": "string"
+                  },
+                  "relationship": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "objectType",
+                  "objectId",
+                  "relationship"
+                ]
+              }
+            },
+            "name": {
+              "type": "string"
+            },
+            "description": {
+              "type": "string"
+            },
+            "proficiency": {
+              "type": "string"
+            },
+            "years": {
+              "type": "number"
+            },
+            "supportingProjects": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "supportingExperience": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "evidence": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "relatedTechnologies": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "required": [
+            "id",
+            "createdAt",
+            "updatedAt",
+            "tags",
+            "relatedObjects",
+            "name",
+            "description",
+            "proficiency",
+            "years",
+            "supportingProjects",
+            "supportingExperience",
+            "evidence",
+            "relatedTechnologies"
+          ]
+        }
+      }
+    },
+    "required": [
+      "_comment",
+      "id",
+      "createdAt",
+      "updatedAt",
+      "tags",
+      "relatedObjects",
+      "category",
+      "skills"
+    ]
+  },
+  "data": [],
+  "_template": {
+    "_comment": "A skill category containing evidence-backed, independently linkable skills; never use as a flat keyword list.",
+    "id": "",
+    "createdAt": "",
+    "updatedAt": "",
+    "tags": [],
+    "relatedObjects": [],
+    "category": {
+      "id": "",
+      "createdAt": "",
+      "updatedAt": "",
+      "tags": [],
+      "relatedObjects": [],
+      "name": "",
+      "description": ""
+    },
+    "skills": []
+  },
+  "_example": {
+    "_comment": "A skill category containing evidence-backed, independently linkable skills; never use as a flat keyword list.",
+    "id": "00000000-0000-4000-8000-000000000001",
+    "createdAt": "2026-01-01T00:00:00Z",
+    "updatedAt": "2026-01-01T00:00:00Z",
+    "tags": [
+      "example-tag"
+    ],
+    "relatedObjects": [
+      {
+        "objectType": "achievement",
+        "objectId": "00000000-0000-4000-8000-000000000002",
+        "relationship": "supports"
+      }
+    ],
+    "category": {
+      "id": "00000000-0000-4000-8000-000000000010",
+      "createdAt": "2026-01-01T00:00:00Z",
+      "updatedAt": "2026-01-01T00:00:00Z",
+      "tags": [
+        "example-category"
+      ],
+      "relatedObjects": [
+        {
+          "objectType": "achievement",
+          "objectId": "00000000-0000-4000-8000-000000000002",
+          "relationship": "supports"
+        }
+      ],
+      "name": "Example Skill Category",
+      "description": "Why these capabilities belong together."
+    },
+    "skills": [
+      {
+        "id": "00000000-0000-4000-8000-000000000011",
+        "createdAt": "2026-01-01T00:00:00Z",
+        "updatedAt": "2026-01-01T00:00:00Z",
+        "tags": [
+          "example-skill"
+        ],
+        "relatedObjects": [
+          {
+            "objectType": "achievement",
+            "objectId": "00000000-0000-4000-8000-000000000002",
+            "relationship": "supports"
+          }
+        ],
+        "name": "Example Skill",
+        "description": "What the capability means in this professional context.",
+        "proficiency": "advanced",
+        "years": 5,
+        "supportingProjects": [
+          "00000000-0000-4000-8000-000000000030"
+        ],
+        "supportingExperience": [
+          "00000000-0000-4000-8000-000000000070"
+        ],
+        "evidence": [
+          "00000000-0000-4000-8000-000000000060"
+        ],
+        "relatedTechnologies": [
+          "00000000-0000-4000-8000-000000000040"
+        ]
+      }
+    ]
+  }
+}
