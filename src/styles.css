@@ -81,10 +81,10 @@ button:focus-visible, a:focus-visible { outline: 2px solid #315e78; outline-offs
 .zoom-control button { width: 29px; height: 100%; display: grid; place-items: center; border: 0; background: transparent; cursor: pointer; color: #77766e; }
 .zoom-control output { min-width: 44px; text-align: center; font-size: 9px; border-inline: 1px solid #dddbd4; padding: 2px 7px; }
 .preview-stage { flex: 1; overflow: auto; display: grid; justify-items: center; align-items: start; padding: 37px 50px 60px; background-color: #e7e6e0; background-image: radial-gradient(#d1d0ca 0.65px, transparent 0.65px); background-size: 12px 12px; }
-.page-scaler { --preview-scale: .82; width: calc(210mm * var(--preview-scale)); height: calc(297mm * var(--preview-scale)); }
+.page-scaler { --preview-scale: .82; width: calc(210mm * var(--preview-scale)); min-height: calc(297mm * var(--preview-scale)); height: auto; }
 .page-scaler .resume-page { transform: scale(var(--preview-scale)); transform-origin: top left; }
 
-.resume-page { width: 210mm; height: 297mm; overflow: hidden; flex: none; background: var(--paper); box-shadow: 0 12px 32px rgba(48,45,38,.15), 0 1px 3px rgba(48,45,38,.12); padding: 17mm 17mm 14mm; color: #292823; font-family: Arial, Helvetica, sans-serif; }
+.resume-page { width: 210mm; min-height: 297mm; height: auto; overflow: visible; flex: none; background: var(--paper); box-shadow: 0 12px 32px rgba(48,45,38,.15), 0 1px 3px rgba(48,45,38,.12); padding: 17mm 17mm 14mm; color: #292823; font-family: Arial, Helvetica, sans-serif; }
 .resume-header { display: flex; justify-content: space-between; align-items: flex-end; }
 .resume-eyebrow { margin: 0 0 7mm; color: var(--resume-accent); text-transform: uppercase; letter-spacing: .22em; font-size: 6.8pt; font-weight: 700; }
 .resume-header h1 { font-family: Georgia, 'Times New Roman', serif; font-size: 29pt; font-weight: 400; line-height: .95; letter-spacing: -.035em; margin: 0; }
@@ -120,9 +120,17 @@ button:focus-visible, a:focus-visible { outline: 2px solid #315e78; outline-offs
   .ai-review { margin-top: 24px; }.preview-stage { justify-items: start; padding-inline: 24px; }
 }
 
-@page { size: A4; margin: 0; }
+@page { size: A4; margin: 17mm 17mm 14mm; }
 @media print {
-  body { background: white; }.topbar, .sidebar, .preview-toolbar { display: none !important; }
-  .workspace, .preview-panel, .preview-stage, .page-scaler { display: block; width: 210mm; height: 297mm; overflow: visible; padding: 0; margin: 0; background: white; }
-  .page-scaler .resume-page { transform: none; box-shadow: none; print-color-adjust: exact; -webkit-print-color-adjust: exact; }
+  html, body, #root, .app-shell { background: white; }
+  .topbar, .sidebar, .preview-toolbar { display: none !important; }
+  .workspace, .preview-panel, .preview-stage, .page-scaler { display: block; width: auto; min-height: 0; height: auto; max-height: none; overflow: visible; contain: none; padding: 0; margin: 0; background: white; }
+  .preview-stage { background-image: none; }
+  .page-scaler .resume-page { width: auto; min-height: 0; height: auto; max-height: none; overflow: visible; contain: none; padding: 0; transform: none; box-shadow: none; print-color-adjust: exact; -webkit-print-color-adjust: exact; }
+  .resume-entry { display: block; position: static; overflow: visible; break-inside: auto; page-break-inside: auto; }
+  .resume-entry .entry-meta { display: flex; position: static; gap: 2mm; margin-bottom: 1mm; break-after: avoid; page-break-after: avoid; }
+  .resume-entry .entry-content { display: block; overflow: visible; }
+  .resume-entry .entry-content h3, .resume-entry .entry-company, .resume-entry .entry-content li, .education-entry, .skill-list > div { break-inside: avoid; page-break-inside: avoid; }
+  .resume-lower-grid { display: block; break-inside: auto; page-break-inside: auto; }
+  .resume-lower-grid > section + section { margin-top: 5mm; }
 }
