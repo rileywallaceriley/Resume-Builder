@@ -16,7 +16,7 @@ import {
   Sparkles,
   WandSparkles,
 } from 'lucide-react'
-import { rileyResume } from './data/rileyResume'>>>>>>> main
+import { rileyResume } from './data/rileyResume'
 import type { ResumeSectionId } from './domain/resume'
 import { getTemplate } from './templates/registry'
 
@@ -37,6 +37,16 @@ export default function App() {
 
   const changeZoom = (amount: number) => setZoom((current) => Math.min(110, Math.max(60, current + amount)))
 
+  const exportPdf = () => {
+    const printUrl = new URL(window.location.href)
+    printUrl.search = ''
+    printUrl.hash = ''
+    printUrl.searchParams.set('print', '1')
+    printUrl.searchParams.set('autoprint', '1')
+    printUrl.searchParams.set('accent', accentColor)
+    window.open(printUrl.toString(), '_blank', 'noopener,noreferrer')
+  }
+
   return (
     <div className="app-shell">
       <header className="topbar">
@@ -45,14 +55,14 @@ export default function App() {
           <span>Career Agent</span>
         </a>
         <div className="document-title">
-<span>{rileyResume.basics.name}</span>
+          <span>{rileyResume.basics.name}</span>
           <span className="title-divider" />
-          <button type="button">Product Designer Resume <ChevronDown size={14} /></button>
+          <button type="button">Technical Content Strategist Resume <ChevronDown size={14} /></button>
         </div>
         <div className="topbar-actions">
           <span className="saved-state"><Check size={13} /> Saved</span>
           <button className="icon-button" type="button" aria-label="More options"><MoreHorizontal size={19} /></button>
-          <button className="primary-button" type="button" onClick={() => window.print()}><Download size={15} /> Export PDF</button>
+          <button className="primary-button" type="button" onClick={exportPdf}><Download size={15} /> Export PDF</button>
         </div>
       </header>
 
@@ -116,7 +126,7 @@ export default function App() {
           </div>
           <div className="preview-stage">
             <div className="page-scaler" style={{ '--preview-scale': zoom / 100 } as CSSProperties}>
-{template.render({ document: rileyResume, accentColor })}>>>>>>> main
+              {template.render({ document: rileyResume, accentColor })}
             </div>
           </div>
         </section>
