@@ -1,0 +1,219 @@
+{
+  "_comment": "Reusable STAR narratives with competency links. The data array is intentionally empty; _template and _example are documentation and are not source records.",
+  "_meta": {
+    "version": "2.0.0",
+    "description": "Reusable STAR stories with competencies, lessons, and evidence relationships.",
+    "lastUpdated": "",
+    "tags": [],
+    "related": [
+      "experience.json",
+      "achievements.json",
+      "projects.json",
+      "skills.json"
+    ]
+  },
+  "schemaVersion": "2.0.0",
+  "entityType": "interview-stories",
+  "schema": {
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "brain/interview-stories.json.schema.json",
+    "title": "Interview Stories",
+    "description": "Reusable STAR narratives with competency links.",
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "_comment": {
+        "type": "string"
+      },
+      "id": {
+        "type": "string"
+      },
+      "createdAt": {
+        "type": "string"
+      },
+      "updatedAt": {
+        "type": "string"
+      },
+      "tags": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "relatedObjects": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "objectType": {
+              "type": "string"
+            },
+            "objectId": {
+              "type": "string"
+            },
+            "relationship": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "objectType",
+            "objectId",
+            "relationship"
+          ]
+        }
+      },
+      "title": {
+        "type": "string"
+      },
+      "situation": {
+        "type": "string"
+      },
+      "task": {
+        "type": "string"
+      },
+      "action": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "result": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "summary": {
+            "type": "string"
+          },
+          "metrics": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "required": [
+          "summary",
+          "metrics"
+        ]
+      },
+      "lessons": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "competenciesDemonstrated": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "keywords": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "relatedExperiences": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "relatedProjects": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      }
+    },
+    "required": [
+      "_comment",
+      "id",
+      "createdAt",
+      "updatedAt",
+      "tags",
+      "relatedObjects",
+      "title",
+      "situation",
+      "task",
+      "action",
+      "result",
+      "lessons",
+      "competenciesDemonstrated",
+      "keywords",
+      "relatedExperiences",
+      "relatedProjects"
+    ]
+  },
+  "data": [],
+  "_template": {
+    "_comment": "One reusable interview narrative in explicit STAR form with evidence links.",
+    "id": "",
+    "createdAt": "",
+    "updatedAt": "",
+    "tags": [],
+    "relatedObjects": [],
+    "title": "",
+    "situation": "",
+    "task": "",
+    "action": [],
+    "result": {
+      "summary": "",
+      "metrics": []
+    },
+    "lessons": [],
+    "competenciesDemonstrated": [],
+    "keywords": [],
+    "relatedExperiences": [],
+    "relatedProjects": []
+  },
+  "_example": {
+    "_comment": "One reusable interview narrative in explicit STAR form with evidence links.",
+    "id": "00000000-0000-4000-8000-000000000001",
+    "createdAt": "2026-01-01T00:00:00Z",
+    "updatedAt": "2026-01-01T00:00:00Z",
+    "tags": [
+      "example-tag"
+    ],
+    "relatedObjects": [
+      {
+        "objectType": "achievement",
+        "objectId": "00000000-0000-4000-8000-000000000002",
+        "relationship": "supports"
+      }
+    ],
+    "title": "Example STAR story",
+    "situation": "Context, stakes, and constraints.",
+    "task": "Specific responsibility and desired outcome.",
+    "action": [
+      "Concrete action personally taken"
+    ],
+    "result": {
+      "summary": "Outcome of the actions.",
+      "metrics": [
+        "00000000-0000-4000-8000-000000000060"
+      ]
+    },
+    "lessons": [
+      "What was learned or would change next time."
+    ],
+    "competenciesDemonstrated": [
+      "00000000-0000-4000-8000-000000000050"
+    ],
+    "keywords": [
+      "example behavioral keyword"
+    ],
+    "relatedExperiences": [
+      "00000000-0000-4000-8000-000000000070"
+    ],
+    "relatedProjects": [
+      "00000000-0000-4000-8000-000000000030"
+    ]
+  },
+  "questionsAnswered": [
+    "Which story demonstrates a competency?",
+    "What situation, action, and result support an interview answer?"
+  ]
+}

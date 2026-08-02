@@ -1,0 +1,289 @@
+{
+  "_comment": "Canonical entry point for discovering and traversing the Brain. Empty owner and timestamps are intentional architecture placeholders.",
+  "_meta": {
+    "version": "1.0.0",
+    "description": "Manifest and navigation contract for the canonical professional knowledge graph.",
+    "lastUpdated": "",
+    "tags": [],
+    "related": [
+      "identity.json",
+      "experience.json",
+      "achievements.json",
+      "projects.json",
+      "skills.json",
+      "technologies.json",
+      "industries.json",
+      "voice.json",
+      "preferences.json",
+      "management.json",
+      "interview-stories.json",
+      "writing.json",
+      "resume-strategy.json"
+    ]
+  },
+  "schemaVersion": "1.0.0",
+  "brainVersion": "1.0.0",
+  "owner": "",
+  "description": "Permanent source of truth for verified professional knowledge. Generated artifacts are downstream outputs and must not be written back as facts.",
+  "modules": [
+    {
+      "id": "244f7196-0838-43a7-af01-2b83846942a0",
+      "name": "identity",
+      "path": "identity.json",
+      "entityType": "identity",
+      "description": "Professional identity, positioning, values, trajectory, and non-negotiable representation constraints.",
+      "questionsAnswered": [
+        "Who is the owner professionally?",
+        "What problems do they solve?",
+        "What reputation should generated outputs reinforce?"
+      ],
+      "related": [
+        "experience.json",
+        "achievements.json",
+        "preferences.json",
+        "voice.json"
+      ]
+    },
+    {
+      "id": "a2fe0273-e33a-4422-9fa8-123e968cdefc",
+      "name": "experience",
+      "path": "experience.json",
+      "entityType": "experience",
+      "description": "Rich employment context, responsibilities, outcomes, lessons, and linked evidence.",
+      "questionsAnswered": [
+        "What did the owner do in each role?",
+        "Which outcomes and stories support that work?"
+      ],
+      "related": [
+        "achievements.json",
+        "projects.json",
+        "skills.json",
+        "interview-stories.json"
+      ]
+    },
+    {
+      "id": "9c7f929d-f929-4a2a-8182-595460e1a976",
+      "name": "achievements",
+      "path": "achievements.json",
+      "entityType": "achievements",
+      "description": "Atomic, measurable outcomes with confidence and supporting evidence.",
+      "questionsAnswered": [
+        "What measurable impact has the owner produced?",
+        "How strong is the evidence for each claim?"
+      ],
+      "related": [
+        "experience.json",
+        "projects.json",
+        "skills.json"
+      ]
+    },
+    {
+      "id": "97dccdcc-9633-49f1-99de-a781ab08d19d",
+      "name": "projects",
+      "path": "projects.json",
+      "entityType": "projects",
+      "description": "Employer-independent initiatives describing problems, approaches, results, and lessons.",
+      "questionsAnswered": [
+        "Which initiatives demonstrate a capability?",
+        "How was a problem approached and what resulted?"
+      ],
+      "related": [
+        "experience.json",
+        "achievements.json",
+        "technologies.json",
+        "skills.json"
+      ]
+    },
+    {
+      "id": "c82d0ea4-3acf-4795-a801-277338967de8",
+      "name": "skills",
+      "path": "skills.json",
+      "entityType": "skills",
+      "description": "Categorized capabilities with proficiency and evidence links.",
+      "questionsAnswered": [
+        "What can the owner do?",
+        "What evidence supports each capability?"
+      ],
+      "related": [
+        "projects.json",
+        "experience.json",
+        "technologies.json",
+        "achievements.json"
+      ]
+    },
+    {
+      "id": "4596f0d8-b9e0-40aa-a63b-804adb339680",
+      "name": "technologies",
+      "path": "technologies.json",
+      "entityType": "technologies",
+      "description": "Tools and platforms with proficiency, use cases, recency, and evidence.",
+      "questionsAnswered": [
+        "Which technologies has the owner used?",
+        "Where and how were they applied?"
+      ],
+      "related": [
+        "skills.json",
+        "projects.json",
+        "experience.json"
+      ]
+    },
+    {
+      "id": "77694465-ee9a-4498-b47f-dbde7483fc49",
+      "name": "industries",
+      "path": "industries.json",
+      "entityType": "industries",
+      "description": "Industry knowledge, affinity, experience, and supporting context.",
+      "questionsAnswered": [
+        "Which industries does the owner understand or prefer?",
+        "What supports that industry knowledge?"
+      ],
+      "related": [
+        "experience.json",
+        "projects.json",
+        "preferences.json"
+      ]
+    },
+    {
+      "id": "a2d14f31-7e2e-4b54-a835-f2d55a31a07a",
+      "name": "voice",
+      "path": "voice.json",
+      "entityType": "voice",
+      "description": "Writing style, editorial guardrails, and instructions for faithful generated language.",
+      "questionsAnswered": [
+        "How should generated language sound?",
+        "Which writing patterns must AI avoid?"
+      ],
+      "related": [
+        "writing.json",
+        "identity.json"
+      ]
+    },
+    {
+      "id": "e6ee086a-59ce-4b60-8d9c-71aad3cb02cb",
+      "name": "preferences",
+      "path": "preferences.json",
+      "entityType": "preferences",
+      "description": "Career targets, working conditions, constraints, and deal breakers.",
+      "questionsAnswered": [
+        "Which opportunities fit the owner?",
+        "Which constraints or deal breakers apply?"
+      ],
+      "related": [
+        "identity.json",
+        "industries.json"
+      ]
+    },
+    {
+      "id": "3e295727-c3d6-4221-9068-28697e0bfdd5",
+      "name": "management",
+      "path": "management.json",
+      "entityType": "management",
+      "description": "Leadership, mentoring, feedback, coaching, delegation, and team preferences.",
+      "questionsAnswered": [
+        "How does the owner lead and develop people?",
+        "Which environment supports their leadership?"
+      ],
+      "related": [
+        "experience.json",
+        "interview-stories.json",
+        "identity.json"
+      ]
+    },
+    {
+      "id": "8a7f8156-d208-43ff-b1bf-2d99c05ee4fa",
+      "name": "interview-stories",
+      "path": "interview-stories.json",
+      "entityType": "interview-stories",
+      "description": "Reusable STAR stories with competencies, lessons, and evidence relationships.",
+      "questionsAnswered": [
+        "Which story demonstrates a competency?",
+        "What situation, action, and result support an interview answer?"
+      ],
+      "related": [
+        "experience.json",
+        "achievements.json",
+        "projects.json",
+        "skills.json"
+      ]
+    },
+    {
+      "id": "4cdf6b20-dba1-436a-9228-bc792f6ed3ea",
+      "name": "writing",
+      "path": "writing.json",
+      "entityType": "writing",
+      "description": "Writing, research, interviewing, story discovery, structuring, and review methodology.",
+      "questionsAnswered": [
+        "How does the owner create and review written work?",
+        "How are stories researched and structured?"
+      ],
+      "related": [
+        "voice.json",
+        "projects.json",
+        "skills.json"
+      ]
+    },
+    {
+      "id": "a3e482a2-5812-4bdd-bacd-a11ca814eefa",
+      "name": "resume-strategy",
+      "path": "resume-strategy.json",
+      "entityType": "resume-strategy",
+      "description": "Rules for transforming verified Brain knowledge into temporary ResumeDocument outputs.",
+      "questionsAnswered": [
+        "How should verified accomplishments be selected for a resume?",
+        "When should a derived resume use one or two pages?"
+      ],
+      "related": [
+        "identity.json",
+        "experience.json",
+        "achievements.json",
+        "skills.json"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "predicate": "supports",
+      "inverse": "supportedBy",
+      "description": "Source evidence or context substantiates a claim."
+    },
+    {
+      "predicate": "demonstrates",
+      "inverse": "demonstratedBy",
+      "description": "An entity provides evidence of a skill or competency."
+    },
+    {
+      "predicate": "partOf",
+      "inverse": "hasPart",
+      "description": "An entity is a component of a broader entity."
+    },
+    {
+      "predicate": "occurredAt",
+      "inverse": "contextFor",
+      "description": "An outcome, project, or story occurred within an experience."
+    },
+    {
+      "predicate": "uses",
+      "inverse": "usedBy",
+      "description": "An entity applies a technology, skill, method, or domain."
+    },
+    {
+      "predicate": "resultedIn",
+      "inverse": "resultOf",
+      "description": "An action or project produced an outcome."
+    },
+    {
+      "predicate": "relatedTo",
+      "inverse": "relatedTo",
+      "description": "A symmetric association when no more precise predicate applies."
+    }
+  ],
+  "navigation": {
+    "_comment": "Instructions for retrieval and reasoning agents.",
+    "startHere": "Select modules by questionsAnswered, then traverse relatedObjects using the relationship vocabulary.",
+    "sourceOfTruth": "Only records in module data arrays are factual Brain knowledge.",
+    "documentationBoundary": "_template, _example, schema, _comment, questionsAnswered, and _meta are documentation and must never be treated as owner facts.",
+    "generationBoundary": "ResumeDocument and all other generated artifacts are temporary projections; they may cite Brain records but cannot silently create or mutate knowledge.",
+    "evidencePolicy": "Prefer records with direct evidence and higher confidence. Preserve provenance and never exaggerate beyond supported facts."
+  },
+  "lastUpdated": ""
+}
