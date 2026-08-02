@@ -119,11 +119,3 @@ button:focus-visible, a:focus-visible { outline: 2px solid #315e78; outline-offs
   .sidebar { border-right: 0; border-bottom: 1px solid #d9d8d0; }.preview-panel { min-height: 900px; }
   .ai-review { margin-top: 24px; }.preview-stage { justify-items: start; padding-inline: 24px; }
 }
-
-@page { size: A4; margin: 17mm 17mm 14mm; }
-@media print {
-  body { background: white; }.topbar, .sidebar, .preview-toolbar { display: none !important; }
-  .workspace, .preview-panel, .preview-stage, .page-scaler { display: block; width: 210mm; min-height: 0; height: auto; overflow: visible; padding: 0; margin: 0; background: white; }
-  .page-scaler .resume-page { width: 210mm; min-height: 297mm; height: auto; overflow: visible; transform: none; box-shadow: none; print-color-adjust: exact; -webkit-print-color-adjust: exact; }
-  .resume-entry, .education-entry, .skill-list > div { break-inside: avoid; page-break-inside: avoid; }
-}

@@ -38,6 +38,16 @@ export default function App() {
 
   const changeZoom = (amount: number) => setZoom((current) => Math.min(110, Math.max(60, current + amount)))
 
+  const exportPdf = () => {
+    const printUrl = new URL(window.location.href)
+    printUrl.search = ''
+    printUrl.hash = ''
+    printUrl.searchParams.set('print', '1')
+    printUrl.searchParams.set('autoprint', '1')
+    printUrl.searchParams.set('accent', accentColor)
+    window.open(printUrl.toString(), '_blank', 'noopener,noreferrer')
+  }
+
   return (
     <div className="app-shell">
       <header className="topbar">
@@ -53,7 +63,7 @@ export default function App() {
         <div className="topbar-actions">
           <span className="saved-state"><Check size={13} /> Saved</span>
           <button className="icon-button" type="button" aria-label="More options"><MoreHorizontal size={19} /></button>
-          <button className="primary-button" type="button" onClick={() => window.print()}><Download size={15} /> Export PDF</button>
+          <button className="primary-button" type="button" onClick={exportPdf}><Download size={15} /> Export PDF</button>
         </div>
       </header>
 
