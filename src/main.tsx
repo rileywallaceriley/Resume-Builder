@@ -5,10 +5,11 @@ import { PrintDocument } from './print/PrintDocument'
 import './styles.css'
 import './print.css'
 
-const isPrintDocument = new URLSearchParams(window.location.search).get('print') === '1'
-
-const isPrintDocument = new URLSearchParams(window.location.search).get('print') === '1'
+const isPrintDocument =
+  new URLSearchParams(window.location.search).get('print') === '1'
 
 createRoot(document.getElementById('root')!).render(
-  <StrictMode>{isPrintDocument ? <PrintDocument /> : <App />}</StrictMode>,
+  <StrictMode>
+    {isPrintDocument ? <PrintDocument /> : <App />}
+  </StrictMode>,
 )
