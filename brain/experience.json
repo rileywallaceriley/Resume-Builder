@@ -151,25 +151,250 @@
           "source": [
             "resume"
           ]
+        },
+        {
+          "id": "ps-evidence-004",
+          "observation": "Regularly learned unfamiliar technical subjects before producing content.",
+          "supportsCompetencies": [
+            "Research",
+            "Learning Agility",
+            "Technical Communication"
+          ],
+          "source": [
+            "resume",
+            "career_interviews"
+          ]
+        },
+        {
+          "id": "ps-evidence-005",
+          "observation": "Viewed AI as a practical productivity tool rather than a replacement for editorial thinking.",
+          "supportsCompetencies": [
+            "Editorial Judgment",
+            "AI Adoption",
+            "Professional Responsibility"
+          ],
+          "source": [
+            "career_interviews"
+          ]
+        },
+        {
+          "id": "ps-evidence-006",
+          "observation": "Evaluated emerging AI technologies through practical day-to-day use rather than theory.",
+          "supportsCompetencies": [
+            "Artificial Intelligence",
+            "Continuous Learning",
+            "Technology Evaluation"
+          ],
+          "source": [
+            "career_interviews"
+          ]
+        },
+        {
+          "id": "ps-evidence-007",
+          "observation": "Repeatedly developed expertise in unfamiliar technical subjects through structured research before writing.",
+          "supportsCompetencies": [
+            "Learning Agility",
+            "Research",
+            "Technical Communication"
+          ],
+          "source": [
+            "resume",
+            "career_interviews"
+          ]
+        },
+        {
+          "id": "ps-evidence-008",
+          "observation": "Applied the same editorial standards regardless of whether work began with AI assistance or traditional research.",
+          "supportsCompetencies": [
+            "Editorial Judgment",
+            "Professional Integrity"
+          ],
+          "source": [
+            "career_interviews"
+          ]
         }
       ],
-      "audiencesServed": [
+      "projects": [
         {
-          "audience": "Technical",
+          "id": "ps-project-ai-search-research",
+          "name": "AI Search Research",
+          "summary": "Researched emerging AI search platforms and generative search behaviour to improve the accuracy and relevance of technical content.",
+          "activities": [
+            "Evaluated changes in search behaviour.",
+            "Researched generative search optimization (GEO).",
+            "Applied findings to technical writing workflows."
+          ],
           "source": [
-            "resume"
+            "career_interviews"
           ]
         },
         {
-          "audience": "Business",
+          "id": "ps-project-cybersecurity-content",
+          "name": "Technical Content Development",
+          "summary": "Created technical content across multiple B2B technology industries while adapting writing style to different audiences and subject matter.",
+          "activities": [
+            "Research unfamiliar technologies.",
+            "Develop technical articles.",
+            "Translate technical concepts into practical language."
+          ],
           "source": [
-            "resume"
+            "resume",
+            "career_interviews"
           ]
         },
         {
-          "audience": "Operational",
+          "id": "ps-project-industrial-ai-content",
+          "name": "AI Workflow Experimentation",
+          "summary": "Continuously evaluated AI tools and workflow improvements to increase research quality and production efficiency.",
+          "activities": [
+            "Experiment with AI-assisted research.",
+            "Compare workflow approaches.",
+            "Refine repeatable writing processes."
+          ],
           "source": [
-            "resume"
+            "career_interviews"
+          ]
+        }
+      ],
+      "achievements": [],
+      "metrics": [],
+      "stories": [],
+      "lessonsLearned": [
+        {
+          "id": "ps-lesson-001",
+          "lesson": "The quality of technical content depends more on understanding the subject than on writing speed.",
+          "source": [
+            "career_interviews"
+          ]
+        },
+        {
+          "id": "ps-lesson-002",
+          "lesson": "AI creates the most value when integrated into a structured workflow instead of being treated as a standalone tool.",
+          "source": [
+            "career_interviews"
+          ]
+        },
+        {
+          "id": "ps-lesson-003",
+          "lesson": "Research is an ongoing process that continues throughout writing, editing and review.",
+          "source": [
+            "career_interviews"
+          ]
+        }
+      ],
+      "recognition": [],
+      "identityEvidence": [
+        {
+          "id": "ps-identity-001",
+          "supportsIdentity": "communication-philosophy",
+          "reason": "Reinforced the practice of making complex ideas understandable without sacrificing accuracy.",
+          "source": [
+            "career_interviews"
+          ]
+        },
+        {
+          "id": "ps-identity-002",
+          "supportsIdentity": "technology-philosophy",
+          "reason": "Strengthened the belief that AI should augment professional judgment rather than replace it.",
+          "source": [
+            "career_interviews"
+          ]
+        },
+        {
+          "id": "ps-identity-003",
+          "supportsIdentity": "learning-philosophy",
+          "reason": "Daily exposure to emerging technology required continuous self-directed learning.",
+          "source": [
+            "career_interviews"
+          ]
+        }
+      ],
+      "identityConnections": [
+        {
+          "identityObject": "technology-philosophy",
+          "relationship": "reinforced",
+          "reason": "Daily work strengthened the belief that AI should augment human expertise rather than replace it.",
+          "source": [
+            "career_interviews"
+          ]
+        },
+        {
+          "identityObject": "communication-philosophy",
+          "relationship": "reinforced",
+          "reason": "Continued developing the practice of simplifying technical information for diverse audiences.",
+          "source": [
+            "resume",
+            "career_interviews"
+          ]
+        },
+        {
+          "identityObject": "learning-philosophy",
+          "relationship": "reinforced",
+          "reason": "Success required continual learning as AI technologies evolved rapidly.",
+          "source": [
+            "career_interviews"
+          ]
+        }
+      ],
+      "knowledgeDeveloped": [
+        {
+          "id": "ps-knowledge-001",
+          "domain": "Artificial Intelligence",
+          "summary": "Developed practical knowledge of generative AI through daily research, writing and experimentation while producing technology content.",
+          "source": [
+            "career_interviews"
+          ]
+        },
+        {
+          "id": "ps-knowledge-002",
+          "domain": "AI Search",
+          "summary": "Built practical understanding of AI-assisted search, generative search optimization (GEO) and how emerging search behavior changes content strategy.",
+          "source": [
+            "resume",
+            "career_interviews"
+          ]
+        },
+        {
+          "id": "ps-knowledge-003",
+          "domain": "Knowledge Systems",
+          "summary": "Began thinking beyond individual articles toward reusable knowledge systems and structured information.",
+          "source": [
+            "career_interviews"
+          ]
+        },
+        {
+          "id": "ps-knowledge-004",
+          "domain": "Technical Research",
+          "summary": "Strengthened the ability to become productive in unfamiliar technical domains through structured research.",
+          "source": [
+            "career_interviews"
+          ]
+        },
+        {
+          "id": "ps-knowledge-005",
+          "domain": "AI-Assisted Writing",
+          "summary": "Developed practical approaches for integrating AI into professional writing workflows without reducing editorial quality.",
+          "source": [
+            "resume",
+            "career_interviews"
+          ]
+        },
+        {
+          "id": "ps-knowledge-006",
+          "domain": "Content Systems",
+          "summary": "Began thinking about content as reusable knowledge rather than isolated deliverables.",
+          "source": [
+            "career_interviews"
+          ]
+        }
+      ],
+      "decisionExamples": [
+        {
+          "id": "ps-decision-001",
+          "situation": "Evaluating whether AI-generated output was ready for publication.",
+          "decision": "Treat AI as a research and drafting assistant while requiring human verification before publication.",
+          "source": [
+            "career_interviews"
           ]
         }
       ],
@@ -204,6 +429,10 @@
               "career_interviews"
             ]
           }
+        ],
+        "summary": "This role accelerated Riley's evolution from content creator toward AI strategist, workflow designer and knowledge architect.",
+        "source": [
+          "career_interviews"
         ]
       },
       "careerSignificance": {
@@ -212,6 +441,158 @@
           "career_interviews"
         ]
       },
+      "workingStyle": {
+        "collaboration": {
+          "summary": "Works closely with SEO specialists, editors and account teams to develop accurate, search-informed technology content.",
+          "source": [
+            "resume"
+          ]
+        },
+        "researchApproach": {
+          "summary": "Begins projects by understanding search intent, audience questions and technical subject matter before writing.",
+          "source": [
+            "resume",
+            "career_interviews"
+          ]
+        },
+        "editorialApproach": {
+          "summary": "Focuses on making complicated technology understandable without sacrificing technical accuracy.",
+          "source": [
+            "resume",
+            "career_interviews"
+          ]
+        },
+        "research": {
+          "summary": "Begins by understanding unfamiliar technologies, audience intent and business context before drafting content.",
+          "source": [
+            "career_interviews"
+          ]
+        },
+        "writing": {
+          "summary": "Prioritizes clarity, practical usefulness and technical accuracy over unnecessary complexity.",
+          "source": [
+            "career_interviews"
+          ]
+        },
+        "editorialReview": {
+          "summary": "Uses AI to accelerate research and drafting while keeping final editorial decisions, fact-checking and revisions under human control.",
+          "source": [
+            "resume",
+            "career_interviews"
+          ]
+        }
+      },
+      "workingPrinciples": [
+        {
+          "id": "ps-principle-001",
+          "principle": "Understand before explaining.",
+          "application": "Research unfamiliar technology thoroughly before creating content.",
+          "source": [
+            "career_interviews"
+          ]
+        },
+        {
+          "id": "ps-principle-002",
+          "principle": "Human judgment remains the final quality control.",
+          "application": "AI supports drafting and research but does not replace editorial review.",
+          "source": [
+            "resume",
+            "career_interviews"
+          ]
+        },
+        {
+          "id": "ps-principle-003",
+          "principle": "Build reusable systems.",
+          "application": "Continuously improve workflows rather than solving the same problem repeatedly.",
+          "source": [
+            "career_interviews"
+          ]
+        }
+      ],
+      "careerMilestones": [
+        {
+          "id": "ps-milestone-001",
+          "milestone": "Established AI as a permanent part of daily professional practice.",
+          "source": [
+            "career_interviews"
+          ]
+        },
+        {
+          "id": "ps-milestone-002",
+          "milestone": "Expanded from writing individual articles to thinking about scalable knowledge systems.",
+          "source": [
+            "career_interviews"
+          ]
+        }
+      ],
+      "experienceReflection": {
+        "summary": "This role reinforced that long-term value comes from combining technical curiosity, structured research and editorial judgment with practical AI adoption.",
+        "source": [
+          "career_interviews"
+        ]
+      },
+      "professionalIdentity": {
+        "roleInCareer": "Represents Riley's transition from marketing and content production toward AI-enabled knowledge work.",
+        "source": [
+          "career_interviews"
+        ]
+      },
+      "futureInterviewTopics": [
+        "Learning unfamiliar technologies quickly",
+        "Building AI-assisted writing workflows",
+        "Generative search optimization",
+        "Balancing AI with editorial quality",
+        "Technical research methodology"
+      ],
+      "futureResumeHighlights": [
+        "Technical Content Strategy",
+        "Artificial Intelligence",
+        "Technical Research",
+        "Generative Search",
+        "Editorial Systems"
+      ],
+      "needsExpansion": {
+        "majorProjects": [],
+        "namedClients": [],
+        "performanceMetrics": [],
+        "articles": [],
+        "recognition": [],
+        "interviewStories": [],
+        "managerFeedback": [],
+        "peerFeedback": []
+      },
+      "status": {
+        "projects": [],
+        "achievements": [],
+        "metrics": [],
+        "stories": [],
+        "lessonsLearned": [],
+        "layer1": "complete",
+        "layer2": "complete",
+        "layer3": "future",
+        "readyForInterviewGeneration": true,
+        "readyForResumeGeneration": true
+      },
+      "audiencesServed": [
+        {
+          "audience": "Technical",
+          "source": [
+            "resume"
+          ]
+        },
+        {
+          "audience": "Business",
+          "source": [
+            "resume"
+          ]
+        },
+        {
+          "audience": "Operational",
+          "source": [
+            "resume"
+          ]
+        }
+      ],
       "domainExperience": [
         {
           "id": "ps-domain-001",
@@ -259,33 +640,6 @@
           ]
         }
       ],
-      "identityConnections": [
-        {
-          "identityObject": "technology-philosophy",
-          "relationship": "reinforced",
-          "reason": "Daily work strengthened the belief that AI should augment human expertise rather than replace it.",
-          "source": [
-            "career_interviews"
-          ]
-        },
-        {
-          "identityObject": "communication-philosophy",
-          "relationship": "reinforced",
-          "reason": "Continued developing the practice of simplifying technical information for diverse audiences.",
-          "source": [
-            "resume",
-            "career_interviews"
-          ]
-        },
-        {
-          "identityObject": "learning-philosophy",
-          "relationship": "reinforced",
-          "reason": "Success required continual learning as AI technologies evolved rapidly.",
-          "source": [
-            "career_interviews"
-          ]
-        }
-      ],
       "industries": [
         "Cybersecurity",
         "SaaS",
@@ -293,43 +647,6 @@
         "Healthcare",
         "Industrial AI"
       ],
-      "knowledgeDeveloped": [
-        {
-          "id": "ps-knowledge-001",
-          "domain": "Artificial Intelligence",
-          "summary": "Developed practical knowledge of generative AI through daily research, writing and experimentation while producing technology content.",
-          "source": [
-            "career_interviews"
-          ]
-        },
-        {
-          "id": "ps-knowledge-002",
-          "domain": "AI Search",
-          "summary": "Built practical understanding of AI-assisted search, generative search optimization (GEO) and how emerging search behavior changes content strategy.",
-          "source": [
-            "resume",
-            "career_interviews"
-          ]
-        },
-        {
-          "id": "ps-knowledge-003",
-          "domain": "Knowledge Systems",
-          "summary": "Began thinking beyond individual articles toward reusable knowledge systems and structured information.",
-          "source": [
-            "career_interviews"
-          ]
-        }
-      ],
-      "needsExpansion": {
-        "majorProjects": [],
-        "namedClients": [],
-        "performanceMetrics": [],
-        "articles": [],
-        "recognition": [],
-        "interviewStories": [],
-        "managerFeedback": [],
-        "peerFeedback": []
-      },
       "professionalGrowth": {
         "beforeRole": {
           "summary": "Experienced marketing writer and copywriter with strong journalism and SEO experience.",
@@ -344,41 +661,12 @@
           ]
         }
       },
-      "status": {
-        "projects": [],
-        "achievements": [],
-        "metrics": [],
-        "stories": [],
-        "lessonsLearned": []
-      },
       "tools": [
         "SEMrush Enterprise",
         "ChatGPT",
         "Claude",
         "Perplexity"
       ],
-      "workingStyle": {
-        "collaboration": {
-          "summary": "Works closely with SEO specialists, editors and account teams to develop accurate, search-informed technology content.",
-          "source": [
-            "resume"
-          ]
-        },
-        "researchApproach": {
-          "summary": "Begins projects by understanding search intent, audience questions and technical subject matter before writing.",
-          "source": [
-            "resume",
-            "career_interviews"
-          ]
-        },
-        "editorialApproach": {
-          "summary": "Focuses on making complicated technology understandable without sacrificing technical accuracy.",
-          "source": [
-            "resume",
-            "career_interviews"
-          ]
-        }
-      },
       "writingFormats": [
         {
           "id": "ps-format-001",
@@ -505,8 +793,261 @@
             "resume",
             "career_interviews"
           ]
+        },
+        {
+          "id": "rwc-evidence-004",
+          "observation": "Built practical AI workflows instead of using AI only as a writing assistant.",
+          "supportsCompetencies": [
+            "Workflow Design",
+            "AI Adoption",
+            "Automation"
+          ],
+          "source": [
+            "career_interviews"
+          ]
+        },
+        {
+          "id": "rwc-evidence-005",
+          "observation": "Applied AI within real client work while maintaining human editorial responsibility.",
+          "supportsCompetencies": [
+            "Professional Judgment",
+            "Client Communication",
+            "AI Implementation"
+          ],
+          "source": [
+            "resume",
+            "career_interviews"
+          ]
+        },
+        {
+          "id": "rwc-evidence-006",
+          "observation": "Consulting work increasingly emphasized designing repeatable systems rather than producing isolated deliverables.",
+          "supportsCompetencies": [
+            "Systems Thinking",
+            "Workflow Design",
+            "Strategic Planning"
+          ],
+          "source": [
+            "career_interviews"
+          ]
+        },
+        {
+          "id": "rwc-evidence-007",
+          "observation": "Evaluated multiple AI tools based on practical business use cases before integrating them into client workflows.",
+          "supportsCompetencies": [
+            "Technology Evaluation",
+            "Artificial Intelligence",
+            "Professional Judgment"
+          ],
+          "source": [
+            "career_interviews"
+          ]
         }
       ],
+      "projects": [
+        {
+          "id": "rwc-project-ai-assisted-content-workflows",
+          "name": "AI-Assisted Content Workflows",
+          "summary": "Designed and refined repeatable AI-assisted workflows to support research, planning and content production while maintaining human editorial oversight.",
+          "activities": [
+            "Built reusable n8n automations.",
+            "Integrated Claude, ChatGPT and Perplexity into research workflows.",
+            "Kept writing, editing and fact-checking under human control."
+          ],
+          "source": [
+            "resume",
+            "career_interviews"
+          ]
+        }
+      ],
+      "achievements": [
+        {
+          "id": "rwc-achievement-001",
+          "title": "Integrated AI into consulting workflows",
+          "description": "Successfully incorporated AI into day-to-day consulting work while preserving editorial quality and client trust.",
+          "source": [
+            "resume",
+            "career_interviews"
+          ]
+        }
+      ],
+      "metrics": [],
+      "stories": [],
+      "lessonsLearned": [
+        {
+          "id": "rwc-lesson-001",
+          "lesson": "The greatest value comes from improving the workflow rather than trying to automate the final output.",
+          "source": [
+            "career_interviews"
+          ]
+        },
+        {
+          "id": "rwc-lesson-002",
+          "lesson": "Clients benefit most when AI increases consistency and speed without sacrificing trust.",
+          "source": [
+            "career_interviews"
+          ]
+        }
+      ],
+      "recognition": [],
+      "identityEvidence": [
+        {
+          "id": "rwc-identity-003",
+          "supportsIdentity": "systems-thinking",
+          "reason": "Consulting work reinforced a preference for building reusable systems instead of isolated solutions.",
+          "source": [
+            "career_interviews"
+          ]
+        },
+        {
+          "id": "rwc-identity-004",
+          "supportsIdentity": "learning-philosophy",
+          "reason": "Success depended on continually evaluating and adapting to rapidly evolving AI tools.",
+          "source": [
+            "career_interviews"
+          ]
+        }
+      ],
+      "identityConnections": [
+        {
+          "identityObject": "technology-philosophy",
+          "relationship": "reinforced",
+          "source": [
+            "career_interviews"
+          ]
+        },
+        {
+          "identityObject": "communication-philosophy",
+          "relationship": "reinforced",
+          "source": [
+            "resume",
+            "career_interviews"
+          ]
+        }
+      ],
+      "knowledgeDeveloped": [
+        {
+          "id": "rwc-knowledge-001",
+          "domain": "Workflow Automation",
+          "summary": "Developed repeatable approaches for combining AI tools with structured marketing workflows.",
+          "source": [
+            "career_interviews"
+          ]
+        },
+        {
+          "id": "rwc-knowledge-002",
+          "domain": "AI Tool Evaluation",
+          "summary": "Built practical experience comparing AI tools based on real-world marketing and writing tasks rather than novelty.",
+          "source": [
+            "career_interviews"
+          ]
+        },
+        {
+          "id": "rwc-knowledge-003",
+          "domain": "Marketing Systems",
+          "summary": "Strengthened the practice of designing repeatable marketing systems instead of one-off deliverables.",
+          "source": [
+            "career_interviews"
+          ]
+        }
+      ],
+      "decisionExamples": [
+        {
+          "id": "rwc-decision-001",
+          "situation": "Evaluating whether AI should replace or support existing creative workflows.",
+          "decision": "Positioned AI as an assistant that accelerates research and repetitive work while preserving human creativity and editorial review.",
+          "source": [
+            "career_interviews"
+          ]
+        }
+      ],
+      "careerEvolution": {
+        "roleProgression": {
+          "summary": "The consulting practice evolved from traditional marketing communications toward AI-assisted strategy, workflow design and knowledge-driven content production.",
+          "source": [
+            "career_interviews"
+          ]
+        },
+        "newCapabilities": [
+          {
+            "id": "rwc-growth-001",
+            "capability": "AI Workflow Design",
+            "source": [
+              "resume",
+              "career_interviews"
+            ]
+          },
+          {
+            "id": "rwc-growth-002",
+            "capability": "Automation Planning",
+            "source": [
+              "career_interviews"
+            ]
+          },
+          {
+            "id": "rwc-growth-003",
+            "capability": "Knowledge Organization",
+            "source": [
+              "career_interviews"
+            ]
+          }
+        ]
+      },
+      "workingStyle": {
+        "planning": {
+          "summary": "Approaches consulting work by designing repeatable systems before creating individual deliverables.",
+          "source": [
+            "career_interviews"
+          ]
+        },
+        "qualityControl": {
+          "summary": "Maintains human responsibility for writing, editing and factual accuracy regardless of AI involvement.",
+          "source": [
+            "resume",
+            "career_interviews"
+          ]
+        },
+        "continuousImprovement": {
+          "summary": "Regularly refines workflows as new AI capabilities become available.",
+          "source": [
+            "career_interviews"
+          ]
+        }
+      },
+      "futureInterviewTopics": [
+        "Favorite client engagement",
+        "Most successful automation",
+        "Biggest consulting lesson",
+        "AI workflow evolution",
+        "Marketing systems that consistently worked"
+      ],
+      "futureResumeHighlights": [
+        "Marketing communications consulting",
+        "AI workflow development",
+        "Content strategy",
+        "Marketing systems",
+        "Automation design"
+      ],
+      "needsExpansion": {
+        "clientProfiles": [],
+        "campaignExamples": [],
+        "workflowExamples": [],
+        "automationExamples": [],
+        "majorWins": [],
+        "metrics": [],
+        "stories": [],
+        "clientCaseStudies": [],
+        "workflowCaseStudies": [],
+        "portfolioLinks": [],
+        "beforeAfterExamples": []
+      },
+      "status": {
+        "projects": [],
+        "clients": [],
+        "achievements": [],
+        "metrics": [],
+        "stories": []
+      },
       "aiUsage": {
         "summary": "Uses AI to accelerate research and repetitive work while preserving human editorial responsibility.",
         "source": [
@@ -533,44 +1074,11 @@
           "resume"
         ]
       },
-      "identityConnections": [
-        {
-          "identityObject": "technology-philosophy",
-          "relationship": "reinforced",
-          "source": [
-            "career_interviews"
-          ]
-        },
-        {
-          "identityObject": "communication-philosophy",
-          "relationship": "reinforced",
-          "source": [
-            "resume",
-            "career_interviews"
-          ]
-        }
-      ],
-      "needsExpansion": {
-        "clientProfiles": [],
-        "campaignExamples": [],
-        "workflowExamples": [],
-        "automationExamples": [],
-        "majorWins": [],
-        "metrics": [],
-        "stories": []
-      },
       "planning": {
         "summary": "Develops communication strategies before creating content.",
         "source": [
           "resume"
         ]
-      },
-      "status": {
-        "projects": [],
-        "clients": [],
-        "achievements": [],
-        "metrics": [],
-        "stories": []
       },
       "tools": [
         "Adobe Creative Suite",
@@ -679,14 +1187,115 @@
             "resume",
             "career_interviews"
           ]
+        },
+        {
+          "id": "lc-evidence-003",
+          "observation": "Adopted emerging AI tools early while maintaining human oversight.",
+          "supportsCompetencies": [
+            "AI Adoption",
+            "Change Leadership",
+            "Editorial Judgment"
+          ],
+          "source": [
+            "resume",
+            "career_interviews"
+          ]
         }
       ],
-      "projects": [],
-      "achievements": [],
+      "projects": [
+        {
+          "id": "lc-project-llm-workflow-adoption",
+          "name": "LLM Workflow Adoption",
+          "summary": "Introduced large language model (LLM) workflows into the content development process while maintaining editorial review and brand consistency.",
+          "objectives": [
+            "Reduce repetitive writing tasks",
+            "Improve content production efficiency",
+            "Preserve editorial quality"
+          ],
+          "source": [
+            "resume",
+            "career_interviews"
+          ]
+        }
+      ],
+      "achievements": [
+        {
+          "id": "lc-achievement-001",
+          "title": "Introduced AI-assisted editorial workflows",
+          "description": "Helped integrate LLM-assisted workflows into day-to-day content production while ensuring human review remained part of the publishing process.",
+          "source": [
+            "resume",
+            "career_interviews"
+          ]
+        }
+      ],
       "metrics": [],
       "stories": [],
-      "lessonsLearned": [],
+      "lessonsLearned": [
+        {
+          "id": "lc-lesson-001",
+          "lesson": "AI is most valuable when it accelerates work without replacing editorial judgment.",
+          "source": [
+            "career_interviews"
+          ]
+        },
+        {
+          "id": "lc-lesson-002",
+          "lesson": "Introducing new technology requires balancing efficiency with consistency and brand standards.",
+          "source": [
+            "career_interviews"
+          ]
+        }
+      ],
       "recognition": [],
+      "identityEvidence": [
+        {
+          "id": "lc-identity-001",
+          "supportsIdentity": "technology-philosophy",
+          "reason": "Demonstrated practical adoption of AI while maintaining editorial oversight.",
+          "source": [
+            "resume",
+            "career_interviews"
+          ]
+        },
+        {
+          "id": "lc-identity-002",
+          "supportsIdentity": "communication-philosophy",
+          "reason": "Continued adapting communication for different audiences and channels.",
+          "source": [
+            "resume"
+          ]
+        }
+      ],
+      "workingStyle": {
+        "contentApproach": {
+          "summary": "Produced marketing content while balancing speed, accuracy and brand consistency.",
+          "source": [
+            "resume"
+          ]
+        },
+        "technologyApproach": {
+          "summary": "Adopted AI tools as production accelerators while maintaining human ownership of editorial quality.",
+          "source": [
+            "resume",
+            "career_interviews"
+          ]
+        }
+      },
+      "futureInterviewTopics": [
+        "Introducing AI into established workflows",
+        "Balancing AI with editorial quality",
+        "Writing for both B2B and B2C audiences",
+        "Adapting to new technology"
+      ],
+      "needsExpansion": {
+        "namedCampaigns": [],
+        "workflowExamples": [],
+        "beforeAfterImprovements": [],
+        "managerFeedback": [],
+        "peerFeedback": [],
+        "recognition": []
+      },
       "channels": [
         "Website",
         "Email",
@@ -795,14 +1404,167 @@
           "source": [
             "resume"
           ]
+        },
+        {
+          "id": "pol-evidence-003",
+          "observation": "Combined technical SEO with content strategy instead of treating them as separate disciplines.",
+          "supportsCompetencies": [
+            "SEO",
+            "Content Strategy",
+            "Strategic Marketing"
+          ],
+          "source": [
+            "resume",
+            "career_interviews"
+          ]
+        },
+        {
+          "id": "pol-evidence-004",
+          "observation": "Supported organization-wide marketing initiatives during periods of business change.",
+          "supportsCompetencies": [
+            "Adaptability",
+            "Marketing Communications"
+          ],
+          "source": [
+            "resume"
+          ]
         }
       ],
-      "projects": [],
-      "achievements": [],
+      "projects": [
+        {
+          "id": "pol-project-seo-growth-strategy",
+          "name": "SEO Growth Strategy",
+          "summary": "Led SEO strategy supporting residential solar marketing while strengthening the organization's organic search presence.",
+          "activities": [
+            "Developed SEO strategy.",
+            "Created search-focused web content.",
+            "Supported long-term organic growth."
+          ],
+          "source": [
+            "resume",
+            "career_interviews"
+          ]
+        },
+        {
+          "id": "pol-project-brand-consolidation",
+          "name": "Brand Consolidation",
+          "summary": "Supported marketing and communications initiatives during brand consolidation efforts.",
+          "activities": [
+            "Aligned marketing messaging.",
+            "Supported web content updates.",
+            "Maintained consistent brand communication."
+          ],
+          "source": [
+            "resume"
+          ]
+        }
+      ],
+      "achievements": [
+        {
+          "id": "pol-achievement-001",
+          "title": "Led SEO strategy",
+          "description": "Provided strategic leadership for search engine optimization supporting residential solar markets.",
+          "source": [
+            "resume"
+          ]
+        },
+        {
+          "id": "pol-achievement-002",
+          "title": "Strengthened digital marketing",
+          "description": "Combined SEO and web content strategy to support broader digital marketing objectives.",
+          "source": [
+            "resume"
+          ]
+        }
+      ],
       "metrics": [],
       "stories": [],
-      "lessonsLearned": [],
+      "lessonsLearned": [
+        {
+          "id": "pol-lesson-001",
+          "lesson": "Long-term organic growth comes from consistent strategy rather than isolated optimization efforts.",
+          "source": [
+            "career_interviews"
+          ]
+        },
+        {
+          "id": "pol-lesson-002",
+          "lesson": "Strong SEO depends on understanding both customer intent and business goals.",
+          "source": [
+            "career_interviews"
+          ]
+        }
+      ],
       "recognition": [],
+      "identityEvidence": [
+        {
+          "id": "pol-identity-001",
+          "supportsIdentity": "communication-philosophy",
+          "reason": "Reinforced the importance of making technical subjects understandable for everyday audiences.",
+          "source": [
+            "career_interviews"
+          ]
+        },
+        {
+          "id": "pol-identity-002",
+          "supportsIdentity": "learning-philosophy",
+          "reason": "Continued refining SEO knowledge through experimentation and continuous improvement.",
+          "source": [
+            "career_interviews"
+          ]
+        }
+      ],
+      "knowledgeDeveloped": [
+        {
+          "id": "pol-knowledge-001",
+          "domain": "Renewable Energy Marketing",
+          "summary": "Strengthened understanding of communicating technical renewable energy concepts to residential customers.",
+          "source": [
+            "resume",
+            "career_interviews"
+          ]
+        },
+        {
+          "id": "pol-knowledge-002",
+          "domain": "Search Strategy",
+          "summary": "Expanded practical experience using SEO as a long-term growth channel rather than a tactical marketing activity.",
+          "source": [
+            "career_interviews"
+          ]
+        }
+      ],
+      "workingStyle": {
+        "planning": {
+          "summary": "Approached marketing initiatives by aligning SEO, content and business objectives before execution.",
+          "source": [
+            "resume",
+            "career_interviews"
+          ]
+        },
+        "collaboration": {
+          "summary": "Worked across marketing initiatives supporting brand, web and digital communication.",
+          "source": [
+            "resume"
+          ]
+        },
+        "execution": {
+          "summary": "Balanced strategic planning with hands-on implementation across SEO and web content.",
+          "source": [
+            "resume"
+          ]
+        }
+      },
+      "futureResumeHighlights": [
+        "SEO Leadership",
+        "Content Strategy",
+        "Renewable Energy",
+        "Brand Communications",
+        "Digital Marketing"
+      ],
+      "needsExpansion": {
+        "seoCaseStudies": [],
+        "brandConsolidationDetails": []
+      },
       "domains": [
         "Renewable Energy",
         "Residential Solar",
@@ -1063,14 +1825,302 @@
           "source": [
             "resume"
           ]
+        },
+        {
+          "id": "sbc-evidence-004",
+          "observation": "Expanded internal marketing capabilities instead of relying on outsourced expertise.",
+          "supportsCompetencies": [
+            "Leadership",
+            "Strategic Planning",
+            "Capability Building"
+          ],
+          "source": [
+            "career_interviews"
+          ]
+        },
+        {
+          "id": "sbc-evidence-005",
+          "observation": "Marketing strategy remained closely connected to measurable business growth.",
+          "supportsCompetencies": [
+            "Business Alignment",
+            "Growth Marketing"
+          ],
+          "source": [
+            "career_interviews"
+          ]
+        },
+        {
+          "id": "sbc-evidence-006",
+          "observation": "Managed increasing organizational complexity as the company expanded.",
+          "supportsCompetencies": [
+            "Operational Leadership",
+            "Decision Making"
+          ],
+          "source": [
+            "career_interviews"
+          ]
         }
       ],
-      "projects": [],
-      "achievements": [],
-      "metrics": [],
-      "stories": [],
-      "lessonsLearned": [],
-      "recognition": []
+      "projects": [
+        {
+          "id": "sbc-project-lowes-national-retail-partnership",
+          "name": "Lowe's National Retail Partnership",
+          "summary": "Supported the marketing strategy behind Solar Brokers Canada's expansion into Lowe's stores across Canada.",
+          "contributions": [
+            "Supported marketing initiatives leading to national retail expansion.",
+            "Developed campaigns supporting rapid customer acquisition.",
+            "Created marketing assets for a major business growth initiative."
+          ],
+          "businessImpact": [
+            "Supported a retail partnership that generated more than $20M in sales within the first several months."
+          ],
+          "source": [
+            "career_interviews"
+          ]
+        },
+        {
+          "id": "sbc-project-seo-transformation",
+          "name": "SEO Transformation",
+          "summary": "Transitioned SEO from an outsourced function to an internally managed capability.",
+          "contributions": [
+            "Developed in-house SEO processes.",
+            "Created localized organic search strategies.",
+            "Improved search visibility across Ontario markets."
+          ],
+          "source": [
+            "career_interviews"
+          ]
+        },
+        {
+          "id": "sbc-project-digital-marketing-scale-up",
+          "name": "Digital Marketing Scale-Up",
+          "summary": "Expanded digital marketing operations alongside rapid company growth.",
+          "contributions": [
+            "Managed growing digital campaigns.",
+            "Supported paid, organic and content marketing initiatives.",
+            "Helped build marketing systems capable of supporting a rapidly expanding sales organization."
+          ],
+          "source": [
+            "career_interviews"
+          ]
+        }
+      ],
+      "achievements": [
+        {
+          "id": "sbc-achievement-001",
+          "title": "Scaled annual marketing investment",
+          "description": "Helped grow annual digital marketing investment to approximately $1.3 million.",
+          "source": [
+            "career_interviews"
+          ]
+        },
+        {
+          "id": "sbc-achievement-002",
+          "title": "Supported Lowe's launch",
+          "description": "Contributed marketing support for a retail expansion that generated more than $20 million in sales during its initial rollout.",
+          "source": [
+            "career_interviews"
+          ]
+        },
+        {
+          "id": "sbc-achievement-003",
+          "title": "Brought SEO in-house",
+          "description": "Established internal SEO capability and achieved first-page rankings across multiple Ontario markets.",
+          "source": [
+            "career_interviews"
+          ]
+        },
+        {
+          "id": "achievement-20m-sales",
+          "title": "Supported More Than $20 Million in Sales",
+          "category": "Business Impact",
+          "organization": "Solar Brokers Canada",
+          "dateRange": {
+            "start": "2016-08",
+            "end": "2018-05"
+          },
+          "summary": "Marketing initiatives contributed to more than $20 million in sales during a major retail expansion.",
+          "evidence": [
+            "Led digital marketing initiatives.",
+            "Supported Lowe's retail expansion.",
+            "Managed large-scale marketing campaigns."
+          ],
+          "metrics": {
+            "salesContribution": "$20M+"
+          },
+          "competencies": [
+            "Growth Marketing",
+            "Digital Marketing",
+            "Campaign Strategy"
+          ],
+          "verification": {
+            "status": "verified",
+            "sources": [
+              "resume",
+              "career_interviews"
+            ]
+          }
+        },
+        {
+          "id": "achievement-1300000-budget",
+          "title": "Managed Approximately $1.3M Annual Marketing Budget",
+          "category": "Leadership",
+          "organization": "Solar Brokers Canada",
+          "summary": "Oversaw approximately $1.3 million in annual marketing investment while leading marketing operations.",
+          "metrics": {
+            "annualBudget": "$1.3M"
+          },
+          "competencies": [
+            "Leadership",
+            "Budget Management",
+            "Marketing Strategy"
+          ],
+          "verification": {
+            "status": "interview_verified",
+            "sources": [
+              "career_interviews"
+            ]
+          }
+        }
+      ],
+      "metrics": [
+        {
+          "metric": "Annual marketing investment",
+          "value": "$1.3M",
+          "source": [
+            "career_interviews"
+          ]
+        },
+        {
+          "metric": "Retail partnership sales",
+          "value": "$20M+",
+          "source": [
+            "career_interviews"
+          ]
+        },
+        {
+          "metric": "Sales organization supported",
+          "value": "20+ people",
+          "source": [
+            "career_interviews"
+          ]
+        }
+      ],
+      "stories": [
+        {
+          "id": "sbc-story-001",
+          "title": "Building Marketing at Scale",
+          "summary": "Helped evolve the company's marketing capabilities as the business expanded rapidly, requiring more structured systems, larger budgets and greater coordination across teams.",
+          "competencies": [
+            "Leadership",
+            "Marketing Strategy",
+            "Operational Planning"
+          ],
+          "source": [
+            "career_interviews"
+          ]
+        },
+        {
+          "id": "sbc-story-002",
+          "title": "Internal SEO Capability",
+          "summary": "Moved SEO from an outsourced function to an internally managed capability, creating greater ownership over search performance and content strategy.",
+          "competencies": [
+            "SEO",
+            "Process Improvement",
+            "Strategic Marketing"
+          ],
+          "source": [
+            "career_interviews"
+          ]
+        },
+        {
+          "id": "sbc-story-003",
+          "title": "Supporting National Growth",
+          "summary": "Supported marketing initiatives during a period of significant company growth, including the Lowe's partnership and expansion of the sales organization.",
+          "competencies": [
+            "Growth Marketing",
+            "Cross-functional Collaboration",
+            "Business Strategy"
+          ],
+          "source": [
+            "career_interviews"
+          ]
+        }
+      ],
+      "lessonsLearned": [
+        {
+          "id": "sbc-lesson-001",
+          "lesson": "Marketing performs best when closely connected to sales objectives rather than operating independently.",
+          "source": [
+            "career_interviews"
+          ]
+        },
+        {
+          "id": "sbc-lesson-002",
+          "lesson": "Building internal expertise creates more long-term value than relying entirely on external agencies.",
+          "source": [
+            "career_interviews"
+          ]
+        },
+        {
+          "id": "sbc-lesson-003",
+          "lesson": "Strong systems become increasingly important as organizations scale rapidly.",
+          "source": [
+            "career_interviews"
+          ]
+        }
+      ],
+      "recognition": [],
+      "identityConnections": [
+        {
+          "identityObject": "systems-thinking",
+          "relationship": "strengthened",
+          "reason": "Scaling marketing operations reinforced the importance of repeatable systems and internal processes.",
+          "source": [
+            "career_interviews"
+          ]
+        },
+        {
+          "identityObject": "learning-philosophy",
+          "relationship": "strengthened",
+          "reason": "Taking ownership of SEO required continuous experimentation and learning.",
+          "source": [
+            "career_interviews"
+          ]
+        }
+      ],
+      "decisionExamples": [
+        {
+          "id": "sbc-decision-001",
+          "situation": "Choosing whether to continue outsourcing SEO.",
+          "decision": "Built internal SEO capability.",
+          "result": "Created greater control over search strategy and long-term marketing execution.",
+          "source": [
+            "career_interviews"
+          ]
+        },
+        {
+          "id": "sbc-decision-002",
+          "situation": "Supporting rapid organizational growth.",
+          "decision": "Focused on building repeatable marketing systems rather than one-off campaigns.",
+          "source": [
+            "career_interviews"
+          ]
+        }
+      ],
+      "careerImpact": {
+        "summary": "This role marked Riley's transition from being primarily a content producer to leading marketing strategy, managing significant budgets and thinking about marketing as a scalable business function.",
+        "source": [
+          "career_interviews"
+        ]
+      },
+      "futureInterviewTopics": [
+        "Building an internal SEO function",
+        "Supporting rapid business growth",
+        "Managing large marketing budgets",
+        "Working with executive leadership",
+        "Connecting marketing to revenue"
+      ]
     },
     {
       "id": "experience-journalism",
@@ -1194,23 +2244,939 @@
           "source": [
             "resume"
           ]
+        },
+        {
+          "id": "jr-evidence-003",
+          "observation": "Maintained an active journalism career alongside full-time marketing positions.",
+          "supportsCompetencies": [
+            "Writing",
+            "Professional Discipline",
+            "Time Management"
+          ],
+          "source": [
+            "resume"
+          ]
+        },
+        {
+          "id": "jr-evidence-004",
+          "observation": "Produced long-form editorial work requiring independent research, interviewing and editing.",
+          "supportsCompetencies": [
+            "Research",
+            "Interviewing",
+            "Storytelling"
+          ],
+          "source": [
+            "resume",
+            "career_interviews"
+          ]
+        },
+        {
+          "id": "jr-evidence-005",
+          "observation": "Maintained editorial work over multiple years while simultaneously advancing a marketing career.",
+          "supportsCompetencies": [
+            "Consistency",
+            "Writing",
+            "Professional Development"
+          ],
+          "source": [
+            "resume",
+            "career_interviews"
+          ]
+        },
+        {
+          "id": "jr-evidence-006",
+          "observation": "Applied interviewing and research skills across journalism, marketing and technical communication.",
+          "supportsCompetencies": [
+            "Knowledge Transfer",
+            "Communication",
+            "Research"
+          ],
+          "source": [
+            "career_interviews"
+          ]
         }
       ],
-      "projects": [],
-      "achievements": [],
+      "projects": [
+        {
+          "id": "jr-project-artist-interviews",
+          "name": "Artist Interviews",
+          "summary": "Conducted interviews with musicians, producers and industry figures for publication across multiple music publications.",
+          "activities": [
+            "Research interview subjects.",
+            "Develop interview questions.",
+            "Conduct interviews.",
+            "Write and edit feature articles."
+          ],
+          "source": [
+            "resume",
+            "career_interviews"
+          ]
+        },
+        {
+          "id": "jr-project-album-reviews",
+          "name": "Album Reviews",
+          "summary": "Produced critical reviews covering new music releases across multiple genres.",
+          "activities": [
+            "Evaluate new releases.",
+            "Write editorial reviews.",
+            "Publish within editorial deadlines."
+          ],
+          "source": [
+            "resume"
+          ]
+        },
+        {
+          "id": "jr-project-feature-writing",
+          "name": "Editorial Features",
+          "summary": "Researched and wrote long-form stories covering artists, trends and music culture.",
+          "activities": [
+            "Pitch story ideas.",
+            "Research subjects.",
+            "Develop feature articles."
+          ],
+          "source": [
+            "resume",
+            "career_interviews"
+          ]
+        }
+      ],
+      "achievements": [
+        {
+          "id": "jr-achievement-001",
+          "title": "Published nearly 1,000 articles",
+          "description": "Produced reviews, interviews and editorial features across recognized music publications.",
+          "source": [
+            "resume"
+          ]
+        },
+        {
+          "id": "achievement-1000-publications",
+          "title": "Published Nearly 1,000 Editorial Pieces",
+          "category": "Writing",
+          "organization": "Journalism",
+          "summary": "Published reviews, interviews and feature stories across established North American music publications.",
+          "metrics": {
+            "publishedPieces": "Nearly 1,000"
+          },
+          "competencies": [
+            "Writing",
+            "Research",
+            "Interviewing"
+          ],
+          "verification": {
+            "status": "verified",
+            "sources": [
+              "resume"
+            ]
+          }
+        }
+      ],
       "metrics": [],
       "stories": [],
-      "lessonsLearned": [],
+      "lessonsLearned": [
+        {
+          "id": "jr-lesson-001",
+          "lesson": "The best interviews come from genuine curiosity rather than scripted questions.",
+          "source": [
+            "career_interviews"
+          ]
+        },
+        {
+          "id": "jr-lesson-002",
+          "lesson": "Strong preparation creates better conversations and better stories.",
+          "source": [
+            "career_interviews"
+          ]
+        }
+      ],
       "recognition": [],
+      "identityEvidence": [
+        {
+          "id": "jr-identity-001",
+          "supportsIdentity": "communication-philosophy",
+          "reason": "Journalism reinforced the importance of understanding people before writing about them.",
+          "source": [
+            "career_interviews"
+          ]
+        },
+        {
+          "id": "jr-identity-002",
+          "supportsIdentity": "curiosity",
+          "reason": "Professional journalism rewarded preparation, curiosity and thoughtful questioning.",
+          "source": [
+            "career_interviews"
+          ]
+        }
+      ],
+      "knowledgeDeveloped": [
+        {
+          "id": "jr-knowledge-001",
+          "domain": "Interviewing",
+          "summary": "Developed practical interviewing techniques through conversations with artists and industry professionals.",
+          "source": [
+            "resume",
+            "career_interviews"
+          ]
+        },
+        {
+          "id": "jr-knowledge-002",
+          "domain": "Editorial Judgment",
+          "summary": "Strengthened the ability to identify compelling angles and organize information into engaging stories.",
+          "source": [
+            "career_interviews"
+          ]
+        },
+        {
+          "id": "jr-knowledge-003",
+          "domain": "Music Journalism",
+          "summary": "Built long-term expertise covering hip-hop, music culture and the creative industries.",
+          "source": [
+            "resume",
+            "career_interviews"
+          ]
+        }
+      ],
+      "careerImpact": {
+        "summary": "Journalism established the research, interviewing and storytelling foundation that continues to influence Riley's marketing, consulting and technical writing career.",
+        "source": [
+          "career_interviews"
+        ]
+      },
+      "workingStyle": {
+        "research": {
+          "summary": "Researches subjects thoroughly before interviews to develop informed questions and produce accurate editorial content.",
+          "source": [
+            "resume",
+            "career_interviews"
+          ]
+        },
+        "interviewing": {
+          "summary": "Uses conversation and active listening to uncover stories rather than relying solely on prepared questions.",
+          "source": [
+            "career_interviews"
+          ]
+        },
+        "writing": {
+          "summary": "Focuses on clarity, narrative structure and authentic representation of interview subjects.",
+          "source": [
+            "career_interviews"
+          ]
+        }
+      },
+      "workingPrinciples": [
+        {
+          "id": "jr-principle-001",
+          "principle": "Research before opinion.",
+          "application": "Develop an informed understanding of the subject before writing or interviewing.",
+          "source": [
+            "career_interviews"
+          ]
+        },
+        {
+          "id": "jr-principle-002",
+          "principle": "People drive stories.",
+          "application": "Focus on the human perspective instead of simply reporting events or facts.",
+          "source": [
+            "career_interviews"
+          ]
+        },
+        {
+          "id": "jr-principle-003",
+          "principle": "Preparation creates better conversations.",
+          "application": "Use preparation to ask better questions rather than relying on generic interview scripts.",
+          "source": [
+            "career_interviews"
+          ]
+        }
+      ],
+      "careerMilestones": [
+        {
+          "id": "jr-milestone-001",
+          "milestone": "Published work with established North American music publications while building a full-time marketing career.",
+          "source": [
+            "resume"
+          ]
+        }
+      ],
+      "experienceReflection": {
+        "summary": "Journalism remained an ongoing professional discipline rather than a separate chapter, continually strengthening research, interviewing and storytelling throughout Riley's career.",
+        "source": [
+          "career_interviews"
+        ]
+      },
+      "futureInterviewTopics": [
+        "Most memorable artist interview",
+        "How journalism influenced marketing",
+        "Research process",
+        "Finding stories others miss",
+        "Balancing journalism with a full-time career"
+      ],
       "publications": [
         "Exclaim! Magazine",
         "HipHopDX",
         "XXL Magazine"
       ]
+    },
+    {
+      "id": "experience-bam",
+      "provenance": {
+        "verifiedEmployment": true,
+        "sources": [
+          "career_interviews"
+        ],
+        "lastReviewed": "2026-08-02"
+      },
+      "company": {
+        "name": "BAM",
+        "industry": "Marketing Agency",
+        "location": "Ontario, Canada",
+        "employmentType": "Full-time"
+      },
+      "role": {
+        "title": "Digital Marketing Specialist",
+        "startDate": "",
+        "endDate": "",
+        "current": false
+      },
+      "summary": "Supported multiple client accounts across digital marketing, social media and paid advertising during the early growth of social media marketing.",
+      "verifiedResponsibilities": [
+        {
+          "id": "bam-responsibility-001",
+          "title": "Multi-client Marketing",
+          "description": "Managed digital marketing activities across multiple client accounts.",
+          "source": [
+            "career_interviews"
+          ]
+        },
+        {
+          "id": "bam-responsibility-002",
+          "title": "Social Media Strategy",
+          "description": "Developed and managed social media initiatives for client campaigns.",
+          "source": [
+            "career_interviews"
+          ]
+        },
+        {
+          "id": "bam-responsibility-003",
+          "title": "Paid Social Advertising",
+          "description": "Helped launch Facebook advertising campaigns during the platform's early adoption by businesses.",
+          "source": [
+            "career_interviews"
+          ]
+        },
+        {
+          "id": "bam-responsibility-004",
+          "title": "Client Collaboration",
+          "description": "Worked directly with multiple clients to develop and execute digital marketing initiatives.",
+          "source": [
+            "career_interviews"
+          ]
+        }
+      ],
+      "verifiedCompetencies": [
+        {
+          "id": "bam-competency-001",
+          "name": "Client Management",
+          "confidence": "high",
+          "source": [
+            "career_interviews"
+          ]
+        },
+        {
+          "id": "bam-competency-002",
+          "name": "Social Media Marketing",
+          "confidence": "high",
+          "source": [
+            "career_interviews"
+          ]
+        },
+        {
+          "id": "bam-competency-003",
+          "name": "Paid Advertising",
+          "confidence": "high",
+          "source": [
+            "career_interviews"
+          ]
+        }
+      ],
+      "professionalEvidence": [
+        {
+          "id": "bam-evidence-001",
+          "observation": "Adopted emerging digital marketing platforms early in their commercial lifecycle.",
+          "supportsCompetencies": [
+            "Innovation",
+            "Digital Marketing",
+            "Learning Agility"
+          ],
+          "source": [
+            "career_interviews"
+          ]
+        },
+        {
+          "id": "bam-evidence-002",
+          "observation": "Balanced multiple client relationships and competing priorities within an agency environment.",
+          "supportsCompetencies": [
+            "Client Management",
+            "Organization",
+            "Communication"
+          ],
+          "source": [
+            "career_interviews"
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "id": "bam-project-facebook-adoption",
+          "name": "Early Facebook Advertising",
+          "summary": "Helped clients adopt Facebook advertising during the platform's early emergence as a business marketing channel.",
+          "activities": [
+            "Develop early social advertising campaigns.",
+            "Educate clients on emerging social platforms.",
+            "Integrate paid social into broader digital marketing strategies."
+          ],
+          "source": [
+            "career_interviews"
+          ]
+        },
+        {
+          "id": "bam-project-client-portfolio",
+          "name": "Multi-Client Digital Marketing",
+          "summary": "Managed digital marketing initiatives across multiple client accounts while balancing different industries, objectives and timelines.",
+          "activities": [
+            "Coordinate multiple client priorities.",
+            "Develop campaign recommendations.",
+            "Execute digital marketing initiatives."
+          ],
+          "source": [
+            "career_interviews"
+          ]
+        }
+      ],
+      "achievements": [
+        {
+          "id": "bam-achievement-001",
+          "title": "Early adopter of paid social marketing",
+          "description": "Built practical experience with Facebook advertising while the platform was still emerging as a business marketing channel.",
+          "source": [
+            "career_interviews"
+          ]
+        },
+        {
+          "id": "bam-achievement-002",
+          "title": "Expanded agency marketing experience",
+          "description": "Developed experience managing multiple clients simultaneously across different industries and marketing objectives.",
+          "source": [
+            "career_interviews"
+          ]
+        }
+      ],
+      "metrics": [],
+      "stories": [],
+      "lessonsLearned": [
+        {
+          "id": "bam-lesson-001",
+          "lesson": "New marketing channels create competitive advantages for organizations willing to experiment early.",
+          "source": [
+            "career_interviews"
+          ]
+        },
+        {
+          "id": "bam-lesson-002",
+          "lesson": "Agency work develops adaptability because every client has different goals, audiences and constraints.",
+          "source": [
+            "career_interviews"
+          ]
+        }
+      ],
+      "recognition": [],
+      "identityEvidence": [
+        {
+          "id": "bam-identity-001",
+          "supportsIdentity": "learning-philosophy",
+          "reason": "Early exposure to rapidly changing marketing technology reinforced continuous learning as a professional habit.",
+          "source": [
+            "career_interviews"
+          ]
+        },
+        {
+          "id": "bam-identity-002",
+          "supportsIdentity": "communication-philosophy",
+          "reason": "Working with diverse clients strengthened the ability to adapt communication to different audiences and business needs.",
+          "source": [
+            "career_interviews"
+          ]
+        }
+      ],
+      "knowledgeDeveloped": [
+        {
+          "id": "bam-knowledge-001",
+          "domain": "Agency Operations",
+          "summary": "Learned how agencies balance client expectations, timelines and competing priorities across multiple accounts.",
+          "source": [
+            "career_interviews"
+          ]
+        },
+        {
+          "id": "bam-knowledge-002",
+          "domain": "Emerging Digital Marketing",
+          "summary": "Developed practical experience adopting new digital marketing channels during periods of rapid industry change.",
+          "source": [
+            "career_interviews"
+          ]
+        }
+      ],
+      "careerImpact": {
+        "summary": "This experience introduced Riley to agency life, accelerated digital marketing skills and established an early pattern of adopting emerging technology before it became mainstream.",
+        "source": [
+          "career_interviews"
+        ]
+      },
+      "workingStyle": {
+        "clientApproach": {
+          "summary": "Adapted marketing recommendations to each client's objectives, industry and level of digital maturity.",
+          "source": [
+            "career_interviews"
+          ]
+        },
+        "experimentation": {
+          "summary": "Approached emerging digital platforms with curiosity, testing new ideas while evaluating practical business value.",
+          "source": [
+            "career_interviews"
+          ]
+        },
+        "execution": {
+          "summary": "Balanced strategic thinking with hands-on campaign execution across multiple concurrent client engagements.",
+          "source": [
+            "career_interviews"
+          ]
+        }
+      },
+      "futureEnrichment": {
+        "clientExamples": [],
+        "campaignExamples": [],
+        "facebookAdvertisingStories": [],
+        "mentorInfluence": [],
+        "careerTurningPoints": []
+      },
+      "domains": [
+        "Agency Marketing",
+        "Social Media",
+        "Digital Advertising",
+        "Client Services"
+      ]
+    },
+    {
+      "id": "experience-harbourfront",
+      "provenance": {
+        "verifiedEmployment": true,
+        "sources": [
+          "career_interviews",
+          "user_provided"
+        ],
+        "lastReviewed": "2026-08-02"
+      },
+      "company": {
+        "name": "Harbourfront Centre",
+        "industry": "Arts & Culture",
+        "location": "Toronto, ON",
+        "employmentType": "Full-time"
+      },
+      "role": {
+        "title": "Social Media Specialist",
+        "startDate": "2009-10",
+        "endDate": "2014-09",
+        "current": false
+      },
+      "summary": "Early-career communications role at Harbourfront Centre focused on social media, artist interviews and storytelling, establishing the interviewing and editorial habits that carried into later journalism and marketing work.",
+      "professionalEvidence": [
+        {
+          "id": "hf-evidence-001",
+          "observation": "Combined journalism, communications and early social media into a single role.",
+          "supportsCompetencies": [
+            "Storytelling",
+            "Interviewing",
+            "Digital Communication"
+          ],
+          "source": [
+            "career_interviews"
+          ]
+        },
+        {
+          "id": "hf-evidence-002",
+          "observation": "Worked with artists, sponsors and internal stakeholders to communicate complex cultural programming.",
+          "supportsCompetencies": [
+            "Stakeholder Communication",
+            "Editorial Writing",
+            "Relationship Building"
+          ],
+          "source": [
+            "career_interviews"
+          ]
+        },
+        {
+          "id": "hf-evidence-003",
+          "observation": "Developed confidence speaking with artists and creative professionals.",
+          "supportsCompetencies": [
+            "Interviewing",
+            "Relationship Building",
+            "Professional Communication"
+          ],
+          "source": [
+            "career_interviews"
+          ]
+        },
+        {
+          "id": "hf-evidence-004",
+          "observation": "Learned to translate specialized creative work into stories accessible to general audiences.",
+          "supportsCompetencies": [
+            "Storytelling",
+            "Audience Communication",
+            "Editorial Judgment"
+          ],
+          "source": [
+            "career_interviews"
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "id": "hf-project-social-media",
+          "name": "Early Social Media Strategy",
+          "summary": "Helped establish Harbourfront Centre's early social media presence while digital platforms were becoming important communication channels for arts organizations.",
+          "activities": [
+            "Develop social media content.",
+            "Support audience engagement.",
+            "Promote cultural programming online."
+          ],
+          "source": [
+            "career_interviews"
+          ]
+        },
+        {
+          "id": "hf-project-sponsor-campaigns",
+          "name": "Sponsor Communications",
+          "summary": "Supported communications and marketing initiatives connected to major sponsors and public programming.",
+          "activities": [
+            "Create marketing content.",
+            "Support campaign messaging.",
+            "Coordinate communications across initiatives."
+          ],
+          "source": [
+            "career_interviews"
+          ]
+        },
+        {
+          "id": "hf-project-artist-stories",
+          "name": "Artist Storytelling",
+          "summary": "Interviewed artists and transformed conversations into engaging editorial stories for public audiences.",
+          "activities": [
+            "Research artists.",
+            "Conduct interviews.",
+            "Write feature content."
+          ],
+          "source": [
+            "career_interviews"
+          ]
+        }
+      ],
+      "achievements": [
+        {
+          "id": "hf-achievement-001",
+          "title": "Helped build an early social media presence",
+          "description": "Contributed to Harbourfront Centre's adoption of social media as an audience engagement channel.",
+          "source": [
+            "career_interviews"
+          ]
+        },
+        {
+          "id": "hf-achievement-002",
+          "title": "Developed professional interviewing skills",
+          "description": "Built confidence interviewing artists and creative professionals while producing editorial content.",
+          "source": [
+            "career_interviews"
+          ]
+        }
+      ],
+      "lessonsLearned": [
+        {
+          "id": "hf-lesson-001",
+          "lesson": "Strong stories begin with curiosity rather than assumptions.",
+          "source": [
+            "career_interviews"
+          ]
+        },
+        {
+          "id": "hf-lesson-002",
+          "lesson": "Creative work becomes more meaningful when audiences understand the people behind it.",
+          "source": [
+            "career_interviews"
+          ]
+        }
+      ],
+      "identityEvidence": [
+        {
+          "id": "hf-identity-001",
+          "supportsIdentity": "communication-philosophy",
+          "reason": "Established the habit of understanding people before attempting to communicate their work.",
+          "source": [
+            "career_interviews"
+          ]
+        },
+        {
+          "id": "hf-identity-002",
+          "supportsIdentity": "curiosity",
+          "reason": "Professional growth came from asking thoughtful questions and exploring unexpected angles.",
+          "source": [
+            "career_interviews"
+          ]
+        }
+      ],
+      "knowledgeDeveloped": [
+        {
+          "id": "hf-knowledge-001",
+          "domain": "Editorial Storytelling",
+          "summary": "Learned to identify the human story behind events, artists and organizations rather than simply reporting information.",
+          "source": [
+            "career_interviews"
+          ]
+        },
+        {
+          "id": "hf-knowledge-002",
+          "domain": "Public Communications",
+          "summary": "Developed experience communicating creative work to broad public audiences.",
+          "source": [
+            "career_interviews"
+          ]
+        }
+      ],
+      "decisionExamples": [
+        {
+          "id": "hf-decision-001",
+          "situation": "Writing about artists whose work was unfamiliar.",
+          "decision": "Invested time in research and conversation before writing.",
+          "result": "Produced stories that better reflected the artist's intent and connected with readers.",
+          "source": [
+            "career_interviews"
+          ]
+        },
+        {
+          "id": "hf-decision-002",
+          "situation": "Balancing organizational messaging with authentic storytelling.",
+          "decision": "Focused on the people behind the programming rather than promotional language alone.",
+          "result": "Created more engaging editorial content.",
+          "source": [
+            "career_interviews"
+          ]
+        }
+      ],
+      "careerImpact": {
+        "summary": "This role established the interviewing, research and storytelling skills that later carried into journalism, marketing and technical communication.",
+        "source": [
+          "career_interviews"
+        ]
+      },
+      "careerEvolution": {
+        "beforeRole": {
+          "summary": "Early-career communicator developing confidence as a professional writer.",
+          "source": [
+            "career_interviews"
+          ]
+        },
+        "afterRole": {
+          "summary": "Left with stronger interviewing skills, editorial confidence and a lasting interest in finding stories behind people and organizations.",
+          "source": [
+            "career_interviews"
+          ]
+        }
+      },
+      "workingStyle": {
+        "editorialApproach": {
+          "summary": "Focused on finding the story behind each artist, exhibition or event before beginning the writing process.",
+          "source": [
+            "career_interviews"
+          ]
+        },
+        "interviewApproach": {
+          "summary": "Prepared thoroughly before interviews while remaining flexible enough to pursue unexpected stories during conversations.",
+          "source": [
+            "career_interviews"
+          ]
+        },
+        "audienceFocus": {
+          "summary": "Translated arts and cultural programming into language that encouraged public participation without losing the integrity of the work.",
+          "source": [
+            "career_interviews"
+          ]
+        }
+      },
+      "workingPrinciples": [
+        {
+          "id": "hf-principle-001",
+          "principle": "Listen first.",
+          "application": "Use interviews to understand the subject before deciding on the story.",
+          "source": [
+            "career_interviews"
+          ]
+        },
+        {
+          "id": "hf-principle-002",
+          "principle": "Every event has a human story.",
+          "application": "Look beyond schedules and announcements to find what makes the work meaningful.",
+          "source": [
+            "career_interviews"
+          ]
+        }
+      ],
+      "careerMilestones": [
+        {
+          "id": "hf-milestone-001",
+          "milestone": "Developed the interviewing and storytelling habits that became the foundation of later journalism and marketing roles.",
+          "source": [
+            "career_interviews"
+          ]
+        }
+      ],
+      "experienceReflection": {
+        "summary": "Although later roles became increasingly technical, this experience remained the foundation for Riley's communication style: research deeply, ask thoughtful questions and make complex subjects accessible.",
+        "source": [
+          "career_interviews"
+        ]
+      },
+      "professionalIdentity": {
+        "roleInCareer": "Established the communication, interviewing and storytelling foundation that influenced every subsequent writing and marketing role.",
+        "source": [
+          "career_interviews"
+        ]
+      },
+      "professionalValues": [
+        {
+          "id": "hf-value-001",
+          "value": "Authenticity",
+          "application": "Represent people accurately instead of forcing a predetermined narrative.",
+          "source": [
+            "career_interviews"
+          ]
+        },
+        {
+          "id": "hf-value-002",
+          "value": "Preparation",
+          "application": "Invest time understanding a subject before attempting to explain it.",
+          "source": [
+            "career_interviews"
+          ]
+        },
+        {
+          "id": "hf-value-003",
+          "value": "Audience Respect",
+          "application": "Write for readers with clarity while respecting the complexity of the subject.",
+          "source": [
+            "career_interviews"
+          ]
+        }
+      ],
+      "transferableStrengths": [
+        {
+          "strength": "Interviewing",
+          "carriedInto": [
+            "Journalism",
+            "Marketing",
+            "Technical Writing",
+            "AI Research"
+          ],
+          "source": [
+            "career_interviews"
+          ]
+        },
+        {
+          "strength": "Story Discovery",
+          "carriedInto": [
+            "Content Strategy",
+            "Brand Marketing",
+            "Technical Communication"
+          ],
+          "source": [
+            "career_interviews"
+          ]
+        }
+      ],
+      "futureEnrichment": {
+        "artistInterviews": [],
+        "festivalCampaigns": [],
+        "socialMediaExamples": [],
+        "sponsorInitiatives": [],
+        "careerTurningPoints": [],
+        "memorableArtistInterviews": [],
+        "favoritePublishedStories": [],
+        "earlySocialMediaExamples": [],
+        "communicationsChallenges": [],
+        "portfolioArtifacts": []
+      },
+      "status": {
+        "layer1": "complete",
+        "layer2": "complete",
+        "readyForResumeGeneration": true,
+        "readyForInterviewGeneration": true
+      }
     }
   ],
-  "legacyEnrichment": {
-    "_comment": "Source-preserving quarantine of enrichment text that was appended without valid JSON structure. No prose or source attribution has been rewritten.",
-    "content": "\n}\n  \"projects\": [\n\n    {\n      \"id\": \"sbc-project-lowes-national-retail-partnership\",\n\n      \"name\": \"Lowe's National Retail Partnership\",\n\n      \"summary\": \"Supported the marketing strategy behind Solar Brokers Canada's expansion into Lowe's stores across Canada.\",\n\n      \"contributions\": [\n\n        \"Supported marketing initiatives leading to national retail expansion.\",\n\n        \"Developed campaigns supporting rapid customer acquisition.\",\n\n        \"Created marketing assets for a major business growth initiative.\"\n\n      ],\n\n      \"businessImpact\": [\n        \"Supported a retail partnership that generated more than $20M in sales within the first several months.\"\n      ],\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    },\n\n    {\n      \"id\": \"sbc-project-seo-transformation\",\n\n      \"name\": \"SEO Transformation\",\n\n      \"summary\": \"Transitioned SEO from an outsourced function to an internally managed capability.\",\n\n      \"contributions\": [\n\n        \"Developed in-house SEO processes.\",\n\n        \"Created localized organic search strategies.\",\n\n        \"Improved search visibility across Ontario markets.\"\n\n      ],\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    },\n\n    {\n      \"id\": \"sbc-project-digital-marketing-scale-up\",\n\n      \"name\": \"Digital Marketing Scale-Up\",\n\n      \"summary\": \"Expanded digital marketing operations alongside rapid company growth.\",\n\n      \"contributions\": [\n\n        \"Managed growing digital campaigns.\",\n\n        \"Supported paid, organic and content marketing initiatives.\",\n\n        \"Helped build marketing systems capable of supporting a rapidly expanding sales organization.\"\n\n      ],\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    }\n\n  ],\n\n  \"achievements\": [\n\n    {\n\n      \"id\": \"sbc-achievement-001\",\n\n      \"title\": \"Scaled annual marketing investment\",\n\n      \"description\": \"Helped grow annual digital marketing investment to approximately $1.3 million.\",\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    },\n\n    {\n\n      \"id\": \"sbc-achievement-002\",\n\n      \"title\": \"Supported Lowe's launch\",\n\n      \"description\": \"Contributed marketing support for a retail expansion that generated more than $20 million in sales during its initial rollout.\",\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    },\n\n    {\n\n      \"id\": \"sbc-achievement-003\",\n\n      \"title\": \"Brought SEO in-house\",\n\n      \"description\": \"Established internal SEO capability and achieved first-page rankings across multiple Ontario markets.\",\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    }\n\n  ],\n\n  \"metrics\": [\n\n    {\n\n      \"metric\": \"Annual marketing investment\",\n\n      \"value\": \"$1.3M\",\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    },\n\n    {\n\n      \"metric\": \"Retail partnership sales\",\n\n      \"value\": \"$20M+\",\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    },\n\n    {\n\n      \"metric\": \"Sales organization supported\",\n\n      \"value\": \"20+ people\",\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    }\n\n  ],\n    \"stories\": [\n\n    {\n      \"id\": \"sbc-story-001\",\n\n      \"title\": \"Building Marketing at Scale\",\n\n      \"summary\": \"Helped evolve the company's marketing capabilities as the business expanded rapidly, requiring more structured systems, larger budgets and greater coordination across teams.\",\n\n      \"competencies\": [\n\n        \"Leadership\",\n\n        \"Marketing Strategy\",\n\n        \"Operational Planning\"\n\n      ],\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    },\n\n    {\n\n      \"id\": \"sbc-story-002\",\n\n      \"title\": \"Internal SEO Capability\",\n\n      \"summary\": \"Moved SEO from an outsourced function to an internally managed capability, creating greater ownership over search performance and content strategy.\",\n\n      \"competencies\": [\n\n        \"SEO\",\n\n        \"Process Improvement\",\n\n        \"Strategic Marketing\"\n\n      ],\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    },\n\n    {\n\n      \"id\": \"sbc-story-003\",\n\n      \"title\": \"Supporting National Growth\",\n\n      \"summary\": \"Supported marketing initiatives during a period of significant company growth, including the Lowe's partnership and expansion of the sales organization.\",\n\n      \"competencies\": [\n\n        \"Growth Marketing\",\n\n        \"Cross-functional Collaboration\",\n\n        \"Business Strategy\"\n\n      ],\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    }\n\n  ],\n\n  \"lessonsLearned\": [\n\n    {\n\n      \"id\": \"sbc-lesson-001\",\n\n      \"lesson\": \"Marketing performs best when closely connected to sales objectives rather than operating independently.\",\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    },\n\n    {\n\n      \"id\": \"sbc-lesson-002\",\n\n      \"lesson\": \"Building internal expertise creates more long-term value than relying entirely on external agencies.\",\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    },\n\n    {\n\n      \"id\": \"sbc-lesson-003\",\n\n      \"lesson\": \"Strong systems become increasingly important as organizations scale rapidly.\",\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    }\n\n  ],\n\n  \"identityConnections\": [\n\n    {\n\n      \"identityObject\": \"systems-thinking\",\n\n      \"relationship\": \"strengthened\",\n\n      \"reason\": \"Scaling marketing operations reinforced the importance of repeatable systems and internal processes.\",\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    },\n\n    {\n\n      \"identityObject\": \"learning-philosophy\",\n\n      \"relationship\": \"strengthened\",\n\n      \"reason\": \"Taking ownership of SEO required continuous experimentation and learning.\",\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    }\n\n  ],\n    \"professionalEvidence\": [\n\n    {\n      \"id\": \"sbc-evidence-004\",\n\n      \"observation\": \"Expanded internal marketing capabilities instead of relying on outsourced expertise.\",\n\n      \"supportsCompetencies\": [\n\n        \"Leadership\",\n\n        \"Strategic Planning\",\n\n        \"Capability Building\"\n\n      ],\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    },\n\n    {\n\n      \"id\": \"sbc-evidence-005\",\n\n      \"observation\": \"Marketing strategy remained closely connected to measurable business growth.\",\n\n      \"supportsCompetencies\": [\n\n        \"Business Alignment\",\n\n        \"Growth Marketing\"\n\n      ],\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    },\n\n    {\n\n      \"id\": \"sbc-evidence-006\",\n\n      \"observation\": \"Managed increasing organizational complexity as the company expanded.\",\n\n      \"supportsCompetencies\": [\n\n        \"Operational Leadership\",\n\n        \"Decision Making\"\n\n      ],\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    }\n\n  ],\n\n  \"decisionExamples\": [\n\n    {\n\n      \"id\": \"sbc-decision-001\",\n\n      \"situation\": \"Choosing whether to continue outsourcing SEO.\",\n\n      \"decision\": \"Built internal SEO capability.\",\n\n      \"result\": \"Created greater control over search strategy and long-term marketing execution.\",\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    },\n\n    {\n\n      \"id\": \"sbc-decision-002\",\n\n      \"situation\": \"Supporting rapid organizational growth.\",\n\n      \"decision\": \"Focused on building repeatable marketing systems rather than one-off campaigns.\",\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    }\n\n  ],\n\n  \"careerImpact\": {\n\n    \"summary\": \"This role marked Riley's transition from being primarily a content producer to leading marketing strategy, managing significant budgets and thinking about marketing as a scalable business function.\",\n\n    \"source\": [\n      \"career_interviews\"\n    ]\n\n  },\n\n  \"futureInterviewTopics\": [\n\n    \"Building an internal SEO function\",\n\n    \"Supporting rapid business growth\",\n\n    \"Managing large marketing budgets\",\n\n    \"Working with executive leadership\",\n\n    \"Connecting marketing to revenue\"\n\n  ],\n    \"projects\": [\n\n    {\n      \"id\": \"lc-project-llm-workflow-adoption\",\n\n      \"name\": \"LLM Workflow Adoption\",\n\n      \"summary\": \"Introduced large language model (LLM) workflows into the content development process while maintaining editorial review and brand consistency.\",\n\n      \"objectives\": [\n\n        \"Reduce repetitive writing tasks\",\n\n        \"Improve content production efficiency\",\n\n        \"Preserve editorial quality\"\n\n      ],\n\n      \"source\": [\n        \"resume\",\n        \"career_interviews\"\n      ]\n\n    }\n\n  ],\n\n  \"achievements\": [\n\n    {\n\n      \"id\": \"lc-achievement-001\",\n\n      \"title\": \"Introduced AI-assisted editorial workflows\",\n\n      \"description\": \"Helped integrate LLM-assisted workflows into day-to-day content production while ensuring human review remained part of the publishing process.\",\n\n      \"source\": [\n        \"resume\",\n        \"career_interviews\"\n      ]\n\n    }\n\n  ],\n\n  \"lessonsLearned\": [\n\n    {\n\n      \"id\": \"lc-lesson-001\",\n\n      \"lesson\": \"AI is most valuable when it accelerates work without replacing editorial judgment.\",\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    },\n\n    {\n\n      \"id\": \"lc-lesson-002\",\n\n      \"lesson\": \"Introducing new technology requires balancing efficiency with consistency and brand standards.\",\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    }\n\n  ],\n\n  \"professionalEvidence\": [\n\n    {\n\n      \"id\": \"lc-evidence-003\",\n\n      \"observation\": \"Adopted emerging AI tools early while maintaining human oversight.\",\n\n      \"supportsCompetencies\": [\n\n        \"AI Adoption\",\n\n        \"Change Leadership\",\n\n        \"Editorial Judgment\"\n\n      ],\n\n      \"source\": [\n        \"resume\",\n        \"career_interviews\"\n      ]\n\n    }\n\n  ],\n\n  \"futureInterviewTopics\": [\n\n    \"Introducing AI into established workflows\",\n\n    \"Balancing AI with editorial quality\",\n\n    \"Writing for both B2B and B2C audiences\",\n\n    \"Adapting to new technology\"\n\n  ],\n    \"careerPatterns\": [\n\n    {\n      \"id\": \"career-pattern-ai-adoption\",\n\n      \"pattern\": \"Early AI Adoption\",\n\n      \"summary\": \"Repeatedly adopted emerging AI technologies to improve research, writing and marketing workflows while maintaining human editorial oversight.\",\n\n      \"firstObserved\": \"LendCare\",\n\n      \"expandedAt\": [\n        \"Riley Wallace Creative\",\n        \"Productive Shop\"\n      ],\n\n      \"supportsCompetencies\": [\n\n        \"Artificial Intelligence\",\n\n        \"Workflow Design\",\n\n        \"Continuous Learning\"\n\n      ],\n\n      \"source\": [\n        \"resume\",\n        \"career_interviews\"\n      ]\n\n    },\n\n    {\n\n      \"id\": \"career-pattern-technical-communication\",\n\n      \"pattern\": \"Technical Translation\",\n\n      \"summary\": \"Career progression shows increasing responsibility for translating increasingly complex topics into accessible communication.\",\n\n      \"observedAt\": [\n\n        \"LendCare\",\n\n        \"Productive Shop\"\n\n      ],\n\n      \"source\": [\n        \"resume\",\n        \"career_interviews\"\n      ]\n\n    },\n\n    {\n\n      \"id\": \"career-pattern-content-strategy\",\n\n      \"pattern\": \"Content Strategy\",\n\n      \"summary\": \"Progressed from producing marketing content to designing communication strategies and editorial workflows.\",\n\n      \"observedAt\": [\n\n        \"Solar Brokers Canada\",\n\n        \"Polaron Solar Energy\",\n\n        \"Riley Wallace Creative\",\n\n        \"Productive Shop\"\n\n      ],\n\n      \"source\": [\n        \"resume\",\n        \"career_interviews\"\n      ]\n\n    }\n\n  ],\n    \"workingStyle\": {\n\n    \"contentApproach\": {\n\n      \"summary\": \"Produced marketing content while balancing speed, accuracy and brand consistency.\",\n\n      \"source\": [\n        \"resume\"\n      ]\n\n    },\n\n    \"technologyApproach\": {\n\n      \"summary\": \"Adopted AI tools as production accelerators while maintaining human ownership of editorial quality.\",\n\n      \"source\": [\n        \"resume\",\n        \"career_interviews\"\n      ]\n\n    }\n\n  },\n\n  \"identityEvidence\": [\n\n    {\n\n      \"id\": \"lc-identity-001\",\n\n      \"supportsIdentity\": \"technology-philosophy\",\n\n      \"reason\": \"Demonstrated practical adoption of AI while maintaining editorial oversight.\",\n\n      \"source\": [\n        \"resume\",\n        \"career_interviews\"\n      ]\n\n    },\n\n    {\n\n      \"id\": \"lc-identity-002\",\n\n      \"supportsIdentity\": \"communication-philosophy\",\n\n      \"reason\": \"Continued adapting communication for different audiences and channels.\",\n\n      \"source\": [\n        \"resume\"\n      ]\n\n    }\n\n  ],\n\n  \"needsExpansion\": {\n\n    \"namedCampaigns\": [],\n\n    \"workflowExamples\": [],\n\n    \"beforeAfterImprovements\": [],\n\n    \"managerFeedback\": [],\n\n    \"peerFeedback\": [],\n\n    \"recognition\": []\n\n  }\n    \"projects\": [\n\n    {\n      \"id\": \"rwc-project-ai-assisted-content-workflows\",\n\n      \"name\": \"AI-Assisted Content Workflows\",\n\n      \"summary\": \"Designed and refined repeatable AI-assisted workflows to support research, planning and content production while maintaining human editorial oversight.\",\n\n      \"activities\": [\n\n        \"Built reusable n8n automations.\",\n\n        \"Integrated Claude, ChatGPT and Perplexity into research workflows.\",\n\n        \"Kept writing, editing and fact-checking under human control.\"\n\n      ],\n\n      \"source\": [\n        \"resume\",\n        \"career_interviews\"\n      ]\n\n    }\n\n  ],\n\n  \"achievements\": [\n\n    {\n\n      \"id\": \"rwc-achievement-001\",\n\n      \"title\": \"Integrated AI into consulting workflows\",\n\n      \"description\": \"Successfully incorporated AI into day-to-day consulting work while preserving editorial quality and client trust.\",\n\n      \"source\": [\n        \"resume\",\n        \"career_interviews\"\n      ]\n\n    }\n\n  ],\n\n  \"professionalEvidence\": [\n\n    {\n\n      \"id\": \"rwc-evidence-004\",\n\n      \"observation\": \"Built practical AI workflows instead of using AI only as a writing assistant.\",\n\n      \"supportsCompetencies\": [\n\n        \"Workflow Design\",\n\n        \"AI Adoption\",\n\n        \"Automation\"\n\n      ],\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    },\n\n    {\n\n      \"id\": \"rwc-evidence-005\",\n\n      \"observation\": \"Applied AI within real client work while maintaining human editorial responsibility.\",\n\n      \"supportsCompetencies\": [\n\n        \"Professional Judgment\",\n\n        \"Client Communication\",\n\n        \"AI Implementation\"\n\n      ],\n\n      \"source\": [\n        \"resume\",\n        \"career_interviews\"\n      ]\n\n    }\n\n  ],\n\n  \"lessonsLearned\": [\n\n    {\n\n      \"id\": \"rwc-lesson-001\",\n\n      \"lesson\": \"The greatest value comes from improving the workflow rather than trying to automate the final output.\",\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    },\n\n    {\n\n      \"id\": \"rwc-lesson-002\",\n\n      \"lesson\": \"Clients benefit most when AI increases consistency and speed without sacrificing trust.\",\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    }\n\n  ],\n\n  \"stories\": [],\n\n  \"metrics\": [],\n\n  \"recognition\": []\n\n},\n  \"knowledgeDeveloped\": [\n\n    {\n      \"id\": \"rwc-knowledge-001\",\n\n      \"domain\": \"Workflow Automation\",\n\n      \"summary\": \"Developed repeatable approaches for combining AI tools with structured marketing workflows.\",\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    },\n\n    {\n\n      \"id\": \"rwc-knowledge-002\",\n\n      \"domain\": \"AI Tool Evaluation\",\n\n      \"summary\": \"Built practical experience comparing AI tools based on real-world marketing and writing tasks rather than novelty.\",\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    },\n\n    {\n\n      \"id\": \"rwc-knowledge-003\",\n\n      \"domain\": \"Marketing Systems\",\n\n      \"summary\": \"Strengthened the practice of designing repeatable marketing systems instead of one-off deliverables.\",\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    }\n\n  ],\n\n  \"workingStyle\": {\n\n    \"planning\": {\n\n      \"summary\": \"Approaches consulting work by designing repeatable systems before creating individual deliverables.\",\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    },\n\n    \"qualityControl\": {\n\n      \"summary\": \"Maintains human responsibility for writing, editing and factual accuracy regardless of AI involvement.\",\n\n      \"source\": [\n        \"resume\",\n        \"career_interviews\"\n      ]\n\n    },\n\n    \"continuousImprovement\": {\n\n      \"summary\": \"Regularly refines workflows as new AI capabilities become available.\",\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    }\n\n  },\n\n  \"identityEvidence\": [\n\n    {\n\n      \"id\": \"rwc-identity-003\",\n\n      \"supportsIdentity\": \"systems-thinking\",\n\n      \"reason\": \"Consulting work reinforced a preference for building reusable systems instead of isolated solutions.\",\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    },\n\n    {\n\n      \"id\": \"rwc-identity-004\",\n\n      \"supportsIdentity\": \"learning-philosophy\",\n\n      \"reason\": \"Success depended on continually evaluating and adapting to rapidly evolving AI tools.\",\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    }\n\n  ],\n\n  \"futureInterviewTopics\": [\n\n    \"Favorite client engagement\",\n\n    \"Most successful automation\",\n\n    \"Biggest consulting lesson\",\n\n    \"AI workflow evolution\",\n\n    \"Marketing systems that consistently worked\"\n\n  ],\n    \"careerEvolution\": {\n\n    \"roleProgression\": {\n\n      \"summary\": \"The consulting practice evolved from traditional marketing communications toward AI-assisted strategy, workflow design and knowledge-driven content production.\",\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    },\n\n    \"newCapabilities\": [\n\n      {\n\n        \"id\": \"rwc-growth-001\",\n\n        \"capability\": \"AI Workflow Design\",\n\n        \"source\": [\n          \"resume\",\n          \"career_interviews\"\n        ]\n\n      },\n\n      {\n\n        \"id\": \"rwc-growth-002\",\n\n        \"capability\": \"Automation Planning\",\n\n        \"source\": [\n          \"career_interviews\"\n        ]\n\n      },\n\n      {\n\n        \"id\": \"rwc-growth-003\",\n\n        \"capability\": \"Knowledge Organization\",\n\n        \"source\": [\n          \"career_interviews\"\n        ]\n\n      }\n\n    ]\n\n  },\n\n  \"professionalEvidence\": [\n\n    {\n\n      \"id\": \"rwc-evidence-006\",\n\n      \"observation\": \"Consulting work increasingly emphasized designing repeatable systems rather than producing isolated deliverables.\",\n\n      \"supportsCompetencies\": [\n\n        \"Systems Thinking\",\n\n        \"Workflow Design\",\n\n        \"Strategic Planning\"\n\n      ],\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    },\n\n    {\n\n      \"id\": \"rwc-evidence-007\",\n\n      \"observation\": \"Evaluated multiple AI tools based on practical business use cases before integrating them into client workflows.\",\n\n      \"supportsCompetencies\": [\n\n        \"Technology Evaluation\",\n\n        \"Artificial Intelligence\",\n\n        \"Professional Judgment\"\n\n      ],\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    }\n\n  ],\n\n  \"decisionExamples\": [\n\n    {\n\n      \"id\": \"rwc-decision-001\",\n\n      \"situation\": \"Evaluating whether AI should replace or support existing creative workflows.\",\n\n      \"decision\": \"Positioned AI as an assistant that accelerates research and repetitive work while preserving human creativity and editorial review.\",\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    }\n\n  ],\n\n  \"futureResumeHighlights\": [\n\n    \"Marketing communications consulting\",\n\n    \"AI workflow development\",\n\n    \"Content strategy\",\n\n    \"Marketing systems\",\n\n    \"Automation design\"\n\n  ],\n\n  \"needsExpansion\": {\n\n    \"clientCaseStudies\": [],\n\n    \"workflowCaseStudies\": [],\n\n    \"portfolioLinks\": [],\n\n    \"beforeAfterExamples\": []\n\n  },\n    \"projects\": [\n\n    {\n      \"id\": \"pol-project-seo-growth-strategy\",\n\n      \"name\": \"SEO Growth Strategy\",\n\n      \"summary\": \"Led SEO strategy supporting residential solar marketing while strengthening the organization's organic search presence.\",\n\n      \"activities\": [\n\n        \"Developed SEO strategy.\",\n\n        \"Created search-focused web content.\",\n\n        \"Supported long-term organic growth.\"\n\n      ],\n\n      \"source\": [\n        \"resume\",\n        \"career_interviews\"\n      ]\n\n    },\n\n    {\n\n      \"id\": \"pol-project-brand-consolidation\",\n\n      \"name\": \"Brand Consolidation\",\n\n      \"summary\": \"Supported marketing and communications initiatives during brand consolidation efforts.\",\n\n      \"activities\": [\n\n        \"Aligned marketing messaging.\",\n\n        \"Supported web content updates.\",\n\n        \"Maintained consistent brand communication.\"\n\n      ],\n\n      \"source\": [\n        \"resume\"\n      ]\n\n    }\n\n  ],\n\n  \"achievements\": [\n\n    {\n\n      \"id\": \"pol-achievement-001\",\n\n      \"title\": \"Led SEO strategy\",\n\n      \"description\": \"Provided strategic leadership for search engine optimization supporting residential solar markets.\",\n\n      \"source\": [\n        \"resume\"\n      ]\n\n    },\n\n    {\n\n      \"id\": \"pol-achievement-002\",\n\n      \"title\": \"Strengthened digital marketing\",\n\n      \"description\": \"Combined SEO and web content strategy to support broader digital marketing objectives.\",\n\n      \"source\": [\n        \"resume\"\n      ]\n\n    }\n\n  ],\n\n  \"lessonsLearned\": [\n\n    {\n\n      \"id\": \"pol-lesson-001\",\n\n      \"lesson\": \"Long-term organic growth comes from consistent strategy rather than isolated optimization efforts.\",\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    },\n\n    {\n\n      \"id\": \"pol-lesson-002\",\n\n      \"lesson\": \"Strong SEO depends on understanding both customer intent and business goals.\",\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    }\n\n  ],\n\n  \"professionalEvidence\": [\n\n    {\n\n      \"id\": \"pol-evidence-003\",\n\n      \"observation\": \"Combined technical SEO with content strategy instead of treating them as separate disciplines.\",\n\n      \"supportsCompetencies\": [\n\n        \"SEO\",\n\n        \"Content Strategy\",\n\n        \"Strategic Marketing\"\n\n      ],\n\n      \"source\": [\n        \"resume\",\n        \"career_interviews\"\n      ]\n\n    },\n\n    {\n\n      \"id\": \"pol-evidence-004\",\n\n      \"observation\": \"Supported organization-wide marketing initiatives during periods of business change.\",\n\n      \"supportsCompetencies\": [\n\n        \"Adaptability\",\n\n        \"Marketing Communications\"\n\n      ],\n\n      \"source\": [\n        \"resume\"\n      ]\n\n    }\n\n  ],\n\n  \"stories\": [],\n\n  \"metrics\": [],\n\n  \"recognition\": []\n\n},\n  \"workingStyle\": {\n\n    \"planning\": {\n\n      \"summary\": \"Approached marketing initiatives by aligning SEO, content and business objectives before execution.\",\n\n      \"source\": [\n        \"resume\",\n        \"career_interviews\"\n      ]\n\n    },\n\n    \"collaboration\": {\n\n      \"summary\": \"Worked across marketing initiatives supporting brand, web and digital communication.\",\n\n      \"source\": [\n        \"resume\"\n      ]\n\n    },\n\n    \"execution\": {\n\n      \"summary\": \"Balanced strategic planning with hands-on implementation across SEO and web content.\",\n\n      \"source\": [\n        \"resume\"\n      ]\n\n    }\n\n  },\n\n  \"knowledgeDeveloped\": [\n\n    {\n\n      \"id\": \"pol-knowledge-001\",\n\n      \"domain\": \"Renewable Energy Marketing\",\n\n      \"summary\": \"Strengthened understanding of communicating technical renewable energy concepts to residential customers.\",\n\n      \"source\": [\n        \"resume\",\n        \"career_interviews\"\n      ]\n\n    },\n\n    {\n\n      \"id\": \"pol-knowledge-002\",\n\n      \"domain\": \"Search Strategy\",\n\n      \"summary\": \"Expanded practical experience using SEO as a long-term growth channel rather than a tactical marketing activity.\",\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    }\n\n  ],\n\n  \"identityEvidence\": [\n\n    {\n\n      \"id\": \"pol-identity-001\",\n\n      \"supportsIdentity\": \"communication-philosophy\",\n\n      \"reason\": \"Reinforced the importance of making technical subjects understandable for everyday audiences.\",\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    },\n\n    {\n\n      \"id\": \"pol-identity-002\",\n\n      \"supportsIdentity\": \"learning-philosophy\",\n\n      \"reason\": \"Continued refining SEO knowledge through experimentation and continuous improvement.\",\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    }\n\n  ],\n\n  \"futureResumeHighlights\": [\n\n    \"SEO Leadership\",\n\n    \"Content Strategy\",\n\n    \"Renewable Energy\",\n\n    \"Brand Communications\",\n\n    \"Digital Marketing\"\n\n  ],\n\n  \"needsExpansion\": {\n\n    \"seoCaseStudies\": [],\n\n    \"brandConsolidationDetails\": [],\n\n    \"organic\n      \"projects\": [\n\n    {\n      \"id\": \"ps-project-ai-search-research\",\n\n      \"name\": \"AI Search Research\",\n\n      \"summary\": \"Researched emerging AI search platforms and generative search behaviour to improve the accuracy and relevance of technical content.\",\n\n      \"activities\": [\n\n        \"Evaluated changes in search behaviour.\",\n\n        \"Researched generative search optimization (GEO).\",\n\n        \"Applied findings to technical writing workflows.\"\n\n      ],\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    },\n\n    {\n\n      \"id\": \"ps-project-cybersecurity-content\",\n\n      \"name\": \"Technical Content Development\",\n\n      \"summary\": \"Created technical content across multiple B2B technology industries while adapting writing style to different audiences and subject matter.\",\n\n      \"activities\": [\n\n        \"Research unfamiliar technologies.\",\n\n        \"Develop technical articles.\",\n\n        \"Translate technical concepts into practical language.\"\n\n      ],\n\n      \"source\": [\n        \"resume\",\n        \"career_interviews\"\n      ]\n\n    },\n\n    {\n\n      \"id\": \"ps-project-industrial-ai-content\",\n\n      \"name\": \"AI Workflow Experimentation\",\n\n      \"summary\": \"Continuously evaluated AI tools and workflow improvements to increase research quality and production efficiency.\",\n\n      \"activities\": [\n\n        \"Experiment with AI-assisted research.\",\n\n        \"Compare workflow approaches.\",\n\n        \"Refine repeatable writing processes.\"\n\n      ],\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    }\n\n  ],\n\n  \"professionalEvidence\": [\n\n    {\n\n      \"id\": \"ps-evidence-004\",\n\n      \"observation\": \"Regularly learned unfamiliar technical subjects before producing content.\",\n\n      \"supportsCompetencies\": [\n\n        \"Research\",\n\n        \"Learning Agility\",\n\n        \"Technical Communication\"\n\n      ],\n\n      \"source\": [\n        \"resume\",\n        \"career_interviews\"\n      ]\n\n    },\n\n    {\n\n      \"id\": \"ps-evidence-005\",\n\n      \"observation\": \"Viewed AI as a practical productivity tool rather than a replacement for editorial thinking.\",\n\n      \"supportsCompetencies\": [\n\n        \"Editorial Judgment\",\n\n        \"AI Adoption\",\n\n        \"Professional Responsibility\"\n\n      ],\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    }\n\n  ],\n\n  \"achievements\": [],\n\n  \"stories\": [],\n\n  \"metrics\": [],\n\n  \"recognition\": []\n    \"workingStyle\": {\n\n    \"research\": {\n\n      \"summary\": \"Begins by understanding unfamiliar technologies, audience intent and business context before drafting content.\",\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    },\n\n    \"writing\": {\n\n      \"summary\": \"Prioritizes clarity, practical usefulness and technical accuracy over unnecessary complexity.\",\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    },\n\n    \"editorialReview\": {\n\n      \"summary\": \"Uses AI to accelerate research and drafting while keeping final editorial decisions, fact-checking and revisions under human control.\",\n\n      \"source\": [\n        \"resume\",\n        \"career_interviews\"\n      ]\n\n    }\n\n  },\n\n  \"knowledgeDeveloped\": [\n\n    {\n\n      \"id\": \"ps-knowledge-004\",\n\n      \"domain\": \"Technical Research\",\n\n      \"summary\": \"Strengthened the ability to become productive in unfamiliar technical domains through structured research.\",\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    },\n\n    {\n\n      \"id\": \"ps-knowledge-005\",\n\n      \"domain\": \"AI-Assisted Writing\",\n\n      \"summary\": \"Developed practical approaches for integrating AI into professional writing workflows without reducing editorial quality.\",\n\n      \"source\": [\n        \"resume\",\n        \"career_interviews\"\n      ]\n\n    },\n\n    {\n\n      \"id\": \"ps-knowledge-006\",\n\n      \"domain\": \"Content Systems\",\n\n      \"summary\": \"Began thinking about content as reusable knowledge rather than isolated deliverables.\",\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    }\n\n  ],\n\n  \"identityEvidence\": [\n\n    {\n\n      \"id\": \"ps-identity-001\",\n\n      \"supportsIdentity\": \"communication-philosophy\",\n\n      \"reason\": \"Reinforced the practice of making complex ideas understandable without sacrificing accuracy.\",\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    },\n\n    {\n\n      \"id\": \"ps-identity-002\",\n\n      \"supportsIdentity\": \"technology-philosophy\",\n\n      \"reason\": \"Strengthened the belief that AI should augment professional judgment rather than replace it.\",\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    },\n\n    {\n\n      \"id\": \"ps-identity-003\",\n\n      \"supportsIdentity\": \"learning-philosophy\",\n\n      \"reason\": \"Daily exposure to emerging technology required continuous self-directed learning.\",\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    }\n\n  ],\n\n  \"futureResumeHighlights\": [\n\n    \"Technical Content Strategy\",\n\n    \"Artificial Intelligence\",\n\n    \"Technical Research\",\n\n    \"Generative Search\",\n\n    \"Editorial Systems\"\n\n  ],\n    \"lessonsLearned\": [\n\n    {\n      \"id\": \"ps-lesson-001\",\n\n      \"lesson\": \"The quality of technical content depends more on understanding the subject than on writing speed.\",\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    },\n\n    {\n\n      \"id\": \"ps-lesson-002\",\n\n      \"lesson\": \"AI creates the most value when integrated into a structured workflow instead of being treated as a standalone tool.\",\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    },\n\n    {\n\n      \"id\": \"ps-lesson-003\",\n\n      \"lesson\": \"Research is an ongoing process that continues throughout writing, editing and review.\",\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    }\n\n  ],\n\n  \"careerEvolution\": {\n\n    \"summary\": \"This role accelerated Riley's evolution from content creator toward AI strategist, workflow designer and knowledge architect.\",\n\n    \"source\": [\n      \"career_interviews\"\n    ]\n\n  },\n\n  \"professionalEvidence\": [\n\n    {\n\n      \"id\": \"ps-evidence-006\",\n\n      \"observation\": \"Evaluated emerging AI technologies through practical day-to-day use rather than theory.\",\n\n      \"supportsCompetencies\": [\n\n        \"Artificial Intelligence\",\n\n        \"Continuous Learning\",\n\n        \"Technology Evaluation\"\n\n      ],\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    },\n\n    {\n\n      \"id\": \"ps-evidence-007\",\n\n      \"observation\": \"Repeatedly developed expertise in unfamiliar technical subjects through structured research before writing.\",\n\n      \"supportsCompetencies\": [\n\n        \"Learning Agility\",\n\n        \"Research\",\n\n        \"Technical Communication\"\n\n      ],\n\n      \"source\": [\n        \"resume\",\n        \"career_interviews\"\n      ]\n\n    },\n\n    {\n\n      \"id\": \"ps-evidence-008\",\n\n      \"observation\": \"Applied the same editorial standards regardless of whether work began with AI assistance or traditional research.\",\n\n      \"supportsCompetencies\": [\n\n        \"Editorial Judgment\",\n\n        \"Professional Integrity\"\n\n      ],\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    }\n\n  ],\n\n  \"decisionExamples\": [\n\n    {\n\n      \"id\": \"ps-decision-001\",\n\n      \"situation\": \"Evaluating whether AI-generated output was ready for publication.\",\n\n      \"decision\": \"Treat AI as a research and drafting assistant while requiring human verification before publication.\",\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    }\n\n  ],\n\n  \"futureInterviewTopics\": [\n\n    \"Learning unfamiliar technologies quickly\",\n\n    \"Building AI-assisted writing workflows\",\n\n    \"Generative search optimization\",\n\n    \"Balancing AI with editorial quality\",\n\n    \"Technical research methodology\"\n\n  ],\n    \"professionalIdentity\": {\n\n    \"roleInCareer\": \"Represents Riley's transition from marketing and content production toward AI-enabled knowledge work.\",\n\n    \"source\": [\n      \"career_interviews\"\n    ]\n\n  },\n\n  \"workingPrinciples\": [\n\n    {\n\n      \"id\": \"ps-principle-001\",\n\n      \"principle\": \"Understand before explaining.\",\n\n      \"application\": \"Research unfamiliar technology thoroughly before creating content.\",\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    },\n\n    {\n\n      \"id\": \"ps-principle-002\",\n\n      \"principle\": \"Human judgment remains the final quality control.\",\n\n      \"application\": \"AI supports drafting and research but does not replace editorial review.\",\n\n      \"source\": [\n        \"resume\",\n        \"career_interviews\"\n      ]\n\n    },\n\n    {\n\n      \"id\": \"ps-principle-003\",\n\n      \"principle\": \"Build reusable systems.\",\n\n      \"application\": \"Continuously improve workflows rather than solving the same problem repeatedly.\",\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    }\n\n  ],\n\n  \"careerMilestones\": [\n\n    {\n\n      \"id\": \"ps-milestone-001\",\n\n      \"milestone\": \"Established AI as a permanent part of daily professional practice.\",\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    },\n\n    {\n\n      \"id\": \"ps-milestone-002\",\n\n      \"milestone\": \"Expanded from writing individual articles to thinking about scalable knowledge systems.\",\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    }\n\n  ],\n\n  \"experienceReflection\": {\n\n    \"summary\": \"This role reinforced that long-term value comes from combining technical curiosity, structured research and editorial judgment with practical AI adoption.\",\n\n    \"source\": [\n      \"career_interviews\"\n    ]\n\n  },\n\n  \"status\": {\n\n    \"layer1\": \"complete\",\n\n    \"layer2\": \"complete\",\n\n    \"layer3\": \"future\",\n\n    \"readyForInterviewGeneration\": true,\n\n    \"readyForResumeGeneration\": true\n\n  }\n    \"projects\": [\n\n    {\n      \"id\": \"jr-project-artist-interviews\",\n\n      \"name\": \"Artist Interviews\",\n\n      \"summary\": \"Conducted interviews with musicians, producers and industry figures for publication across multiple music publications.\",\n\n      \"activities\": [\n\n        \"Research interview subjects.\",\n\n        \"Develop interview questions.\",\n\n        \"Conduct interviews.\",\n\n        \"Write and edit feature articles.\"\n\n      ],\n\n      \"source\": [\n        \"resume\",\n        \"career_interviews\"\n      ]\n\n    },\n\n    {\n\n      \"id\": \"jr-project-album-reviews\",\n\n      \"name\": \"Album Reviews\",\n\n      \"summary\": \"Produced critical reviews covering new music releases across multiple genres.\",\n\n      \"activities\": [\n\n        \"Evaluate new releases.\",\n\n        \"Write editorial reviews.\",\n\n        \"Publish within editorial deadlines.\"\n\n      ],\n\n      \"source\": [\n        \"resume\"\n      ]\n\n    },\n\n    {\n\n      \"id\": \"jr-project-feature-writing\",\n\n      \"name\": \"Editorial Features\",\n\n      \"summary\": \"Researched and wrote long-form stories covering artists, trends and music culture.\",\n\n      \"activities\": [\n\n        \"Pitch story ideas.\",\n\n        \"Research subjects.\",\n\n        \"Develop feature articles.\"\n\n      ],\n\n      \"source\": [\n        \"resume\",\n        \"career_interviews\"\n      ]\n\n    }\n\n  ],\n\n  \"achievements\": [\n\n    {\n\n      \"id\": \"jr-achievement-001\",\n\n      \"title\": \"Published nearly 1,000 articles\",\n\n      \"description\": \"Produced reviews, interviews and editorial features across recognized music publications.\",\n\n      \"source\": [\n        \"resume\"\n      ]\n\n    }\n\n  ],\n\n  \"lessonsLearned\": [\n\n    {\n\n      \"id\": \"jr-lesson-001\",\n\n      \"lesson\": \"The best interviews come from genuine curiosity rather than scripted questions.\",\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    },\n\n    {\n\n      \"id\": \"jr-lesson-002\",\n\n      \"lesson\": \"Strong preparation creates better conversations and better stories.\",\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    }\n\n  ],\n    \"workingStyle\": {\n\n    \"research\": {\n\n      \"summary\": \"Researches subjects thoroughly before interviews to develop informed questions and produce accurate editorial content.\",\n\n      \"source\": [\n        \"resume\",\n        \"career_interviews\"\n      ]\n\n    },\n\n    \"interviewing\": {\n\n      \"summary\": \"Uses conversation and active listening to uncover stories rather than relying solely on prepared questions.\",\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    },\n\n    \"writing\": {\n\n      \"summary\": \"Focuses on clarity, narrative structure and authentic representation of interview subjects.\",\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    }\n\n  },\n\n  \"knowledgeDeveloped\": [\n\n    {\n\n      \"id\": \"jr-knowledge-001\",\n\n      \"domain\": \"Interviewing\",\n\n      \"summary\": \"Developed practical interviewing techniques through conversations with artists and industry professionals.\",\n\n      \"source\": [\n        \"resume\",\n        \"career_interviews\"\n      ]\n\n    },\n\n    {\n\n      \"id\": \"jr-knowledge-002\",\n\n      \"domain\": \"Editorial Judgment\",\n\n      \"summary\": \"Strengthened the ability to identify compelling angles and organize information into engaging stories.\",\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    },\n\n    {\n\n      \"id\": \"jr-knowledge-003\",\n\n      \"domain\": \"Music Journalism\",\n\n      \"summary\": \"Built long-term expertise covering hip-hop, music culture and the creative industries.\",\n\n      \"source\": [\n        \"resume\",\n        \"career_interviews\"\n      ]\n\n    }\n\n  ],\n\n  \"professionalEvidence\": [\n\n    {\n\n      \"id\": \"jr-evidence-003\",\n\n      \"observation\": \"Maintained an active journalism career alongside full-time marketing positions.\",\n\n      \"supportsCompetencies\": [\n\n        \"Writing\",\n\n        \"Professional Discipline\",\n\n        \"Time Management\"\n\n      ],\n\n      \"source\": [\n        \"resume\"\n      ]\n\n    },\n\n    {\n\n      \"id\": \"jr-evidence-004\",\n\n      \"observation\": \"Produced long-form editorial work requiring independent research, interviewing and editing.\",\n\n      \"supportsCompetencies\": [\n\n        \"Research\",\n\n        \"Interviewing\",\n\n        \"Storytelling\"\n\n      ],\n\n      \"source\": [\n        \"resume\",\n        \"career_interviews\"\n      ]\n\n    }\n\n  ],\n\n  \"identityEvidence\": [\n\n    {\n\n      \"id\": \"jr-identity-001\",\n\n      \"supportsIdentity\": \"communication-philosophy\",\n\n      \"reason\": \"Journalism reinforced the importance of understanding people before writing about them.\",\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    },\n\n    {\n\n      \"id\": \"jr-identity-002\",\n\n      \"supportsIdentity\": \"curiosity\",\n\n      \"reason\": \"Professional journalism rewarded preparation, curiosity and thoughtful questioning.\",\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    }\n\n  ],\n\n  \"futureInterviewTopics\": [\n\n    \"Most memorable artist interview\",\n\n    \"How journalism influenced marketing\",\n\n    \"Research process\",\n\n    \"Finding stories others miss\",\n\n    \"Balancing journalism with a full-time career\"\n\n  ],\n    \"careerImpact\": {\n\n    \"summary\": \"Journalism established the research, interviewing and storytelling foundation that continues to influence Riley's marketing, consulting and technical writing career.\",\n\n    \"source\": [\n      \"career_interviews\"\n    ]\n\n  },\n\n  \"workingPrinciples\": [\n\n    {\n\n      \"id\": \"jr-principle-001\",\n\n      \"principle\": \"Research before opinion.\",\n\n      \"application\": \"Develop an informed understanding of the subject before writing or interviewing.\",\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    },\n\n    {\n\n      \"id\": \"jr-principle-002\",\n\n      \"principle\": \"People drive stories.\",\n\n      \"application\": \"Focus on the human perspective instead of simply reporting events or facts.\",\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    },\n\n    {\n\n      \"id\": \"jr-principle-003\",\n\n      \"principle\": \"Preparation creates better conversations.\",\n\n      \"application\": \"Use preparation to ask better questions rather than relying on generic interview scripts.\",\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    }\n\n  ],\n\n  \"professionalEvidence\": [\n\n    {\n\n      \"id\": \"jr-evidence-005\",\n\n      \"observation\": \"Maintained editorial work over multiple years while simultaneously advancing a marketing career.\",\n\n      \"supportsCompetencies\": [\n\n        \"Consistency\",\n\n        \"Writing\",\n\n        \"Professional Development\"\n\n      ],\n\n      \"source\": [\n        \"resume\",\n        \"career_interviews\"\n      ]\n\n    },\n\n    {\n\n      \"id\": \"jr-evidence-006\",\n\n      \"observation\": \"Applied interviewing and research skills across journalism, marketing and technical communication.\",\n\n      \"supportsCompetencies\": [\n\n        \"Knowledge Transfer\",\n\n        \"Communication\",\n\n        \"Research\"\n\n      ],\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    }\n\n  ],\n\n  \"careerMilestones\": [\n\n    {\n\n      \"id\": \"jr-milestone-001\",\n\n      \"milestone\": \"Published work with established North American music publications while building a full-time marketing career.\",\n\n      \"source\": [\n        \"resume\"\n      ]\n\n    }\n\n  ],\n\n  \"experienceReflection\": {\n\n    \"summary\": \"Journalism remained an ongoing professional discipline rather than a separate chapter, continually strengthening research, interviewing and storytelling throughout Riley's career.\",\n\n    \"source\": [\n      \"career_interviews\"\n    ]\n\n  }\n  {\n  \"id\": \"experience-bam\",\n\n  \"provenance\": {\n    \"verifiedEmployment\": true,\n    \"sources\": [\n      \"career_interviews\"\n    ],\n    \"lastReviewed\": \"2026-08-02\"\n  },\n\n  \"company\": {\n    \"name\": \"BAM\",\n    \"industry\": \"Marketing Agency\",\n    \"location\": \"Ontario, Canada\",\n    \"employmentType\": \"Full-time\"\n  },\n\n  \"role\": {\n    \"title\": \"Digital Marketing Specialist\",\n    \"startDate\": \"\",\n    \"endDate\": \"\",\n    \"current\": false\n  },\n\n  \"summary\": \"Supported multiple client accounts across digital marketing, social media and paid advertising during the early growth of social media marketing.\",\n\n  \"verifiedResponsibilities\": [\n\n    {\n      \"id\": \"bam-responsibility-001\",\n\n      \"title\": \"Multi-client Marketing\",\n\n      \"description\": \"Managed digital marketing activities across multiple client accounts.\",\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n    },\n\n    {\n      \"id\": \"bam-responsibility-002\",\n\n      \"title\": \"Social Media Strategy\",\n\n      \"description\": \"Developed and managed social media initiatives for client campaigns.\",\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n    },\n\n    {\n      \"id\": \"bam-responsibility-003\",\n\n      \"title\": \"Paid Social Advertising\",\n\n      \"description\": \"Helped launch Facebook advertising campaigns during the platform's early adoption by businesses.\",\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n    },\n\n    {\n      \"id\": \"bam-responsibility-004\",\n\n      \"title\": \"Client Collaboration\",\n\n      \"description\": \"Worked directly with multiple clients to develop and execute digital marketing initiatives.\",\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n    }\n\n  ],\n\n  \"domains\": [\n\n    \"Agency Marketing\",\n\n    \"Social Media\",\n\n    \"Digital Advertising\",\n\n    \"Client Services\"\n\n  ],\n\n  \"verifiedCompetencies\": [\n\n    {\n      \"id\": \"bam-competency-001\",\n\n      \"name\": \"Client Management\",\n\n      \"confidence\": \"high\",\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n    },\n\n    {\n      \"id\": \"bam-competency-002\",\n\n      \"name\": \"Social Media Marketing\",\n\n      \"confidence\": \"high\",\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n    },\n\n    {\n      \"id\": \"bam-competency-003\",\n\n      \"name\": \"Paid Advertising\",\n\n      \"confidence\": \"high\",\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n    }\n\n  ],\n\n  \"projects\": [],\n\n  \"achievements\": [],\n\n  \"stories\": [],\n\n  \"metrics\": [],\n\n  \"lessonsLearned\": [],\n\n  \"recognition\": []\n\n},\n  \"projects\": [\n\n    {\n      \"id\": \"bam-project-facebook-adoption\",\n\n      \"name\": \"Early Facebook Advertising\",\n\n      \"summary\": \"Helped clients adopt Facebook advertising during the platform's early emergence as a business marketing channel.\",\n\n      \"activities\": [\n\n        \"Develop early social advertising campaigns.\",\n\n        \"Educate clients on emerging social platforms.\",\n\n        \"Integrate paid social into broader digital marketing strategies.\"\n\n      ],\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    },\n\n    {\n\n      \"id\": \"bam-project-client-portfolio\",\n\n      \"name\": \"Multi-Client Digital Marketing\",\n\n      \"summary\": \"Managed digital marketing initiatives across multiple client accounts while balancing different industries, objectives and timelines.\",\n\n      \"activities\": [\n\n        \"Coordinate multiple client priorities.\",\n\n        \"Develop campaign recommendations.\",\n\n        \"Execute digital marketing initiatives.\"\n\n      ],\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    }\n\n  ],\n\n  \"achievements\": [\n\n    {\n\n      \"id\": \"bam-achievement-001\",\n\n      \"title\": \"Early adopter of paid social marketing\",\n\n      \"description\": \"Built practical experience with Facebook advertising while the platform was still emerging as a business marketing channel.\",\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    },\n\n    {\n\n      \"id\": \"bam-achievement-002\",\n\n      \"title\": \"Expanded agency marketing experience\",\n\n      \"description\": \"Developed experience managing multiple clients simultaneously across different industries and marketing objectives.\",\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    }\n\n  ],\n\n  \"lessonsLearned\": [\n\n    {\n\n      \"id\": \"bam-lesson-001\",\n\n      \"lesson\": \"New marketing channels create competitive advantages for organizations willing to experiment early.\",\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    },\n\n    {\n\n      \"id\": \"bam-lesson-002\",\n\n      \"lesson\": \"Agency work develops adaptability because every client has different goals, audiences and constraints.\",\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    }\n\n  ],\n\n  \"professionalEvidence\": [\n\n    {\n\n      \"id\": \"bam-evidence-001\",\n\n      \"observation\": \"Adopted emerging digital marketing platforms early in their commercial lifecycle.\",\n\n      \"supportsCompetencies\": [\n\n        \"Innovation\",\n\n        \"Digital Marketing\",\n\n        \"Learning Agility\"\n\n      ],\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    },\n\n    {\n\n      \"id\": \"bam-evidence-002\",\n\n      \"observation\": \"Balanced multiple client relationships and competing priorities within an agency environment.\",\n\n      \"supportsCompetencies\": [\n\n        \"Client Management\",\n\n        \"Organization\",\n\n        \"Communication\"\n\n      ],\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    }\n\n  ],\n    \"workingStyle\": {\n\n    \"clientApproach\": {\n\n      \"summary\": \"Adapted marketing recommendations to each client's objectives, industry and level of digital maturity.\",\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    },\n\n    \"experimentation\": {\n\n      \"summary\": \"Approached emerging digital platforms with curiosity, testing new ideas while evaluating practical business value.\",\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    },\n\n    \"execution\": {\n\n      \"summary\": \"Balanced strategic thinking with hands-on campaign execution across multiple concurrent client engagements.\",\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    }\n\n  },\n\n  \"knowledgeDeveloped\": [\n\n    {\n\n      \"id\": \"bam-knowledge-001\",\n\n      \"domain\": \"Agency Operations\",\n\n      \"summary\": \"Learned how agencies balance client expectations, timelines and competing priorities across multiple accounts.\",\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    },\n\n    {\n\n      \"id\": \"bam-knowledge-002\",\n\n      \"domain\": \"Emerging Digital Marketing\",\n\n      \"summary\": \"Developed practical experience adopting new digital marketing channels during periods of rapid industry change.\",\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    }\n\n  ],\n\n  \"identityEvidence\": [\n\n    {\n\n      \"id\": \"bam-identity-001\",\n\n      \"supportsIdentity\": \"learning-philosophy\",\n\n      \"reason\": \"Early exposure to rapidly changing marketing technology reinforced continuous learning as a professional habit.\",\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    },\n\n    {\n\n      \"id\": \"bam-identity-002\",\n\n      \"supportsIdentity\": \"communication-philosophy\",\n\n      \"reason\": \"Working with diverse clients strengthened the ability to adapt communication to different audiences and business needs.\",\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    }\n\n  ],\n\n  \"careerImpact\": {\n\n    \"summary\": \"This experience introduced Riley to agency life, accelerated digital marketing skills and established an early pattern of adopting emerging technology before it became mainstream.\",\n\n    \"source\": [\n      \"career_interviews\"\n    ]\n\n  },\n\n  \"futureEnrichment\": {\n\n    \"clientExamples\": [],\n\n    \"campaignExamples\": [],\n\n    \"facebookAdvertisingStories\": [],\n\n    \"mentorInfluence\": [],\n\n    \"careerTurningPoints\": []\n\n  }\n    \"projects\": [\n\n    {\n      \"id\": \"hf-project-social-media\",\n\n      \"name\": \"Early Social Media Strategy\",\n\n      \"summary\": \"Helped establish Harbourfront Centre's early social media presence while digital platforms were becoming important communication channels for arts organizations.\",\n\n      \"activities\": [\n\n        \"Develop social media content.\",\n\n        \"Support audience engagement.\",\n\n        \"Promote cultural programming online.\"\n\n      ],\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    },\n\n    {\n\n      \"id\": \"hf-project-sponsor-campaigns\",\n\n      \"name\": \"Sponsor Communications\",\n\n      \"summary\": \"Supported communications and marketing initiatives connected to major sponsors and public programming.\",\n\n      \"activities\": [\n\n        \"Create marketing content.\",\n\n        \"Support campaign messaging.\",\n\n        \"Coordinate communications across initiatives.\"\n\n      ],\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    },\n\n    {\n\n      \"id\": \"hf-project-artist-stories\",\n\n      \"name\": \"Artist Storytelling\",\n\n      \"summary\": \"Interviewed artists and transformed conversations into engaging editorial stories for public audiences.\",\n\n      \"activities\": [\n\n        \"Research artists.\",\n\n        \"Conduct interviews.\",\n\n        \"Write feature content.\"\n\n      ],\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    }\n\n  ],\n\n  \"achievements\": [\n\n    {\n\n      \"id\": \"hf-achievement-001\",\n\n      \"title\": \"Helped build an early social media presence\",\n\n      \"description\": \"Contributed to Harbourfront Centre's adoption of social media as an audience engagement channel.\",\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    },\n\n    {\n\n      \"id\": \"hf-achievement-002\",\n\n      \"title\": \"Developed professional interviewing skills\",\n\n      \"description\": \"Built confidence interviewing artists and creative professionals while producing editorial content.\",\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    }\n\n  ],\n\n  \"lessonsLearned\": [\n\n    {\n\n      \"id\": \"hf-lesson-001\",\n\n      \"lesson\": \"Strong stories begin with curiosity rather than assumptions.\",\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    },\n\n    {\n\n      \"id\": \"hf-lesson-002\",\n\n      \"lesson\": \"Creative work becomes more meaningful when audiences understand the people behind it.\",\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    }\n\n  ],\n\n  \"professionalEvidence\": [\n\n    {\n\n      \"id\": \"hf-evidence-001\",\n\n      \"observation\": \"Combined journalism, communications and early social media into a single role.\",\n\n      \"supportsCompetencies\": [\n\n        \"Storytelling\",\n\n        \"Interviewing\",\n\n        \"Digital Communication\"\n\n      ],\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    },\n\n    {\n\n      \"id\": \"hf-evidence-002\",\n\n      \"observation\": \"Worked with artists, sponsors and internal stakeholders to communicate complex cultural programming.\",\n\n      \"supportsCompetencies\": [\n\n        \"Stakeholder Communication\",\n\n        \"Editorial Writing\",\n\n        \"Relationship Building\"\n\n      ],\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    }\n\n  ],\n    \"workingStyle\": {\n\n    \"editorialApproach\": {\n\n      \"summary\": \"Focused on finding the story behind each artist, exhibition or event before beginning the writing process.\",\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    },\n\n    \"interviewApproach\": {\n\n      \"summary\": \"Prepared thoroughly before interviews while remaining flexible enough to pursue unexpected stories during conversations.\",\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    },\n\n    \"audienceFocus\": {\n\n      \"summary\": \"Translated arts and cultural programming into language that encouraged public participation without losing the integrity of the work.\",\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    }\n\n  },\n\n  \"knowledgeDeveloped\": [\n\n    {\n\n      \"id\": \"hf-knowledge-001\",\n\n      \"domain\": \"Editorial Storytelling\",\n\n      \"summary\": \"Learned to identify the human story behind events, artists and organizations rather than simply reporting information.\",\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    },\n\n    {\n\n      \"id\": \"hf-knowledge-002\",\n\n      \"domain\": \"Public Communications\",\n\n      \"summary\": \"Developed experience communicating creative work to broad public audiences.\",\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    }\n\n  ],\n\n  \"identityEvidence\": [\n\n    {\n\n      \"id\": \"hf-identity-001\",\n\n      \"supportsIdentity\": \"communication-philosophy\",\n\n      \"reason\": \"Established the habit of understanding people before attempting to communicate their work.\",\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    },\n\n    {\n\n      \"id\": \"hf-identity-002\",\n\n      \"supportsIdentity\": \"curiosity\",\n\n      \"reason\": \"Professional growth came from asking thoughtful questions and exploring unexpected angles.\",\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    }\n\n  ],\n\n  \"careerImpact\": {\n\n    \"summary\": \"This role established the interviewing, research and storytelling skills that later carried into journalism, marketing and technical communication.\",\n\n    \"source\": [\n      \"career_interviews\"\n    ]\n\n  },\n\n  \"futureEnrichment\": {\n\n    \"artistInterviews\": [],\n\n    \"festivalCampaigns\": [],\n\n    \"socialMediaExamples\": [],\n\n    \"sponsorInitiatives\": [],\n\n    \"careerTurningPoints\": []\n\n  }\n    \"decisionExamples\": [\n\n    {\n      \"id\": \"hf-decision-001\",\n\n      \"situation\": \"Writing about artists whose work was unfamiliar.\",\n\n      \"decision\": \"Invested time in research and conversation before writing.\",\n\n      \"result\": \"Produced stories that better reflected the artist's intent and connected with readers.\",\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    },\n\n    {\n\n      \"id\": \"hf-decision-002\",\n\n      \"situation\": \"Balancing organizational messaging with authentic storytelling.\",\n\n      \"decision\": \"Focused on the people behind the programming rather than promotional language alone.\",\n\n      \"result\": \"Created more engaging editorial content.\",\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    }\n\n  ],\n\n  \"professionalEvidence\": [\n\n    {\n\n      \"id\": \"hf-evidence-003\",\n\n      \"observation\": \"Developed confidence speaking with artists and creative professionals.\",\n\n      \"supportsCompetencies\": [\n\n        \"Interviewing\",\n\n        \"Relationship Building\",\n\n        \"Professional Communication\"\n\n      ],\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    },\n\n    {\n\n      \"id\": \"hf-evidence-004\",\n\n      \"observation\": \"Learned to translate specialized creative work into stories accessible to general audiences.\",\n\n      \"supportsCompetencies\": [\n\n        \"Storytelling\",\n\n        \"Audience Communication\",\n\n        \"Editorial Judgment\"\n\n      ],\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    }\n\n  ],\n\n  \"workingPrinciples\": [\n\n    {\n\n      \"id\": \"hf-principle-001\",\n\n      \"principle\": \"Listen first.\",\n\n      \"application\": \"Use interviews to understand the subject before deciding on the story.\",\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    },\n\n    {\n\n      \"id\": \"hf-principle-002\",\n\n      \"principle\": \"Every event has a human story.\",\n\n      \"application\": \"Look beyond schedules and announcements to find what makes the work meaningful.\",\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    }\n\n  ],\n\n  \"careerMilestones\": [\n\n    {\n\n      \"id\": \"hf-milestone-001\",\n\n      \"milestone\": \"Developed the interviewing and storytelling habits that became the foundation of later journalism and marketing roles.\",\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    }\n\n  ],\n\n  \"futureEnrichment\": {\n\n    \"memorableArtistInterviews\": [],\n\n    \"favoritePublishedStories\": [],\n\n    \"earlySocialMediaExamples\": [],\n\n    \"communicationsChallenges\": [],\n\n    \"portfolioArtifacts\": []\n\n  }\n    \"professionalIdentity\": {\n\n    \"roleInCareer\": \"Established the communication, interviewing and storytelling foundation that influenced every subsequent writing and marketing role.\",\n\n    \"source\": [\n      \"career_interviews\"\n    ]\n\n  },\n\n  \"careerEvolution\": {\n\n    \"beforeRole\": {\n\n      \"summary\": \"Early-career communicator developing confidence as a professional writer.\",\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    },\n\n    \"afterRole\": {\n\n      \"summary\": \"Left with stronger interviewing skills, editorial confidence and a lasting interest in finding stories behind people and organizations.\",\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    }\n\n  },\n\n  \"professionalValues\": [\n\n    {\n\n      \"id\": \"hf-value-001\",\n\n      \"value\": \"Authenticity\",\n\n      \"application\": \"Represent people accurately instead of forcing a predetermined narrative.\",\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    },\n\n    {\n\n      \"id\": \"hf-value-002\",\n\n      \"value\": \"Preparation\",\n\n      \"application\": \"Invest time understanding a subject before attempting to explain it.\",\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    },\n\n    {\n\n      \"id\": \"hf-value-003\",\n\n      \"value\": \"Audience Respect\",\n\n      \"application\": \"Write for readers with clarity while respecting the complexity of the subject.\",\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    }\n\n  ],\n\n  \"transferableStrengths\": [\n\n    {\n\n      \"strength\": \"Interviewing\",\n\n      \"carriedInto\": [\n\n        \"Journalism\",\n\n        \"Marketing\",\n\n        \"Technical Writing\",\n\n        \"AI Research\"\n\n      ],\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    },\n\n    {\n\n      \"strength\": \"Story Discovery\",\n\n      \"carriedInto\": [\n\n        \"Content Strategy\",\n\n        \"Brand Marketing\",\n\n        \"Technical Communication\"\n\n      ],\n\n      \"source\": [\n        \"career_interviews\"\n      ]\n\n    }\n\n  ],\n\n  \"experienceReflection\": {\n\n    \"summary\": \"Although later roles became increasingly technical, this experience remained the foundation for Riley's communication style: research deeply, ask thoughtful questions and make complex subjects accessible.\",\n\n    \"source\": [\n      \"career_interviews\"\n    ]\n\n  },\n\n  \"status\": {\n\n    \"layer1\": \"complete\",\n\n    \"layer2\": \"complete\",\n\n    \"readyForResumeGeneration\": true,\n\n    \"readyForInterviewGeneration\": true\n\n  }\n  {\n  \"schemaVersion\": \"1.0\",\n\n  \"achievements\": [\n\n    {\n\n      \"id\": \"achievement-20m-sales\",\n\n      \"title\": \"Supported More Than $20 Million in Sales\",\n\n      \"category\": \"Business Impact\",\n\n      \"organization\": \"Solar Brokers Canada\",\n\n      \"dateRange\": {\n        \"start\": \"2016-08\",\n        \"end\": \"2018-05\"\n      },\n\n      \"summary\": \"Marketing initiatives contributed to more than $20 million in sales during a major retail expansion.\",\n\n      \"evidence\": [\n\n        \"Led digital marketing initiatives.\",\n\n        \"Supported Lowe's retail expansion.\",\n\n        \"Managed large-scale marketing campaigns.\"\n\n      ],\n\n      \"metrics\": {\n\n        \"salesContribution\": \"$20M+\"\n\n      },\n\n      \"competencies\": [\n\n        \"Growth Marketing\",\n\n        \"Digital Marketing\",\n\n        \"Campaign Strategy\"\n\n      ],\n\n      \"verification\": {\n\n        \"status\": \"verified\",\n\n        \"sources\": [\n\n          \"resume\",\n\n          \"career_interviews\"\n\n        ]\n\n      }\n\n    },\n\n    {\n\n      \"id\": \"achievement-1300000-budget\",\n\n      \"title\": \"Managed Approximately $1.3M Annual Marketing Budget\",\n\n      \"category\": \"Leadership\",\n\n      \"organization\": \"Solar Brokers Canada\",\n\n      \"summary\": \"Oversaw approximately $1.3 million in annual marketing investment while leading marketing operations.\",\n\n      \"metrics\": {\n\n        \"annualBudget\": \"$1.3M\"\n\n      },\n\n      \"competencies\": [\n\n        \"Leadership\",\n\n        \"Budget Management\",\n\n        \"Marketing Strategy\"\n\n      ],\n\n      \"verification\": {\n\n        \"status\": \"interview_verified\",\n\n        \"sources\": [\n\n          \"career_interviews\"\n\n        ]\n\n      }\n\n    },\n\n    {\n\n      \"id\": \"achievement-1000-publications\",\n\n      \"title\": \"Published Nearly 1,000 Editorial Pieces\",\n\n      \"category\": \"Writing\",\n\n      \"organization\": \"Journalism\",\n\n      \"summary\": \"Published reviews, interviews and feature stories across established North American music publications.\",\n\n      \"metrics\": {\n\n        \"publishedPieces\": \"Nearly 1,000\"\n\n      },\n\n      \"competencies\": [\n\n        \"Writing\",\n\n        \"Research\",\n\n        \"Interviewing\"\n\n      ],\n\n      \"verification\": {\n\n        \"status\": \"verified\",\n\n        \"sources\": [\n\n          \"resume\"\n\n        ]\n\n      }\n\n    }\n\n  ],\n  \n"
-  }
+  "unmatchedEnrichment": [
+    {
+      "reason": "Cross-experience pattern data (references multiple companies); not specific to a single experience object.",
+      "section": "careerPatterns",
+      "value": [
+        {
+          "id": "career-pattern-ai-adoption",
+          "pattern": "Early AI Adoption",
+          "summary": "Repeatedly adopted emerging AI technologies to improve research, writing and marketing workflows while maintaining human editorial oversight.",
+          "firstObserved": "LendCare",
+          "expandedAt": [
+            "Riley Wallace Creative",
+            "Productive Shop"
+          ],
+          "supportsCompetencies": [
+            "Artificial Intelligence",
+            "Workflow Design",
+            "Continuous Learning"
+          ],
+          "source": [
+            "resume",
+            "career_interviews"
+          ]
+        },
+        {
+          "id": "career-pattern-technical-communication",
+          "pattern": "Technical Translation",
+          "summary": "Career progression shows increasing responsibility for translating increasingly complex topics into accessible communication.",
+          "observedAt": [
+            "LendCare",
+            "Productive Shop"
+          ],
+          "source": [
+            "resume",
+            "career_interviews"
+          ]
+        },
+        {
+          "id": "career-pattern-content-strategy",
+          "pattern": "Content Strategy",
+          "summary": "Progressed from producing marketing content to designing communication strategies and editorial workflows.",
+          "observedAt": [
+            "Solar Brokers Canada",
+            "Polaron Solar Energy",
+            "Riley Wallace Creative",
+            "Productive Shop"
+          ],
+          "source": [
+            "resume",
+            "career_interviews"
+          ]
+        }
+      ]
+    },
+    {
+      "reason": "Third key for Polaron needsExpansion was truncated mid-string (\"organic...\") in the quarantined content and could not be parsed as valid JSON. The two preceding keys (seoCaseStudies, brandConsolidationDetails) were recovered successfully.",
+      "section": "needsExpansion"
+    }
+  ]
 }
