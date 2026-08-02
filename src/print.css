@@ -1,0 +1,67 @@
+/* Loaded after the shared workspace styles so print-only page geometry has one
+   conflict-free source of truth. */
+@media print {
+  html,
+  body,
+  #root,
+  .app-shell {
+    background: white;
+  }
+
+  .workspace,
+  .preview-panel,
+  .preview-stage,
+  .page-scaler {
+    width: auto;
+  }
+
+  .preview-stage {
+    background-color: white !important;
+    background-image: none !important;
+  }
+
+  .page-scaler .resume-page {
+    width: auto;
+    min-height: 0;
+    padding: 0;
+    background: white;
+  }
+
+  /* WebKit clips fragmented grid items instead of continuing them on the next
+     sheet. Use normal block flow for print while preserving the same columns. */
+  .resume-entry {
+    position: relative;
+    display: block;
+    padding-left: 34mm;
+    break-inside: auto;
+    page-break-inside: auto;
+  }
+
+  .resume-entry .entry-meta {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30mm;
+  }
+
+  .resume-entry .entry-content h3,
+  .resume-entry .entry-company,
+  .resume-entry .entry-content li {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  .resume-lower-grid {
+    display: flex;
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  .resume-lower-grid > section:first-child {
+    flex: 1;
+  }
+
+  .resume-lower-grid > section:last-child {
+    flex: 1.25;
+  }
+}
