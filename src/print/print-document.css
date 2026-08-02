@@ -1,0 +1,76 @@
+@page {
+  size: A4;
+  margin: 17mm 17mm 14mm;
+}
+
+.print-document {
+  width: 176mm;
+  margin: 0 auto;
+  background: white;
+}
+
+.print-document .resume-page {
+  display: block;
+  width: auto;
+  min-height: 266mm;
+  height: auto;
+  overflow: visible;
+  padding: 0;
+  background: white;
+  box-shadow: none;
+  transform: none;
+}
+
+@media print {
+  html,
+  body,
+  #root {
+    width: auto;
+    min-width: 0;
+    min-height: 0;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    background: white;
+  }
+
+  .print-document {
+    width: auto;
+    margin: 0;
+    overflow: visible;
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+  }
+
+  .print-document .resume-page {
+    min-height: 0;
+  }
+
+  /* Paged browsers reliably fragment normal block flow. Grid and flex
+     containers can instead become a clipping boundary in WebKit. */
+  .print-document .resume-entry,
+  .print-document .resume-lower-grid {
+    display: block;
+    break-inside: auto;
+    page-break-inside: auto;
+  }
+
+  .print-document .entry-meta {
+    display: block;
+    break-after: avoid;
+    page-break-after: avoid;
+  }
+
+  .print-document .resume-entry h3,
+  .print-document .entry-company,
+  .print-document .resume-entry li,
+  .print-document .education-entry,
+  .print-document .skill-list > div {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  .print-document .resume-lower-grid > section + section {
+    margin-top: 5mm;
+  }
+}
