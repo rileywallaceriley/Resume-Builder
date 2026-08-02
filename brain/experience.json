@@ -338,3 +338,2002 @@
     ]
   }
 }
+{
+  "id": "experience-productive-shop",
+
+  "provenance": {
+    "verifiedEmployment": true,
+    "sources": [
+      "resume",
+      "career_interviews"
+    ],
+    "lastReviewed": "2026-08-02"
+  },
+
+  "company": {
+    "name": "Productive Shop",
+    "industry": "B2B Technology Marketing",
+    "location": "Remote",
+    "employmentType": "Full-time"
+  },
+
+  "role": {
+    "title": "Senior Technology Content Writer",
+    "department": "Content",
+    "startDate": "2024-04",
+    "endDate": null,
+    "current": true
+  },
+
+  "summary": "Develops B2B technology content for clients across cybersecurity, SaaS, fintech, healthcare and industrial AI. Produces technical marketing content that translates complex software topics into practical information for technical, business and operational audiences.",
+
+  "verifiedResponsibilities": [
+
+    {
+      "id": "ps-responsibility-001",
+
+      "title": "Long-form Technology Content",
+
+      "description": "Write articles, landing pages, comparison content and content briefs for multiple B2B technology clients.",
+
+      "source": [
+        "resume"
+      ]
+    },
+
+    {
+      "id": "ps-responsibility-002",
+
+      "title": "Technical Translation",
+
+      "description": "Translate complex software and technology concepts into clear content for technical, business and operational audiences.",
+
+      "source": [
+        "resume"
+      ]
+    },
+
+    {
+      "id": "ps-responsibility-003",
+
+      "title": "SEO Research",
+
+      "description": "Use SEMrush Enterprise to research search intent, audience questions and content opportunities before creating briefs.",
+
+      "source": [
+        "resume"
+      ]
+    },
+
+    {
+      "id": "ps-responsibility-004",
+
+      "title": "Editorial Collaboration",
+
+      "description": "Collaborate with account, SEO and editorial teams to ensure work is accurate, on-brand and delivered on schedule.",
+
+      "source": [
+        "resume"
+      ]
+    },
+
+    {
+      "id": "ps-responsibility-005",
+
+      "title": "AI-aware Content Development",
+
+      "description": "Adapt content for traditional search while incorporating AI-search and GEO best practices where appropriate.",
+
+      "source": [
+        "resume"
+      ]
+    }
+
+  ],
+
+  "industries": [
+
+    "Cybersecurity",
+
+    "SaaS",
+
+    "Fintech",
+
+    "Healthcare",
+
+    "Industrial AI"
+
+  ],
+
+  "tools": [
+
+    "SEMrush Enterprise",
+
+    "ChatGPT",
+
+    "Claude",
+
+    "Perplexity"
+
+  ],
+
+  "status": {
+
+    "projects": "Needs Interview Expansion",
+
+    "achievements": "Needs Interview Expansion",
+
+    "metrics": "Needs Interview Expansion",
+
+    "stories": "Needs Interview Expansion",
+
+    "lessonsLearned": "Needs Interview Expansion"
+
+  },
+    "knowledgeDeveloped": [
+
+    {
+      "id": "ps-knowledge-001",
+
+      "domain": "Artificial Intelligence",
+
+      "summary": "Developed practical knowledge of generative AI through daily research, writing and experimentation while producing technology content.",
+
+      "source": [
+        "career_interviews"
+      ]
+    },
+
+    {
+      "id": "ps-knowledge-002",
+
+      "domain": "AI Search",
+
+      "summary": "Built practical understanding of AI-assisted search, generative search optimization (GEO) and how emerging search behavior changes content strategy.",
+
+      "source": [
+        "resume",
+        "career_interviews"
+      ]
+    },
+
+    {
+      "id": "ps-knowledge-003",
+
+      "domain": "Knowledge Systems",
+
+      "summary": "Began thinking beyond individual articles toward reusable knowledge systems and structured information.",
+
+      "source": [
+        "career_interviews"
+      ]
+    }
+
+  ],
+
+  "professionalGrowth": {
+
+    "beforeRole": {
+
+      "summary": "Experienced marketing writer and copywriter with strong journalism and SEO experience.",
+
+      "source": [
+        "career_interviews"
+      ]
+
+    },
+
+    "afterRole": {
+
+      "summary": "Expanded into AI-focused technical communication, workflow design and knowledge architecture.",
+
+      "source": [
+        "career_interviews"
+      ]
+
+    }
+
+  },
+
+  "verifiedCompetencies": [
+
+    {
+
+      "id": "ps-competency-001",
+
+      "name": "Technical Communication",
+
+      "confidence": "high",
+
+      "evidence": [
+        "Translating complex technology for business audiences."
+      ],
+
+      "source": [
+        "resume"
+      ]
+
+    },
+
+    {
+
+      "id": "ps-competency-002",
+
+      "name": "Research",
+
+      "confidence": "high",
+
+      "evidence": [
+        "Technology research using SEMrush Enterprise and industry sources."
+      ],
+
+      "source": [
+        "resume"
+      ]
+
+    },
+
+    {
+
+      "id": "ps-competency-003",
+
+      "name": "Artificial Intelligence",
+
+      "confidence": "high",
+
+      "evidence": [
+        "Daily use of AI technologies within professional workflows."
+      ],
+
+      "source": [
+        "resume",
+        "career_interviews"
+      ]
+
+    },
+
+    {
+
+      "id": "ps-competency-004",
+
+      "name": "Editorial Collaboration",
+
+      "confidence": "high",
+
+      "evidence": [
+        "Regular collaboration with SEO, editorial and account teams."
+      ],
+
+      "source": [
+        "resume"
+      ]
+
+    }
+
+  ],
+
+  "careerSignificance": {
+
+    "summary": "This role represents Riley's transition from primarily producing content to designing AI-assisted knowledge systems.",
+
+    "source": [
+      "career_interviews"
+    ]
+
+  },
+    "workingStyle": {
+
+    "collaboration": {
+
+      "summary": "Works closely with SEO specialists, editors and account teams to develop accurate, search-informed technology content.",
+
+      "source": [
+        "resume"
+      ]
+
+    },
+
+    "researchApproach": {
+
+      "summary": "Begins projects by understanding search intent, audience questions and technical subject matter before writing.",
+
+      "source": [
+        "resume",
+        "career_interviews"
+      ]
+
+    },
+
+    "editorialApproach": {
+
+      "summary": "Focuses on making complicated technology understandable without sacrificing technical accuracy.",
+
+      "source": [
+        "resume",
+        "career_interviews"
+      ]
+
+    }
+
+  },
+
+  "careerEvolution": {
+
+    "newCapabilities": [
+
+      {
+
+        "id": "ps-growth-001",
+
+        "capability": "AI-assisted content development",
+
+        "source": [
+          "resume",
+          "career_interviews"
+        ]
+
+      },
+
+      {
+
+        "id": "ps-growth-002",
+
+        "capability": "Generative search optimization (GEO)",
+
+        "source": [
+          "resume"
+        ]
+
+      },
+
+      {
+
+        "id": "ps-growth-003",
+
+        "capability": "Technology research",
+
+        "source": [
+          "resume"
+        ]
+
+      },
+
+      {
+
+        "id": "ps-growth-004",
+
+        "capability": "Knowledge architecture",
+
+        "source": [
+          "career_interviews"
+        ]
+
+      }
+
+    ]
+
+  },
+
+  "identityConnections": [
+
+    {
+
+      "identityObject": "technology-philosophy",
+
+      "relationship": "reinforced",
+
+      "reason": "Daily work strengthened the belief that AI should augment human expertise rather than replace it.",
+
+      "source": [
+        "career_interviews"
+      ]
+
+    },
+
+    {
+
+      "identityObject": "communication-philosophy",
+
+      "relationship": "reinforced",
+
+      "reason": "Continued developing the practice of simplifying technical information for diverse audiences.",
+
+      "source": [
+        "resume",
+        "career_interviews"
+      ]
+
+    },
+
+    {
+
+      "identityObject": "learning-philosophy",
+
+      "relationship": "reinforced",
+
+      "reason": "Success required continual learning as AI technologies evolved rapidly.",
+
+      "source": [
+        "career_interviews"
+      ]
+
+    }
+
+  ],
+
+  "needsExpansion": {
+
+    "majorProjects": [],
+
+    "namedClients": [],
+
+    "performanceMetrics": [],
+
+    "articles": [],
+
+    "recognition": [],
+
+    "interviewStories": [],
+
+    "managerFeedback": [],
+
+    "peerFeedback": []
+
+  },
+    "domainExperience": [
+
+    {
+      "id": "ps-domain-001",
+
+      "domain": "Cybersecurity",
+
+      "relationship": "Content Development",
+
+      "description": "Developed technology content within the cybersecurity sector.",
+
+      "source": [
+        "resume"
+      ]
+
+    },
+
+    {
+      "id": "ps-domain-002",
+
+      "domain": "Software as a Service (SaaS)",
+
+      "relationship": "Content Development",
+
+      "description": "Created content explaining SaaS products and technology solutions.",
+
+      "source": [
+        "resume"
+      ]
+
+    },
+
+    {
+      "id": "ps-domain-003",
+
+      "domain": "Financial Technology",
+
+      "relationship": "Content Development",
+
+      "description": "Produced technology content supporting fintech clients.",
+
+      "source": [
+        "resume"
+      ]
+
+    },
+
+    {
+      "id": "ps-domain-004",
+
+      "domain": "Healthcare Technology",
+
+      "relationship": "Content Development",
+
+      "description": "Created technical marketing content for healthcare-related technology.",
+
+      "source": [
+        "resume"
+      ]
+
+    },
+
+    {
+      "id": "ps-domain-005",
+
+      "domain": "Industrial AI",
+
+      "relationship": "Content Development",
+
+      "description": "Developed educational content covering industrial artificial intelligence.",
+
+      "source": [
+        "resume"
+      ]
+
+    }
+
+  ],
+
+  "writingFormats": [
+
+    {
+
+      "id": "ps-format-001",
+
+      "format": "Articles",
+
+      "verified": true,
+
+      "source": [
+        "resume"
+      ]
+
+    },
+
+    {
+
+      "id": "ps-format-002",
+
+      "format": "Landing Pages",
+
+      "verified": true,
+
+      "source": [
+        "resume"
+      ]
+
+    },
+
+    {
+
+      "id": "ps-format-003",
+
+      "format": "Content Briefs",
+
+      "verified": true,
+
+      "source": [
+        "resume"
+      ]
+
+    },
+
+    {
+
+      "id": "ps-format-004",
+
+      "format": "Comparison Content",
+
+      "verified": true,
+
+      "source": [
+        "resume"
+      ]
+
+    }
+
+  ],
+
+  "audiencesServed": [
+
+    {
+
+      "audience": "Technical",
+
+      "source": [
+        "resume"
+      ]
+
+    },
+
+    {
+
+      "audience": "Business",
+
+      "source": [
+        "resume"
+      ]
+
+    },
+
+    {
+
+      "audience": "Operational",
+
+      "source": [
+        "resume"
+      ]
+
+    }
+
+  ],
+
+  "professionalEvidence": [
+
+    {
+
+      "id": "ps-evidence-001",
+
+      "observation": "Regularly translates complex technical information into practical content.",
+
+      "supportsCompetencies": [
+
+        "Technical Communication",
+
+        "Research",
+
+        "Writing"
+
+      ],
+
+      "source": [
+        "resume"
+      ]
+
+    },
+
+    {
+
+      "id": "ps-evidence-002",
+
+      "observation": "Uses structured research before creating content.",
+
+      "supportsCompetencies": [
+
+        "SEO",
+
+        "Research",
+
+        "Audience Analysis"
+
+      ],
+
+      "source": [
+        "resume"
+      ]
+
+    },
+
+    {
+
+      "id": "ps-evidence-003",
+
+      "observation": "Works across multiple industries without specializing in only one vertical.",
+
+      "supportsCompetencies": [
+
+        "Adaptability",
+
+        "Learning Agility"
+
+      ],
+
+      "source": [
+        "resume"
+      ]
+
+    }
+
+  ],
+  {
+  "id": "experience-riley-wallace-creative",
+
+  "provenance": {
+    "verifiedEmployment": true,
+    "sources": [
+      "resume",
+      "career_interviews"
+    ],
+    "lastReviewed": "2026-08-02"
+  },
+
+  "company": {
+    "name": "Riley Wallace Creative",
+    "industry": "Marketing and Communications",
+    "location": "Toronto, Ontario, Canada",
+    "employmentType": "Consulting"
+  },
+
+  "role": {
+    "title": "Marketing Communications Consultant",
+    "startDate": "2018-05",
+    "endDate": null,
+    "current": true
+  },
+
+  "summary": "Provides marketing communications consulting for B2B and B2C organizations through content strategy, campaign planning, content creation and AI-assisted workflow development.",
+
+  "verifiedResponsibilities": [
+
+    {
+      "id": "rwc-responsibility-001",
+
+      "title": "Content Strategy",
+
+      "description": "Develop social media and content strategies for B2B and B2C clients.",
+
+      "source": [
+        "resume"
+      ]
+    },
+
+    {
+      "id": "rwc-responsibility-002",
+
+      "title": "Campaign Planning",
+
+      "description": "Develop campaign plans and channel-specific messaging.",
+
+      "source": [
+        "resume"
+      ]
+    },
+
+    {
+      "id": "rwc-responsibility-003",
+
+      "title": "Creative Development",
+
+      "description": "Create and adapt web, email and social content while supporting visual execution using Adobe Creative Suite.",
+
+      "source": [
+        "resume"
+      ]
+    },
+
+    {
+      "id": "rwc-responsibility-004",
+
+      "title": "AI Workflow Development",
+
+      "description": "Build n8n workflows using Claude, GPT and Perplexity to support research and repetitive work while keeping writing, fact-checking and editorial judgment human.",
+
+      "source": [
+        "resume"
+      ]
+    }
+
+  ],
+
+  "domains": [
+
+    "B2B Marketing",
+
+    "B2C Marketing",
+
+    "Content Strategy",
+
+    "Marketing Communications"
+
+  ],
+
+  "tools": [
+
+    "Adobe Creative Suite",
+
+    "n8n",
+
+    "Claude",
+
+    "ChatGPT",
+
+    "Perplexity"
+
+  ],
+
+  "deliverables": [
+
+    "Web Content",
+
+    "Email",
+
+    "Social Media",
+
+    "Campaign Messaging",
+
+    "Creative Assets"
+
+  ],
+
+  "status": {
+
+    "projects": "Needs Interview Expansion",
+
+    "clients": "Needs Interview Expansion",
+
+    "achievements": "Needs Interview Expansion",
+
+    "metrics": "Needs Interview Expansion",
+
+    "stories": "Needs Interview Expansion"
+
+  }
+},
+  "verifiedCompetencies": [
+
+    {
+      "id": "rwc-competency-001",
+
+      "name": "Content Strategy",
+
+      "confidence": "high",
+
+      "evidence": [
+        "Develops social media and content strategies for B2B and B2C clients."
+      ],
+
+      "source": [
+        "resume"
+      ]
+    },
+
+    {
+      "id": "rwc-competency-002",
+
+      "name": "Marketing Communications",
+
+      "confidence": "high",
+
+      "evidence": [
+        "Develops campaign planning and channel-specific messaging."
+      ],
+
+      "source": [
+        "resume"
+      ]
+    },
+
+    {
+      "id": "rwc-competency-003",
+
+      "name": "AI Workflow Development",
+
+      "confidence": "high",
+
+      "evidence": [
+        "Builds n8n workflows using Claude, GPT and Perplexity."
+      ],
+
+      "source": [
+        "resume"
+      ]
+    },
+
+    {
+      "id": "rwc-competency-004",
+
+      "name": "Editorial Review",
+
+      "confidence": "high",
+
+      "evidence": [
+        "Maintains human writing, fact-checking and editorial judgment while using AI."
+      ],
+
+      "source": [
+        "resume"
+      ]
+    }
+
+  ],
+
+  "workingStyle": {
+
+    "planning": {
+
+      "summary": "Develops communication strategies before creating content.",
+
+      "source": [
+        "resume"
+      ]
+
+    },
+
+    "execution": {
+
+      "summary": "Creates content across web, email and social channels while supporting visual execution.",
+
+      "source": [
+        "resume"
+      ]
+
+    },
+
+    "aiUsage": {
+
+      "summary": "Uses AI to accelerate research and repetitive work while preserving human editorial responsibility.",
+
+      "source": [
+        "resume",
+        "career_interviews"
+      ]
+
+    }
+
+  },
+
+  "professionalEvidence": [
+
+    {
+
+      "id": "rwc-evidence-001",
+
+      "observation": "Works across both B2B and B2C marketing environments.",
+
+      "supportsCompetencies": [
+
+        "Adaptability",
+
+        "Marketing Communications"
+
+      ],
+
+      "source": [
+        "resume"
+      ]
+
+    },
+
+    {
+
+      "id": "rwc-evidence-002",
+
+      "observation": "Combines content strategy with hands-on execution.",
+
+      "supportsCompetencies": [
+
+        "Content Strategy",
+
+        "Execution"
+
+      ],
+
+      "source": [
+        "resume"
+      ]
+
+    },
+
+    {
+
+      "id": "rwc-evidence-003",
+
+      "observation": "Integrates AI into production workflows without removing human editorial oversight.",
+
+      "supportsCompetencies": [
+
+        "AI Adoption",
+
+        "Editorial Judgment"
+
+      ],
+
+      "source": [
+        "resume",
+        "career_interviews"
+      ]
+
+    }
+
+  ],
+
+  "identityConnections": [
+
+    {
+
+      "identityObject": "technology-philosophy",
+
+      "relationship": "reinforced",
+
+      "source": [
+        "career_interviews"
+      ]
+
+    },
+
+    {
+
+      "identityObject": "communication-philosophy",
+
+      "relationship": "reinforced",
+
+      "source": [
+        "resume",
+        "career_interviews"
+      ]
+
+    }
+
+  ],
+
+  "needsExpansion": {
+
+    "clientProfiles": [],
+
+    "campaignExamples": [],
+
+    "workflowExamples": [],
+
+    "automationExamples": [],
+
+    "majorWins": [],
+
+    "metrics": [],
+
+    "stories": []
+
+  }
+  {
+  "id": "experience-lendcare",
+
+  "provenance": {
+    "verifiedEmployment": true,
+    "sources": [
+      "resume",
+      "career_interviews"
+    ],
+    "lastReviewed": "2026-08-02"
+  },
+
+  "company": {
+    "name": "LendCare",
+    "industry": "Financial Technology",
+    "location": "Pickering, Ontario, Canada",
+    "employmentType": "Full-time"
+  },
+
+  "role": {
+    "title": "Copywriter",
+    "startDate": "2022-05",
+    "endDate": "2024-04",
+    "current": false
+  },
+
+  "summary": "Produced marketing content supporting both B2B and B2C audiences for a Canadian consumer finance company while introducing AI-assisted editorial workflows.",
+
+  "verifiedResponsibilities": [
+
+    {
+      "id": "lc-responsibility-001",
+
+      "title": "Marketing Content",
+
+      "description": "Produced content across websites, email and corporate communication channels.",
+
+      "source": [
+        "resume"
+      ]
+    },
+
+    {
+      "id": "lc-responsibility-002",
+
+      "title": "Audience Adaptation",
+
+      "description": "Created content for both business and consumer audiences.",
+
+      "source": [
+        "resume"
+      ]
+    },
+
+    {
+      "id": "lc-responsibility-003",
+
+      "title": "AI Workflow Adoption",
+
+      "description": "Introduced LLM-assisted workflows to improve content production while maintaining editorial review and brand consistency.",
+
+      "source": [
+        "resume"
+      ]
+    }
+
+  ],
+
+  "domains": [
+
+    "Financial Technology",
+
+    "Consumer Finance",
+
+    "Marketing Communications"
+
+  ],
+
+  "channels": [
+
+    "Website",
+
+    "Email",
+
+    "Corporate Communications"
+
+  ],
+
+  "verifiedCompetencies": [
+
+    {
+      "id": "lc-competency-001",
+
+      "name": "Copywriting",
+
+      "confidence": "high",
+
+      "source": [
+        "resume"
+      ]
+    },
+
+    {
+      "id": "lc-competency-002",
+
+      "name": "Audience Adaptation",
+
+      "confidence": "high",
+
+      "source": [
+        "resume"
+      ]
+    },
+
+    {
+      "id": "lc-competency-003",
+
+      "name": "AI Workflow Adoption",
+
+      "confidence": "high",
+
+      "source": [
+        "resume",
+        "career_interviews"
+      ]
+    }
+
+  ],
+
+  "professionalEvidence": [
+
+    {
+      "id": "lc-evidence-001",
+
+      "observation": "Worked across both B2B and B2C communication.",
+
+      "supportsCompetencies": [
+
+        "Marketing",
+
+        "Communication"
+
+      ],
+
+      "source": [
+        "resume"
+      ]
+    },
+
+    {
+      "id": "lc-evidence-002",
+
+      "observation": "Introduced AI-assisted workflows while preserving human editorial review.",
+
+      "supportsCompetencies": [
+
+        "AI Adoption",
+
+        "Editorial Judgment"
+
+      ],
+
+      "source": [
+        "resume",
+        "career_interviews"
+      ]
+    }
+
+  ],
+
+  "projects": [],
+
+  "achievements": [],
+
+  "metrics": [],
+
+  "stories": [],
+
+  "lessonsLearned": [],
+
+  "recognition": []
+
+},
+{
+  "id": "experience-polaron",
+
+  "provenance": {
+    "verifiedEmployment": true,
+    "sources": [
+      "resume",
+      "career_interviews"
+    ],
+    "lastReviewed": "2026-08-02"
+  },
+
+  "company": {
+    "name": "Polaron Solar Energy",
+    "industry": "Renewable Energy",
+    "location": "Canada",
+    "employmentType": "Consulting"
+  },
+
+  "role": {
+    "title": "Marketing Consultant",
+    "startDate": "2020-01",
+    "endDate": "2022-11",
+    "current": false
+  },
+
+  "summary": "Led SEO and web content strategy supporting one of Canada's largest residential solar installers while contributing to brand consolidation and digital marketing initiatives.",
+
+  "verifiedResponsibilities": [
+
+    {
+      "id": "pol-responsibility-001",
+
+      "title": "SEO Strategy",
+
+      "description": "Led SEO strategy supporting residential solar markets across Ontario.",
+
+      "source": [
+        "resume"
+      ]
+    },
+
+    {
+      "id": "pol-responsibility-002",
+
+      "title": "Web Content",
+
+      "description": "Developed web content supporting digital marketing initiatives.",
+
+      "source": [
+        "resume"
+      ]
+    },
+
+    {
+      "id": "pol-responsibility-003",
+
+      "title": "Brand Consolidation",
+
+      "description": "Supported brand consolidation initiatives through marketing communications and content.",
+
+      "source": [
+        "resume"
+      ]
+    }
+
+  ],
+
+  "domains": [
+
+    "Renewable Energy",
+
+    "Residential Solar",
+
+    "Digital Marketing",
+
+    "SEO"
+
+  ],
+
+  "verifiedCompetencies": [
+
+    {
+      "id": "pol-competency-001",
+
+      "name": "SEO",
+
+      "confidence": "high",
+
+      "source": [
+        "resume"
+      ]
+    },
+
+    {
+      "id": "pol-competency-002",
+
+      "name": "Content Strategy",
+
+      "confidence": "high",
+
+      "source": [
+        "resume"
+      ]
+    },
+
+    {
+      "id": "pol-competency-003",
+
+      "name": "Brand Communications",
+
+      "confidence": "high",
+
+      "source": [
+        "resume"
+      ]
+    }
+
+  ],
+
+  "professionalEvidence": [
+
+    {
+      "id": "pol-evidence-001",
+
+      "observation": "Led SEO strategy supporting competitive regional markets.",
+
+      "supportsCompetencies": [
+
+        "SEO",
+
+        "Strategic Marketing"
+
+      ],
+
+      "source": [
+        "resume"
+      ]
+    },
+
+    {
+      "id": "pol-evidence-002",
+
+      "observation": "Contributed to brand consolidation initiatives.",
+
+      "supportsCompetencies": [
+
+        "Brand Strategy",
+
+        "Marketing Communications"
+
+      ],
+
+      "source": [
+        "resume"
+      ]
+    }
+
+  ],
+
+  "projects": [],
+
+  "achievements": [],
+
+  "metrics": [],
+
+  "stories": [],
+
+  "lessonsLearned": [],
+
+  "recognition": []
+
+},
+{
+  "id": "experience-intelligent-properties",
+
+  "provenance": {
+    "verifiedEmployment": true,
+    "sources": [
+      "resume",
+      "career_interviews"
+    ],
+    "lastReviewed": "2026-08-02"
+  },
+
+  "company": {
+    "name": "Intelligent Properties",
+    "industry": "Real Estate",
+    "location": "Canada",
+    "employmentType": "Full-time"
+  },
+
+  "role": {
+    "title": "Marketing Director",
+    "startDate": "2018-09",
+    "endDate": "2020-01",
+    "current": false
+  },
+
+  "summary": "Directed digital marketing, brand communications and lead generation initiatives across paid, organic and social channels.",
+
+  "verifiedResponsibilities": [
+
+    {
+      "id": "ip-responsibility-001",
+
+      "title": "Marketing Leadership",
+
+      "description": "Directed digital marketing initiatives across multiple channels.",
+
+      "source": [
+        "resume"
+      ]
+    },
+
+    {
+      "id": "ip-responsibility-002",
+
+      "title": "Lead Generation",
+
+      "description": "Supported lead generation through digital marketing campaigns.",
+
+      "source": [
+        "resume"
+      ]
+    },
+
+    {
+      "id": "ip-responsibility-003",
+
+      "title": "Brand Communications",
+
+      "description": "Developed brand communication strategies and campaign messaging.",
+
+      "source": [
+        "resume"
+      ]
+    },
+
+    {
+      "id": "ip-responsibility-004",
+
+      "title": "Campaign Execution",
+
+      "description": "Executed paid, organic and social marketing campaigns.",
+
+      "source": [
+        "resume"
+      ]
+    }
+
+  ],
+
+  "marketingChannels": [
+
+    "Paid Media",
+
+    "Organic Search",
+
+    "Social Media"
+
+  ],
+
+  "verifiedCompetencies": [
+
+    {
+      "id": "ip-competency-001",
+
+      "name": "Digital Marketing",
+
+      "confidence": "high",
+
+      "source": [
+        "resume"
+      ]
+    },
+
+    {
+      "id": "ip-competency-002",
+
+      "name": "Lead Generation",
+
+      "confidence": "high",
+
+      "source": [
+        "resume"
+      ]
+    },
+
+    {
+      "id": "ip-competency-003",
+
+      "name": "Brand Communications",
+
+      "confidence": "high",
+
+      "source": [
+        "resume"
+      ]
+    },
+
+    {
+      "id": "ip-competency-004",
+
+      "name": "Campaign Management",
+
+      "confidence": "high",
+
+      "source": [
+        "resume"
+      ]
+    }
+
+  ],
+
+  "professionalEvidence": [
+
+    {
+      "id": "ip-evidence-001",
+
+      "observation": "Led marketing activities across multiple acquisition channels.",
+
+      "supportsCompetencies": [
+
+        "Digital Marketing",
+
+        "Campaign Management"
+
+      ],
+
+      "source": [
+        "resume"
+      ]
+    },
+
+    {
+      "id": "ip-evidence-002",
+
+      "observation": "Combined brand communications with demand generation responsibilities.",
+
+      "supportsCompetencies": [
+
+        "Brand Strategy",
+
+        "Lead Generation"
+
+      ],
+
+      "source": [
+        "resume"
+      ]
+    }
+
+  ],
+
+  "projects": [],
+
+  "achievements": [],
+
+  "metrics": [],
+
+  "stories": [],
+
+  "lessonsLearned": [],
+
+  "recognition": []
+
+},
+{
+  "id": "experience-solar-brokers-canada",
+
+  "provenance": {
+    "verifiedEmployment": true,
+    "sources": [
+      "resume",
+      "career_interviews"
+    ],
+    "lastReviewed": "2026-08-02"
+  },
+
+  "company": {
+    "name": "Solar Brokers Canada",
+    "industry": "Renewable Energy",
+    "location": "Canada",
+    "employmentType": "Full-time"
+  },
+
+  "role": {
+    "title": "Marketing Manager",
+    "startDate": "2016-08",
+    "endDate": "2018-05",
+    "current": false
+  },
+
+  "summary": "Led the marketing department for a national solar provider, overseeing digital marketing initiatives, departmental operations and campaign execution that contributed to business growth.",
+
+  "verifiedResponsibilities": [
+
+    {
+      "id": "sbc-responsibility-001",
+
+      "title": "Marketing Leadership",
+
+      "description": "Led the marketing department for a national solar provider.",
+
+      "source": [
+        "resume"
+      ]
+    },
+
+    {
+      "id": "sbc-responsibility-002",
+
+      "title": "Budget Management",
+
+      "description": "Oversaw a multimillion-dollar marketing budget.",
+
+      "source": [
+        "resume"
+      ]
+    },
+
+    {
+      "id": "sbc-responsibility-003",
+
+      "title": "Campaign Management",
+
+      "description": "Managed digital marketing campaigns across multiple channels.",
+
+      "source": [
+        "resume"
+      ]
+    }
+
+  ],
+
+  "verifiedOutcomes": [
+
+    {
+      "id": "sbc-outcome-001",
+
+      "description": "Contributed to more than $20 million in sales through digital marketing campaigns.",
+
+      "source": [
+        "resume"
+      ]
+    }
+
+  ],
+
+  "verifiedCompetencies": [
+
+    {
+      "id": "sbc-competency-001",
+
+      "name": "Marketing Leadership",
+
+      "confidence": "high",
+
+      "source": [
+        "resume"
+      ]
+    },
+
+    {
+      "id": "sbc-competency-002",
+
+      "name": "Budget Management",
+
+      "confidence": "high",
+
+      "source": [
+        "resume"
+      ]
+    },
+
+    {
+      "id": "sbc-competency-003",
+
+      "name": "Digital Marketing",
+
+      "confidence": "high",
+
+      "source": [
+        "resume"
+      ]
+    },
+
+    {
+      "id": "sbc-competency-004",
+
+      "name": "Campaign Strategy",
+
+      "confidence": "high",
+
+      "source": [
+        "resume"
+      ]
+    }
+
+  ],
+
+  "professionalEvidence": [
+
+    {
+      "id": "sbc-evidence-001",
+
+      "observation": "Managed marketing operations at the departmental level.",
+
+      "supportsCompetencies": [
+
+        "Leadership",
+
+        "Planning",
+
+        "Execution"
+
+      ],
+
+      "source": [
+        "resume"
+      ]
+    },
+
+    {
+      "id": "sbc-evidence-002",
+
+      "observation": "Responsible for significant marketing investment.",
+
+      "supportsCompetencies": [
+
+        "Financial Responsibility",
+
+        "Decision Making"
+
+      ],
+
+      "source": [
+        "resume"
+      ]
+    },
+
+    {
+      "id": "sbc-evidence-003",
+
+      "observation": "Marketing initiatives contributed to more than $20M in sales.",
+
+      "supportsCompetencies": [
+
+        "Business Impact",
+
+        "Marketing Effectiveness"
+
+      ],
+
+      "source": [
+        "resume"
+      ]
+    }
+
+  ],
+
+  "projects": [],
+
+  "achievements": [],
+
+  "metrics": [],
+
+  "stories": [],
+
+  "lessonsLearned": [],
+
+  "recognition": []
+
+},
+{
+  "id": "experience-journalism",
+
+  "provenance": {
+    "verifiedEmployment": true,
+    "sources": [
+      "resume",
+      "career_interviews"
+    ],
+    "lastReviewed": "2026-08-02"
+  },
+
+  "company": {
+    "name": "Exclaim! Magazine / HipHopDX / XXL Magazine",
+    "industry": "Digital Publishing and Journalism",
+    "employmentType": "Freelance"
+  },
+
+  "role": {
+    "title": "Journalist and Contributing Writer",
+    "startDate": "2016",
+    "endDate": null,
+    "current": true
+  },
+
+  "summary": "Publishes interviews, reviews and feature stories for music publications while continuing independent editorial work alongside marketing roles.",
+
+  "verifiedResponsibilities": [
+
+    {
+      "id": "jr-responsibility-001",
+
+      "title": "Feature Writing",
+
+      "description": "Research and write original feature stories.",
+
+      "source": [
+        "resume"
+      ]
+    },
+
+    {
+      "id": "jr-responsibility-002",
+
+      "title": "Interviewing",
+
+      "description": "Conduct interviews for editorial publications.",
+
+      "source": [
+        "resume"
+      ]
+    },
+
+    {
+      "id": "jr-responsibility-003",
+
+      "title": "Editorial Research",
+
+      "description": "Pitch, research and develop original story ideas.",
+
+      "source": [
+        "resume"
+      ]
+    },
+
+    {
+      "id": "jr-responsibility-004",
+
+      "title": "Audience Adaptation",
+
+      "description": "Adapt voice, tone and structure for different editorial audiences.",
+
+      "source": [
+        "resume"
+      ]
+    }
+
+  ],
+
+  "verifiedOutcomes": [
+
+    {
+      "id": "jr-outcome-001",
+
+      "description": "Published nearly 1,000 reviews, interviews and feature stories.",
+
+      "source": [
+        "resume"
+      ]
+    }
+
+  ],
+
+  "publications": [
+
+    "Exclaim! Magazine",
+
+    "HipHopDX",
+
+    "XXL Magazine"
+
+  ],
+
+  "verifiedCompetencies": [
+
+    {
+      "id": "jr-competency-001",
+
+      "name": "Journalism",
+
+      "confidence": "high",
+
+      "source": [
+        "resume"
+      ]
+    },
+
+    {
+      "id": "jr-competency-002",
+
+      "name": "Interviewing",
+
+      "confidence": "high",
+
+      "source": [
+        "resume"
+      ]
+    },
+
+    {
+      "id": "jr-competency-003",
+
+      "name": "Feature Writing",
+
+      "confidence": "high",
+
+      "source": [
+        "resume"
+      ]
+    },
+
+    {
+      "id": "jr-competency-004",
+
+      "name": "Editorial Research",
+
+      "confidence": "high",
+
+      "source": [
+        "resume"
+      ]
+    }
+
+  ],
+
+  "professionalEvidence": [
+
+    {
+      "id": "jr-evidence-001",
+
+      "observation": "Maintained an active journalism career while working in marketing.",
+
+      "supportsCompetencies": [
+
+        "Writing",
+
+        "Time Management",
+
+        "Professional Discipline"
+
+      ],
+
+      "source": [
+        "resume"
+      ]
+    },
+
+    {
+      "id": "jr-evidence-002",
+
+      "observation": "Published work across multiple recognized North American music publications.",
+
+      "supportsCompetencies": [
+
+        "Editorial Quality",
+
+        "Storytelling"
+
+      ],
+
+      "source": [
+        "resume"
+      ]
+    }
+
+  ],
+
+  "projects": [],
+
+  "achievements": [],
+
+  "metrics": [],
+
+  "stories": [],
+
+  "lessonsLearned": [],
+
+  "recognition": []
+
+}
+
