@@ -17,6 +17,7 @@ describe('App', () => {
 
   it('exports through an independent print document', () => {
     const open = vi.spyOn(window, 'open').mockImplementation(() => null)
+    const print = vi.spyOn(window, 'print').mockImplementation(() => undefined)
     render(<App />)
 
     screen.getByRole('button', { name: /export pdf/i }).click()
@@ -28,5 +29,6 @@ describe('App', () => {
     expect(new URL(String(url)).searchParams.get('accent')).toBe('#B65A3A')
     expect(target).toBe('_blank')
     expect(features).toBe('noopener,noreferrer')
+    expect(print).not.toHaveBeenCalled()
   })
 })
