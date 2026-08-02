@@ -1,0 +1,107 @@
+{
+  "_comment": "Canonical capabilities and supporting evidence.",
+  "schemaVersion": "1.0.0",
+  "schema": {
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "career-engine/knowledge-base/skills.json.schema.json",
+    "title": "Skills",
+    "description": "Canonical capabilities and supporting evidence.",
+    "type": "array",
+    "items": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "category": {
+          "type": "string"
+        },
+        "proficiency": {
+          "type": "string"
+        },
+        "yearsExperience": {
+          "type": "number"
+        },
+        "lastUsed": {
+          "type": "string"
+        },
+        "evidence": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "relatedSkills": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "keywords": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "interestLevel": {
+          "type": "string"
+        },
+        "_comment": {
+          "type": "string",
+          "description": "Inline documentation; not career data."
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "category",
+        "proficiency",
+        "yearsExperience",
+        "lastUsed",
+        "evidence",
+        "relatedSkills",
+        "keywords",
+        "interestLevel",
+        "_comment"
+      ]
+    }
+  },
+  "data": [],
+  "_template": {
+    "_comment": "Canonical skill taxonomy; evidence links prevent unsupported claims.",
+    "id": "",
+    "name": "",
+    "category": "",
+    "proficiency": "",
+    "yearsExperience": 0,
+    "lastUsed": "",
+    "evidence": [],
+    "relatedSkills": [],
+    "keywords": [],
+    "interestLevel": ""
+  },
+  "_example": {
+    "_comment": "Canonical skill taxonomy; evidence links prevent unsupported claims.",
+    "id": "skill-example",
+    "name": "Example Skill",
+    "category": "functional",
+    "proficiency": "advanced",
+    "yearsExperience": 5,
+    "lastUsed": "2025-01",
+    "evidence": [
+      "achievement-example",
+      "project-example"
+    ],
+    "relatedSkills": [
+      "skill-related"
+    ],
+    "keywords": [
+      "Example synonym"
+    ],
+    "interestLevel": "high"
+  }
+}

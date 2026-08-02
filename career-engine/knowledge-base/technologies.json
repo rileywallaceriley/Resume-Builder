@@ -1,0 +1,122 @@
+{
+  "_comment": "Technology proficiency, recency, and evidence.",
+  "schemaVersion": "1.0.0",
+  "schema": {
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "career-engine/knowledge-base/technologies.json.schema.json",
+    "title": "Technologies",
+    "description": "Technology proficiency, recency, and evidence.",
+    "type": "array",
+    "items": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "category": {
+          "type": "string"
+        },
+        "proficiency": {
+          "type": "string"
+        },
+        "yearsExperience": {
+          "type": "number"
+        },
+        "lastUsed": {
+          "type": "string"
+        },
+        "versions": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "useCases": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "relatedProjects": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "relatedExperiences": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "certifications": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "_comment": {
+          "type": "string",
+          "description": "Inline documentation; not career data."
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "category",
+        "proficiency",
+        "yearsExperience",
+        "lastUsed",
+        "versions",
+        "useCases",
+        "relatedProjects",
+        "relatedExperiences",
+        "certifications",
+        "_comment"
+      ]
+    }
+  },
+  "data": [],
+  "_template": {
+    "_comment": "Tools, platforms, languages, and frameworks with evidence and recency.",
+    "id": "",
+    "name": "",
+    "category": "",
+    "proficiency": "",
+    "yearsExperience": 0,
+    "lastUsed": "",
+    "versions": [],
+    "useCases": [],
+    "relatedProjects": [],
+    "relatedExperiences": [],
+    "certifications": []
+  },
+  "_example": {
+    "_comment": "Tools, platforms, languages, and frameworks with evidence and recency.",
+    "id": "technology-example",
+    "name": "Example Technology",
+    "category": "platform",
+    "proficiency": "advanced",
+    "yearsExperience": 4,
+    "lastUsed": "2025-01",
+    "versions": [
+      "1.x"
+    ],
+    "useCases": [
+      "Example use case"
+    ],
+    "relatedProjects": [
+      "project-example"
+    ],
+    "relatedExperiences": [
+      "exp-example"
+    ],
+    "certifications": [
+      "education-example"
+    ]
+  }
+}
