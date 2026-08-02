@@ -1,0 +1,246 @@
+{
+  "_meta": {
+    "version": "2.0.0",
+    "description": "Employer-independent initiatives, decisions, methods, results, and lessons.",
+    "lastUpdated": "",
+    "tags": [
+      "brain-module",
+      "project"
+    ],
+    "related": [
+      "brain/experience.json",
+      "brain/achievements.json",
+      "brain/skills.json",
+      "brain/technologies.json"
+    ]
+  },
+  "schemaVersion": "2.0.0",
+  "entityType": "project",
+  "questionsAnswered": [
+    "How did they solve a specific problem?",
+    "What projects support a competency?"
+  ],
+  "schema": {
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "brain/projects.json.schema.json",
+    "title": "Projects",
+    "description": "Employer-independent initiatives and their outcomes.",
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "_comment": {
+        "type": "string"
+      },
+      "id": {
+        "type": "string"
+      },
+      "createdAt": {
+        "type": "string"
+      },
+      "updatedAt": {
+        "type": "string"
+      },
+      "tags": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "relatedObjects": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "objectType": {
+              "type": "string"
+            },
+            "objectId": {
+              "type": "string"
+            },
+            "relationship": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "objectType",
+            "objectId",
+            "relationship"
+          ]
+        }
+      },
+      "name": {
+        "type": "string"
+      },
+      "problem": {
+        "type": "string"
+      },
+      "goal": {
+        "type": "string"
+      },
+      "solution": {
+        "type": "string"
+      },
+      "approach": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "timeline": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "start": {
+            "type": "string"
+          },
+          "end": {
+            "type": "string"
+          },
+          "status": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "start",
+          "end",
+          "status"
+        ]
+      },
+      "role": {
+        "type": "string"
+      },
+      "technologies": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "results": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "metrics": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "lessons": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "relatedExperiences": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "relatedSkills": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      }
+    },
+    "required": [
+      "_comment",
+      "id",
+      "createdAt",
+      "updatedAt",
+      "tags",
+      "relatedObjects",
+      "name",
+      "problem",
+      "goal",
+      "solution",
+      "approach",
+      "timeline",
+      "role",
+      "technologies",
+      "results",
+      "metrics",
+      "lessons",
+      "relatedExperiences",
+      "relatedSkills"
+    ]
+  },
+  "data": [],
+  "_template": {
+    "_comment": "An initiative independent of employer chronology and reusable across outputs.",
+    "id": "",
+    "createdAt": "",
+    "updatedAt": "",
+    "tags": [],
+    "relatedObjects": [],
+    "name": "",
+    "problem": "",
+    "goal": "",
+    "solution": "",
+    "approach": [],
+    "timeline": {
+      "start": "",
+      "end": "",
+      "status": ""
+    },
+    "role": "",
+    "technologies": [],
+    "results": [],
+    "metrics": [],
+    "lessons": [],
+    "relatedExperiences": [],
+    "relatedSkills": []
+  },
+  "_example": {
+    "_comment": "An initiative independent of employer chronology and reusable across outputs.",
+    "id": "00000000-0000-4000-8000-000000000001",
+    "createdAt": "2026-01-01T00:00:00Z",
+    "updatedAt": "2026-01-01T00:00:00Z",
+    "tags": [
+      "example-tag"
+    ],
+    "relatedObjects": [
+      {
+        "objectType": "achievement",
+        "objectId": "00000000-0000-4000-8000-000000000002",
+        "relationship": "supports"
+      }
+    ],
+    "name": "Example Initiative",
+    "problem": "Problem or opportunity that initiated the work.",
+    "goal": "Explicit desired outcome.",
+    "solution": "What was delivered.",
+    "approach": [
+      "Discovery step",
+      "Execution step"
+    ],
+    "timeline": {
+      "start": "2023-01",
+      "end": "2023-06",
+      "status": "completed"
+    },
+    "role": "Example role and ownership boundary",
+    "technologies": [
+      "00000000-0000-4000-8000-000000000040"
+    ],
+    "results": [
+      "Observed qualitative outcome"
+    ],
+    "metrics": [
+      "00000000-0000-4000-8000-000000000060"
+    ],
+    "lessons": [
+      "Example project lesson"
+    ],
+    "relatedExperiences": [
+      "00000000-0000-4000-8000-000000000070"
+    ],
+    "relatedSkills": [
+      "00000000-0000-4000-8000-000000000050"
+    ]
+  }
+}

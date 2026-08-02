@@ -1,0 +1,312 @@
+{
+  "_meta": {
+    "version": "1.0.0",
+    "description": "Canonical entry point and navigation manifest for the professional Brain.",
+    "lastUpdated": "",
+    "tags": [
+      "brain-index",
+      "knowledge-graph"
+    ],
+    "related": [
+      "brain/identity.json",
+      "brain/experience.json",
+      "brain/achievements.json",
+      "brain/projects.json",
+      "brain/skills.json",
+      "brain/technologies.json",
+      "brain/industries.json",
+      "brain/voice.json",
+      "brain/preferences.json",
+      "brain/management.json",
+      "brain/interview-stories.json",
+      "brain/writing.json",
+      "brain/resume-strategy.json"
+    ]
+  },
+  "schemaVersion": "1.0.0",
+  "brainVersion": "1.0.0",
+  "owner": {
+    "id": "",
+    "displayName": "",
+    "_comment": "Intentionally empty until owner identity is explicitly supplied; do not infer personal information."
+  },
+  "description": "Permanent source-of-truth knowledge graph consumed by reasoning engines and output generators. Presentation documents are not stored here.",
+  "modules": [
+    {
+      "id": "10000000-0000-4000-8000-000000000001",
+      "name": "identity",
+      "path": "brain/identity.json",
+      "entityType": "identity",
+      "description": "North-star professional identity, positioning, values, trajectory, and description guardrails.",
+      "questionsAnswered": [
+        "Who is this professional?",
+        "What problems do they solve?",
+        "How should an AI describe them accurately?"
+      ],
+      "relatedModules": [
+        "brain/experience.json",
+        "brain/achievements.json",
+        "brain/preferences.json",
+        "brain/voice.json"
+      ]
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000002",
+      "name": "experience",
+      "path": "brain/experience.json",
+      "entityType": "experience",
+      "description": "Rich employment context, responsibilities, outcomes, lessons, and connections.",
+      "questionsAnswered": [
+        "What did they own in a role?",
+        "Where was a capability demonstrated?",
+        "What role context supports a claim?"
+      ],
+      "relatedModules": [
+        "brain/achievements.json",
+        "brain/projects.json",
+        "brain/skills.json",
+        "brain/technologies.json",
+        "brain/industries.json",
+        "brain/interview-stories.json"
+      ]
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000003",
+      "name": "achievements",
+      "path": "brain/achievements.json",
+      "entityType": "achievement",
+      "description": "Atomic measurable outcomes with confidence and supporting evidence.",
+      "questionsAnswered": [
+        "What measurable impact did they create?",
+        "What evidence supports a claim?"
+      ],
+      "relatedModules": [
+        "brain/experience.json",
+        "brain/projects.json",
+        "brain/skills.json"
+      ]
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000004",
+      "name": "projects",
+      "path": "brain/projects.json",
+      "entityType": "project",
+      "description": "Employer-independent initiatives, decisions, methods, results, and lessons.",
+      "questionsAnswered": [
+        "How did they solve a specific problem?",
+        "What projects support a competency?"
+      ],
+      "relatedModules": [
+        "brain/experience.json",
+        "brain/achievements.json",
+        "brain/skills.json",
+        "brain/technologies.json"
+      ]
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000005",
+      "name": "skills",
+      "path": "brain/skills.json",
+      "entityType": "skill-category",
+      "description": "Categorized capabilities grounded in experience, projects, and evidence.",
+      "questionsAnswered": [
+        "What can they do?",
+        "How strong and current is a skill?",
+        "What evidence supports a skill?"
+      ],
+      "relatedModules": [
+        "brain/experience.json",
+        "brain/projects.json",
+        "brain/technologies.json",
+        "brain/achievements.json"
+      ]
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000006",
+      "name": "technologies",
+      "path": "brain/technologies.json",
+      "entityType": "technology",
+      "description": "Tools and platforms with proficiency, recency, use cases, and evidence.",
+      "questionsAnswered": [
+        "Which technologies have they used?",
+        "How and where was a technology applied?"
+      ],
+      "relatedModules": [
+        "brain/skills.json",
+        "brain/projects.json",
+        "brain/experience.json"
+      ]
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000007",
+      "name": "industries",
+      "path": "brain/industries.json",
+      "entityType": "industry",
+      "description": "Domain exposure, knowledge, affinity, and supporting work.",
+      "questionsAnswered": [
+        "Which industries do they understand?",
+        "Which industries do they enjoy?"
+      ],
+      "relatedModules": [
+        "brain/experience.json",
+        "brain/projects.json",
+        "brain/preferences.json"
+      ]
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000008",
+      "name": "voice",
+      "path": "brain/voice.json",
+      "entityType": "voice",
+      "description": "Channel-independent writing style and AI editorial guardrails.",
+      "questionsAnswered": [
+        "How should generated language sound?",
+        "What writing patterns must AI avoid?"
+      ],
+      "relatedModules": [
+        "brain/identity.json",
+        "brain/writing.json"
+      ]
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000009",
+      "name": "preferences",
+      "path": "brain/preferences.json",
+      "entityType": "preference",
+      "description": "Private career goals, constraints, targets, and deal breakers.",
+      "questionsAnswered": [
+        "Which opportunities fit?",
+        "What constraints must an agent honor?"
+      ],
+      "relatedModules": [
+        "brain/identity.json",
+        "brain/industries.json"
+      ]
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000010",
+      "name": "management",
+      "path": "brain/management.json",
+      "entityType": "management",
+      "description": "Leadership philosophy, behaviors, self-awareness, and evidence.",
+      "questionsAnswered": [
+        "How do they lead, coach, decide, and delegate?",
+        "What environment enables their best leadership?"
+      ],
+      "relatedModules": [
+        "brain/experience.json",
+        "brain/interview-stories.json",
+        "brain/achievements.json"
+      ]
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000011",
+      "name": "interview-stories",
+      "path": "brain/interview-stories.json",
+      "entityType": "interview-story",
+      "description": "Reusable STAR narratives connected to competencies and evidence.",
+      "questionsAnswered": [
+        "Which story demonstrates a competency?",
+        "How should a behavioral answer be grounded?"
+      ],
+      "relatedModules": [
+        "brain/experience.json",
+        "brain/projects.json",
+        "brain/achievements.json",
+        "brain/skills.json"
+      ]
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000012",
+      "name": "writing",
+      "path": "brain/writing.json",
+      "entityType": "writing-philosophy",
+      "description": "Research, interviewing, story discovery, drafting, and review methodology.",
+      "questionsAnswered": [
+        "How do they research and write?",
+        "How do they discover and structure stories?"
+      ],
+      "relatedModules": [
+        "brain/voice.json",
+        "brain/projects.json",
+        "brain/skills.json"
+      ]
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000013",
+      "name": "resume-strategy",
+      "path": "brain/resume-strategy.json",
+      "entityType": "resume-strategy",
+      "description": "Policy for selecting Brain knowledge when deriving temporary ResumeDocument outputs.",
+      "questionsAnswered": [
+        "Which verified knowledge should a resume emphasize?",
+        "How should selection change by target role?"
+      ],
+      "relatedModules": [
+        "brain/identity.json",
+        "brain/experience.json",
+        "brain/achievements.json",
+        "brain/projects.json",
+        "brain/skills.json",
+        "brain/voice.json",
+        "brain/preferences.json"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "id": "20000000-0000-4000-8000-000000000001",
+      "predicate": "supports",
+      "inverse": "supportedBy",
+      "description": "The source provides evidence or substantiation for the target."
+    },
+    {
+      "id": "20000000-0000-4000-8000-000000000002",
+      "predicate": "demonstrates",
+      "inverse": "demonstratedBy",
+      "description": "The source is an observable demonstration of the target capability."
+    },
+    {
+      "id": "20000000-0000-4000-8000-000000000003",
+      "predicate": "partOf",
+      "inverse": "contains",
+      "description": "The source is a component or scoped part of the target."
+    },
+    {
+      "id": "20000000-0000-4000-8000-000000000004",
+      "predicate": "occurredAt",
+      "inverse": "hasOccurrence",
+      "description": "The source happened within the target experience or project context."
+    },
+    {
+      "id": "20000000-0000-4000-8000-000000000005",
+      "predicate": "uses",
+      "inverse": "usedBy",
+      "description": "The source applied the target technology, skill, or method."
+    },
+    {
+      "id": "20000000-0000-4000-8000-000000000006",
+      "predicate": "resultedIn",
+      "inverse": "resultOf",
+      "description": "The source produced the target outcome or achievement."
+    },
+    {
+      "id": "20000000-0000-4000-8000-000000000007",
+      "predicate": "relatedTo",
+      "inverse": "relatedTo",
+      "description": "The records are meaningfully associated when no narrower predicate applies."
+    }
+  ],
+  "lastUpdated": "",
+  "navigation": {
+    "startHere": "brain/identity.json",
+    "strategyModule": "brain/resume-strategy.json",
+    "instructions": [
+      "Select modules by questionsAnswered.",
+      "Retrieve records from data arrays only; _template and _example are documentation.",
+      "Traverse relatedObjects using the relationship vocabulary.",
+      "Treat confidence and supporting evidence as claim constraints.",
+      "Never convert generated output into Brain source data without explicit verification."
+    ]
+  }
+}

@@ -1,0 +1,226 @@
+{
+  "_meta": {
+    "version": "2.0.0",
+    "description": "Research, interviewing, story discovery, drafting, and review methodology.",
+    "lastUpdated": "",
+    "tags": [
+      "brain-module",
+      "writing-philosophy"
+    ],
+    "related": [
+      "brain/voice.json",
+      "brain/projects.json",
+      "brain/skills.json"
+    ]
+  },
+  "schemaVersion": "2.0.0",
+  "entityType": "writing-philosophy",
+  "questionsAnswered": [
+    "How do they research and write?",
+    "How do they discover and structure stories?"
+  ],
+  "schema": {
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "brain/writing.json.schema.json",
+    "title": "Writing",
+    "description": "Writing, research, interview, and editorial philosophy.",
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "_comment": {
+        "type": "string"
+      },
+      "id": {
+        "type": "string"
+      },
+      "createdAt": {
+        "type": "string"
+      },
+      "updatedAt": {
+        "type": "string"
+      },
+      "tags": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "relatedObjects": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "objectType": {
+              "type": "string"
+            },
+            "objectId": {
+              "type": "string"
+            },
+            "relationship": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "objectType",
+            "objectId",
+            "relationship"
+          ]
+        }
+      },
+      "editorialProcess": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "researchProcess": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "storyDiscovery": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "interviewApproach": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "articleStructures": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "favoriteNarrativeTechniques": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "favoriteQuestions": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "reviewMethodology": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "qualityCriteria": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "relatedWritingSamples": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      }
+    },
+    "required": [
+      "_comment",
+      "id",
+      "createdAt",
+      "updatedAt",
+      "tags",
+      "relatedObjects",
+      "editorialProcess",
+      "researchProcess",
+      "storyDiscovery",
+      "interviewApproach",
+      "articleStructures",
+      "favoriteNarrativeTechniques",
+      "favoriteQuestions",
+      "reviewMethodology",
+      "qualityCriteria",
+      "relatedWritingSamples"
+    ]
+  },
+  "data": [],
+  "_template": {
+    "_comment": "Reusable philosophy and process for researching, interviewing, drafting, and editing; not a list of resume writing samples.",
+    "id": "",
+    "createdAt": "",
+    "updatedAt": "",
+    "tags": [],
+    "relatedObjects": [],
+    "editorialProcess": [],
+    "researchProcess": [],
+    "storyDiscovery": [],
+    "interviewApproach": [],
+    "articleStructures": [],
+    "favoriteNarrativeTechniques": [],
+    "favoriteQuestions": [],
+    "reviewMethodology": [],
+    "qualityCriteria": [],
+    "relatedWritingSamples": []
+  },
+  "_example": {
+    "_comment": "Reusable philosophy and process for researching, interviewing, drafting, and editing; not a list of resume writing samples.",
+    "id": "00000000-0000-4000-8000-000000000001",
+    "createdAt": "2026-01-01T00:00:00Z",
+    "updatedAt": "2026-01-01T00:00:00Z",
+    "tags": [
+      "example-tag"
+    ],
+    "relatedObjects": [
+      {
+        "objectType": "achievement",
+        "objectId": "00000000-0000-4000-8000-000000000002",
+        "relationship": "supports"
+      }
+    ],
+    "editorialProcess": [
+      "Define audience and decision.",
+      "Draft, revise, fact-check, and polish."
+    ],
+    "researchProcess": [
+      "Form hypotheses and gather primary sources."
+    ],
+    "storyDiscovery": [
+      "Look for tension, change, and human consequence."
+    ],
+    "interviewApproach": [
+      "Prepare themes while leaving room for unexpected threads."
+    ],
+    "articleStructures": [
+      "Example structure and when to use it."
+    ],
+    "favoriteNarrativeTechniques": [
+      "Specific scene",
+      "Callback",
+      "Contrast"
+    ],
+    "favoriteQuestions": [
+      "What changed?",
+      "What did you believe before this happened?"
+    ],
+    "reviewMethodology": [
+      "Structural edit",
+      "Evidence review",
+      "Line edit",
+      "Final fact check"
+    ],
+    "qualityCriteria": [
+      "Useful",
+      "Accurate",
+      "Clear",
+      "Memorable"
+    ],
+    "relatedWritingSamples": [
+      "00000000-0000-4000-8000-000000000090"
+    ]
+  }
+}

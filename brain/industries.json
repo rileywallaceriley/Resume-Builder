@@ -1,0 +1,191 @@
+{
+  "_meta": {
+    "version": "2.0.0",
+    "description": "Domain exposure, knowledge, affinity, and supporting work.",
+    "lastUpdated": "",
+    "tags": [
+      "brain-module",
+      "industry"
+    ],
+    "related": [
+      "brain/experience.json",
+      "brain/projects.json",
+      "brain/preferences.json"
+    ]
+  },
+  "schemaVersion": "2.0.0",
+  "entityType": "industry",
+  "questionsAnswered": [
+    "Which industries do they understand?",
+    "Which industries do they enjoy?"
+  ],
+  "schema": {
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "brain/industries.json.schema.json",
+    "title": "Industries",
+    "description": "Domain knowledge, exposure, and affinity.",
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "_comment": {
+        "type": "string"
+      },
+      "id": {
+        "type": "string"
+      },
+      "createdAt": {
+        "type": "string"
+      },
+      "updatedAt": {
+        "type": "string"
+      },
+      "tags": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "relatedObjects": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "objectType": {
+              "type": "string"
+            },
+            "objectId": {
+              "type": "string"
+            },
+            "relationship": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "objectType",
+            "objectId",
+            "relationship"
+          ]
+        }
+      },
+      "name": {
+        "type": "string"
+      },
+      "description": {
+        "type": "string"
+      },
+      "experienceLevel": {
+        "type": "string"
+      },
+      "years": {
+        "type": "number"
+      },
+      "domainKnowledge": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "enjoymentDrivers": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "supportingExperience": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "supportingProjects": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "relatedSkills": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "targetPriority": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "_comment",
+      "id",
+      "createdAt",
+      "updatedAt",
+      "tags",
+      "relatedObjects",
+      "name",
+      "description",
+      "experienceLevel",
+      "years",
+      "domainKnowledge",
+      "enjoymentDrivers",
+      "supportingExperience",
+      "supportingProjects",
+      "relatedSkills",
+      "targetPriority"
+    ]
+  },
+  "data": [],
+  "_template": {
+    "_comment": "Industry knowledge, experience, and affinity represented separately from career preferences.",
+    "id": "",
+    "createdAt": "",
+    "updatedAt": "",
+    "tags": [],
+    "relatedObjects": [],
+    "name": "",
+    "description": "",
+    "experienceLevel": "",
+    "years": 0,
+    "domainKnowledge": [],
+    "enjoymentDrivers": [],
+    "supportingExperience": [],
+    "supportingProjects": [],
+    "relatedSkills": [],
+    "targetPriority": ""
+  },
+  "_example": {
+    "_comment": "Industry knowledge, experience, and affinity represented separately from career preferences.",
+    "id": "00000000-0000-4000-8000-000000000001",
+    "createdAt": "2026-01-01T00:00:00Z",
+    "updatedAt": "2026-01-01T00:00:00Z",
+    "tags": [
+      "example-tag"
+    ],
+    "relatedObjects": [
+      {
+        "objectType": "achievement",
+        "objectId": "00000000-0000-4000-8000-000000000002",
+        "relationship": "supports"
+      }
+    ],
+    "name": "Example Industry",
+    "description": "Relevant domain scope.",
+    "experienceLevel": "deep",
+    "years": 5,
+    "domainKnowledge": [
+      "Example domain concept"
+    ],
+    "enjoymentDrivers": [
+      "What makes this industry appealing"
+    ],
+    "supportingExperience": [
+      "00000000-0000-4000-8000-000000000070"
+    ],
+    "supportingProjects": [
+      "00000000-0000-4000-8000-000000000030"
+    ],
+    "relatedSkills": [
+      "00000000-0000-4000-8000-000000000050"
+    ],
+    "targetPriority": "high"
+  }
+}

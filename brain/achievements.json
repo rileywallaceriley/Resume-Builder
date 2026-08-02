@@ -1,0 +1,260 @@
+{
+  "_meta": {
+    "version": "2.0.0",
+    "description": "Atomic measurable outcomes with confidence and supporting evidence.",
+    "lastUpdated": "",
+    "tags": [
+      "brain-module",
+      "achievement"
+    ],
+    "related": [
+      "brain/experience.json",
+      "brain/projects.json",
+      "brain/skills.json"
+    ]
+  },
+  "schemaVersion": "2.0.0",
+  "entityType": "achievement",
+  "questionsAnswered": [
+    "What measurable impact did they create?",
+    "What evidence supports a claim?"
+  ],
+  "schema": {
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "brain/achievements.json.schema.json",
+    "title": "Achievements",
+    "description": "Atomic measurable accomplishments with provenance.",
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "_comment": {
+        "type": "string"
+      },
+      "id": {
+        "type": "string"
+      },
+      "createdAt": {
+        "type": "string"
+      },
+      "updatedAt": {
+        "type": "string"
+      },
+      "tags": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "relatedObjects": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "objectType": {
+              "type": "string"
+            },
+            "objectId": {
+              "type": "string"
+            },
+            "relationship": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "objectType",
+            "objectId",
+            "relationship"
+          ]
+        }
+      },
+      "title": {
+        "type": "string"
+      },
+      "description": {
+        "type": "string"
+      },
+      "impact": {
+        "type": "string"
+      },
+      "metric": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "baseline": {
+            "type": "string"
+          },
+          "result": {
+            "type": "string"
+          },
+          "change": {
+            "type": "string"
+          },
+          "unit": {
+            "type": "string"
+          },
+          "timeframe": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "name",
+          "baseline",
+          "result",
+          "change",
+          "unit",
+          "timeframe"
+        ]
+      },
+      "confidence": {
+        "type": "string"
+      },
+      "supportingEvidence": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "evidenceType": {
+              "type": "string"
+            },
+            "reference": {
+              "type": "string"
+            },
+            "verificationStatus": {
+              "type": "string"
+            },
+            "notes": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "evidenceType",
+            "reference",
+            "verificationStatus",
+            "notes"
+          ]
+        }
+      },
+      "relatedCompanies": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "relatedProjects": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "relatedSkills": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "keywords": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      }
+    },
+    "required": [
+      "_comment",
+      "id",
+      "createdAt",
+      "updatedAt",
+      "tags",
+      "relatedObjects",
+      "title",
+      "description",
+      "impact",
+      "metric",
+      "confidence",
+      "supportingEvidence",
+      "relatedCompanies",
+      "relatedProjects",
+      "relatedSkills",
+      "keywords"
+    ]
+  },
+  "data": [],
+  "_template": {
+    "_comment": "One atomic, measurable accomplishment. Confidence and evidence prevent unsupported generation.",
+    "id": "",
+    "createdAt": "",
+    "updatedAt": "",
+    "tags": [],
+    "relatedObjects": [],
+    "title": "",
+    "description": "",
+    "impact": "",
+    "metric": {
+      "name": "",
+      "baseline": "",
+      "result": "",
+      "change": "",
+      "unit": "",
+      "timeframe": ""
+    },
+    "confidence": "",
+    "supportingEvidence": [],
+    "relatedCompanies": [],
+    "relatedProjects": [],
+    "relatedSkills": [],
+    "keywords": []
+  },
+  "_example": {
+    "_comment": "One atomic, measurable accomplishment. Confidence and evidence prevent unsupported generation.",
+    "id": "00000000-0000-4000-8000-000000000001",
+    "createdAt": "2026-01-01T00:00:00Z",
+    "updatedAt": "2026-01-01T00:00:00Z",
+    "tags": [
+      "example-tag"
+    ],
+    "relatedObjects": [
+      {
+        "objectType": "achievement",
+        "objectId": "00000000-0000-4000-8000-000000000002",
+        "relationship": "supports"
+      }
+    ],
+    "title": "Example measurable accomplishment",
+    "description": "What changed and the professional contribution.",
+    "impact": "Why the outcome mattered.",
+    "metric": {
+      "name": "Example KPI",
+      "baseline": "100",
+      "result": "125",
+      "change": "25",
+      "unit": "percent",
+      "timeframe": "12 months"
+    },
+    "confidence": "high",
+    "supportingEvidence": [
+      {
+        "evidenceType": "analytics",
+        "reference": "Example source URI or internal reference",
+        "verificationStatus": "unverified",
+        "notes": "What this source proves."
+      }
+    ],
+    "relatedCompanies": [
+      "00000000-0000-4000-8000-000000000070"
+    ],
+    "relatedProjects": [
+      "00000000-0000-4000-8000-000000000030"
+    ],
+    "relatedSkills": [
+      "00000000-0000-4000-8000-000000000050"
+    ],
+    "keywords": [
+      "example outcome keyword"
+    ]
+  }
+}

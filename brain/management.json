@@ -1,0 +1,257 @@
+{
+  "_meta": {
+    "version": "2.0.0",
+    "description": "Leadership philosophy, behaviors, self-awareness, and evidence.",
+    "lastUpdated": "",
+    "tags": [
+      "brain-module",
+      "management"
+    ],
+    "related": [
+      "brain/experience.json",
+      "brain/interview-stories.json",
+      "brain/achievements.json"
+    ]
+  },
+  "schemaVersion": "2.0.0",
+  "entityType": "management",
+  "questionsAnswered": [
+    "How do they lead, coach, decide, and delegate?",
+    "What environment enables their best leadership?"
+  ],
+  "schema": {
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "brain/management.json.schema.json",
+    "title": "Management",
+    "description": "Leadership philosophy, behaviors, and self-awareness.",
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "_comment": {
+        "type": "string"
+      },
+      "id": {
+        "type": "string"
+      },
+      "createdAt": {
+        "type": "string"
+      },
+      "updatedAt": {
+        "type": "string"
+      },
+      "tags": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "relatedObjects": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "objectType": {
+              "type": "string"
+            },
+            "objectId": {
+              "type": "string"
+            },
+            "relationship": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "objectType",
+            "objectId",
+            "relationship"
+          ]
+        }
+      },
+      "mentoringPhilosophy": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "feedbackPhilosophy": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "giving": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "receiving": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "required": [
+          "giving",
+          "receiving"
+        ]
+      },
+      "teamBuilding": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "decisionMaking": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "delegation": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "coaching": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "strengths": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "weaknesses": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "area": {
+              "type": "string"
+            },
+            "managementApproach": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "area",
+            "managementApproach"
+          ]
+        }
+      },
+      "idealWorkEnvironment": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "evidence": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      }
+    },
+    "required": [
+      "_comment",
+      "id",
+      "createdAt",
+      "updatedAt",
+      "tags",
+      "relatedObjects",
+      "mentoringPhilosophy",
+      "feedbackPhilosophy",
+      "teamBuilding",
+      "decisionMaking",
+      "delegation",
+      "coaching",
+      "strengths",
+      "weaknesses",
+      "idealWorkEnvironment",
+      "evidence"
+    ]
+  },
+  "data": [],
+  "_template": {
+    "_comment": "Leadership operating model, self-awareness, and evidence.",
+    "id": "",
+    "createdAt": "",
+    "updatedAt": "",
+    "tags": [],
+    "relatedObjects": [],
+    "mentoringPhilosophy": [],
+    "feedbackPhilosophy": {
+      "giving": [],
+      "receiving": []
+    },
+    "teamBuilding": [],
+    "decisionMaking": [],
+    "delegation": [],
+    "coaching": [],
+    "strengths": [],
+    "weaknesses": [],
+    "idealWorkEnvironment": [],
+    "evidence": []
+  },
+  "_example": {
+    "_comment": "Leadership operating model, self-awareness, and evidence.",
+    "id": "00000000-0000-4000-8000-000000000001",
+    "createdAt": "2026-01-01T00:00:00Z",
+    "updatedAt": "2026-01-01T00:00:00Z",
+    "tags": [
+      "example-tag"
+    ],
+    "relatedObjects": [
+      {
+        "objectType": "achievement",
+        "objectId": "00000000-0000-4000-8000-000000000002",
+        "relationship": "supports"
+      }
+    ],
+    "mentoringPhilosophy": [
+      "Example mentoring principle"
+    ],
+    "feedbackPhilosophy": {
+      "giving": [
+        "Example feedback practice"
+      ],
+      "receiving": [
+        "Example preferred feedback mode"
+      ]
+    },
+    "teamBuilding": [
+      "Example team-building practice"
+    ],
+    "decisionMaking": [
+      "Example decision principle"
+    ],
+    "delegation": [
+      "Example delegation principle"
+    ],
+    "coaching": [
+      "Example coaching technique"
+    ],
+    "strengths": [
+      "Example leadership strength"
+    ],
+    "weaknesses": [
+      {
+        "area": "Example growth area",
+        "managementApproach": "How it is managed or developed"
+      }
+    ],
+    "idealWorkEnvironment": [
+      "Example condition for effective leadership"
+    ],
+    "evidence": [
+      "00000000-0000-4000-8000-000000000080",
+      "00000000-0000-4000-8000-000000000060"
+    ]
+  }
+}

@@ -1,0 +1,227 @@
+{
+  "_meta": {
+    "version": "2.0.0",
+    "description": "Channel-independent writing style and AI editorial guardrails.",
+    "lastUpdated": "",
+    "tags": [
+      "brain-module",
+      "voice"
+    ],
+    "related": [
+      "brain/identity.json",
+      "brain/writing.json"
+    ]
+  },
+  "schemaVersion": "2.0.0",
+  "entityType": "voice",
+  "questionsAnswered": [
+    "How should generated language sound?",
+    "What writing patterns must AI avoid?"
+  ],
+  "schema": {
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "brain/voice.json.schema.json",
+    "title": "Voice",
+    "description": "Writing style and AI editorial guardrails.",
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "_comment": {
+        "type": "string"
+      },
+      "id": {
+        "type": "string"
+      },
+      "createdAt": {
+        "type": "string"
+      },
+      "updatedAt": {
+        "type": "string"
+      },
+      "tags": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "relatedObjects": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "objectType": {
+              "type": "string"
+            },
+            "objectId": {
+              "type": "string"
+            },
+            "relationship": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "objectType",
+            "objectId",
+            "relationship"
+          ]
+        }
+      },
+      "tone": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "sentenceLength": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "targetWords": {
+            "type": "string"
+          },
+          "variation": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "targetWords",
+          "variation"
+        ]
+      },
+      "favoriteTransitions": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "editorialPhilosophy": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "storytellingApproach": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "favoriteArticleStructures": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "thingsToAvoid": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "aiWritingGuardrails": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "editingPrinciples": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      }
+    },
+    "required": [
+      "_comment",
+      "id",
+      "createdAt",
+      "updatedAt",
+      "tags",
+      "relatedObjects",
+      "tone",
+      "sentenceLength",
+      "favoriteTransitions",
+      "editorialPhilosophy",
+      "storytellingApproach",
+      "favoriteArticleStructures",
+      "thingsToAvoid",
+      "aiWritingGuardrails",
+      "editingPrinciples"
+    ]
+  },
+  "data": [],
+  "_template": {
+    "_comment": "Channel-independent writing behavior for AI. This is style knowledge, not document copy.",
+    "id": "",
+    "createdAt": "",
+    "updatedAt": "",
+    "tags": [],
+    "relatedObjects": [],
+    "tone": [],
+    "sentenceLength": {
+      "targetWords": "",
+      "variation": ""
+    },
+    "favoriteTransitions": [],
+    "editorialPhilosophy": [],
+    "storytellingApproach": [],
+    "favoriteArticleStructures": [],
+    "thingsToAvoid": [],
+    "aiWritingGuardrails": [],
+    "editingPrinciples": []
+  },
+  "_example": {
+    "_comment": "Channel-independent writing behavior for AI. This is style knowledge, not document copy.",
+    "id": "00000000-0000-4000-8000-000000000001",
+    "createdAt": "2026-01-01T00:00:00Z",
+    "updatedAt": "2026-01-01T00:00:00Z",
+    "tags": [
+      "example-tag"
+    ],
+    "relatedObjects": [
+      {
+        "objectType": "achievement",
+        "objectId": "00000000-0000-4000-8000-000000000002",
+        "relationship": "supports"
+      }
+    ],
+    "tone": [
+      "clear",
+      "credible",
+      "human"
+    ],
+    "sentenceLength": {
+      "targetWords": "12-20",
+      "variation": "Mix short and medium sentences intentionally."
+    },
+    "favoriteTransitions": [
+      "For example",
+      "As a result"
+    ],
+    "editorialPhilosophy": [
+      "Serve the reader before showcasing expertise."
+    ],
+    "storytellingApproach": [
+      "Establish stakes, show choices, then demonstrate consequences."
+    ],
+    "favoriteArticleStructures": [
+      "Problem \u2192 insight \u2192 application",
+      "Scene \u2192 tension \u2192 lesson"
+    ],
+    "thingsToAvoid": [
+      "Unsupported superlatives",
+      "Generic corporate filler"
+    ],
+    "aiWritingGuardrails": [
+      "Never invent experience, quotes, or metrics.",
+      "Preserve uncertainty and confidence levels.",
+      "Prefer Brain terminology over resume clich\u00e9s."
+    ],
+    "editingPrinciples": [
+      "Cut repetition.",
+      "Replace abstractions with evidence.",
+      "Verify every factual claim against related objects."
+    ]
+  }
+}

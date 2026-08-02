@@ -1,0 +1,395 @@
+{
+  "_meta": {
+    "version": "2.0.0",
+    "description": "North-star professional identity, positioning, values, trajectory, and description guardrails.",
+    "lastUpdated": "",
+    "tags": [
+      "brain-module",
+      "identity"
+    ],
+    "related": [
+      "brain/experience.json",
+      "brain/achievements.json",
+      "brain/preferences.json",
+      "brain/voice.json"
+    ]
+  },
+  "schemaVersion": "2.0.0",
+  "entityType": "identity",
+  "questionsAnswered": [
+    "Who is this professional?",
+    "What problems do they solve?",
+    "How should an AI describe them accurately?"
+  ],
+  "schema": {
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "brain/identity.json.schema.json",
+    "title": "Identity",
+    "description": "North-star professional identity and durable positioning knowledge.",
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "_comment": {
+        "type": "string"
+      },
+      "id": {
+        "type": "string"
+      },
+      "createdAt": {
+        "type": "string"
+      },
+      "updatedAt": {
+        "type": "string"
+      },
+      "tags": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "relatedObjects": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "objectType": {
+              "type": "string"
+            },
+            "objectId": {
+              "type": "string"
+            },
+            "relationship": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "objectType",
+            "objectId",
+            "relationship"
+          ]
+        }
+      },
+      "professionalIdentity": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "headline": {
+            "type": "string"
+          },
+          "summary": {
+            "type": "string"
+          },
+          "archetypes": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "required": [
+          "headline",
+          "summary",
+          "archetypes"
+        ]
+      },
+      "problemsSolved": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "problem": {
+              "type": "string"
+            },
+            "approach": {
+              "type": "string"
+            },
+            "outcomes": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "required": [
+            "problem",
+            "approach",
+            "outcomes"
+          ]
+        }
+      },
+      "enjoyedIndustries": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "differentiators": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "values": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "definition": {
+              "type": "string"
+            },
+            "behaviors": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "required": [
+            "name",
+            "definition",
+            "behaviors"
+          ]
+        }
+      },
+      "descriptionGuidance": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "preferredDescriptions": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "neverOmit": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "neverExaggerate": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "accuracyRules": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "required": [
+          "preferredDescriptions",
+          "neverOmit",
+          "neverExaggerate",
+          "accuracyRules"
+        ]
+      },
+      "successDefinition": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "nearTerm": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "longTerm": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "measures": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "required": [
+          "nearTerm",
+          "longTerm",
+          "measures"
+        ]
+      },
+      "careerTrajectory": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "currentDirection": {
+            "type": "string"
+          },
+          "targetRoles": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "capabilitiesToBuild": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "required": [
+          "currentDirection",
+          "targetRoles",
+          "capabilitiesToBuild"
+        ]
+      },
+      "reputationToReinforce": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      }
+    },
+    "required": [
+      "_comment",
+      "id",
+      "createdAt",
+      "updatedAt",
+      "tags",
+      "relatedObjects",
+      "professionalIdentity",
+      "problemsSolved",
+      "enjoyedIndustries",
+      "differentiators",
+      "values",
+      "descriptionGuidance",
+      "successDefinition",
+      "careerTrajectory",
+      "reputationToReinforce"
+    ]
+  },
+  "data": [],
+  "_template": {
+    "_comment": "North-star professional identity. Generated outputs should reinforce this record without inventing personal facts.",
+    "id": "",
+    "createdAt": "",
+    "updatedAt": "",
+    "tags": [],
+    "relatedObjects": [],
+    "professionalIdentity": {
+      "headline": "",
+      "summary": "",
+      "archetypes": []
+    },
+    "problemsSolved": [],
+    "enjoyedIndustries": [],
+    "differentiators": [],
+    "values": [],
+    "descriptionGuidance": {
+      "preferredDescriptions": [],
+      "neverOmit": [],
+      "neverExaggerate": [],
+      "accuracyRules": []
+    },
+    "successDefinition": {
+      "nearTerm": [],
+      "longTerm": [],
+      "measures": []
+    },
+    "careerTrajectory": {
+      "currentDirection": "",
+      "targetRoles": [],
+      "capabilitiesToBuild": []
+    },
+    "reputationToReinforce": []
+  },
+  "_example": {
+    "_comment": "North-star professional identity. Generated outputs should reinforce this record without inventing personal facts.",
+    "id": "00000000-0000-4000-8000-000000000001",
+    "createdAt": "2026-01-01T00:00:00Z",
+    "updatedAt": "2026-01-01T00:00:00Z",
+    "tags": [
+      "example-tag"
+    ],
+    "relatedObjects": [
+      {
+        "objectType": "achievement",
+        "objectId": "00000000-0000-4000-8000-000000000002",
+        "relationship": "supports"
+      }
+    ],
+    "professionalIdentity": {
+      "headline": "Example positioning statement",
+      "summary": "Concise answer to who this professional is and the value they create.",
+      "archetypes": [
+        "Example professional archetype"
+      ]
+    },
+    "problemsSolved": [
+      {
+        "problem": "Example recurring business problem",
+        "approach": "How the professional characteristically solves it",
+        "outcomes": [
+          "Example outcome"
+        ]
+      }
+    ],
+    "enjoyedIndustries": [
+      "00000000-0000-4000-8000-000000000020"
+    ],
+    "differentiators": [
+      "Example evidence-backed differentiator"
+    ],
+    "values": [
+      {
+        "name": "Example value",
+        "definition": "What the value means in practice",
+        "behaviors": [
+          "Observable behavior"
+        ]
+      }
+    ],
+    "descriptionGuidance": {
+      "preferredDescriptions": [
+        "Example approved framing"
+      ],
+      "neverOmit": [
+        "Example essential truth"
+      ],
+      "neverExaggerate": [
+        "Example boundary or unsupported claim"
+      ],
+      "accuracyRules": [
+        "Distinguish direct experience from adjacent familiarity."
+      ]
+    },
+    "successDefinition": {
+      "nearTerm": [
+        "Example near-term success condition"
+      ],
+      "longTerm": [
+        "Example long-term success condition"
+      ],
+      "measures": [
+        "Example success measure"
+      ]
+    },
+    "careerTrajectory": {
+      "currentDirection": "Example direction",
+      "targetRoles": [
+        "Example role family"
+      ],
+      "capabilitiesToBuild": [
+        "Example capability"
+      ]
+    },
+    "reputationToReinforce": [
+      "Example reputation attribute"
+    ]
+  }
+}

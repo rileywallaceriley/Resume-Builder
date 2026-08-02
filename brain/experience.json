@@ -1,0 +1,361 @@
+{
+  "_meta": {
+    "version": "2.0.0",
+    "description": "Rich employment context, responsibilities, outcomes, lessons, and connections.",
+    "lastUpdated": "",
+    "tags": [
+      "brain-module",
+      "experience"
+    ],
+    "related": [
+      "brain/achievements.json",
+      "brain/projects.json",
+      "brain/skills.json",
+      "brain/technologies.json",
+      "brain/industries.json",
+      "brain/interview-stories.json"
+    ]
+  },
+  "schemaVersion": "2.0.0",
+  "entityType": "experience",
+  "questionsAnswered": [
+    "What did they own in a role?",
+    "Where was a capability demonstrated?",
+    "What role context supports a claim?"
+  ],
+  "schema": {
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "brain/experience.json.schema.json",
+    "title": "Experience",
+    "description": "Queryable employment and role knowledge.",
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "_comment": {
+        "type": "string"
+      },
+      "id": {
+        "type": "string"
+      },
+      "createdAt": {
+        "type": "string"
+      },
+      "updatedAt": {
+        "type": "string"
+      },
+      "tags": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "relatedObjects": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "objectType": {
+              "type": "string"
+            },
+            "objectId": {
+              "type": "string"
+            },
+            "relationship": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "objectType",
+            "objectId",
+            "relationship"
+          ]
+        }
+      },
+      "company": {
+        "type": "string"
+      },
+      "title": {
+        "type": "string"
+      },
+      "location": {
+        "type": "string"
+      },
+      "employmentType": {
+        "type": "string"
+      },
+      "dates": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "start": {
+            "type": "string"
+          },
+          "end": {
+            "type": "string"
+          },
+          "isCurrent": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "start",
+          "end",
+          "isCurrent"
+        ]
+      },
+      "summary": {
+        "type": "string"
+      },
+      "responsibilities": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "majorWins": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "projects": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "metrics": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "value": {
+              "type": "string"
+            },
+            "unit": {
+              "type": "string"
+            },
+            "context": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "name",
+            "value",
+            "unit",
+            "context"
+          ]
+        }
+      },
+      "stories": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "lessonsLearned": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "technologies": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "industries": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "skillsDemonstrated": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "favoriteWork": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "quotes": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "text": {
+              "type": "string"
+            },
+            "attribution": {
+              "type": "string"
+            },
+            "usagePermission": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "text",
+            "attribution",
+            "usagePermission"
+          ]
+        }
+      },
+      "relatedAchievements": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "relatedInterviewStories": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      }
+    },
+    "required": [
+      "_comment",
+      "id",
+      "createdAt",
+      "updatedAt",
+      "tags",
+      "relatedObjects",
+      "company",
+      "title",
+      "location",
+      "employmentType",
+      "dates",
+      "summary",
+      "responsibilities",
+      "majorWins",
+      "projects",
+      "metrics",
+      "stories",
+      "lessonsLearned",
+      "technologies",
+      "industries",
+      "skillsDemonstrated",
+      "favoriteWork",
+      "quotes",
+      "relatedAchievements",
+      "relatedInterviewStories"
+    ]
+  },
+  "data": [],
+  "_template": {
+    "_comment": "A rich, queryable role record. References connect facts to independent projects, achievements, and stories.",
+    "id": "",
+    "createdAt": "",
+    "updatedAt": "",
+    "tags": [],
+    "relatedObjects": [],
+    "company": "",
+    "title": "",
+    "location": "",
+    "employmentType": "",
+    "dates": {
+      "start": "",
+      "end": "",
+      "isCurrent": false
+    },
+    "summary": "",
+    "responsibilities": [],
+    "majorWins": [],
+    "projects": [],
+    "metrics": [],
+    "stories": [],
+    "lessonsLearned": [],
+    "technologies": [],
+    "industries": [],
+    "skillsDemonstrated": [],
+    "favoriteWork": [],
+    "quotes": [],
+    "relatedAchievements": [],
+    "relatedInterviewStories": []
+  },
+  "_example": {
+    "_comment": "A rich, queryable role record. References connect facts to independent projects, achievements, and stories.",
+    "id": "00000000-0000-4000-8000-000000000001",
+    "createdAt": "2026-01-01T00:00:00Z",
+    "updatedAt": "2026-01-01T00:00:00Z",
+    "tags": [
+      "example-tag"
+    ],
+    "relatedObjects": [
+      {
+        "objectType": "achievement",
+        "objectId": "00000000-0000-4000-8000-000000000002",
+        "relationship": "supports"
+      }
+    ],
+    "company": "Example Company",
+    "title": "Example Title",
+    "location": "Example City, Region",
+    "employmentType": "full-time",
+    "dates": {
+      "start": "2020-01",
+      "end": "2024-01",
+      "isCurrent": false
+    },
+    "summary": "Role scope and context, not resume copy.",
+    "responsibilities": [
+      "Example responsibility"
+    ],
+    "majorWins": [
+      "Example concise win"
+    ],
+    "projects": [
+      "00000000-0000-4000-8000-000000000030"
+    ],
+    "metrics": [
+      {
+        "name": "Example KPI",
+        "value": "25",
+        "unit": "percent",
+        "context": "Example measurement context"
+      }
+    ],
+    "stories": [
+      "00000000-0000-4000-8000-000000000080"
+    ],
+    "lessonsLearned": [
+      "Example lesson"
+    ],
+    "technologies": [
+      "00000000-0000-4000-8000-000000000040"
+    ],
+    "industries": [
+      "00000000-0000-4000-8000-000000000020"
+    ],
+    "skillsDemonstrated": [
+      "00000000-0000-4000-8000-000000000050"
+    ],
+    "favoriteWork": [
+      "Example energizing work"
+    ],
+    "quotes": [
+      {
+        "text": "Example attributable feedback",
+        "attribution": "Example source",
+        "usagePermission": "approved"
+      }
+    ],
+    "relatedAchievements": [
+      "00000000-0000-4000-8000-000000000060"
+    ],
+    "relatedInterviewStories": [
+      "00000000-0000-4000-8000-000000000080"
+    ]
+  }
+}
