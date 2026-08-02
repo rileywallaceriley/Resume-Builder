@@ -1,5 +1,5 @@
 {
-  "_comment": "Queryable employment and role knowledge. Recovered enrichment is merged into data; unmatched fragments are retained in unmatchedEnrichment.",
+  "_comment": "Queryable employment and role knowledge. Recovered enrichment is merged into data; unmatched Harbourfront fragments are consolidated in unmatchedEnrichment pending a verified base record.",
   "schemaVersion": "2.1.0",
   "entityType": "experience",
   "data": [
@@ -3008,416 +3008,338 @@
   ],
   "unmatchedEnrichment": [
     {
-      "reason": "hf-* enrichment was recovered, but no experience-harbourfront base object exists",
-      "section": "projects",
-      "content": [
-        {
-          "id": "hf-project-social-media",
-          "name": "Early Social Media Strategy",
-          "summary": "Helped establish Harbourfront Centre's early social media presence while digital platforms were becoming important communication channels for arts organizations.",
-          "activities": [
-            "Develop social media content.",
-            "Support audience engagement.",
-            "Promote cultural programming online."
-          ],
+      "candidateExperienceId": "experience-harbourfront",
+      "reason": "Recovered hf-* enrichment has a high-confidence shared prefix, but no verified base experience object was available. The fragments are consolidated here without inventing company, role, dates, or summary fields.",
+      "enrichment": {
+        "projects": [
+          {
+            "id": "hf-project-social-media",
+            "name": "Early Social Media Strategy",
+            "summary": "Helped establish Harbourfront Centre's early social media presence while digital platforms were becoming important communication channels for arts organizations.",
+            "activities": [
+              "Develop social media content.",
+              "Support audience engagement.",
+              "Promote cultural programming online."
+            ],
+            "source": [
+              "career_interviews"
+            ]
+          },
+          {
+            "id": "hf-project-sponsor-campaigns",
+            "name": "Sponsor Communications",
+            "summary": "Supported communications and marketing initiatives connected to major sponsors and public programming.",
+            "activities": [
+              "Create marketing content.",
+              "Support campaign messaging.",
+              "Coordinate communications across initiatives."
+            ],
+            "source": [
+              "career_interviews"
+            ]
+          },
+          {
+            "id": "hf-project-artist-stories",
+            "name": "Artist Storytelling",
+            "summary": "Interviewed artists and transformed conversations into engaging editorial stories for public audiences.",
+            "activities": [
+              "Research artists.",
+              "Conduct interviews.",
+              "Write feature content."
+            ],
+            "source": [
+              "career_interviews"
+            ]
+          }
+        ],
+        "achievements": [
+          {
+            "id": "hf-achievement-001",
+            "title": "Helped build an early social media presence",
+            "description": "Contributed to Harbourfront Centre's adoption of social media as an audience engagement channel.",
+            "source": [
+              "career_interviews"
+            ]
+          },
+          {
+            "id": "hf-achievement-002",
+            "title": "Developed professional interviewing skills",
+            "description": "Built confidence interviewing artists and creative professionals while producing editorial content.",
+            "source": [
+              "career_interviews"
+            ]
+          }
+        ],
+        "lessonsLearned": [
+          {
+            "id": "hf-lesson-001",
+            "lesson": "Strong stories begin with curiosity rather than assumptions.",
+            "source": [
+              "career_interviews"
+            ]
+          },
+          {
+            "id": "hf-lesson-002",
+            "lesson": "Creative work becomes more meaningful when audiences understand the people behind it.",
+            "source": [
+              "career_interviews"
+            ]
+          }
+        ],
+        "professionalEvidence": [
+          {
+            "id": "hf-evidence-001",
+            "observation": "Combined journalism, communications and early social media into a single role.",
+            "supportsCompetencies": [
+              "Storytelling",
+              "Interviewing",
+              "Digital Communication"
+            ],
+            "source": [
+              "career_interviews"
+            ]
+          },
+          {
+            "id": "hf-evidence-002",
+            "observation": "Worked with artists, sponsors and internal stakeholders to communicate complex cultural programming.",
+            "supportsCompetencies": [
+              "Stakeholder Communication",
+              "Editorial Writing",
+              "Relationship Building"
+            ],
+            "source": [
+              "career_interviews"
+            ]
+          },
+          {
+            "id": "hf-evidence-003",
+            "observation": "Developed confidence speaking with artists and creative professionals.",
+            "supportsCompetencies": [
+              "Interviewing",
+              "Relationship Building",
+              "Professional Communication"
+            ],
+            "source": [
+              "career_interviews"
+            ]
+          },
+          {
+            "id": "hf-evidence-004",
+            "observation": "Learned to translate specialized creative work into stories accessible to general audiences.",
+            "supportsCompetencies": [
+              "Storytelling",
+              "Audience Communication",
+              "Editorial Judgment"
+            ],
+            "source": [
+              "career_interviews"
+            ]
+          }
+        ],
+        "workingStyle": {
+          "editorialApproach": {
+            "summary": "Focused on finding the story behind each artist, exhibition or event before beginning the writing process.",
+            "source": [
+              "career_interviews"
+            ]
+          },
+          "interviewApproach": {
+            "summary": "Prepared thoroughly before interviews while remaining flexible enough to pursue unexpected stories during conversations.",
+            "source": [
+              "career_interviews"
+            ]
+          },
+          "audienceFocus": {
+            "summary": "Translated arts and cultural programming into language that encouraged public participation without losing the integrity of the work.",
+            "source": [
+              "career_interviews"
+            ]
+          }
+        },
+        "knowledgeDeveloped": [
+          {
+            "id": "hf-knowledge-001",
+            "domain": "Editorial Storytelling",
+            "summary": "Learned to identify the human story behind events, artists and organizations rather than simply reporting information.",
+            "source": [
+              "career_interviews"
+            ]
+          },
+          {
+            "id": "hf-knowledge-002",
+            "domain": "Public Communications",
+            "summary": "Developed experience communicating creative work to broad public audiences.",
+            "source": [
+              "career_interviews"
+            ]
+          }
+        ],
+        "identityEvidence": [
+          {
+            "id": "hf-identity-001",
+            "supportsIdentity": "communication-philosophy",
+            "reason": "Established the habit of understanding people before attempting to communicate their work.",
+            "source": [
+              "career_interviews"
+            ]
+          },
+          {
+            "id": "hf-identity-002",
+            "supportsIdentity": "curiosity",
+            "reason": "Professional growth came from asking thoughtful questions and exploring unexpected angles.",
+            "source": [
+              "career_interviews"
+            ]
+          }
+        ],
+        "careerImpact": {
+          "summary": "This role established the interviewing, research and storytelling skills that later carried into journalism, marketing and technical communication.",
           "source": [
             "career_interviews"
           ]
         },
-        {
-          "id": "hf-project-sponsor-campaigns",
-          "name": "Sponsor Communications",
-          "summary": "Supported communications and marketing initiatives connected to major sponsors and public programming.",
-          "activities": [
-            "Create marketing content.",
-            "Support campaign messaging.",
-            "Coordinate communications across initiatives."
-          ],
+        "futureEnrichment": {
+          "artistInterviews": [],
+          "festivalCampaigns": [],
+          "socialMediaExamples": [],
+          "sponsorInitiatives": [],
+          "careerTurningPoints": [],
+          "memorableArtistInterviews": [],
+          "favoritePublishedStories": [],
+          "earlySocialMediaExamples": [],
+          "communicationsChallenges": [],
+          "portfolioArtifacts": []
+        },
+        "decisionExamples": [
+          {
+            "id": "hf-decision-001",
+            "situation": "Writing about artists whose work was unfamiliar.",
+            "decision": "Invested time in research and conversation before writing.",
+            "result": "Produced stories that better reflected the artist's intent and connected with readers.",
+            "source": [
+              "career_interviews"
+            ]
+          },
+          {
+            "id": "hf-decision-002",
+            "situation": "Balancing organizational messaging with authentic storytelling.",
+            "decision": "Focused on the people behind the programming rather than promotional language alone.",
+            "result": "Created more engaging editorial content.",
+            "source": [
+              "career_interviews"
+            ]
+          }
+        ],
+        "workingPrinciples": [
+          {
+            "id": "hf-principle-001",
+            "principle": "Listen first.",
+            "application": "Use interviews to understand the subject before deciding on the story.",
+            "source": [
+              "career_interviews"
+            ]
+          },
+          {
+            "id": "hf-principle-002",
+            "principle": "Every event has a human story.",
+            "application": "Look beyond schedules and announcements to find what makes the work meaningful.",
+            "source": [
+              "career_interviews"
+            ]
+          }
+        ],
+        "careerMilestones": [
+          {
+            "id": "hf-milestone-001",
+            "milestone": "Developed the interviewing and storytelling habits that became the foundation of later journalism and marketing roles.",
+            "source": [
+              "career_interviews"
+            ]
+          }
+        ],
+        "professionalIdentity": {
+          "roleInCareer": "Established the communication, interviewing and storytelling foundation that influenced every subsequent writing and marketing role.",
           "source": [
             "career_interviews"
           ]
         },
-        {
-          "id": "hf-project-artist-stories",
-          "name": "Artist Storytelling",
-          "summary": "Interviewed artists and transformed conversations into engaging editorial stories for public audiences.",
-          "activities": [
-            "Research artists.",
-            "Conduct interviews.",
-            "Write feature content."
-          ],
+        "careerEvolution": {
+          "beforeRole": {
+            "summary": "Early-career communicator developing confidence as a professional writer.",
+            "source": [
+              "career_interviews"
+            ]
+          },
+          "afterRole": {
+            "summary": "Left with stronger interviewing skills, editorial confidence and a lasting interest in finding stories behind people and organizations.",
+            "source": [
+              "career_interviews"
+            ]
+          }
+        },
+        "professionalValues": [
+          {
+            "id": "hf-value-001",
+            "value": "Authenticity",
+            "application": "Represent people accurately instead of forcing a predetermined narrative.",
+            "source": [
+              "career_interviews"
+            ]
+          },
+          {
+            "id": "hf-value-002",
+            "value": "Preparation",
+            "application": "Invest time understanding a subject before attempting to explain it.",
+            "source": [
+              "career_interviews"
+            ]
+          },
+          {
+            "id": "hf-value-003",
+            "value": "Audience Respect",
+            "application": "Write for readers with clarity while respecting the complexity of the subject.",
+            "source": [
+              "career_interviews"
+            ]
+          }
+        ],
+        "transferableStrengths": [
+          {
+            "strength": "Interviewing",
+            "carriedInto": [
+              "Journalism",
+              "Marketing",
+              "Technical Writing",
+              "AI Research"
+            ],
+            "source": [
+              "career_interviews"
+            ]
+          },
+          {
+            "strength": "Story Discovery",
+            "carriedInto": [
+              "Content Strategy",
+              "Brand Marketing",
+              "Technical Communication"
+            ],
+            "source": [
+              "career_interviews"
+            ]
+          }
+        ],
+        "experienceReflection": {
+          "summary": "Although later roles became increasingly technical, this experience remained the foundation for Riley's communication style: research deeply, ask thoughtful questions and make complex subjects accessible.",
           "source": [
             "career_interviews"
           ]
+        },
+        "status": {
+          "layer1": "complete",
+          "layer2": "complete",
+          "readyForResumeGeneration": true,
+          "readyForInterviewGeneration": true
         }
-      ]
-    },
-    {
-      "reason": "hf-* enrichment was recovered, but no experience-harbourfront base object exists",
-      "section": "achievements",
-      "content": [
-        {
-          "id": "hf-achievement-001",
-          "title": "Helped build an early social media presence",
-          "description": "Contributed to Harbourfront Centre's adoption of social media as an audience engagement channel.",
-          "source": [
-            "career_interviews"
-          ]
-        },
-        {
-          "id": "hf-achievement-002",
-          "title": "Developed professional interviewing skills",
-          "description": "Built confidence interviewing artists and creative professionals while producing editorial content.",
-          "source": [
-            "career_interviews"
-          ]
-        }
-      ]
-    },
-    {
-      "reason": "hf-* enrichment was recovered, but no experience-harbourfront base object exists",
-      "section": "lessonsLearned",
-      "content": [
-        {
-          "id": "hf-lesson-001",
-          "lesson": "Strong stories begin with curiosity rather than assumptions.",
-          "source": [
-            "career_interviews"
-          ]
-        },
-        {
-          "id": "hf-lesson-002",
-          "lesson": "Creative work becomes more meaningful when audiences understand the people behind it.",
-          "source": [
-            "career_interviews"
-          ]
-        }
-      ]
-    },
-    {
-      "reason": "hf-* enrichment was recovered, but no experience-harbourfront base object exists",
-      "section": "professionalEvidence",
-      "content": [
-        {
-          "id": "hf-evidence-001",
-          "observation": "Combined journalism, communications and early social media into a single role.",
-          "supportsCompetencies": [
-            "Storytelling",
-            "Interviewing",
-            "Digital Communication"
-          ],
-          "source": [
-            "career_interviews"
-          ]
-        },
-        {
-          "id": "hf-evidence-002",
-          "observation": "Worked with artists, sponsors and internal stakeholders to communicate complex cultural programming.",
-          "supportsCompetencies": [
-            "Stakeholder Communication",
-            "Editorial Writing",
-            "Relationship Building"
-          ],
-          "source": [
-            "career_interviews"
-          ]
-        }
-      ]
-    },
-    {
-      "reason": "hf-* enrichment was recovered, but no experience-harbourfront base object exists",
-      "section": "workingStyle",
-      "content": {
-        "editorialApproach": {
-          "summary": "Focused on finding the story behind each artist, exhibition or event before beginning the writing process.",
-          "source": [
-            "career_interviews"
-          ]
-        },
-        "interviewApproach": {
-          "summary": "Prepared thoroughly before interviews while remaining flexible enough to pursue unexpected stories during conversations.",
-          "source": [
-            "career_interviews"
-          ]
-        },
-        "audienceFocus": {
-          "summary": "Translated arts and cultural programming into language that encouraged public participation without losing the integrity of the work.",
-          "source": [
-            "career_interviews"
-          ]
-        }
-      }
-    },
-    {
-      "reason": "hf-* enrichment was recovered, but no experience-harbourfront base object exists",
-      "section": "knowledgeDeveloped",
-      "content": [
-        {
-          "id": "hf-knowledge-001",
-          "domain": "Editorial Storytelling",
-          "summary": "Learned to identify the human story behind events, artists and organizations rather than simply reporting information.",
-          "source": [
-            "career_interviews"
-          ]
-        },
-        {
-          "id": "hf-knowledge-002",
-          "domain": "Public Communications",
-          "summary": "Developed experience communicating creative work to broad public audiences.",
-          "source": [
-            "career_interviews"
-          ]
-        }
-      ]
-    },
-    {
-      "reason": "hf-* enrichment was recovered, but no experience-harbourfront base object exists",
-      "section": "identityEvidence",
-      "content": [
-        {
-          "id": "hf-identity-001",
-          "supportsIdentity": "communication-philosophy",
-          "reason": "Established the habit of understanding people before attempting to communicate their work.",
-          "source": [
-            "career_interviews"
-          ]
-        },
-        {
-          "id": "hf-identity-002",
-          "supportsIdentity": "curiosity",
-          "reason": "Professional growth came from asking thoughtful questions and exploring unexpected angles.",
-          "source": [
-            "career_interviews"
-          ]
-        }
-      ]
-    },
-    {
-      "reason": "hf-* enrichment was recovered, but no experience-harbourfront base object exists",
-      "section": "careerImpact",
-      "content": {
-        "summary": "This role established the interviewing, research and storytelling skills that later carried into journalism, marketing and technical communication.",
-        "source": [
-          "career_interviews"
-        ]
-      }
-    },
-    {
-      "reason": "hf-* enrichment was recovered, but no experience-harbourfront base object exists",
-      "section": "futureEnrichment",
-      "content": {
-        "artistInterviews": [],
-        "festivalCampaigns": [],
-        "socialMediaExamples": [],
-        "sponsorInitiatives": [],
-        "careerTurningPoints": []
-      }
-    },
-    {
-      "reason": "hf-* enrichment was recovered, but no experience-harbourfront base object exists",
-      "section": "decisionExamples",
-      "content": [
-        {
-          "id": "hf-decision-001",
-          "situation": "Writing about artists whose work was unfamiliar.",
-          "decision": "Invested time in research and conversation before writing.",
-          "result": "Produced stories that better reflected the artist's intent and connected with readers.",
-          "source": [
-            "career_interviews"
-          ]
-        },
-        {
-          "id": "hf-decision-002",
-          "situation": "Balancing organizational messaging with authentic storytelling.",
-          "decision": "Focused on the people behind the programming rather than promotional language alone.",
-          "result": "Created more engaging editorial content.",
-          "source": [
-            "career_interviews"
-          ]
-        }
-      ]
-    },
-    {
-      "reason": "hf-* enrichment was recovered, but no experience-harbourfront base object exists",
-      "section": "professionalEvidence",
-      "content": [
-        {
-          "id": "hf-evidence-003",
-          "observation": "Developed confidence speaking with artists and creative professionals.",
-          "supportsCompetencies": [
-            "Interviewing",
-            "Relationship Building",
-            "Professional Communication"
-          ],
-          "source": [
-            "career_interviews"
-          ]
-        },
-        {
-          "id": "hf-evidence-004",
-          "observation": "Learned to translate specialized creative work into stories accessible to general audiences.",
-          "supportsCompetencies": [
-            "Storytelling",
-            "Audience Communication",
-            "Editorial Judgment"
-          ],
-          "source": [
-            "career_interviews"
-          ]
-        }
-      ]
-    },
-    {
-      "reason": "hf-* enrichment was recovered, but no experience-harbourfront base object exists",
-      "section": "workingPrinciples",
-      "content": [
-        {
-          "id": "hf-principle-001",
-          "principle": "Listen first.",
-          "application": "Use interviews to understand the subject before deciding on the story.",
-          "source": [
-            "career_interviews"
-          ]
-        },
-        {
-          "id": "hf-principle-002",
-          "principle": "Every event has a human story.",
-          "application": "Look beyond schedules and announcements to find what makes the work meaningful.",
-          "source": [
-            "career_interviews"
-          ]
-        }
-      ]
-    },
-    {
-      "reason": "hf-* enrichment was recovered, but no experience-harbourfront base object exists",
-      "section": "careerMilestones",
-      "content": [
-        {
-          "id": "hf-milestone-001",
-          "milestone": "Developed the interviewing and storytelling habits that became the foundation of later journalism and marketing roles.",
-          "source": [
-            "career_interviews"
-          ]
-        }
-      ]
-    },
-    {
-      "reason": "hf-* enrichment was recovered, but no experience-harbourfront base object exists",
-      "section": "futureEnrichment",
-      "content": {
-        "memorableArtistInterviews": [],
-        "favoritePublishedStories": [],
-        "earlySocialMediaExamples": [],
-        "communicationsChallenges": [],
-        "portfolioArtifacts": []
-      }
-    },
-    {
-      "reason": "hf-* enrichment was recovered, but no experience-harbourfront base object exists",
-      "section": "professionalIdentity",
-      "content": {
-        "roleInCareer": "Established the communication, interviewing and storytelling foundation that influenced every subsequent writing and marketing role.",
-        "source": [
-          "career_interviews"
-        ]
-      }
-    },
-    {
-      "reason": "hf-* enrichment was recovered, but no experience-harbourfront base object exists",
-      "section": "careerEvolution",
-      "content": {
-        "beforeRole": {
-          "summary": "Early-career communicator developing confidence as a professional writer.",
-          "source": [
-            "career_interviews"
-          ]
-        },
-        "afterRole": {
-          "summary": "Left with stronger interviewing skills, editorial confidence and a lasting interest in finding stories behind people and organizations.",
-          "source": [
-            "career_interviews"
-          ]
-        }
-      }
-    },
-    {
-      "reason": "hf-* enrichment was recovered, but no experience-harbourfront base object exists",
-      "section": "professionalValues",
-      "content": [
-        {
-          "id": "hf-value-001",
-          "value": "Authenticity",
-          "application": "Represent people accurately instead of forcing a predetermined narrative.",
-          "source": [
-            "career_interviews"
-          ]
-        },
-        {
-          "id": "hf-value-002",
-          "value": "Preparation",
-          "application": "Invest time understanding a subject before attempting to explain it.",
-          "source": [
-            "career_interviews"
-          ]
-        },
-        {
-          "id": "hf-value-003",
-          "value": "Audience Respect",
-          "application": "Write for readers with clarity while respecting the complexity of the subject.",
-          "source": [
-            "career_interviews"
-          ]
-        }
-      ]
-    },
-    {
-      "reason": "hf-* enrichment was recovered, but no experience-harbourfront base object exists",
-      "section": "transferableStrengths",
-      "content": [
-        {
-          "strength": "Interviewing",
-          "carriedInto": [
-            "Journalism",
-            "Marketing",
-            "Technical Writing",
-            "AI Research"
-          ],
-          "source": [
-            "career_interviews"
-          ]
-        },
-        {
-          "strength": "Story Discovery",
-          "carriedInto": [
-            "Content Strategy",
-            "Brand Marketing",
-            "Technical Communication"
-          ],
-          "source": [
-            "career_interviews"
-          ]
-        }
-      ]
-    },
-    {
-      "reason": "hf-* enrichment was recovered, but no experience-harbourfront base object exists",
-      "section": "experienceReflection",
-      "content": {
-        "summary": "Although later roles became increasingly technical, this experience remained the foundation for Riley's communication style: research deeply, ask thoughtful questions and make complex subjects accessible.",
-        "source": [
-          "career_interviews"
-        ]
-      }
-    },
-    {
-      "reason": "hf-* enrichment was recovered, but no experience-harbourfront base object exists",
-      "section": "status",
-      "content": {
-        "layer1": "complete",
-        "layer2": "complete",
-        "readyForResumeGeneration": true,
-        "readyForInterviewGeneration": true
       }
     }
   ]
