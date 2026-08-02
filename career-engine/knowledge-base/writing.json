@@ -1,0 +1,162 @@
+{
+  "_comment": "Authored work and writing evidence.",
+  "schemaVersion": "1.0.0",
+  "schema": {
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "career-engine/knowledge-base/writing.json.schema.json",
+    "title": "Writing",
+    "description": "Authored work and writing evidence.",
+    "type": "array",
+    "items": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        },
+        "format": {
+          "type": "string"
+        },
+        "topic": {
+          "type": "string"
+        },
+        "audience": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "purpose": {
+          "type": "string"
+        },
+        "summary": {
+          "type": "string"
+        },
+        "url": {
+          "type": "string"
+        },
+        "publication": {
+          "type": "string"
+        },
+        "publishedDate": {
+          "type": "string"
+        },
+        "role": {
+          "type": "string"
+        },
+        "metrics": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "name": {
+                "type": "string"
+              },
+              "value": {
+                "type": "string"
+              },
+              "timeframe": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "name",
+              "value",
+              "timeframe"
+            ]
+          }
+        },
+        "relatedSkills": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "relatedIndustries": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "visibility": {
+          "type": "string"
+        },
+        "_comment": {
+          "type": "string",
+          "description": "Inline documentation; not career data."
+        }
+      },
+      "required": [
+        "id",
+        "title",
+        "format",
+        "topic",
+        "audience",
+        "purpose",
+        "summary",
+        "url",
+        "publication",
+        "publishedDate",
+        "role",
+        "metrics",
+        "relatedSkills",
+        "relatedIndustries",
+        "visibility",
+        "_comment"
+      ]
+    }
+  },
+  "data": [],
+  "_template": {
+    "_comment": "Writing samples and authored assets; voice rules belong in voice.json.",
+    "id": "",
+    "title": "",
+    "format": "",
+    "topic": "",
+    "audience": [],
+    "purpose": "",
+    "summary": "",
+    "url": "",
+    "publication": "",
+    "publishedDate": "",
+    "role": "",
+    "metrics": [],
+    "relatedSkills": [],
+    "relatedIndustries": [],
+    "visibility": ""
+  },
+  "_example": {
+    "_comment": "Writing samples and authored assets; voice rules belong in voice.json.",
+    "id": "writing-example",
+    "title": "Example Article",
+    "format": "article",
+    "topic": "Example topic",
+    "audience": [
+      "Example audience"
+    ],
+    "purpose": "educate",
+    "summary": "Short abstract.",
+    "url": "https://example.com/article",
+    "publication": "Example Publication",
+    "publishedDate": "2024-01-15",
+    "role": "author",
+    "metrics": [
+      {
+        "name": "views",
+        "value": "1000",
+        "timeframe": "30 days"
+      }
+    ],
+    "relatedSkills": [
+      "skill-example"
+    ],
+    "relatedIndustries": [
+      "industry-example"
+    ],
+    "visibility": "public"
+  }
+}

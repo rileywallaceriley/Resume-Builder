@@ -1,0 +1,100 @@
+{
+  "_comment": "Industry exposure, knowledge, and targeting.",
+  "schemaVersion": "1.0.0",
+  "schema": {
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "career-engine/knowledge-base/industries.json.schema.json",
+    "title": "Industries",
+    "description": "Industry exposure, knowledge, and targeting.",
+    "type": "array",
+    "items": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "experienceLevel": {
+          "type": "string"
+        },
+        "yearsExperience": {
+          "type": "number"
+        },
+        "relatedExperiences": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "relatedProjects": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "domainKnowledge": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "targetPriority": {
+          "type": "string"
+        },
+        "notes": {
+          "type": "string"
+        },
+        "_comment": {
+          "type": "string",
+          "description": "Inline documentation; not career data."
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "experienceLevel",
+        "yearsExperience",
+        "relatedExperiences",
+        "relatedProjects",
+        "domainKnowledge",
+        "targetPriority",
+        "notes",
+        "_comment"
+      ]
+    }
+  },
+  "data": [],
+  "_template": {
+    "_comment": "Industry exposure and target relevance.",
+    "id": "",
+    "name": "",
+    "experienceLevel": "",
+    "yearsExperience": 0,
+    "relatedExperiences": [],
+    "relatedProjects": [],
+    "domainKnowledge": [],
+    "targetPriority": "",
+    "notes": ""
+  },
+  "_example": {
+    "_comment": "Industry exposure and target relevance.",
+    "id": "industry-example",
+    "name": "Example Industry",
+    "experienceLevel": "deep",
+    "yearsExperience": 5,
+    "relatedExperiences": [
+      "exp-example"
+    ],
+    "relatedProjects": [
+      "project-example"
+    ],
+    "domainKnowledge": [
+      "Example domain topic"
+    ],
+    "targetPriority": "high",
+    "notes": "Example context."
+  }
+}

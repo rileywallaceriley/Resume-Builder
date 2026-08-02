@@ -1,0 +1,332 @@
+{
+  "_comment": "Career targets, constraints, and deal breakers.",
+  "schemaVersion": "1.0.0",
+  "schema": {
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "career-engine/knowledge-base/preferences.json.schema.json",
+    "title": "Preferences",
+    "description": "Career targets, constraints, and deal breakers.",
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "salaryExpectations": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "currency": {
+            "type": "string"
+          },
+          "minimumBase": {
+            "type": "number"
+          },
+          "targetBase": {
+            "type": "number"
+          },
+          "targetTotalCompensation": {
+            "type": "number"
+          },
+          "period": {
+            "type": "string"
+          },
+          "flexibility": {
+            "type": "string"
+          },
+          "visibility": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "currency",
+          "minimumBase",
+          "targetBase",
+          "targetTotalCompensation",
+          "period",
+          "flexibility",
+          "visibility"
+        ]
+      },
+      "remotePreferences": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "preferred": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "acceptable": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "locations": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "officeDaysMaximum": {
+            "type": "number"
+          }
+        },
+        "required": [
+          "preferred",
+          "acceptable",
+          "locations",
+          "officeDaysMaximum"
+        ]
+      },
+      "travel": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "maximumPercent": {
+            "type": "number"
+          },
+          "internationalAllowed": {
+            "type": "boolean"
+          },
+          "notes": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "maximumPercent",
+          "internationalAllowed",
+          "notes"
+        ]
+      },
+      "industriesToTarget": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "industriesToAvoid": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "desiredCompanySize": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "minimumEmployees": {
+              "type": "number"
+            },
+            "maximumEmployees": {
+              "type": "number"
+            },
+            "preference": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "minimumEmployees",
+            "maximumEmployees",
+            "preference"
+          ]
+        }
+      },
+      "careerGoals": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "shortTerm": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "longTerm": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "required": [
+          "shortTerm",
+          "longTerm"
+        ]
+      },
+      "dealBreakers": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "targetRoles": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "locationConstraints": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "employmentTypes": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "_comment": {
+        "type": "string",
+        "description": "Inline documentation; not career data."
+      }
+    },
+    "required": [
+      "salaryExpectations",
+      "remotePreferences",
+      "travel",
+      "industriesToTarget",
+      "industriesToAvoid",
+      "desiredCompanySize",
+      "careerGoals",
+      "dealBreakers",
+      "targetRoles",
+      "locationConstraints",
+      "employmentTypes",
+      "_comment"
+    ]
+  },
+  "data": {
+    "_comment": "Private career constraints and aspirations. Agents must honor visibility and must not disclose sensitive values without permission.",
+    "salaryExpectations": {
+      "currency": "",
+      "minimumBase": 0,
+      "targetBase": 0,
+      "targetTotalCompensation": 0,
+      "period": "",
+      "flexibility": "",
+      "visibility": ""
+    },
+    "remotePreferences": {
+      "preferred": [],
+      "acceptable": [],
+      "locations": [],
+      "officeDaysMaximum": 0
+    },
+    "travel": {
+      "maximumPercent": 0,
+      "internationalAllowed": false,
+      "notes": ""
+    },
+    "industriesToTarget": [],
+    "industriesToAvoid": [],
+    "desiredCompanySize": [],
+    "careerGoals": {
+      "shortTerm": [],
+      "longTerm": []
+    },
+    "dealBreakers": [],
+    "targetRoles": [],
+    "locationConstraints": [],
+    "employmentTypes": []
+  },
+  "_template": {
+    "_comment": "Private career constraints and aspirations. Agents must honor visibility and must not disclose sensitive values without permission.",
+    "salaryExpectations": {
+      "currency": "",
+      "minimumBase": 0,
+      "targetBase": 0,
+      "targetTotalCompensation": 0,
+      "period": "",
+      "flexibility": "",
+      "visibility": ""
+    },
+    "remotePreferences": {
+      "preferred": [],
+      "acceptable": [],
+      "locations": [],
+      "officeDaysMaximum": 0
+    },
+    "travel": {
+      "maximumPercent": 0,
+      "internationalAllowed": false,
+      "notes": ""
+    },
+    "industriesToTarget": [],
+    "industriesToAvoid": [],
+    "desiredCompanySize": [],
+    "careerGoals": {
+      "shortTerm": [],
+      "longTerm": []
+    },
+    "dealBreakers": [],
+    "targetRoles": [],
+    "locationConstraints": [],
+    "employmentTypes": []
+  },
+  "_example": {
+    "_comment": "Private career constraints and aspirations. Agents must honor visibility and must not disclose sensitive values without permission.",
+    "salaryExpectations": {
+      "currency": "USD",
+      "minimumBase": 100000,
+      "targetBase": 125000,
+      "targetTotalCompensation": 150000,
+      "period": "annual",
+      "flexibility": "Depends on scope and equity.",
+      "visibility": "private"
+    },
+    "remotePreferences": {
+      "preferred": [
+        "remote"
+      ],
+      "acceptable": [
+        "hybrid"
+      ],
+      "locations": [
+        "Example time zones"
+      ],
+      "officeDaysMaximum": 2
+    },
+    "travel": {
+      "maximumPercent": 10,
+      "internationalAllowed": true,
+      "notes": "Example constraint."
+    },
+    "industriesToTarget": [
+      "industry-example"
+    ],
+    "industriesToAvoid": [
+      "Example excluded industry"
+    ],
+    "desiredCompanySize": [
+      {
+        "minimumEmployees": 50,
+        "maximumEmployees": 1000,
+        "preference": "preferred"
+      }
+    ],
+    "careerGoals": {
+      "shortTerm": [
+        "Example 1-2 year goal."
+      ],
+      "longTerm": [
+        "Example 5+ year goal."
+      ]
+    },
+    "dealBreakers": [
+      "Example non-negotiable."
+    ],
+    "targetRoles": [
+      "Example role"
+    ],
+    "locationConstraints": [
+      "Example location constraint."
+    ],
+    "employmentTypes": [
+      "full-time"
+    ]
+  }
+}

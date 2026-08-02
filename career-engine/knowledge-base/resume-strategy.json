@@ -1,0 +1,240 @@
+{
+  "_comment": "Rules governing resume selection, tailoring, and safety.",
+  "schemaVersion": "1.0.0",
+  "schema": {
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "career-engine/knowledge-base/resume-strategy.json.schema.json",
+    "title": "Resume Strategy",
+    "description": "Rules governing resume selection, tailoring, and safety.",
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "maximumPages": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "default": {
+            "type": "number"
+          },
+          "executive": {
+            "type": "number"
+          },
+          "earlyCareer": {
+            "type": "number"
+          }
+        },
+        "required": [
+          "default",
+          "executive",
+          "earlyCareer"
+        ]
+      },
+      "preferredEmphasis": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "whenToShorten": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "whenToExpand": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "accomplishmentPrioritization": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "orderedCriteria": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "minimumConfidence": {
+            "type": "string"
+          },
+          "maximumBulletsPerRole": {
+            "type": "number"
+          }
+        },
+        "required": [
+          "orderedCriteria",
+          "minimumConfidence",
+          "maximumBulletsPerRole"
+        ]
+      },
+      "tailoring": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "executiveJobs": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "technicalWriting": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "marketing": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "required": [
+          "executiveJobs",
+          "technicalWriting",
+          "marketing"
+        ]
+      },
+      "contentRules": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "formatRules": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "exclusions": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "_comment": {
+        "type": "string",
+        "description": "Inline documentation; not career data."
+      }
+    },
+    "required": [
+      "maximumPages",
+      "preferredEmphasis",
+      "whenToShorten",
+      "whenToExpand",
+      "accomplishmentPrioritization",
+      "tailoring",
+      "contentRules",
+      "formatRules",
+      "exclusions",
+      "_comment"
+    ]
+  },
+  "data": {
+    "_comment": "Deterministic resume-generation policy. Values are defaults and may be overridden by an explicit job-specific brief.",
+    "maximumPages": {
+      "default": 0,
+      "executive": 0,
+      "earlyCareer": 0
+    },
+    "preferredEmphasis": [],
+    "whenToShorten": [],
+    "whenToExpand": [],
+    "accomplishmentPrioritization": {
+      "orderedCriteria": [],
+      "minimumConfidence": "",
+      "maximumBulletsPerRole": 0
+    },
+    "tailoring": {
+      "executiveJobs": [],
+      "technicalWriting": [],
+      "marketing": []
+    },
+    "contentRules": [],
+    "formatRules": [],
+    "exclusions": []
+  },
+  "_template": {
+    "_comment": "Deterministic resume-generation policy. Values are defaults and may be overridden by an explicit job-specific brief.",
+    "maximumPages": {
+      "default": 0,
+      "executive": 0,
+      "earlyCareer": 0
+    },
+    "preferredEmphasis": [],
+    "whenToShorten": [],
+    "whenToExpand": [],
+    "accomplishmentPrioritization": {
+      "orderedCriteria": [],
+      "minimumConfidence": "",
+      "maximumBulletsPerRole": 0
+    },
+    "tailoring": {
+      "executiveJobs": [],
+      "technicalWriting": [],
+      "marketing": []
+    },
+    "contentRules": [],
+    "formatRules": [],
+    "exclusions": []
+  },
+  "_example": {
+    "_comment": "Deterministic resume-generation policy. Values are defaults and may be overridden by an explicit job-specific brief.",
+    "maximumPages": {
+      "default": 2,
+      "executive": 3,
+      "earlyCareer": 1
+    },
+    "preferredEmphasis": [
+      "Measurable outcomes",
+      "Role-relevant evidence",
+      "Recent experience"
+    ],
+    "whenToShorten": [
+      "Remove content that does not support the target role.",
+      "Compress older, less relevant roles."
+    ],
+    "whenToExpand": [
+      "Add context when scope is necessary to understand an achievement.",
+      "Include more evidence for senior leadership roles."
+    ],
+    "accomplishmentPrioritization": {
+      "orderedCriteria": [
+        "Relevance to target role",
+        "Magnitude of measurable impact",
+        "Recency",
+        "Evidence confidence"
+      ],
+      "minimumConfidence": "medium",
+      "maximumBulletsPerRole": 6
+    },
+    "tailoring": {
+      "executiveJobs": [
+        "Emphasize enterprise scope, strategy, leadership, and business results."
+      ],
+      "technicalWriting": [
+        "Emphasize complex-domain fluency, audience outcomes, and writing samples."
+      ],
+      "marketing": [
+        "Emphasize audience insight, growth metrics, positioning, and cross-functional execution."
+      ]
+    },
+    "contentRules": [
+      "Never invent facts or metrics.",
+      "Use only knowledge-base evidence.",
+      "Flag conflicts or missing evidence for human review."
+    ],
+    "formatRules": [
+      "Prefer concise accomplishment bullets.",
+      "Keep dates and titles consistent with source records."
+    ],
+    "exclusions": [
+      "Sensitive or private fields unless explicitly authorized."
+    ]
+  }
+}

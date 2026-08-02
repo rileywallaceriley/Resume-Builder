@@ -1,0 +1,201 @@
+{
+  "_comment": "Major initiatives modeled independently from employers.",
+  "schemaVersion": "1.0.0",
+  "schema": {
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "career-engine/knowledge-base/projects.json.schema.json",
+    "title": "Projects",
+    "description": "Major initiatives modeled independently from employers.",
+    "type": "array",
+    "items": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "problem": {
+          "type": "string"
+        },
+        "solution": {
+          "type": "string"
+        },
+        "impact": {
+          "type": "string"
+        },
+        "metrics": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "technologies": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "timeline": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "start": {
+              "type": "string"
+            },
+            "end": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "start",
+            "end"
+          ]
+        },
+        "role": {
+          "type": "string"
+        },
+        "responsibilities": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "team": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "size": {
+              "type": "number"
+            },
+            "functions": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "required": [
+            "size",
+            "functions"
+          ]
+        },
+        "relatedExperiences": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "relatedSkills": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "artifacts": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "status": {
+          "type": "string"
+        },
+        "visibility": {
+          "type": "string"
+        },
+        "_comment": {
+          "type": "string",
+          "description": "Inline documentation; not career data."
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "problem",
+        "solution",
+        "impact",
+        "metrics",
+        "technologies",
+        "timeline",
+        "role",
+        "responsibilities",
+        "team",
+        "relatedExperiences",
+        "relatedSkills",
+        "artifacts",
+        "status",
+        "visibility",
+        "_comment"
+      ]
+    }
+  },
+  "data": [],
+  "_template": {
+    "_comment": "A major initiative independent of employer chronology. Use IDs to connect it to experiences and achievements.",
+    "id": "",
+    "name": "",
+    "problem": "",
+    "solution": "",
+    "impact": "",
+    "metrics": [],
+    "technologies": [],
+    "timeline": {
+      "start": "",
+      "end": ""
+    },
+    "role": "",
+    "responsibilities": [],
+    "team": {
+      "size": 0,
+      "functions": []
+    },
+    "relatedExperiences": [],
+    "relatedSkills": [],
+    "artifacts": [],
+    "status": "",
+    "visibility": ""
+  },
+  "_example": {
+    "_comment": "A major initiative independent of employer chronology. Use IDs to connect it to experiences and achievements.",
+    "id": "project-example",
+    "name": "Example Initiative",
+    "problem": "Specific problem or opportunity.",
+    "solution": "Approach and delivered solution.",
+    "impact": "Outcome for users or business.",
+    "metrics": [
+      "achievement-example"
+    ],
+    "technologies": [
+      "technology-example"
+    ],
+    "timeline": {
+      "start": "2022-01",
+      "end": "2022-06"
+    },
+    "role": "Example project role",
+    "responsibilities": [
+      "Example project responsibility"
+    ],
+    "team": {
+      "size": 5,
+      "functions": [
+        "Engineering",
+        "Design"
+      ]
+    },
+    "relatedExperiences": [
+      "exp-example"
+    ],
+    "relatedSkills": [
+      "skill-example"
+    ],
+    "artifacts": [
+      "https://example.com/case-study"
+    ],
+    "status": "completed",
+    "visibility": "public"
+  }
+}

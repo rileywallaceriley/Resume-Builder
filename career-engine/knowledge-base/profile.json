@@ -1,0 +1,263 @@
+{
+  "_comment": "Canonical professional identity and contact information.",
+  "schemaVersion": "1.0.0",
+  "schema": {
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "career-engine/knowledge-base/profile.json.schema.json",
+    "title": "Profile",
+    "description": "Canonical professional identity and contact information.",
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "preferredName": {
+        "type": "string"
+      },
+      "pronouns": {
+        "type": "string"
+      },
+      "location": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "city": {
+            "type": "string"
+          },
+          "region": {
+            "type": "string"
+          },
+          "country": {
+            "type": "string"
+          },
+          "timeZone": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "city",
+          "region",
+          "country",
+          "timeZone"
+        ]
+      },
+      "contact": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "email": {
+            "type": "string"
+          },
+          "phone": {
+            "type": "string"
+          },
+          "website": {
+            "type": "string"
+          },
+          "linkedIn": {
+            "type": "string"
+          },
+          "otherLinks": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "required": [
+          "email",
+          "phone",
+          "website",
+          "linkedIn",
+          "otherLinks"
+        ]
+      },
+      "professionalIdentity": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "headline": {
+            "type": "string"
+          },
+          "summary": {
+            "type": "string"
+          },
+          "valuePropositions": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "targetRoles": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "yearsExperience": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "headline",
+          "summary",
+          "valuePropositions",
+          "targetRoles",
+          "yearsExperience"
+        ]
+      },
+      "languages": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "language": {
+              "type": "string"
+            },
+            "proficiency": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "language",
+            "proficiency"
+          ]
+        }
+      },
+      "workAuthorization": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "country": {
+              "type": "string"
+            },
+            "status": {
+              "type": "string"
+            },
+            "sponsorshipRequired": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "country",
+            "status",
+            "sponsorshipRequired"
+          ]
+        }
+      },
+      "_comment": {
+        "type": "string",
+        "description": "Inline documentation; not career data."
+      }
+    },
+    "required": [
+      "preferredName",
+      "pronouns",
+      "location",
+      "contact",
+      "professionalIdentity",
+      "languages",
+      "workAuthorization",
+      "_comment"
+    ]
+  },
+  "data": {
+    "_comment": "Stable identity and positioning facts. Keep channel-specific prose elsewhere.",
+    "preferredName": "",
+    "pronouns": "",
+    "location": {
+      "city": "",
+      "region": "",
+      "country": "",
+      "timeZone": ""
+    },
+    "contact": {
+      "email": "",
+      "phone": "",
+      "website": "",
+      "linkedIn": "",
+      "otherLinks": []
+    },
+    "professionalIdentity": {
+      "headline": "",
+      "summary": "",
+      "valuePropositions": [],
+      "targetRoles": [],
+      "yearsExperience": ""
+    },
+    "languages": [],
+    "workAuthorization": []
+  },
+  "_template": {
+    "_comment": "Stable identity and positioning facts. Keep channel-specific prose elsewhere.",
+    "preferredName": "",
+    "pronouns": "",
+    "location": {
+      "city": "",
+      "region": "",
+      "country": "",
+      "timeZone": ""
+    },
+    "contact": {
+      "email": "",
+      "phone": "",
+      "website": "",
+      "linkedIn": "",
+      "otherLinks": []
+    },
+    "professionalIdentity": {
+      "headline": "",
+      "summary": "",
+      "valuePropositions": [],
+      "targetRoles": [],
+      "yearsExperience": ""
+    },
+    "languages": [],
+    "workAuthorization": []
+  },
+  "_example": {
+    "_comment": "Stable identity and positioning facts. Keep channel-specific prose elsewhere.",
+    "preferredName": "Example Name",
+    "pronouns": "they/them",
+    "location": {
+      "city": "Example City",
+      "region": "EX",
+      "country": "Example Country",
+      "timeZone": "Etc/UTC"
+    },
+    "contact": {
+      "email": "name@example.com",
+      "phone": "+1-555-0100",
+      "website": "https://example.com",
+      "linkedIn": "https://linkedin.com/in/example",
+      "otherLinks": [
+        "https://example.com/portfolio"
+      ]
+    },
+    "professionalIdentity": {
+      "headline": "Example professional headline",
+      "summary": "Two or three sentence master professional summary.",
+      "valuePropositions": [
+        "Example value proposition"
+      ],
+      "targetRoles": [
+        "Example role"
+      ],
+      "yearsExperience": "10+"
+    },
+    "languages": [
+      {
+        "language": "Example language",
+        "proficiency": "Professional"
+      }
+    ],
+    "workAuthorization": [
+      {
+        "country": "Example Country",
+        "status": "Authorized",
+        "sponsorshipRequired": false
+      }
+    ]
+  }
+}

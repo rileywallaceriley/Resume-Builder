@@ -1,0 +1,158 @@
+{
+  "_comment": "Evidence-linked interview stories in STAR format.",
+  "schemaVersion": "1.0.0",
+  "schema": {
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "career-engine/knowledge-base/interview-stories.json.schema.json",
+    "title": "Interview Stories",
+    "description": "Evidence-linked interview stories in STAR format.",
+    "type": "array",
+    "items": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        },
+        "situation": {
+          "type": "string"
+        },
+        "task": {
+          "type": "string"
+        },
+        "action": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "result": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "summary": {
+              "type": "string"
+            },
+            "metrics": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "required": [
+            "summary",
+            "metrics"
+          ]
+        },
+        "lessons": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "relatedCompetencies": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "relatedExperiences": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "relatedProjects": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "followUpQuestions": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "sensitivity": {
+          "type": "string"
+        },
+        "_comment": {
+          "type": "string",
+          "description": "Inline documentation; not career data."
+        }
+      },
+      "required": [
+        "id",
+        "title",
+        "situation",
+        "task",
+        "action",
+        "result",
+        "lessons",
+        "relatedCompetencies",
+        "relatedExperiences",
+        "relatedProjects",
+        "followUpQuestions",
+        "sensitivity",
+        "_comment"
+      ]
+    }
+  },
+  "data": [],
+  "_template": {
+    "_comment": "Reusable STAR story. Keep the result evidence-based and link competencies to canonical skill IDs.",
+    "id": "",
+    "title": "",
+    "situation": "",
+    "task": "",
+    "action": [],
+    "result": {
+      "summary": "",
+      "metrics": []
+    },
+    "lessons": [],
+    "relatedCompetencies": [],
+    "relatedExperiences": [],
+    "relatedProjects": [],
+    "followUpQuestions": [],
+    "sensitivity": ""
+  },
+  "_example": {
+    "_comment": "Reusable STAR story. Keep the result evidence-based and link competencies to canonical skill IDs.",
+    "id": "story-example",
+    "title": "Example challenge story",
+    "situation": "Relevant context and stakes.",
+    "task": "Personal mandate, goal, and constraints.",
+    "action": [
+      "Specific action taken.",
+      "Second action taken."
+    ],
+    "result": {
+      "summary": "Outcome produced.",
+      "metrics": [
+        "achievement-example"
+      ]
+    },
+    "lessons": [
+      "What was learned and would be repeated or changed."
+    ],
+    "relatedCompetencies": [
+      "skill-example"
+    ],
+    "relatedExperiences": [
+      "exp-example"
+    ],
+    "relatedProjects": [
+      "project-example"
+    ],
+    "followUpQuestions": [
+      "Example likely interviewer follow-up."
+    ],
+    "sensitivity": "public"
+  }
+}
