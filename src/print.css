@@ -1,0 +1,29 @@
+/* Loaded after the shared workspace styles so print-only page geometry has one
+   conflict-free source of truth. */
+@media print {
+  html,
+  body,
+  #root,
+  .app-shell {
+    background: white;
+  }
+
+  .workspace,
+  .preview-panel,
+  .preview-stage,
+  .page-scaler {
+    width: auto;
+  }
+
+  .preview-stage {
+    background-color: white !important;
+    background-image: none !important;
+  }
+
+  .page-scaler .resume-page {
+    width: auto;
+    min-height: 0;
+    padding: 0;
+    background: white;
+  }
+}

@@ -120,7 +120,7 @@ button:focus-visible, a:focus-visible { outline: 2px solid #315e78; outline-offs
   .ai-review { margin-top: 24px; }.preview-stage { justify-items: start; padding-inline: 24px; }
 }
 
-@page { size: A4; margin: 0; }
+@page { size: A4; margin: 17mm 17mm 14mm; }
 @media print {
   body { background: white; }.topbar, .sidebar, .preview-toolbar { display: none !important; }
   .workspace, .preview-panel, .preview-stage, .page-scaler { display: block; width: 210mm; min-height: 0; height: auto; overflow: visible; padding: 0; margin: 0; background: white; }
