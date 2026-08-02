@@ -1,354 +1,108 @@
 {
-  "_comment": "North-star professional identity and durable positioning knowledge. The data array is intentionally empty; _template and _example are documentation and are not source records.",
+  "_comment": "North-star professional identity and durable positioning knowledge. Career evidence is maintained in experience.json, achievements.json, and interview-stories.json.",
   "schemaVersion": "2.0.0",
   "entityType": "identity",
-  "schema": {
-    "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "$id": "brain/identity.json.schema.json",
-    "title": "Identity",
-    "description": "North-star professional identity and durable positioning knowledge.",
-    "type": "object",
-    "additionalProperties": false,
-    "properties": {
-      "_comment": {
-        "type": "string"
-      },
-      "id": {
-        "type": "string"
-      },
-      "createdAt": {
-        "type": "string"
-      },
-      "updatedAt": {
-        "type": "string"
-      },
-      "tags": {
-        "type": "array",
-        "items": {
-          "type": "string"
-        }
-      },
-      "relatedObjects": {
-        "type": "array",
-        "items": {
-          "type": "object",
-          "additionalProperties": false,
-          "properties": {
-            "objectType": {
-              "type": "string"
-            },
-            "objectId": {
-              "type": "string"
-            },
-            "relationship": {
-              "type": "string"
-            }
-          },
-          "required": [
-            "objectType",
-            "objectId",
-            "relationship"
-          ]
-        }
-      },
-     "identity": {
+  "professionalIdentity": {
+    "id": "professional-identity",
+    "confidence": "high",
+    "tags": [
+      "professional-identity",
+      "positioning",
+      "communication"
+    ],
+    "relatedObjects": [],
+    "evidence": [],
     "headline": "Technical Content Strategist, Journalist, SEO Specialist, AI Workflow Builder",
-
     "professionalMission": "Help people understand complex ideas through thoughtful communication, practical systems, and emerging technology.",
-
     "northStar": "Become the person who understands meaningful technological change before most people and translates it into practical value for businesses, creators, and readers.",
-
     "identityStatement": "Riley Wallace is not defined by a single profession. Journalism, marketing, technical writing, SEO, automation, AI, strategy, and design are all expressions of the same underlying skill: solving communication problems. His work consistently revolves around making complicated ideas understandable, useful, and interesting.",
-
-    "careerNarrative": {
-      "summary": "Throughout his career Riley has repeatedly moved into emerging fields before they became mainstream. Rather than specializing in one job title, he specializes in learning quickly, connecting ideas across disciplines, and creating systems that help other people understand complexity.",
-
-      "careerEvolution": [
-        {
-          "stage": "Journalism",
-          "purpose": "Learn research, interviewing, storytelling and editorial thinking."
-        },
-        {
-          "stage": "Marketing",
-          "purpose": "Understand business strategy, audience behaviour and measurable outcomes."
-        },
-        {
-          "stage": "Technical Content",
-          "purpose": "Translate highly technical subjects into content that people can actually understand."
-        },
-        {
-          "stage": "Artificial Intelligence",
-          "purpose": "Move beyond producing content into building systems that create, organize and improve knowledge."
-        }
-      ],
-
-      "commonTheme": "Every career transition has been motivated by curiosity rather than titles. New technology represents an opportunity to learn and create rather than something to fear."
-    },
-
-    "professionalPurpose": {
-      "primary": "Translate complexity into clarity.",
-
-      "secondary": [
-        "Teach people through writing.",
-        "Build reusable systems.",
-        "Document knowledge instead of repeatedly recreating it.",
-        "Stay ahead of technological change.",
-        "Help organizations communicate better."
-      ]
-    },
-
     "professionalIdentityTraits": [
       {
-        "id": "identity_curious",
+        "id": "identity-curious",
+        "confidence": "high",
+        "tags": [
+          "identity-trait"
+        ],
+        "relatedObjects": [
+          {
+            "objectType": "identity",
+            "objectId": "professional-identity",
+            "relationship": "defines"
+          }
+        ],
+        "evidence": [],
         "trait": "Curious",
         "description": "Naturally investigates subjects in depth and enjoys understanding how things work."
       },
       {
-        "id": "identity_systems",
+        "id": "identity-systems",
+        "confidence": "high",
+        "tags": [
+          "identity-trait"
+        ],
+        "relatedObjects": [
+          {
+            "objectType": "identity",
+            "objectId": "professional-identity",
+            "relationship": "defines"
+          }
+        ],
+        "evidence": [],
         "trait": "Systems Thinker",
         "description": "Looks for repeatable frameworks instead of one-off solutions."
       },
       {
-        "id": "identity_storyteller",
+        "id": "identity-storyteller",
+        "confidence": "high",
+        "tags": [
+          "identity-trait"
+        ],
+        "relatedObjects": [
+          {
+            "objectType": "identity",
+            "objectId": "professional-identity",
+            "relationship": "defines"
+          }
+        ],
+        "evidence": [],
         "trait": "Story Discoverer",
         "description": "Looks for the interesting human story hidden inside technical and business topics."
       },
       {
-        "id": "identity_builder",
+        "id": "identity-builder",
+        "confidence": "high",
+        "tags": [
+          "identity-trait"
+        ],
+        "relatedObjects": [
+          {
+            "objectType": "identity",
+            "objectId": "professional-identity",
+            "relationship": "defines"
+          }
+        ],
+        "evidence": [],
         "trait": "Builder",
         "description": "Prefers creating tools and systems over repeatedly performing manual work."
       },
       {
-        "id": "identity_teacher",
+        "id": "identity-teacher",
+        "confidence": "high",
+        "tags": [
+          "identity-trait"
+        ],
+        "relatedObjects": [
+          {
+            "objectType": "identity",
+            "objectId": "professional-identity",
+            "relationship": "defines"
+          }
+        ],
+        "evidence": [],
         "trait": "Teacher",
         "description": "Enjoys helping people understand concepts they previously found intimidating."
       }
     ],
-        "coreValues": [
-      {
-        "id": "value_curiosity",
-        "name": "Curiosity",
-        "importance": 10,
-        "statement": "Learning compounds over time. Curiosity is Riley's greatest long-term competitive advantage.",
-        "evidence": [
-          "Career transitions consistently follow emerging technology.",
-          "Actively explores new tools before they become mainstream.",
-          "Enjoys documentaries, mysteries, obscure music and deep technical subjects."
-        ]
-      },
-      {
-        "id": "value_clarity",
-        "name": "Clarity",
-        "importance": 10,
-        "statement": "If something cannot be explained clearly, it probably is not fully understood.",
-        "evidence": [
-          "Technical writing career.",
-          "Editorial background.",
-          "Focus on simplifying complicated topics."
-        ]
-      },
-      {
-        "id": "value_integrity",
-        "name": "Integrity",
-        "importance": 10,
-        "statement": "Evidence matters more than hype. Never exaggerate accomplishments or misrepresent expertise.",
-        "evidence": [
-          "Journalistic background.",
-          "Preference for factual writing.",
-          "Dislike of unnecessary marketing buzzwords."
-        ]
-      },
-      {
-        "id": "value_adaptability",
-        "name": "Adaptability",
-        "importance": 10,
-        "statement": "The future belongs to people who adapt quickly rather than defend old ways of working.",
-        "evidence": [
-          "Repeatedly embraced AI.",
-          "Career philosophy conversations.",
-          "Interest in automation."
-        ]
-      },
-      {
-        "id": "value_generosity",
-        "name": "Generosity",
-        "importance": 8,
-        "statement": "Knowledge becomes more valuable when shared.",
-        "evidence": [
-          "Mentoring interns.",
-          "Helping teammates.",
-          "Educational writing."
-        ]
-      }
-    ],
-
-    "operatingPrinciples": [
-      {
-        "id": "principle_001",
-        "title": "Build systems instead of repeating work.",
-        "description": "Whenever possible, replace repetitive manual effort with a reusable process."
-      },
-      {
-        "id": "principle_002",
-        "title": "Document everything worth remembering.",
-        "description": "Knowledge should become permanent assets rather than disappear after a project."
-      },
-      {
-        "id": "principle_003",
-        "title": "Stay ahead of technology.",
-        "description": "Learn emerging technology before it becomes an expectation."
-      },
-      {
-        "id": "principle_004",
-        "title": "Find the interesting question first.",
-        "description": "The best writing begins with curiosity rather than keywords."
-      },
-      {
-        "id": "principle_005",
-        "title": "Prefer evidence over assumptions.",
-        "description": "Research, interviews and measurable outcomes should support important conclusions."
-      },
-      {
-        "id": "principle_006",
-        "title": "Leave every project better documented than you found it.",
-        "description": "Future work should become easier because today's work was well organized."
-      }
-    ],
-
-    "careerPhilosophy": {
-      "definitionOfSuccess": "Success is becoming increasingly valuable because of knowledge, adaptability and judgment rather than a specific job title.",
-
-      "primaryMotivation": "Continuous learning and building meaningful work.",
-
-      "careerStrategy": {
-        "summary": "Rather than chasing titles, Riley follows industries, technologies and opportunities where communication can create measurable impact.",
-
-        "beliefs": [
-          "Skills outlast job titles.",
-          "Technology changes faster than careers.",
-          "Communication remains valuable regardless of industry.",
-          "AI is an amplifier, not a replacement."
-        ]
-      },
-
-      "longTermGoals": [
-        "Become recognized as a leader in AI-assisted communication.",
-        "Build intelligent systems that automate repetitive creative work.",
-        "Develop products instead of relying solely on employment income.",
-        "Continue learning faster than the market changes."
-      ]
-    },
-        "decisionMakingFramework": {
-      "summary": "Decisions are made by balancing curiosity, evidence, long-term value and practicality rather than short-term convenience.",
-
-      "process": [
-        {
-          "step": 1,
-          "title": "Understand the real problem",
-          "description": "Avoid solving symptoms. Spend time identifying the underlying issue before proposing solutions."
-        },
-        {
-          "step": 2,
-          "title": "Gather context",
-          "description": "Research, interview stakeholders and understand constraints before committing to an approach."
-        },
-        {
-          "step": 3,
-          "title": "Prefer elegant simplicity",
-          "description": "Choose the simplest solution that remains scalable and maintainable."
-        },
-        {
-          "step": 4,
-          "title": "Think in systems",
-          "description": "Whenever possible, solve classes of problems instead of isolated problems."
-        },
-        {
-          "step": 5,
-          "title": "Leave room for iteration",
-          "description": "Rarely assume the first solution is the final solution. Build with continuous improvement in mind."
-        }
-      ],
-
-      "decisionBiases": {
-        "naturallyLeansToward": [
-          "Learning opportunities",
-          "Long-term value",
-          "Automation",
-          "Knowledge reuse",
-          "Creative problem solving"
-        ],
-        "activelyAvoids": [
-          "Politics",
-          "Unnecessary complexity",
-          "Busy work",
-          "Short-term thinking",
-          "Artificial urgency"
-        ]
-      }
-    },
-
-    "professionalStrengths": {
-      "highestLeverage": [
-        {
-          "id": "strength_storytelling",
-          "name": "Story Discovery",
-          "description": "Consistently uncovers interesting narratives hidden inside technical, business or creative subjects."
-        },
-        {
-          "id": "strength_translation",
-          "name": "Technical Translation",
-          "description": "Transforms complicated concepts into language ordinary readers can understand."
-        },
-        {
-          "id": "strength_patterns",
-          "name": "Pattern Recognition",
-          "description": "Recognizes relationships across disciplines that many people treat as unrelated."
-        },
-        {
-          "id": "strength_learning",
-          "name": "Rapid Learning",
-          "description": "Quickly becomes productive in unfamiliar industries and technologies."
-        },
-        {
-          "id": "strength_editorial",
-          "name": "Editorial Judgment",
-          "description": "Identifies what matters, what should be emphasized and what should be removed."
-        },
-        {
-          "id": "strength_systems",
-          "name": "Systems Design",
-          "description": "Looks for opportunities to create reusable frameworks instead of repeatedly solving identical problems."
-        }
-      ],
-
-      "leadershipStrengths": [
-        "Mentoring",
-        "Building confidence",
-        "Helping people identify their strengths",
-        "Creating psychological safety",
-        "Encouraging independent thinking"
-      ],
-
-      "communicationStrengths": [
-        "Interviewing",
-        "Long-form writing",
-        "Technical documentation",
-        "SEO strategy",
-        "Public-facing educational content"
-      ]
-    },
-
-    "growthAreas": {
-      "currentFocus": [
-        "Continue strengthening software engineering skills.",
-        "Delegate sooner when appropriate.",
-        "Protect uninterrupted deep work.",
-        "Continue expanding practical AI engineering experience."
-      ],
-
-      "belief": "Growth comes from deliberate practice and curiosity rather than perfection."
-    },
-
     "professionalReputation": {
       "desiredReputation": [
         "Thoughtful",
@@ -358,7 +112,6 @@
         "Practical",
         "Forward-thinking"
       ],
-
       "shouldNeverBeKnownFor": [
         "Ego",
         "Empty buzzwords",
@@ -366,733 +119,1618 @@
         "Overcomplication",
         "Being resistant to change"
       ]
-    },
-        "motivationFramework": {
-      "coreMotivators": [
-        {
-          "id": "motivation_learning",
-          "name": "Continuous Learning",
-          "description": "The opportunity to learn something genuinely new is one of the strongest drivers of engagement."
-        },
-        {
-          "id": "motivation_building",
-          "name": "Building Systems",
-          "description": "Prefers creating tools, frameworks and processes that continue producing value long after they are finished."
-        },
-        {
-          "id": "motivation_problem_solving",
-          "name": "Problem Solving",
-          "description": "Enjoys untangling complicated problems and designing elegant solutions."
-        },
-        {
-          "id": "motivation_storytelling",
-          "name": "Meaningful Communication",
-          "description": "Finds satisfaction in helping other people understand ideas they previously found confusing."
-        },
-        {
-          "id": "motivation_curiosity",
-          "name": "Discovery",
-          "description": "Naturally investigates unfamiliar subjects simply because they are interesting."
-        }
-      ],
-
-      "energyDrains": [
-        "Micromanagement",
-        "Corporate politics",
-        "Repetitive manual work",
-        "Meetings without decisions",
-        "Work with no measurable impact",
-        "Environments resistant to change"
-      ]
-    },
-
-    "idealWorkEnvironment": {
-      "summary": "Riley performs best in organizations that value autonomy, curiosity and collaboration over hierarchy.",
-
-      "preferredCharacteristics": [
-        "Collaborative",
-        "Supportive",
-        "Low ego",
-        "Experimentation encouraged",
-        "High trust",
-        "Results-oriented",
-        "Flexible",
-        "Continuous learning"
-      ],
-
-      "managementExpectations": [
-        "Clear goals",
-        "Freedom to determine execution",
-        "Constructive feedback",
-        "Honest communication",
-        "Opportunity to improve processes"
-      ],
-
-      "teamCharacteristics": [
-        "People who enjoy learning.",
-        "People who share knowledge.",
-        "People who challenge ideas respectfully.",
-        "People who value curiosity over certainty."
-      ]
-    },
-
-    "leadershipPhilosophy": {
-      "summary": "Leadership is creating an environment where people discover what they do best and become confident doing it.",
-
-      "beliefs": [
-        "Every person has different motivations.",
-        "Managers should understand those motivations.",
-        "Confidence grows through ownership.",
-        "People perform better when they understand why their work matters.",
-        "Coaching creates stronger teams than control."
-      ],
-
-      "managementStyle": {
-        "approach": "Servant leadership",
-
-        "focusAreas": [
-          "Mentorship",
-          "Professional growth",
-          "Autonomy",
-          "Recognition",
-          "Skill development"
-        ]
-      }
-    },
-
-    "mentoringPhilosophy": {
-      "summary": "The goal is not to create copies of yourself. The goal is to help people become the best version of themselves.",
-
-      "principles": [
-        "Discover individual strengths.",
-        "Create opportunities aligned with those strengths.",
-        "Provide honest feedback.",
-        "Celebrate progress.",
-        "Encourage curiosity.",
-        "Teach people how to think rather than what to think."
-      ],
-
-      "successDefinition": "Someone leaves the team more capable and more confident than when they arrived."
-    },
-
-    "collaborationStyle": {
-      "preferredRole": "Thought partner and systems builder",
-
-      "strengths": [
-        "Listening before speaking",
-        "Finding common ground",
-        "Connecting ideas",
-        "Helping teams simplify complexity",
-        "Keeping discussions focused on outcomes"
-      ],
-
-      "communicationPreferences": [
-        "Direct but respectful",
-        "Transparent",
-        "Evidence-based",
-        "Constructive",
-        "Collaborative"
-      ]
-    },
-
-    "conflictResolution": {
-      "approach": [
-        "Assume positive intent first.",
-        "Clarify the actual disagreement.",
-        "Focus on solving the problem rather than assigning blame.",
-        "Use evidence instead of emotion whenever possible.",
-        "Leave the relationship stronger than before."
-      ]
-    },
-        "learningPhilosophy": {
-      "summary": "Learning is a permanent competitive advantage. Skills become outdated; the ability to learn quickly does not.",
-
-      "coreBeliefs": [
-        "Curiosity compounds over time.",
-        "Every project should teach something new.",
-        "Technology should be explored before it becomes mandatory.",
-        "Knowledge becomes more valuable when documented.",
-        "Understanding first principles creates better long-term judgment."
-      ],
-
-      "learningMethods": [
-        {
-          "method": "Deep Research",
-          "description": "Read broadly before forming opinions. Understand context rather than memorizing facts."
-        },
-        {
-          "method": "Hands-on Experimentation",
-          "description": "Build real projects instead of consuming endless tutorials."
-        },
-        {
-          "method": "Teaching",
-          "description": "Explaining ideas to others exposes weaknesses in personal understanding."
-        },
-        {
-          "method": "Pattern Recognition",
-          "description": "Compare unrelated industries to identify transferable ideas."
-        }
-      ],
-
-      "preferredLearningTopics": [
-        "Artificial Intelligence",
-        "Automation",
-        "Psychology",
-        "Business",
-        "Journalism",
-        "Writing",
-        "Technology",
-        "Design",
-        "History",
-        "Science"
-      ]
-    },
-
-    "technologyPhilosophy": {
-      "summary": "Technology should remove repetitive work so people can spend more time thinking, creating and solving meaningful problems.",
-
-      "beliefs": [
-        "AI is a tool, not an identity.",
-        "Early adaptation creates opportunity.",
-        "Automation should increase quality as well as speed.",
-        "The best technology feels invisible.",
-        "Human judgment remains the final layer of quality control."
-      ],
-
-      "approach": [
-        "Experiment early.",
-        "Evaluate objectively.",
-        "Keep what creates leverage.",
-        "Discard hype quickly.",
-        "Build practical systems."
-      ],
-
-      "longTermVision": "Create intelligent systems that continuously improve through accumulated knowledge rather than repeated manual effort."
-    },
-
-    "communicationPhilosophy": {
-      "purpose": "Communication exists to reduce confusion, increase understanding and create trust.",
-
-      "principles": [
-        "Assume the audience is intelligent but unfamiliar with the topic.",
-        "Clarity is more important than sounding impressive.",
-        "Examples teach faster than definitions.",
-        "Every explanation should reduce cognitive effort.",
-        "Good communication respects the reader's time."
-      ],
-
-      "writingGoals": [
-        "Make difficult subjects approachable.",
-        "Help readers feel smarter after reading.",
-        "Avoid unnecessary jargon.",
-        "Balance precision with readability."
-      ]
-    },
-
-    "editorialPhilosophy": {
-      "summary": "The strongest content begins with genuine curiosity and ends with practical understanding.",
-
-      "beliefs": [
-        "Interesting questions create interesting articles.",
-        "Research should deepen understanding, not inflate word count.",
-        "Every article should have one central idea.",
-        "Editing is where writing becomes valuable.",
-        "Readers remember stories more than explanations."
-      ],
-
-      "articleFramework": [
-        "Find the most interesting question.",
-        "Research deeply.",
-        "Interview when appropriate.",
-        "Build a logical outline.",
-        "Write clearly.",
-        "Edit aggressively.",
-        "Remove anything that does not support the central idea."
-      ],
-
-      "editorialGoals": [
-        "Educate",
-        "Clarify",
-        "Engage",
-        "Build trust",
-        "Create long-term value"
-      ]
-    },
-
-    "creativePhilosophy": {
-      "summary": "Creativity is the process of combining existing ideas into something more useful than either idea alone.",
-
-      "beliefs": [
-        "Originality often comes from unexpected combinations.",
-        "Constraints encourage better thinking.",
-        "Curiosity fuels creativity.",
-        "Systems increase creative output rather than reducing it.",
-        "Documentation preserves creative momentum."
-      ]
-    },
-        "professionalDecisionHeuristics": {
-      "summary": "Default rules Riley naturally follows when making professional decisions.",
-
-      "heuristics": [
-        {
-          "id": "heuristic_001",
-          "title": "Optimize for learning.",
-          "description": "When two opportunities appear similar, choose the one that teaches the most."
-        },
-        {
-          "id": "heuristic_002",
-          "title": "Build reusable assets.",
-          "description": "Prefer creating something that can be reused hundreds of times over solving a problem once."
-        },
-        {
-          "id": "heuristic_003",
-          "title": "Compounding beats intensity.",
-          "description": "Consistent improvement produces larger long-term results than occasional bursts of effort."
-        },
-        {
-          "id": "heuristic_004",
-          "title": "Reduce friction.",
-          "description": "Whenever possible, remove unnecessary steps rather than simply working faster."
-        },
-        {
-          "id": "heuristic_005",
-          "title": "Always ask why.",
-          "description": "Understanding intent produces better solutions than simply executing instructions."
-        },
-        {
-          "id": "heuristic_006",
-          "title": "Leave behind knowledge.",
-          "description": "Every project should improve future projects through documentation or automation."
-        }
-      ]
-    },
-
-    "professionalDifferentiators": {
-      "summary": "Characteristics that distinguish Riley from professionals with similar job titles.",
-
-      "uniqueCombination": [
-        "Journalist who understands marketing.",
-        "Technical writer who understands business.",
-        "SEO strategist who values editorial integrity.",
-        "AI practitioner who prioritizes human judgment.",
-        "Creative thinker who naturally designs systems."
-      ],
-
-      "rareStrengths": [
-        "Connects unrelated disciplines.",
-        "Learns emerging technology rapidly.",
-        "Balances creativity with structure.",
-        "Turns ambiguity into documented processes.",
-        "Comfortable switching between strategic and tactical work."
-      ],
-
-      "marketPosition": "Works at the intersection of communication, technology, automation and strategy rather than inside a single traditional discipline."
-    },
-
-    "professionalIdentityGuardrails": {
-      "alwaysCommunicate": [
-        "Curiosity",
-        "Thoughtfulness",
-        "Adaptability",
-        "Integrity",
-        "Practical problem solving",
-        "Continuous learning"
-      ],
-
-      "neverCommunicate": [
-        "Arrogance",
-        "Know-it-all attitude",
-        "Empty buzzwords",
-        "Overconfidence",
-        "Technology hype without substance"
-      ],
-
-      "toneObjectives": [
-        "Helpful",
-        "Intelligent",
-        "Approachable",
-        "Calm",
-        "Confident without ego"
-      ]
-    },
-
-    "successMetrics": {
-      "career": [
-        "Build products instead of only selling time.",
-        "Continue staying ahead of major technology shifts.",
-        "Become known for thoughtful AI systems.",
-        "Increase leverage through automation.",
-        "Continue developing deep expertise while remaining multidisciplinary."
-      ],
-
-      "personal": [
-        "Keep learning.",
-        "Spend time building meaningful things.",
-        "Maintain creative curiosity.",
-        "Document knowledge for future use.",
-        "Continue improving communication."
-      ]
-    },
-
-    "futureDirection": {
-      "nextEvolution": {
-        "summary": "The long-term direction is moving from creating content toward creating intelligent systems that produce and organize knowledge.",
-
-        "focusAreas": [
-          "AI",
-          "Knowledge systems",
-          "Automation",
-          "Reasoning engines",
-          "Editorial intelligence",
-          "Career intelligence",
-          "Product development"
-        ]
-      },
-
-      "longTermVision": "Become someone whose competitive advantage comes from accumulated knowledge, thoughtful systems and exceptional judgment rather than any single technical skill."
-    },
-        "knowledgeRelationships": {
-      "primaryDomains": [
-        {
-          "domain": "Writing",
-          "importance": 10,
-          "description": "Writing is the primary medium through which Riley communicates ideas."
-        },
-        {
-          "domain": "Artificial Intelligence",
-          "importance": 10,
-          "description": "AI is viewed as a force multiplier that enhances judgment, creativity and productivity."
-        },
-        {
-          "domain": "Systems Design",
-          "importance": 9,
-          "description": "Knowledge should be organized into repeatable systems instead of isolated documents."
-        },
-        {
-          "domain": "Leadership",
-          "importance": 8,
-          "description": "Leadership exists to help other people become more capable and confident."
-        },
-        {
-          "domain": "Journalism",
-          "importance": 8,
-          "description": "Research, interviewing and evidence remain foundational regardless of industry."
-        }
-      ],
-
-      "relatedFiles": {
-        "experience": "Examples supporting every belief belong in experience.json.",
-        "achievements": "Measurable outcomes belong in achievements.json.",
-        "projects": "Major initiatives belong in projects.json.",
-        "voice": "Writing characteristics belong in voice.json.",
-        "writing": "Editorial process belongs in writing.json.",
-        "management": "Leadership examples belong in management.json.",
-        "preferences": "Career direction belongs in preferences.json.",
-        "interviewStories": "STAR stories belong in interview-stories.json."
-      }
-    },
-
-    "retrievalHints": {
-      "primaryKeywords": [
-        "AI",
-        "Automation",
-        "Technical Writing",
-        "SEO",
-        "Journalism",
-        "Editorial",
-        "Content Strategy",
-        "Leadership",
-        "Knowledge Management",
-        "Systems Thinking",
-        "Career Development",
-        "Communication",
-        "Storytelling",
-        "Problem Solving"
-      ],
-
-      "semanticConcepts": [
-        "Adaptability",
-        "Continuous Learning",
-        "Human-centered Technology",
-        "Practical AI",
-        "Knowledge Systems",
-        "Editorial Judgment",
-        "Curiosity",
-        "Reusable Processes",
-        "Cross-disciplinary Thinking"
-      ]
-    },
-
-    "aiGenerationGuidelines": {
-      "objective": "Every AI-generated artifact should sound unmistakably like Riley while remaining truthful, evidence-based and appropriately tailored.",
-
-      "alwaysEmphasize": [
-        "Curiosity",
-        "Adaptability",
-        "Communication",
-        "Systems Thinking",
-        "Practical AI",
-        "Continuous Learning",
-        "Technical Translation",
-        "Editorial Judgment"
-      ],
-
-      "avoid": [
-        "Corporate clichés",
-        "Overstated confidence",
-        "Buzzword-heavy writing",
-        "Generic leadership claims",
-        "Unsupported accomplishments"
-      ],
-
-      "tone": {
-        "professional": true,
-        "approachable": true,
-        "curious": true,
-        "confident": true,
-        "egoDriven": false,
-        "marketingHeavy": false
-      }
-    },
-
-    "resumeGenerationRules": {
-      "purpose": "Identity provides strategic guidance. Experience and achievements provide evidence.",
-
-      "rules": [
-        "Never invent accomplishments.",
-        "Prioritize measurable impact.",
-        "Connect accomplishments back to larger career themes.",
-        "Tailor emphasis without changing facts.",
-        "Maintain a consistent professional narrative across all documents."
-      ]
-    },
-
-    "confidenceAssessment": {
-      "overallConfidence": "High",
-
-      "wellEstablishedAreas": [
-        "Career philosophy",
-        "Writing philosophy",
-        "Technology philosophy",
-        "Leadership philosophy",
-        "Learning philosophy",
-        "Professional values"
-      ],
-
-      "requiresFutureExpansion": [
-        "Origin story",
-        "Career inflection points",
-        "Personal anecdotes",
-        "Professional failures and lessons",
-        "Additional evidence supporting major principles"
-      ]
-    },
-        "professionalNarrativeFramework": {
-      "origin": "A career built through curiosity rather than rigid planning. Every transition—from journalism to marketing, technical writing, SEO and AI—represents a deliberate expansion of capabilities rather than a departure from previous experience.",
-
-      "recurringThemes": [
-        "Learning before leading.",
-        "Understanding before explaining.",
-        "Building before optimizing.",
-        "Teaching through practical examples.",
-        "Creating reusable systems instead of temporary solutions."
-      ],
-
-      "careerStory": {
-        "past": "Developed strong research, interviewing and storytelling skills through journalism before expanding into marketing, technical communication and emerging technology.",
-
-        "present": "Combines editorial thinking with AI, automation and systems design to solve communication problems.",
-
-        "future": "Build intelligent systems that transform accumulated knowledge into practical tools capable of producing high-quality professional outputs."
-      }
-    },
-
-    "professionalPromises": {
-      "everyProjectShould": [
-        "Improve understanding.",
-        "Leave behind reusable knowledge.",
-        "Create measurable value.",
-        "Reduce unnecessary complexity.",
-        "Be better documented than when it started."
-      ],
-
-      "neverSacrifice": [
-        "Accuracy",
-        "Integrity",
-        "Curiosity",
-        "Thoughtfulness",
-        "Long-term maintainability"
-      ]
-    },
-
-    "behavioralDefaults": {
-      "underPressure": [
-        "Become analytical.",
-        "Reduce problems into smaller parts.",
-        "Look for systems instead of shortcuts.",
-        "Research before reacting."
-      ],
-
-      "whenLearning": [
-        "Experiment first.",
-        "Read deeply.",
-        "Build immediately.",
-        "Teach others to reinforce understanding."
-      ],
-
-      "whenLeading": [
-        "Ask questions before giving answers.",
-        "Understand motivations.",
-        "Provide context.",
-        "Create ownership.",
-        "Support independent thinking."
-      ]
-    },
-
-    "identityConstraints": {
-      "mustRemainTrue": [
-        "All generated content must remain factually accurate.",
-        "Do not exaggerate accomplishments.",
-        "Do not fabricate experience.",
-        "Maintain editorial integrity.",
-        "Preserve Riley's natural curiosity and conversational style."
-      ],
-
-      "preferredCharacteristics": [
-        "Thoughtful",
-        "Practical",
-        "Evidence-based",
-        "Curious",
-        "Approachable",
-        "Forward-looking"
-      ]
-    },
-
-    "futureExpansion": {
-      "plannedConnections": [
-        "Link every major principle to supporting experience IDs.",
-        "Link every value to measurable achievements.",
-        "Connect interview stories to demonstrated competencies.",
-        "Reference projects that reinforce professional identity.",
-        "Connect writing philosophy to published work."
-      ],
-
-      "livingDocument": true,
-
-      "maintenanceRule": "Whenever new conversations reveal enduring beliefs, philosophies or decision-making patterns, update this file before updating resumes or other outputs."
     }
+  },
+  "careerNarrative": {
+    "summary": "Throughout his career Riley has repeatedly moved into emerging fields before they became mainstream. Rather than specializing in one job title, he specializes in learning quickly, connecting ideas across disciplines, and creating systems that help other people understand complexity.",
+    "careerEvolution": [
+      {
+        "stage": "Journalism",
+        "purpose": "Learn research, interviewing, storytelling and editorial thinking."
+      },
+      {
+        "stage": "Marketing",
+        "purpose": "Understand business strategy, audience behaviour and measurable outcomes."
+      },
+      {
+        "stage": "Technical Content",
+        "purpose": "Translate highly technical subjects into content that people can actually understand."
+      },
+      {
+        "stage": "Artificial Intelligence",
+        "purpose": "Move beyond producing content into building systems that create, organize and improve knowledge."
+      }
+    ],
+    "commonTheme": "Every career transition has been motivated by curiosity rather than titles. New technology represents an opportunity to learn and create rather than something to fear."
+  },
+  "professionalPurpose": {
+    "id": "professional-purpose",
+    "confidence": "high",
+    "tags": [
+      "professional-purpose"
+    ],
+    "relatedObjects": [
+      {
+        "objectType": "identity",
+        "objectId": "professional-identity",
+        "relationship": "supports"
+      }
+    ],
+    "evidence": [],
+    "primary": "Translate complexity into clarity.",
+    "secondary": [
+      "Teach people through writing.",
+      "Build reusable systems.",
+      "Document knowledge instead of repeatedly recreating it.",
+      "Stay ahead of technological change.",
+      "Help organizations communicate better."
+    ]
+  },
+  "coreValues": [
+    {
+      "id": "value-curiosity",
+      "confidence": "high",
+      "tags": [
+        "core-value"
+      ],
+      "relatedObjects": [
+        {
+          "objectType": "identity",
+          "objectId": "professional-identity",
+          "relationship": "supports"
+        }
+      ],
+      "evidence": [],
+      "name": "Curiosity",
+      "importance": 10,
+      "statement": "Learning compounds over time. Curiosity is Riley's greatest long-term competitive advantage."
+    },
+    {
+      "id": "value-clarity",
+      "confidence": "high",
+      "tags": [
+        "core-value"
+      ],
+      "relatedObjects": [
+        {
+          "objectType": "identity",
+          "objectId": "professional-identity",
+          "relationship": "supports"
+        }
+      ],
+      "evidence": [],
+      "name": "Clarity",
+      "importance": 10,
+      "statement": "If something cannot be explained clearly, it probably is not fully understood."
+    },
+    {
+      "id": "value-integrity",
+      "confidence": "high",
+      "tags": [
+        "core-value"
+      ],
+      "relatedObjects": [
+        {
+          "objectType": "identity",
+          "objectId": "professional-identity",
+          "relationship": "supports"
+        }
+      ],
+      "evidence": [],
+      "name": "Integrity",
+      "importance": 10,
+      "statement": "Evidence matters more than hype. Never exaggerate accomplishments or misrepresent expertise."
+    },
+    {
+      "id": "value-adaptability",
+      "confidence": "high",
+      "tags": [
+        "core-value"
+      ],
+      "relatedObjects": [
+        {
+          "objectType": "identity",
+          "objectId": "professional-identity",
+          "relationship": "supports"
+        }
+      ],
+      "evidence": [],
+      "name": "Adaptability",
+      "importance": 10,
+      "statement": "The future belongs to people who adapt quickly rather than defend old ways of working."
+    },
+    {
+      "id": "value-generosity",
+      "confidence": "high",
+      "tags": [
+        "core-value"
+      ],
+      "relatedObjects": [
+        {
+          "objectType": "identity",
+          "objectId": "professional-identity",
+          "relationship": "supports"
+        }
+      ],
+      "evidence": [],
+      "name": "Generosity",
+      "importance": 8,
+      "statement": "Knowledge becomes more valuable when shared."
+    }
+  ],
+  "operatingPrinciples": [
+    {
+      "id": "principle-001",
+      "confidence": "high",
+      "tags": [
+        "operating-principle"
+      ],
+      "relatedObjects": [
+        {
+          "objectType": "identity",
+          "objectId": "career-philosophy",
+          "relationship": "implements"
+        }
+      ],
+      "evidence": [],
+      "title": "Build systems instead of repeating work.",
+      "description": "Whenever possible, replace repetitive manual effort with a reusable process."
+    },
+    {
+      "id": "principle-002",
+      "confidence": "high",
+      "tags": [
+        "operating-principle"
+      ],
+      "relatedObjects": [
+        {
+          "objectType": "identity",
+          "objectId": "career-philosophy",
+          "relationship": "implements"
+        }
+      ],
+      "evidence": [],
+      "title": "Document everything worth remembering.",
+      "description": "Knowledge should become permanent assets rather than disappear after a project."
+    },
+    {
+      "id": "principle-003",
+      "confidence": "high",
+      "tags": [
+        "operating-principle"
+      ],
+      "relatedObjects": [
+        {
+          "objectType": "identity",
+          "objectId": "career-philosophy",
+          "relationship": "implements"
+        }
+      ],
+      "evidence": [],
+      "title": "Stay ahead of technology.",
+      "description": "Learn emerging technology before it becomes an expectation."
+    },
+    {
+      "id": "principle-004",
+      "confidence": "high",
+      "tags": [
+        "operating-principle"
+      ],
+      "relatedObjects": [
+        {
+          "objectType": "identity",
+          "objectId": "career-philosophy",
+          "relationship": "implements"
+        }
+      ],
+      "evidence": [],
+      "title": "Find the interesting question first.",
+      "description": "The best writing begins with curiosity rather than keywords."
+    },
+    {
+      "id": "principle-005",
+      "confidence": "high",
+      "tags": [
+        "operating-principle"
+      ],
+      "relatedObjects": [
+        {
+          "objectType": "identity",
+          "objectId": "career-philosophy",
+          "relationship": "implements"
+        }
+      ],
+      "evidence": [],
+      "title": "Prefer evidence over assumptions.",
+      "description": "Research, interviews and measurable outcomes should support important conclusions."
+    },
+    {
+      "id": "principle-006",
+      "confidence": "high",
+      "tags": [
+        "operating-principle"
+      ],
+      "relatedObjects": [
+        {
+          "objectType": "identity",
+          "objectId": "career-philosophy",
+          "relationship": "implements"
+        }
+      ],
+      "evidence": [],
+      "title": "Leave every project better documented than you found it.",
+      "description": "Future work should become easier because today's work was well organized."
+    }
+  ],
+  "careerPhilosophy": {
+    "id": "career-philosophy",
+    "confidence": "high",
+    "tags": [
+      "career-philosophy"
+    ],
+    "relatedObjects": [
+      {
+        "objectType": "identity",
+        "objectId": "professional-identity",
+        "relationship": "supports"
+      }
+    ],
+    "evidence": [],
+    "definitionOfSuccess": "Success is becoming increasingly valuable because of knowledge, adaptability and judgment rather than a specific job title.",
+    "primaryMotivation": "Continuous learning and building meaningful work.",
+    "careerStrategy": {
+      "summary": "Rather than chasing titles, Riley follows industries, technologies and opportunities where communication can create measurable impact.",
+      "beliefs": [
+        "Skills outlast job titles.",
+        "Technology changes faster than careers.",
+        "Communication remains valuable regardless of industry.",
+        "AI is an amplifier, not a replacement."
+      ]
+    },
+    "longTermGoals": [
+      "Become recognized as a leader in AI-assisted communication.",
+      "Build intelligent systems that automate repetitive creative work.",
+      "Develop products instead of relying solely on employment income.",
+      "Continue learning faster than the market changes."
+    ]
+  },
+  "decisionFramework": {
+    "id": "decision-framework",
+    "confidence": "high",
+    "tags": [
+      "decision-framework"
+    ],
+    "relatedObjects": [
+      {
+        "objectType": "identity",
+        "objectId": "professional-identity",
+        "relationship": "supports"
+      }
+    ],
+    "evidence": [],
+    "summary": "Decisions are made by balancing curiosity, evidence, long-term value and practicality rather than short-term convenience.",
+    "process": [
+      {
+        "step": 1,
+        "title": "Understand the real problem",
+        "description": "Avoid solving symptoms. Spend time identifying the underlying issue before proposing solutions."
+      },
+      {
+        "step": 2,
+        "title": "Gather context",
+        "description": "Research, interview stakeholders and understand constraints before committing to an approach."
+      },
+      {
+        "step": 3,
+        "title": "Prefer elegant simplicity",
+        "description": "Choose the simplest solution that remains scalable and maintainable."
+      },
+      {
+        "step": 4,
+        "title": "Think in systems",
+        "description": "Whenever possible, solve classes of problems instead of isolated problems."
+      },
+      {
+        "step": 5,
+        "title": "Leave room for iteration",
+        "description": "Rarely assume the first solution is the final solution. Build with continuous improvement in mind."
+      }
+    ],
+    "decisionBiases": {
+      "naturallyLeansToward": [
+        "Learning opportunities",
+        "Long-term value",
+        "Automation",
+        "Knowledge reuse",
+        "Creative problem solving"
+      ],
+      "activelyAvoids": [
+        "Politics",
+        "Unnecessary complexity",
+        "Busy work",
+        "Short-term thinking",
+        "Artificial urgency"
+      ]
+    }
+  },
+  "professionalStrengths": {
+    "id": "professional-strengths",
+    "confidence": "high",
+    "tags": [
+      "professional-strengths"
+    ],
+    "relatedObjects": [
+      {
+        "objectType": "identity",
+        "objectId": "professional-identity",
+        "relationship": "supports"
+      }
+    ],
+    "evidence": [],
+    "highestLeverage": [
+      {
+        "id": "strength-storytelling",
+        "confidence": "high",
+        "tags": [
+          "professional-strength"
+        ],
+        "relatedObjects": [
+          {
+            "objectType": "identity",
+            "objectId": "professional-differentiators",
+            "relationship": "supports"
+          }
+        ],
+        "evidence": [],
+        "name": "Story Discovery",
+        "description": "Consistently uncovers interesting narratives hidden inside technical, business or creative subjects."
+      },
+      {
+        "id": "strength-translation",
+        "confidence": "high",
+        "tags": [
+          "professional-strength"
+        ],
+        "relatedObjects": [
+          {
+            "objectType": "identity",
+            "objectId": "professional-differentiators",
+            "relationship": "supports"
+          }
+        ],
+        "evidence": [],
+        "name": "Technical Translation",
+        "description": "Transforms complicated concepts into language ordinary readers can understand."
+      },
+      {
+        "id": "strength-patterns",
+        "confidence": "high",
+        "tags": [
+          "professional-strength"
+        ],
+        "relatedObjects": [
+          {
+            "objectType": "identity",
+            "objectId": "professional-differentiators",
+            "relationship": "supports"
+          }
+        ],
+        "evidence": [],
+        "name": "Pattern Recognition",
+        "description": "Recognizes relationships across disciplines that many people treat as unrelated."
+      },
+      {
+        "id": "strength-learning",
+        "confidence": "high",
+        "tags": [
+          "professional-strength"
+        ],
+        "relatedObjects": [
+          {
+            "objectType": "identity",
+            "objectId": "professional-differentiators",
+            "relationship": "supports"
+          }
+        ],
+        "evidence": [],
+        "name": "Rapid Learning",
+        "description": "Quickly becomes productive in unfamiliar industries and technologies."
+      },
+      {
+        "id": "strength-editorial",
+        "confidence": "high",
+        "tags": [
+          "professional-strength"
+        ],
+        "relatedObjects": [
+          {
+            "objectType": "identity",
+            "objectId": "professional-differentiators",
+            "relationship": "supports"
+          }
+        ],
+        "evidence": [],
+        "name": "Editorial Judgment",
+        "description": "Identifies what matters, what should be emphasized and what should be removed."
+      },
+      {
+        "id": "strength-systems",
+        "confidence": "high",
+        "tags": [
+          "professional-strength"
+        ],
+        "relatedObjects": [
+          {
+            "objectType": "identity",
+            "objectId": "professional-differentiators",
+            "relationship": "supports"
+          }
+        ],
+        "evidence": [],
+        "name": "Systems Design",
+        "description": "Looks for opportunities to create reusable frameworks instead of repeatedly solving identical problems."
+      }
+    ],
+    "leadershipStrengths": [
+      "Mentoring",
+      "Building confidence",
+      "Helping people identify their strengths",
+      "Creating psychological safety",
+      "Encouraging independent thinking"
+    ],
+    "communicationStrengths": [
+      "Interviewing",
+      "Long-form writing",
+      "Technical documentation",
+      "SEO strategy",
+      "Public-facing educational content"
+    ]
+  },
+  "growthAreas": {
+    "id": "growth-areas",
+    "confidence": "high",
+    "tags": [
+      "growth-areas"
+    ],
+    "relatedObjects": [
+      {
+        "objectType": "identity",
+        "objectId": "professional-identity",
+        "relationship": "supports"
+      }
+    ],
+    "evidence": [],
+    "currentFocus": [
+      "Continue strengthening software engineering skills.",
+      "Delegate sooner when appropriate.",
+      "Protect uninterrupted deep work.",
+      "Continue expanding practical AI engineering experience."
+    ],
+    "belief": "Growth comes from deliberate practice and curiosity rather than perfection."
+  },
+  "motivationFramework": {
+    "id": "motivation-framework",
+    "confidence": "high",
+    "tags": [
+      "motivation-framework"
+    ],
+    "relatedObjects": [
+      {
+        "objectType": "identity",
+        "objectId": "professional-identity",
+        "relationship": "supports"
+      }
+    ],
+    "evidence": [],
+    "coreMotivators": [
+      {
+        "id": "motivation-learning",
+        "confidence": "high",
+        "tags": [
+          "motivation"
+        ],
+        "relatedObjects": [
+          {
+            "objectType": "identity",
+            "objectId": "motivation-framework",
+            "relationship": "defines"
+          }
+        ],
+        "evidence": [],
+        "name": "Continuous Learning",
+        "description": "The opportunity to learn something genuinely new is one of the strongest drivers of engagement."
+      },
+      {
+        "id": "motivation-building",
+        "confidence": "high",
+        "tags": [
+          "motivation"
+        ],
+        "relatedObjects": [
+          {
+            "objectType": "identity",
+            "objectId": "motivation-framework",
+            "relationship": "defines"
+          }
+        ],
+        "evidence": [],
+        "name": "Building Systems",
+        "description": "Prefers creating tools, frameworks and processes that continue producing value long after they are finished."
+      },
+      {
+        "id": "motivation-problem_solving",
+        "confidence": "high",
+        "tags": [
+          "motivation"
+        ],
+        "relatedObjects": [
+          {
+            "objectType": "identity",
+            "objectId": "motivation-framework",
+            "relationship": "defines"
+          }
+        ],
+        "evidence": [],
+        "name": "Problem Solving",
+        "description": "Enjoys untangling complicated problems and designing elegant solutions."
+      },
+      {
+        "id": "motivation-storytelling",
+        "confidence": "high",
+        "tags": [
+          "motivation"
+        ],
+        "relatedObjects": [
+          {
+            "objectType": "identity",
+            "objectId": "motivation-framework",
+            "relationship": "defines"
+          }
+        ],
+        "evidence": [],
+        "name": "Meaningful Communication",
+        "description": "Finds satisfaction in helping other people understand ideas they previously found confusing."
+      },
+      {
+        "id": "motivation-curiosity",
+        "confidence": "high",
+        "tags": [
+          "motivation"
+        ],
+        "relatedObjects": [
+          {
+            "objectType": "identity",
+            "objectId": "motivation-framework",
+            "relationship": "defines"
+          }
+        ],
+        "evidence": [],
+        "name": "Discovery",
+        "description": "Naturally investigates unfamiliar subjects simply because they are interesting."
+      }
+    ],
+    "energyDrains": [
+      "Micromanagement",
+      "Corporate politics",
+      "Repetitive manual work",
+      "Meetings without decisions",
+      "Work with no measurable impact",
+      "Environments resistant to change"
+    ]
+  },
+  "idealWorkEnvironment": {
+    "id": "ideal-work-environment",
+    "confidence": "high",
+    "tags": [
+      "ideal-work-environment"
+    ],
+    "relatedObjects": [
+      {
+        "objectType": "identity",
+        "objectId": "professional-identity",
+        "relationship": "supports"
+      }
+    ],
+    "evidence": [],
+    "summary": "Riley performs best in organizations that value autonomy, curiosity and collaboration over hierarchy.",
+    "preferredCharacteristics": [
+      "Collaborative",
+      "Supportive",
+      "Low ego",
+      "Experimentation encouraged",
+      "High trust",
+      "Results-oriented",
+      "Flexible",
+      "Continuous learning"
+    ],
+    "managementExpectations": [
+      "Clear goals",
+      "Freedom to determine execution",
+      "Constructive feedback",
+      "Honest communication",
+      "Opportunity to improve processes"
+    ],
+    "teamCharacteristics": [
+      "People who enjoy learning.",
+      "People who share knowledge.",
+      "People who challenge ideas respectfully.",
+      "People who value curiosity over certainty."
+    ]
+  },
+  "leadershipPhilosophy": {
+    "id": "leadership-philosophy",
+    "confidence": "high",
+    "tags": [
+      "leadership-philosophy"
+    ],
+    "relatedObjects": [
+      {
+        "objectType": "identity",
+        "objectId": "professional-identity",
+        "relationship": "supports"
+      }
+    ],
+    "evidence": [],
+    "summary": "Leadership is creating an environment where people discover what they do best and become confident doing it.",
+    "beliefs": [
+      "Every person has different motivations.",
+      "Managers should understand those motivations.",
+      "Confidence grows through ownership.",
+      "People perform better when they understand why their work matters.",
+      "Coaching creates stronger teams than control."
+    ],
+    "managementStyle": {
+      "approach": "Servant leadership",
+      "focusAreas": [
+        "Mentorship",
+        "Professional growth",
+        "Autonomy",
+        "Recognition",
+        "Skill development"
+      ]
+    }
+  },
+  "mentoringPhilosophy": {
+    "id": "mentoring-philosophy",
+    "confidence": "high",
+    "tags": [
+      "mentoring-philosophy"
+    ],
+    "relatedObjects": [
+      {
+        "objectType": "identity",
+        "objectId": "professional-identity",
+        "relationship": "supports"
+      }
+    ],
+    "evidence": [],
+    "summary": "The goal is not to create copies of yourself. The goal is to help people become the best version of themselves.",
+    "principles": [
+      "Discover individual strengths.",
+      "Create opportunities aligned with those strengths.",
+      "Provide honest feedback.",
+      "Celebrate progress.",
+      "Encourage curiosity.",
+      "Teach people how to think rather than what to think."
+    ],
+    "successDefinition": "Someone leaves the team more capable and more confident than when they arrived."
+  },
+  "collaborationStyle": {
+    "id": "collaboration-style",
+    "confidence": "high",
+    "tags": [
+      "collaboration-style"
+    ],
+    "relatedObjects": [
+      {
+        "objectType": "identity",
+        "objectId": "professional-identity",
+        "relationship": "supports"
+      }
+    ],
+    "evidence": [],
+    "preferredRole": "Thought partner and systems builder",
+    "strengths": [
+      "Listening before speaking",
+      "Finding common ground",
+      "Connecting ideas",
+      "Helping teams simplify complexity",
+      "Keeping discussions focused on outcomes"
+    ],
+    "communicationPreferences": [
+      "Direct but respectful",
+      "Transparent",
+      "Evidence-based",
+      "Constructive",
+      "Collaborative"
+    ]
+  },
+  "conflictResolution": {
+    "id": "conflict-resolution",
+    "confidence": "high",
+    "tags": [
+      "conflict-resolution"
+    ],
+    "relatedObjects": [
+      {
+        "objectType": "identity",
+        "objectId": "professional-identity",
+        "relationship": "supports"
+      }
+    ],
+    "evidence": [],
+    "approach": [
+      "Assume positive intent first.",
+      "Clarify the actual disagreement.",
+      "Focus on solving the problem rather than assigning blame.",
+      "Use evidence instead of emotion whenever possible.",
+      "Leave the relationship stronger than before."
+    ]
+  },
+  "learningPhilosophy": {
+    "id": "learning-philosophy",
+    "confidence": "high",
+    "tags": [
+      "learning-philosophy"
+    ],
+    "relatedObjects": [
+      {
+        "objectType": "identity",
+        "objectId": "professional-identity",
+        "relationship": "supports"
+      }
+    ],
+    "evidence": [],
+    "summary": "Learning is a permanent competitive advantage. Skills become outdated; the ability to learn quickly does not.",
+    "coreBeliefs": [
+      "Curiosity compounds over time.",
+      "Every project should teach something new.",
+      "Technology should be explored before it becomes mandatory.",
+      "Knowledge becomes more valuable when documented.",
+      "Understanding first principles creates better long-term judgment."
+    ],
+    "learningMethods": [
+      {
+        "id": "learning-method-deep -research",
+        "confidence": "high",
+        "tags": [
+          "learning-method"
+        ],
+        "relatedObjects": [
+          {
+            "objectType": "identity",
+            "objectId": "learning-philosophy",
+            "relationship": "implements"
+          }
+        ],
+        "evidence": [],
+        "method": "Deep Research",
+        "description": "Read broadly before forming opinions. Understand context rather than memorizing facts."
+      },
+      {
+        "id": "learning-method-hands-on -experimentation",
+        "confidence": "high",
+        "tags": [
+          "learning-method"
+        ],
+        "relatedObjects": [
+          {
+            "objectType": "identity",
+            "objectId": "learning-philosophy",
+            "relationship": "implements"
+          }
+        ],
+        "evidence": [],
+        "method": "Hands-on Experimentation",
+        "description": "Build real projects instead of consuming endless tutorials."
+      },
+      {
+        "id": "learning-method-teaching",
+        "confidence": "high",
+        "tags": [
+          "learning-method"
+        ],
+        "relatedObjects": [
+          {
+            "objectType": "identity",
+            "objectId": "learning-philosophy",
+            "relationship": "implements"
+          }
+        ],
+        "evidence": [],
+        "method": "Teaching",
+        "description": "Explaining ideas to others exposes weaknesses in personal understanding."
+      },
+      {
+        "id": "learning-method-pattern -recognition",
+        "confidence": "high",
+        "tags": [
+          "learning-method"
+        ],
+        "relatedObjects": [
+          {
+            "objectType": "identity",
+            "objectId": "learning-philosophy",
+            "relationship": "implements"
+          }
+        ],
+        "evidence": [],
+        "method": "Pattern Recognition",
+        "description": "Compare unrelated industries to identify transferable ideas."
+      }
+    ],
+    "preferredLearningTopics": [
+      "Artificial Intelligence",
+      "Automation",
+      "Psychology",
+      "Business",
+      "Journalism",
+      "Writing",
+      "Technology",
+      "Design",
+      "History",
+      "Science"
+    ]
+  },
+  "technologyPhilosophy": {
+    "id": "technology-philosophy",
+    "confidence": "high",
+    "tags": [
+      "technology-philosophy"
+    ],
+    "relatedObjects": [
+      {
+        "objectType": "identity",
+        "objectId": "professional-identity",
+        "relationship": "supports"
+      }
+    ],
+    "evidence": [],
+    "summary": "Technology should remove repetitive work so people can spend more time thinking, creating and solving meaningful problems.",
+    "beliefs": [
+      "AI is a tool, not an identity.",
+      "Early adaptation creates opportunity.",
+      "Automation should increase quality as well as speed.",
+      "The best technology feels invisible.",
+      "Human judgment remains the final layer of quality control."
+    ],
+    "approach": [
+      "Experiment early.",
+      "Evaluate objectively.",
+      "Keep what creates leverage.",
+      "Discard hype quickly.",
+      "Build practical systems."
+    ],
+    "longTermVision": "Create intelligent systems that continuously improve through accumulated knowledge rather than repeated manual effort."
+  },
+  "communicationPhilosophy": {
+    "id": "communication-philosophy",
+    "confidence": "high",
+    "tags": [
+      "communication-philosophy"
+    ],
+    "relatedObjects": [
+      {
+        "objectType": "identity",
+        "objectId": "professional-identity",
+        "relationship": "supports"
+      }
+    ],
+    "evidence": [],
+    "purpose": "Communication exists to reduce confusion, increase understanding and create trust.",
+    "principles": [
+      "Assume the audience is intelligent but unfamiliar with the topic.",
+      "Clarity is more important than sounding impressive.",
+      "Examples teach faster than definitions.",
+      "Every explanation should reduce cognitive effort.",
+      "Good communication respects the reader's time."
+    ],
+    "writingGoals": [
+      "Make difficult subjects approachable.",
+      "Help readers feel smarter after reading.",
+      "Avoid unnecessary jargon.",
+      "Balance precision with readability."
+    ]
+  },
+  "editorialPhilosophy": {
+    "id": "editorial-philosophy",
+    "confidence": "high",
+    "tags": [
+      "editorial-philosophy"
+    ],
+    "relatedObjects": [
+      {
+        "objectType": "identity",
+        "objectId": "professional-identity",
+        "relationship": "supports"
+      }
+    ],
+    "evidence": [],
+    "summary": "The strongest content begins with genuine curiosity and ends with practical understanding.",
+    "beliefs": [
+      "Interesting questions create interesting articles.",
+      "Research should deepen understanding, not inflate word count.",
+      "Every article should have one central idea.",
+      "Editing is where writing becomes valuable.",
+      "Readers remember stories more than explanations."
+    ],
+    "articleFramework": [
+      "Find the most interesting question.",
+      "Research deeply.",
+      "Interview when appropriate.",
+      "Build a logical outline.",
+      "Write clearly.",
+      "Edit aggressively.",
+      "Remove anything that does not support the central idea."
+    ],
+    "editorialGoals": [
+      "Educate",
+      "Clarify",
+      "Engage",
+      "Build trust",
+      "Create long-term value"
+    ]
+  },
+  "creativePhilosophy": {
+    "id": "creative-philosophy",
+    "confidence": "high",
+    "tags": [
+      "creative-philosophy"
+    ],
+    "relatedObjects": [
+      {
+        "objectType": "identity",
+        "objectId": "professional-identity",
+        "relationship": "supports"
+      }
+    ],
+    "evidence": [],
+    "summary": "Creativity is the process of combining existing ideas into something more useful than either idea alone.",
+    "beliefs": [
+      "Originality often comes from unexpected combinations.",
+      "Constraints encourage better thinking.",
+      "Curiosity fuels creativity.",
+      "Systems increase creative output rather than reducing it.",
+      "Documentation preserves creative momentum."
+    ]
+  },
+  "professionalDecisionHeuristics": {
+    "id": "professional-decision-heuristics",
+    "confidence": "high",
+    "tags": [
+      "professional-decision-heuristics"
+    ],
+    "relatedObjects": [
+      {
+        "objectType": "identity",
+        "objectId": "professional-identity",
+        "relationship": "supports"
+      }
+    ],
+    "evidence": [],
+    "summary": "Default rules Riley naturally follows when making professional decisions.",
+    "heuristics": [
+      {
+        "id": "heuristic-001",
+        "confidence": "high",
+        "tags": [
+          "decision-heuristic"
+        ],
+        "relatedObjects": [
+          {
+            "objectType": "identity",
+            "objectId": "decision-framework",
+            "relationship": "implements"
+          }
+        ],
+        "evidence": [],
+        "title": "Optimize for learning.",
+        "description": "When two opportunities appear similar, choose the one that teaches the most."
+      },
+      {
+        "id": "heuristic-002",
+        "confidence": "high",
+        "tags": [
+          "decision-heuristic"
+        ],
+        "relatedObjects": [
+          {
+            "objectType": "identity",
+            "objectId": "decision-framework",
+            "relationship": "implements"
+          }
+        ],
+        "evidence": [],
+        "title": "Build reusable assets.",
+        "description": "Prefer creating something that can be reused hundreds of times over solving a problem once."
+      },
+      {
+        "id": "heuristic-003",
+        "confidence": "high",
+        "tags": [
+          "decision-heuristic"
+        ],
+        "relatedObjects": [
+          {
+            "objectType": "identity",
+            "objectId": "decision-framework",
+            "relationship": "implements"
+          }
+        ],
+        "evidence": [],
+        "title": "Compounding beats intensity.",
+        "description": "Consistent improvement produces larger long-term results than occasional bursts of effort."
+      },
+      {
+        "id": "heuristic-004",
+        "confidence": "high",
+        "tags": [
+          "decision-heuristic"
+        ],
+        "relatedObjects": [
+          {
+            "objectType": "identity",
+            "objectId": "decision-framework",
+            "relationship": "implements"
+          }
+        ],
+        "evidence": [],
+        "title": "Reduce friction.",
+        "description": "Whenever possible, remove unnecessary steps rather than simply working faster."
+      },
+      {
+        "id": "heuristic-005",
+        "confidence": "high",
+        "tags": [
+          "decision-heuristic"
+        ],
+        "relatedObjects": [
+          {
+            "objectType": "identity",
+            "objectId": "decision-framework",
+            "relationship": "implements"
+          }
+        ],
+        "evidence": [],
+        "title": "Always ask why.",
+        "description": "Understanding intent produces better solutions than simply executing instructions."
+      },
+      {
+        "id": "heuristic-006",
+        "confidence": "high",
+        "tags": [
+          "decision-heuristic"
+        ],
+        "relatedObjects": [
+          {
+            "objectType": "identity",
+            "objectId": "decision-framework",
+            "relationship": "implements"
+          }
+        ],
+        "evidence": [],
+        "title": "Leave behind knowledge.",
+        "description": "Every project should improve future projects through documentation or automation."
+      }
+    ]
+  },
+  "professionalDifferentiators": {
+    "id": "professional-differentiators",
+    "confidence": "high",
+    "tags": [
+      "professional-differentiators"
+    ],
+    "relatedObjects": [
+      {
+        "objectType": "identity",
+        "objectId": "professional-identity",
+        "relationship": "supports"
+      }
+    ],
+    "evidence": [],
+    "summary": "Characteristics that distinguish Riley from professionals with similar job titles.",
+    "uniqueCombination": [
+      "Journalist who understands marketing.",
+      "Technical writer who understands business.",
+      "SEO strategist who values editorial integrity.",
+      "AI practitioner who prioritizes human judgment.",
+      "Creative thinker who naturally designs systems."
+    ],
+    "rareStrengths": [
+      "Connects unrelated disciplines.",
+      "Learns emerging technology rapidly.",
+      "Balances creativity with structure.",
+      "Turns ambiguity into documented processes.",
+      "Comfortable switching between strategic and tactical work."
+    ],
+    "marketPosition": "Works at the intersection of communication, technology, automation and strategy rather than inside a single traditional discipline."
+  },
+  "professionalIdentityGuardrails": {
+    "id": "professional-identity-guardrails",
+    "confidence": "high",
+    "tags": [
+      "professional-identity-guardrails"
+    ],
+    "relatedObjects": [
+      {
+        "objectType": "identity",
+        "objectId": "professional-identity",
+        "relationship": "supports"
+      }
+    ],
+    "evidence": [],
+    "alwaysCommunicate": [
+      "Curiosity",
+      "Thoughtfulness",
+      "Adaptability",
+      "Integrity",
+      "Practical problem solving",
+      "Continuous learning"
+    ],
+    "neverCommunicate": [
+      "Arrogance",
+      "Know-it-all attitude",
+      "Empty buzzwords",
+      "Overconfidence",
+      "Technology hype without substance"
+    ],
+    "toneObjectives": [
+      "Helpful",
+      "Intelligent",
+      "Approachable",
+      "Calm",
+      "Confident without ego"
+    ]
+  },
+  "successMetrics": {
+    "id": "success-metrics",
+    "confidence": "high",
+    "tags": [
+      "success-metrics"
+    ],
+    "relatedObjects": [
+      {
+        "objectType": "identity",
+        "objectId": "professional-identity",
+        "relationship": "supports"
+      }
+    ],
+    "evidence": [],
+    "career": [
+      "Build products instead of only selling time.",
+      "Continue staying ahead of major technology shifts.",
+      "Become known for thoughtful AI systems.",
+      "Increase leverage through automation.",
+      "Continue developing deep expertise while remaining multidisciplinary."
+    ],
+    "personal": [
+      "Keep learning.",
+      "Spend time building meaningful things.",
+      "Maintain creative curiosity.",
+      "Document knowledge for future use.",
+      "Continue improving communication."
+    ]
+  },
+  "futureDirection": {
+    "id": "future-direction",
+    "confidence": "high",
+    "tags": [
+      "future-direction"
+    ],
+    "relatedObjects": [
+      {
+        "objectType": "identity",
+        "objectId": "professional-identity",
+        "relationship": "supports"
+      }
+    ],
+    "evidence": [],
+    "nextEvolution": {
+      "summary": "The long-term direction is moving from creating content toward creating intelligent systems that produce and organize knowledge.",
+      "focusAreas": [
+        "AI",
+        "Knowledge systems",
+        "Automation",
+        "Reasoning engines",
+        "Editorial intelligence",
+        "Career intelligence",
+        "Product development"
+      ]
+    },
+    "longTermVision": "Become someone whose competitive advantage comes from accumulated knowledge, thoughtful systems and exceptional judgment rather than any single technical skill."
+  },
+  "knowledgeRelationships": {
+    "primaryDomains": [
+      {
+        "domain": "Writing",
+        "importance": 10,
+        "description": "Writing is the primary medium through which Riley communicates ideas."
+      },
+      {
+        "domain": "Artificial Intelligence",
+        "importance": 10,
+        "description": "AI is viewed as a force multiplier that enhances judgment, creativity and productivity."
+      },
+      {
+        "domain": "Systems Design",
+        "importance": 9,
+        "description": "Knowledge should be organized into repeatable systems instead of isolated documents."
+      },
+      {
+        "domain": "Leadership",
+        "importance": 8,
+        "description": "Leadership exists to help other people become more capable and confident."
+      },
+      {
+        "domain": "Journalism",
+        "importance": 8,
+        "description": "Research, interviewing and evidence remain foundational regardless of industry."
+      }
+    ],
+    "relatedFiles": {
+      "experience": "Examples supporting every belief belong in experience.json.",
+      "achievements": "Measurable outcomes belong in achievements.json.",
+      "projects": "Major initiatives belong in projects.json.",
+      "voice": "Writing characteristics belong in voice.json.",
+      "writing": "Editorial process belongs in writing.json.",
+      "management": "Leadership examples belong in management.json.",
+      "preferences": "Career direction belongs in preferences.json.",
+      "interviewStories": "STAR stories belong in interview-stories.json."
+    }
+  },
+  "retrievalHints": {
+    "primaryKeywords": [
+      "AI",
+      "Automation",
+      "Technical Writing",
+      "SEO",
+      "Journalism",
+      "Editorial",
+      "Content Strategy",
+      "Leadership",
+      "Knowledge Management",
+      "Systems Thinking",
+      "Career Development",
+      "Communication",
+      "Storytelling",
+      "Problem Solving"
+    ],
+    "semanticConcepts": [
+      "Adaptability",
+      "Continuous Learning",
+      "Human-centered Technology",
+      "Practical AI",
+      "Knowledge Systems",
+      "Editorial Judgment",
+      "Curiosity",
+      "Reusable Processes",
+      "Cross-disciplinary Thinking"
+    ]
+  },
+  "aiGenerationGuidelines": {
+    "objective": "Every AI-generated artifact should sound unmistakably like Riley while remaining truthful, evidence-based and appropriately tailored.",
+    "alwaysEmphasize": [
+      "Curiosity",
+      "Adaptability",
+      "Communication",
+      "Systems Thinking",
+      "Practical AI",
+      "Continuous Learning",
+      "Technical Translation",
+      "Editorial Judgment"
+    ],
+    "avoid": [
+      "Corporate clichés",
+      "Overstated confidence",
+      "Buzzword-heavy writing",
+      "Generic leadership claims",
+      "Unsupported accomplishments"
+    ],
+    "tone": {
+      "professional": true,
+      "approachable": true,
+      "curious": true,
+      "confident": true,
+      "egoDriven": false,
+      "marketingHeavy": false
+    }
+  },
+  "resumeGenerationRules": {
+    "purpose": "Identity provides strategic guidance. Experience and achievements provide evidence.",
+    "rules": [
+      "Never invent accomplishments.",
+      "Prioritize measurable impact.",
+      "Connect accomplishments back to larger career themes.",
+      "Tailor emphasis without changing facts.",
+      "Maintain a consistent professional narrative across all documents."
+    ]
+  },
+  "confidenceAssessment": {
+    "overallConfidence": "High",
+    "wellEstablishedAreas": [
+      "Career philosophy",
+      "Writing philosophy",
+      "Technology philosophy",
+      "Leadership philosophy",
+      "Learning philosophy",
+      "Professional values"
+    ],
+    "requiresFutureExpansion": [
+      "Origin story",
+      "Career inflection points",
+      "Personal anecdotes",
+      "Professional failures and lessons",
+      "Additional evidence supporting major principles"
+    ]
+  },
+  "professionalNarrativeFramework": {
+    "id": "professional-narrative-framework",
+    "confidence": "high",
+    "tags": [
+      "professional-narrative-framework"
+    ],
+    "relatedObjects": [
+      {
+        "objectType": "identity",
+        "objectId": "professional-identity",
+        "relationship": "supports"
+      }
+    ],
+    "evidence": [],
+    "origin": "A career built through curiosity rather than rigid planning. Every transition—from journalism to marketing, technical writing, SEO and AI—represents a deliberate expansion of capabilities rather than a departure from previous experience.",
+    "recurringThemes": [
+      "Learning before leading.",
+      "Understanding before explaining.",
+      "Building before optimizing.",
+      "Teaching through practical examples.",
+      "Creating reusable systems instead of temporary solutions."
+    ],
+    "careerStory": {
+      "past": "Developed strong research, interviewing and storytelling skills through journalism before expanding into marketing, technical communication and emerging technology.",
+      "present": "Combines editorial thinking with AI, automation and systems design to solve communication problems.",
+      "future": "Build intelligent systems that transform accumulated knowledge into practical tools capable of producing high-quality professional outputs."
+    }
+  },
+  "professionalPromises": {
+    "id": "professional-promises",
+    "confidence": "high",
+    "tags": [
+      "professional-promises"
+    ],
+    "relatedObjects": [
+      {
+        "objectType": "identity",
+        "objectId": "professional-identity",
+        "relationship": "supports"
+      }
+    ],
+    "evidence": [],
+    "everyProjectShould": [
+      "Improve understanding.",
+      "Leave behind reusable knowledge.",
+      "Create measurable value.",
+      "Reduce unnecessary complexity.",
+      "Be better documented than when it started."
+    ],
+    "neverSacrifice": [
+      "Accuracy",
+      "Integrity",
+      "Curiosity",
+      "Thoughtfulness",
+      "Long-term maintainability"
+    ]
+  },
+  "behavioralDefaults": {
+    "id": "behavioral-defaults",
+    "confidence": "high",
+    "tags": [
+      "behavioral-defaults"
+    ],
+    "relatedObjects": [
+      {
+        "objectType": "identity",
+        "objectId": "professional-identity",
+        "relationship": "supports"
+      }
+    ],
+    "evidence": [],
+    "underPressure": [
+      "Become analytical.",
+      "Reduce problems into smaller parts.",
+      "Look for systems instead of shortcuts.",
+      "Research before reacting."
+    ],
+    "whenLearning": [
+      "Experiment first.",
+      "Read deeply.",
+      "Build immediately.",
+      "Teach others to reinforce understanding."
+    ],
+    "whenLeading": [
+      "Ask questions before giving answers.",
+      "Understand motivations.",
+      "Provide context.",
+      "Create ownership.",
+      "Support independent thinking."
+    ]
+  },
+  "identityConstraints": {
+    "id": "identity-constraints",
+    "confidence": "high",
+    "tags": [
+      "identity-constraints"
+    ],
+    "relatedObjects": [
+      {
+        "objectType": "identity",
+        "objectId": "professional-identity",
+        "relationship": "supports"
+      }
+    ],
+    "evidence": [],
+    "mustRemainTrue": [
+      "All generated content must remain factually accurate.",
+      "Do not exaggerate accomplishments.",
+      "Do not fabricate experience.",
+      "Maintain editorial integrity.",
+      "Preserve Riley's natural curiosity and conversational style."
+    ],
+    "preferredCharacteristics": [
+      "Thoughtful",
+      "Practical",
+      "Evidence-based",
+      "Curious",
+      "Approachable",
+      "Forward-looking"
+    ]
+  },
+  "futureExpansion": {
+    "plannedConnections": [
+      "Link every major principle to supporting experience IDs.",
+      "Link every value to measurable achievements.",
+      "Connect interview stories to demonstrated competencies.",
+      "Reference projects that reinforce professional identity.",
+      "Connect writing philosophy to published work."
+    ],
+    "livingDocument": true,
+    "maintenanceRule": "Whenever new conversations reveal enduring beliefs, philosophies or decision-making patterns, update this file before updating resumes or other outputs."
+  },
+  "psychologicalProfile": {
+    "id": "psychological-profile",
+    "confidence": "high",
+    "tags": [
+      "psychological-profile"
+    ],
+    "relatedObjects": [
+      {
+        "objectType": "identity",
+        "objectId": "professional-identity",
+        "relationship": "describes"
+      }
+    ],
+    "evidence": [],
+    "thinkingStyle": {
+      "primary": "Systems thinker",
+      "secondary": [
+        "Pattern recognizer",
+        "Strategic thinker",
+        "Creative problem solver",
+        "Analytical researcher"
+      ],
+      "description": "Naturally connects ideas across disciplines and prefers understanding systems over memorizing isolated facts."
+    },
+    "problemSolvingStyle": {
+      "approach": [
+        "Understand the root cause before proposing solutions.",
+        "Research broadly before committing.",
+        "Reduce complexity into understandable pieces.",
+        "Build repeatable frameworks instead of one-off fixes.",
+        "Iterate continuously."
+      ]
+    },
+    "naturalInstincts": [
+      "Questions assumptions.",
+      "Looks for missing context.",
+      "Finds patterns quickly.",
+      "Enjoys simplifying difficult ideas.",
+      "Automatically thinks about automation opportunities."
+    ]
+  },
+  "communicationFingerprint": {
+    "id": "communication-fingerprint",
+    "confidence": "high",
+    "tags": [
+      "communication-fingerprint"
+    ],
+    "relatedObjects": [
+      {
+        "objectType": "identity",
+        "objectId": "professional-identity",
+        "relationship": "describes"
+      }
+    ],
+    "evidence": [],
+    "naturalTone": "Conversational, intelligent and approachable.",
+    "preferredCharacteristics": [
+      "Clear",
+      "Thoughtful",
+      "Evidence-based",
+      "Curious",
+      "Respectful",
+      "Confident without arrogance"
+    ],
+    "avoid": [
+      "Corporate jargon",
+      "Sales language",
+      "Buzzwords",
+      "Excessive hype",
+      "Overly formal language"
+    ],
+    "readerExperienceGoal": "Readers should finish feeling smarter rather than impressed."
+  },
+  "professionalIdentityFingerprint": {
+    "id": "professional-identity-fingerprint",
+    "confidence": "high",
+    "tags": [
+      "professional-identity-fingerprint"
+    ],
+    "relatedObjects": [
+      {
+        "objectType": "identity",
+        "objectId": "professional-identity",
+        "relationship": "describes"
+      }
+    ],
+    "evidence": [],
+    "oneSentence": "A multidisciplinary communicator who combines journalism, technology, AI and systems thinking to solve communication problems.",
+    "threeSentences": [
+      "Curiosity drives every professional decision.",
+      "Technology is embraced as leverage rather than feared as disruption.",
+      "Knowledge should become reusable systems instead of disappearing after projects end."
+    ],
+    "keywords": [
+      "AI",
+      "Automation",
+      "Technical Writing",
+      "Editorial",
+      "SEO",
+      "Journalism",
+      "Knowledge Systems",
+      "Learning",
+      "Strategy",
+      "Storytelling",
+      "Leadership",
+      "Communication"
+    ]
+  },
+  "brainRules": {
+    "purpose": "These rules govern every future AI interaction using this Brain.",
+    "rules": [
+      "Never optimize for sounding impressive over being useful.",
+      "Always prioritize clarity over complexity.",
+      "Never invent experience or accomplishments.",
+      "Every recommendation should align with long-term career goals.",
+      "Whenever possible, connect ideas across multiple Brain modules.",
+      "Assume continuous learning rather than static expertise.",
+      "Treat accumulated knowledge as Riley's greatest professional asset."
+    ]
+  },
+  "brainMetadata": {
+    "isCanonicalSource": true,
+    "shouldGenerateResumes": true,
+    "shouldGenerateCoverLetters": true,
+    "shouldGenerateInterviewAnswers": true,
+    "shouldGenerateLinkedInContent": true,
+    "shouldGeneratePortfolioContent": true,
+    "shouldGenerateNetworkingEmails": true,
+    "futureConsumers": [
+      "Career Agent",
+      "Resume Builder",
+      "Interview Simulator",
+      "LinkedIn Generator",
+      "Portfolio Generator",
+      "Career Analytics Engine",
+      "Job Matching Engine"
+    ]
   }
 }
-,
-    "psychologicalProfile": {
-      "thinkingStyle": {
-        "primary": "Systems thinker",
-        "secondary": [
-          "Pattern recognizer",
-          "Strategic thinker",
-          "Creative problem solver",
-          "Analytical researcher"
-        ],
-        "description": "Naturally connects ideas across disciplines and prefers understanding systems over memorizing isolated facts."
-      },
-
-      "problemSolvingStyle": {
-        "approach": [
-          "Understand the root cause before proposing solutions.",
-          "Research broadly before committing.",
-          "Reduce complexity into understandable pieces.",
-          "Build repeatable frameworks instead of one-off fixes.",
-          "Iterate continuously."
-        ]
-      },
-
-      "naturalInstincts": [
-        "Questions assumptions.",
-        "Looks for missing context.",
-        "Finds patterns quickly.",
-        "Enjoys simplifying difficult ideas.",
-        "Automatically thinks about automation opportunities."
-      ]
-    },
-
-    "communicationFingerprint": {
-      "naturalTone": "Conversational, intelligent and approachable.",
-
-      "preferredCharacteristics": [
-        "Clear",
-        "Thoughtful",
-        "Evidence-based",
-        "Curious",
-        "Respectful",
-        "Confident without arrogance"
-      ],
-
-      "avoid": [
-        "Corporate jargon",
-        "Sales language",
-        "Buzzwords",
-        "Excessive hype",
-        "Overly formal language"
-      ],
-
-      "readerExperienceGoal": "Readers should finish feeling smarter rather than impressed."
-    },
-
-    "professionalIdentityFingerprint": {
-      "oneSentence": "A multidisciplinary communicator who combines journalism, technology, AI and systems thinking to solve communication problems.",
-
-      "threeSentences": [
-        "Curiosity drives every professional decision.",
-        "Technology is embraced as leverage rather than feared as disruption.",
-        "Knowledge should become reusable systems instead of disappearing after projects end."
-      ],
-
-      "keywords": [
-        "AI",
-        "Automation",
-        "Technical Writing",
-        "Editorial",
-        "SEO",
-        "Journalism",
-        "Knowledge Systems",
-        "Learning",
-        "Strategy",
-        "Storytelling",
-        "Leadership",
-        "Communication"
-      ]
-    },
-
-    "brainRules": {
-      "purpose": "These rules govern every future AI interaction using this Brain.",
-
-      "rules": [
-        "Never optimize for sounding impressive over being useful.",
-        "Always prioritize clarity over complexity.",
-        "Never invent experience or accomplishments.",
-        "Every recommendation should align with long-term career goals.",
-        "Whenever possible, connect ideas across multiple Brain modules.",
-        "Assume continuous learning rather than static expertise.",
-        "Treat accumulated knowledge as Riley's greatest professional asset."
-      ]
-    },
-
-    "brainMetadata": {
-      "isCanonicalSource": true,
-      "shouldGenerateResumes": true,
-      "shouldGenerateCoverLetters": true,
-      "shouldGenerateInterviewAnswers": true,
-      "shouldGenerateLinkedInContent": true,
-      "shouldGeneratePortfolioContent": true,
-      "shouldGenerateNetworkingEmails": true,
-
-      "futureConsumers": [
-        "Career Agent",
-        "Resume Builder",
-        "Interview Simulator",
-        "LinkedIn Generator",
-        "Portfolio Generator",
-        "Career Analytics Engine",
-        "Job Matching Engine"
-      ]
-    }
