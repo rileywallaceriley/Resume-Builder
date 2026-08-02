@@ -1,0 +1,251 @@
+{
+  "_comment": "Employment history and role context.",
+  "schemaVersion": "1.0.0",
+  "schema": {
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "career-engine/knowledge-base/experience.json.schema.json",
+    "title": "Experience",
+    "description": "Employment history and role context.",
+    "type": "array",
+    "items": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "company": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        },
+        "employmentType": {
+          "type": "string"
+        },
+        "location": {
+          "type": "string"
+        },
+        "workMode": {
+          "type": "string"
+        },
+        "dates": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "start": {
+              "type": "string"
+            },
+            "end": {
+              "type": "string"
+            },
+            "current": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "start",
+            "end",
+            "current"
+          ]
+        },
+        "summary": {
+          "type": "string"
+        },
+        "responsibilities": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "majorWins": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "metrics": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "projects": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "industries": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "technologies": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "skillsDemonstrated": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "stories": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "favoriteWork": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "lessonsLearned": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "quotes": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "text": {
+                "type": "string"
+              },
+              "attribution": {
+                "type": "string"
+              },
+              "date": {
+                "type": "string"
+              },
+              "permissionToUse": {
+                "type": "boolean"
+              }
+            },
+            "required": [
+              "text",
+              "attribution",
+              "date",
+              "permissionToUse"
+            ]
+          }
+        },
+        "_comment": {
+          "type": "string",
+          "description": "Inline documentation; not career data."
+        }
+      },
+      "required": [
+        "id",
+        "company",
+        "title",
+        "employmentType",
+        "location",
+        "workMode",
+        "dates",
+        "summary",
+        "responsibilities",
+        "majorWins",
+        "metrics",
+        "projects",
+        "industries",
+        "technologies",
+        "skillsDemonstrated",
+        "stories",
+        "favoriteWork",
+        "lessonsLearned",
+        "quotes",
+        "_comment"
+      ]
+    }
+  },
+  "data": [],
+  "_template": {
+    "_comment": "One record per role; reference project, achievement, skill, industry, technology, and story IDs rather than duplicating their source records.",
+    "id": "",
+    "company": "",
+    "title": "",
+    "employmentType": "",
+    "location": "",
+    "workMode": "",
+    "dates": {
+      "start": "",
+      "end": "",
+      "current": false
+    },
+    "summary": "",
+    "responsibilities": [],
+    "majorWins": [],
+    "metrics": [],
+    "projects": [],
+    "industries": [],
+    "technologies": [],
+    "skillsDemonstrated": [],
+    "stories": [],
+    "favoriteWork": [],
+    "lessonsLearned": [],
+    "quotes": []
+  },
+  "_example": {
+    "_comment": "One record per role; reference project, achievement, skill, industry, technology, and story IDs rather than duplicating their source records.",
+    "id": "exp-example",
+    "company": "Example Company",
+    "title": "Example Title",
+    "employmentType": "full-time",
+    "location": "Example City, EX",
+    "workMode": "hybrid",
+    "dates": {
+      "start": "2020-01",
+      "end": "2023-12",
+      "current": false
+    },
+    "summary": "Scope and mandate of the role.",
+    "responsibilities": [
+      "Owned an example responsibility."
+    ],
+    "majorWins": [
+      "achievement-example"
+    ],
+    "metrics": [
+      "metric-example"
+    ],
+    "projects": [
+      "project-example"
+    ],
+    "industries": [
+      "industry-example"
+    ],
+    "technologies": [
+      "technology-example"
+    ],
+    "skillsDemonstrated": [
+      "skill-example"
+    ],
+    "stories": [
+      "story-example"
+    ],
+    "favoriteWork": [
+      "Example type of work"
+    ],
+    "lessonsLearned": [
+      "Example lesson"
+    ],
+    "quotes": [
+      {
+        "text": "Example feedback quote.",
+        "attribution": "Example stakeholder",
+        "date": "2023-01",
+        "permissionToUse": true
+      }
+    ]
+  }
+}

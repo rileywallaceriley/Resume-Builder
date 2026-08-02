@@ -1,0 +1,239 @@
+{
+  "_comment": "Leadership philosophy, practices, and preferences.",
+  "schemaVersion": "1.0.0",
+  "schema": {
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "career-engine/knowledge-base/management.json.schema.json",
+    "title": "Management",
+    "description": "Leadership philosophy, practices, and preferences.",
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "leadershipPhilosophy": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "mentoringApproach": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "feedbackStyle": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "giving": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "receiving": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "required": [
+          "giving",
+          "receiving"
+        ]
+      },
+      "strengths": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "workEnvironment": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "teamPreferences": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "teamSizes": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "functions": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "stages": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "cadence": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "required": [
+          "teamSizes",
+          "functions",
+          "stages",
+          "cadence"
+        ]
+      },
+      "decisionMaking": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "principles": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "methods": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "riskApproach": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "principles",
+          "methods",
+          "riskApproach"
+        ]
+      },
+      "evidence": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "_comment": {
+        "type": "string",
+        "description": "Inline documentation; not career data."
+      }
+    },
+    "required": [
+      "leadershipPhilosophy",
+      "mentoringApproach",
+      "feedbackStyle",
+      "strengths",
+      "workEnvironment",
+      "teamPreferences",
+      "decisionMaking",
+      "evidence",
+      "_comment"
+    ]
+  },
+  "data": {
+    "_comment": "Leadership operating model and preferred conditions; examples describe formatting only.",
+    "leadershipPhilosophy": [],
+    "mentoringApproach": [],
+    "feedbackStyle": {
+      "giving": [],
+      "receiving": []
+    },
+    "strengths": [],
+    "workEnvironment": [],
+    "teamPreferences": {
+      "teamSizes": [],
+      "functions": [],
+      "stages": [],
+      "cadence": []
+    },
+    "decisionMaking": {
+      "principles": [],
+      "methods": [],
+      "riskApproach": ""
+    },
+    "evidence": []
+  },
+  "_template": {
+    "_comment": "Leadership operating model and preferred conditions; examples describe formatting only.",
+    "leadershipPhilosophy": [],
+    "mentoringApproach": [],
+    "feedbackStyle": {
+      "giving": [],
+      "receiving": []
+    },
+    "strengths": [],
+    "workEnvironment": [],
+    "teamPreferences": {
+      "teamSizes": [],
+      "functions": [],
+      "stages": [],
+      "cadence": []
+    },
+    "decisionMaking": {
+      "principles": [],
+      "methods": [],
+      "riskApproach": ""
+    },
+    "evidence": []
+  },
+  "_example": {
+    "_comment": "Leadership operating model and preferred conditions; examples describe formatting only.",
+    "leadershipPhilosophy": [
+      "Example principle stated as an actionable belief."
+    ],
+    "mentoringApproach": [
+      "Example mentoring practice."
+    ],
+    "feedbackStyle": {
+      "giving": [
+        "Specific and timely"
+      ],
+      "receiving": [
+        "Direct and evidence-based"
+      ]
+    },
+    "strengths": [
+      "Example leadership strength"
+    ],
+    "workEnvironment": [
+      "Example environment where leadership is most effective."
+    ],
+    "teamPreferences": {
+      "teamSizes": [
+        "5-10"
+      ],
+      "functions": [
+        "Cross-functional"
+      ],
+      "stages": [
+        "scaling"
+      ],
+      "cadence": [
+        "Weekly planning"
+      ]
+    },
+    "decisionMaking": {
+      "principles": [
+        "Use reversible decisions where possible."
+      ],
+      "methods": [
+        "Consultative"
+      ],
+      "riskApproach": "Example risk posture."
+    },
+    "evidence": [
+      "story-example",
+      "achievement-example"
+    ]
+  }
+}

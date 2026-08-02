@@ -1,0 +1,187 @@
+{
+  "_comment": "Auditable measurable accomplishments.",
+  "schemaVersion": "1.0.0",
+  "schema": {
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "career-engine/knowledge-base/achievements.json.schema.json",
+    "title": "Achievements",
+    "description": "Auditable measurable accomplishments.",
+    "type": "array",
+    "items": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "evidence": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "type": {
+                "type": "string"
+              },
+              "reference": {
+                "type": "string"
+              },
+              "verified": {
+                "type": "boolean"
+              }
+            },
+            "required": [
+              "type",
+              "reference",
+              "verified"
+            ]
+          }
+        },
+        "impact": {
+          "type": "string"
+        },
+        "metric": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "baseline": {
+              "type": "string"
+            },
+            "result": {
+              "type": "string"
+            },
+            "change": {
+              "type": "string"
+            },
+            "unit": {
+              "type": "string"
+            },
+            "timeframe": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "name",
+            "baseline",
+            "result",
+            "change",
+            "unit",
+            "timeframe"
+          ]
+        },
+        "confidence": {
+          "type": "string"
+        },
+        "relatedCompanies": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "relatedProjects": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "relatedSkills": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "date": {
+          "type": "string"
+        },
+        "visibility": {
+          "type": "string"
+        },
+        "_comment": {
+          "type": "string",
+          "description": "Inline documentation; not career data."
+        }
+      },
+      "required": [
+        "id",
+        "title",
+        "description",
+        "evidence",
+        "impact",
+        "metric",
+        "confidence",
+        "relatedCompanies",
+        "relatedProjects",
+        "relatedSkills",
+        "date",
+        "visibility",
+        "_comment"
+      ]
+    }
+  },
+  "data": [],
+  "_template": {
+    "_comment": "Only measurable outcomes belong here. Metric value, evidence, and confidence make claims auditable.",
+    "id": "",
+    "title": "",
+    "description": "",
+    "evidence": [],
+    "impact": "",
+    "metric": {
+      "name": "",
+      "baseline": "",
+      "result": "",
+      "change": "",
+      "unit": "",
+      "timeframe": ""
+    },
+    "confidence": "",
+    "relatedCompanies": [],
+    "relatedProjects": [],
+    "relatedSkills": [],
+    "date": "",
+    "visibility": ""
+  },
+  "_example": {
+    "_comment": "Only measurable outcomes belong here. Metric value, evidence, and confidence make claims auditable.",
+    "id": "achievement-example",
+    "title": "Improved example outcome",
+    "description": "What changed and why it mattered.",
+    "evidence": [
+      {
+        "type": "analytics",
+        "reference": "Internal dashboard or public URL",
+        "verified": false
+      }
+    ],
+    "impact": "Business or customer effect.",
+    "metric": {
+      "name": "Example KPI",
+      "baseline": "100",
+      "result": "125",
+      "change": "25%",
+      "unit": "percent",
+      "timeframe": "12 months"
+    },
+    "confidence": "high",
+    "relatedCompanies": [
+      "exp-example"
+    ],
+    "relatedProjects": [
+      "project-example"
+    ],
+    "relatedSkills": [
+      "skill-example"
+    ],
+    "date": "2023-01",
+    "visibility": "public"
+  }
+}

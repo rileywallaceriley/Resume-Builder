@@ -1,0 +1,204 @@
+{
+  "_comment": "Reusable writing voice and editorial constraints.",
+  "schemaVersion": "1.0.0",
+  "schema": {
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "career-engine/knowledge-base/voice.json.schema.json",
+    "title": "Voice",
+    "description": "Reusable writing voice and editorial constraints.",
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "tone": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "readingLevel": {
+        "type": "string"
+      },
+      "sentenceLength": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "preferredWords": {
+            "type": "string"
+          },
+          "variation": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "preferredWords",
+          "variation"
+        ]
+      },
+      "favoriteTransitions": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "thingsToAvoid": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "editorialPhilosophy": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "storytellingPrinciples": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "favoriteStructures": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "person": {
+        "type": "string"
+      },
+      "contractions": {
+        "type": "string"
+      },
+      "formattingPreferences": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "channelOverrides": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "channel": {
+              "type": "string"
+            },
+            "rules": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "required": [
+            "channel",
+            "rules"
+          ]
+        }
+      },
+      "_comment": {
+        "type": "string",
+        "description": "Inline documentation; not career data."
+      }
+    },
+    "required": [
+      "tone",
+      "readingLevel",
+      "sentenceLength",
+      "favoriteTransitions",
+      "thingsToAvoid",
+      "editorialPhilosophy",
+      "storytellingPrinciples",
+      "favoriteStructures",
+      "person",
+      "contractions",
+      "formattingPreferences",
+      "channelOverrides",
+      "_comment"
+    ]
+  },
+  "data": {
+    "_comment": "Master editorial guidance for every generated channel; channel overrides may refine but not contradict it.",
+    "tone": [],
+    "readingLevel": "",
+    "sentenceLength": {
+      "preferredWords": "",
+      "variation": ""
+    },
+    "favoriteTransitions": [],
+    "thingsToAvoid": [],
+    "editorialPhilosophy": [],
+    "storytellingPrinciples": [],
+    "favoriteStructures": [],
+    "person": "",
+    "contractions": "",
+    "formattingPreferences": [],
+    "channelOverrides": []
+  },
+  "_template": {
+    "_comment": "Master editorial guidance for every generated channel; channel overrides may refine but not contradict it.",
+    "tone": [],
+    "readingLevel": "",
+    "sentenceLength": {
+      "preferredWords": "",
+      "variation": ""
+    },
+    "favoriteTransitions": [],
+    "thingsToAvoid": [],
+    "editorialPhilosophy": [],
+    "storytellingPrinciples": [],
+    "favoriteStructures": [],
+    "person": "",
+    "contractions": "",
+    "formattingPreferences": [],
+    "channelOverrides": []
+  },
+  "_example": {
+    "_comment": "Master editorial guidance for every generated channel; channel overrides may refine but not contradict it.",
+    "tone": [
+      "clear",
+      "credible",
+      "warm"
+    ],
+    "readingLevel": "Grade 8-10",
+    "sentenceLength": {
+      "preferredWords": "12-20",
+      "variation": "Mix concise and medium sentences."
+    },
+    "favoriteTransitions": [
+      "For example",
+      "As a result"
+    ],
+    "thingsToAvoid": [
+      "Unsupported superlatives",
+      "Corporate filler",
+      "Em dashes"
+    ],
+    "editorialPhilosophy": [
+      "Lead with evidence and reader value."
+    ],
+    "storytellingPrinciples": [
+      "Establish stakes before actions.",
+      "End with a concrete outcome."
+    ],
+    "favoriteStructures": [
+      "Context \u2192 action \u2192 measurable result",
+      "Problem \u2192 insight \u2192 solution"
+    ],
+    "person": "first person",
+    "contractions": "allowed",
+    "formattingPreferences": [
+      "Use descriptive headings."
+    ],
+    "channelOverrides": [
+      {
+        "channel": "LinkedIn",
+        "rules": [
+          "Use shorter paragraphs."
+        ]
+      }
+    ]
+  }
+}

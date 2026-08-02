@@ -1,0 +1,143 @@
+{
+  "_comment": "Education, certifications, and continuing learning.",
+  "schemaVersion": "1.0.0",
+  "schema": {
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "career-engine/knowledge-base/education.json.schema.json",
+    "title": "Education",
+    "description": "Education, certifications, and continuing learning.",
+    "type": "array",
+    "items": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "type": {
+          "type": "string"
+        },
+        "institution": {
+          "type": "string"
+        },
+        "credential": {
+          "type": "string"
+        },
+        "fieldOfStudy": {
+          "type": "string"
+        },
+        "dates": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "start": {
+              "type": "string"
+            },
+            "end": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "start",
+            "end"
+          ]
+        },
+        "location": {
+          "type": "string"
+        },
+        "status": {
+          "type": "string"
+        },
+        "honors": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "coursework": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "credentialId": {
+          "type": "string"
+        },
+        "url": {
+          "type": "string"
+        },
+        "skills": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "_comment": {
+          "type": "string",
+          "description": "Inline documentation; not career data."
+        }
+      },
+      "required": [
+        "id",
+        "type",
+        "institution",
+        "credential",
+        "fieldOfStudy",
+        "dates",
+        "location",
+        "status",
+        "honors",
+        "coursework",
+        "credentialId",
+        "url",
+        "skills",
+        "_comment"
+      ]
+    }
+  },
+  "data": [],
+  "_template": {
+    "_comment": "Degrees, certifications, courses, and continuing education.",
+    "id": "",
+    "type": "",
+    "institution": "",
+    "credential": "",
+    "fieldOfStudy": "",
+    "dates": {
+      "start": "",
+      "end": ""
+    },
+    "location": "",
+    "status": "",
+    "honors": [],
+    "coursework": [],
+    "credentialId": "",
+    "url": "",
+    "skills": []
+  },
+  "_example": {
+    "_comment": "Degrees, certifications, courses, and continuing education.",
+    "id": "education-example",
+    "type": "degree",
+    "institution": "Example University",
+    "credential": "Example Degree",
+    "fieldOfStudy": "Example Field",
+    "dates": {
+      "start": "2010-09",
+      "end": "2014-05"
+    },
+    "location": "Example City, EX",
+    "status": "completed",
+    "honors": [
+      "Example honor"
+    ],
+    "coursework": [
+      "Example course"
+    ],
+    "credentialId": "EXAMPLE-123",
+    "url": "https://example.com/credential",
+    "skills": [
+      "skill-example"
+    ]
+  }
+}
