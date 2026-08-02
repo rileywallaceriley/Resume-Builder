@@ -1,4 +1,4 @@
-import { cleanup, fireEvent, render, screen } from '@testing-library/react'
+import { cleanup, render, screen } from '@testing-library/react'
 import { afterEach, describe, expect, it, vi } from 'vitest'
 import App from './App'
 
@@ -19,7 +19,7 @@ describe('App', () => {
     const open = vi.spyOn(window, 'open').mockImplementation(() => null)
     render(<App />)
 
-    fireEvent.click(screen.getByRole('button', { name: /export pdf/i }))
+    screen.getByRole('button', { name: /export pdf/i }).click()
 
     expect(open).toHaveBeenCalledOnce()
     const [url, target, features] = open.mock.calls[0]
