@@ -1,308 +1,1040 @@
 {
-  "_comment": "Categorized, evidence-backed capabilities. The data array is intentionally empty; _template and _example are documentation and are not source records.",
-  "schemaVersion": "2.0.0",
-  "entityType": "skills",
-  "schema": {
-    "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "$id": "brain/skills.json.schema.json",
-    "title": "Skills",
-    "description": "Categorized, evidence-backed capabilities.",
-    "type": "object",
-    "additionalProperties": false,
-    "properties": {
-      "_comment": {
-        "type": "string"
-      },
-      "id": {
-        "type": "string"
-      },
-      "createdAt": {
-        "type": "string"
-      },
-      "updatedAt": {
-        "type": "string"
-      },
-      "tags": {
-        "type": "array",
-        "items": {
-          "type": "string"
-        }
-      },
-      "relatedObjects": {
-        "type": "array",
-        "items": {
-          "type": "object",
-          "additionalProperties": false,
-          "properties": {
-            "objectType": {
-              "type": "string"
-            },
-            "objectId": {
-              "type": "string"
-            },
-            "relationship": {
-              "type": "string"
-            }
-          },
-          "required": [
-            "objectType",
-            "objectId",
-            "relationship"
-          ]
-        }
-      },
-      "category": {
-        "type": "object",
-        "additionalProperties": false,
-        "properties": {
-          "id": {
-            "type": "string"
-          },
-          "createdAt": {
-            "type": "string"
-          },
-          "updatedAt": {
-            "type": "string"
-          },
-          "tags": {
-            "type": "array",
-            "items": {
-              "type": "string"
-            }
-          },
-          "relatedObjects": {
-            "type": "array",
-            "items": {
-              "type": "object",
-              "additionalProperties": false,
-              "properties": {
-                "objectType": {
-                  "type": "string"
-                },
-                "objectId": {
-                  "type": "string"
-                },
-                "relationship": {
-                  "type": "string"
-                }
-              },
-              "required": [
-                "objectType",
-                "objectId",
-                "relationship"
-              ]
-            }
-          },
-          "name": {
-            "type": "string"
-          },
-          "description": {
-            "type": "string"
-          }
-        },
-        "required": [
-          "id",
-          "createdAt",
-          "updatedAt",
-          "tags",
-          "relatedObjects",
-          "name",
-          "description"
+  "schemaVersion": "1.0.0",
+  "entityType": "skill",
+  "data": [
+
+    {
+      "id": "skill-seo",
+
+      "name": "Search Engine Optimization",
+
+      "category": "Digital Marketing",
+
+      "proficiency": "Advanced",
+
+      "summary": "Develops SEO strategies that combine technical optimization, content planning and business objectives to improve discoverability.",
+
+      "evidence": {
+
+        "experiences": [
+          "experience-solar-brokers-canada",
+          "experience-polaron",
+          "experience-productive-shop"
+        ],
+
+        "projects": [
+          "project-seo-transformation"
+        ],
+
+        "achievements": [
+          "achievement-sbc-seo-transformation",
+          "achievement-pol-seo-leadership"
         ]
+
       },
-      "skills": {
-        "type": "array",
-        "items": {
-          "type": "object",
-          "additionalProperties": false,
-          "properties": {
-            "id": {
-              "type": "string"
-            },
-            "createdAt": {
-              "type": "string"
-            },
-            "updatedAt": {
-              "type": "string"
-            },
-            "tags": {
-              "type": "array",
-              "items": {
-                "type": "string"
-              }
-            },
-            "relatedObjects": {
-              "type": "array",
-              "items": {
-                "type": "object",
-                "additionalProperties": false,
-                "properties": {
-                  "objectType": {
-                    "type": "string"
-                  },
-                  "objectId": {
-                    "type": "string"
-                  },
-                  "relationship": {
-                    "type": "string"
-                  }
-                },
-                "required": [
-                  "objectType",
-                  "objectId",
-                  "relationship"
-                ]
-              }
-            },
-            "name": {
-              "type": "string"
-            },
-            "description": {
-              "type": "string"
-            },
-            "proficiency": {
-              "type": "string"
-            },
-            "years": {
-              "type": "number"
-            },
-            "supportingProjects": {
-              "type": "array",
-              "items": {
-                "type": "string"
-              }
-            },
-            "supportingExperience": {
-              "type": "array",
-              "items": {
-                "type": "string"
-              }
-            },
-            "evidence": {
-              "type": "array",
-              "items": {
-                "type": "string"
-              }
-            },
-            "relatedTechnologies": {
-              "type": "array",
-              "items": {
-                "type": "string"
-              }
-            }
-          },
-          "required": [
-            "id",
-            "createdAt",
-            "updatedAt",
-            "tags",
-            "relatedObjects",
-            "name",
-            "description",
-            "proficiency",
-            "years",
-            "supportingProjects",
-            "supportingExperience",
-            "evidence",
-            "relatedTechnologies"
-          ]
-        }
-      }
-    },
-    "required": [
-      "_comment",
-      "id",
-      "createdAt",
-      "updatedAt",
-      "tags",
-      "relatedObjects",
-      "category",
-      "skills"
-    ]
-  },
-  "data": [],
-  "_template": {
-    "_comment": "A skill category containing evidence-backed, independently linkable skills; never use as a flat keyword list.",
-    "id": "",
-    "createdAt": "",
-    "updatedAt": "",
-    "tags": [],
-    "relatedObjects": [],
-    "category": {
-      "id": "",
-      "createdAt": "",
-      "updatedAt": "",
-      "tags": [],
-      "relatedObjects": [],
-      "name": "",
-      "description": ""
-    },
-    "skills": []
-  },
-  "_example": {
-    "_comment": "A skill category containing evidence-backed, independently linkable skills; never use as a flat keyword list.",
-    "id": "00000000-0000-4000-8000-000000000001",
-    "createdAt": "2026-01-01T00:00:00Z",
-    "updatedAt": "2026-01-01T00:00:00Z",
-    "tags": [
-      "example-tag"
-    ],
-    "relatedObjects": [
-      {
-        "objectType": "achievement",
-        "objectId": "00000000-0000-4000-8000-000000000002",
-        "relationship": "supports"
-      }
-    ],
-    "category": {
-      "id": "00000000-0000-4000-8000-000000000010",
-      "createdAt": "2026-01-01T00:00:00Z",
-      "updatedAt": "2026-01-01T00:00:00Z",
-      "tags": [
-        "example-category"
+
+      "relatedTechnologies": [
+        "technology-google-search-console",
+        "technology-google-analytics"
       ],
-      "relatedObjects": [
-        {
-          "objectType": "achievement",
-          "objectId": "00000000-0000-4000-8000-000000000002",
-          "relationship": "supports"
-        }
+
+      "relatedSkills": [
+        "skill-content-strategy",
+        "skill-digital-marketing"
       ],
-      "name": "Example Skill Category",
-      "description": "Why these capabilities belong together."
-    },
-    "skills": [
-      {
-        "id": "00000000-0000-4000-8000-000000000011",
-        "createdAt": "2026-01-01T00:00:00Z",
-        "updatedAt": "2026-01-01T00:00:00Z",
-        "tags": [
-          "example-skill"
-        ],
-        "relatedObjects": [
-          {
-            "objectType": "achievement",
-            "objectId": "00000000-0000-4000-8000-000000000002",
-            "relationship": "supports"
-          }
-        ],
-        "name": "Example Skill",
-        "description": "What the capability means in this professional context.",
-        "proficiency": "advanced",
-        "years": 5,
-        "supportingProjects": [
-          "00000000-0000-4000-8000-000000000030"
-        ],
-        "supportingExperience": [
-          "00000000-0000-4000-8000-000000000070"
-        ],
-        "evidence": [
-          "00000000-0000-4000-8000-000000000060"
-        ],
-        "relatedTechnologies": [
-          "00000000-0000-4000-8000-000000000040"
-        ]
+
+      "sources": [
+        "resume",
+        "career_interviews"
+      ],
+
+      "verification": {
+        "status": "verified"
       }
+
+    }
+
+  ]
+}
+{
+  "id": "skill-technical-writing",
+
+  "name": "Technical Writing",
+
+  "category": "Writing",
+
+  "proficiency": "Advanced",
+
+  "summary": "Produces clear, accurate and audience-focused technical content across multiple industries, translating complex concepts into understandable documentation and educational materials.",
+
+  "evidence": {
+
+    "experiences": [
+      "experience-lendcare",
+      "experience-productive-shop",
+      "experience-riley-wallace-creative"
+    ],
+
+    "projects": [
+      "project-ai-workflow-development"
+    ],
+
+    "achievements": [
+      "achievement-technical-translation"
     ]
+
+  },
+
+  "relatedTechnologies": [
+
+  ],
+
+  "relatedSkills": [
+    "skill-research",
+    "skill-content-strategy",
+    "skill-editing"
+  ],
+
+  "sources": [
+    "resume",
+    "career_interviews"
+  ],
+
+  "verification": {
+    "status": "verified"
   }
+
+},
+{
+  "id": "skill-research",
+
+  "name": "Research",
+
+  "category": "Analysis",
+
+  "proficiency": "Advanced",
+
+  "summary": "Researches unfamiliar subjects, validates information and synthesizes findings into accurate, actionable content.",
+
+  "evidence": {
+
+    "experiences": [
+      "experience-harbourfront",
+      "experience-journalism",
+      "experience-productive-shop"
+    ],
+
+    "projects": [
+      "project-journalism-portfolio"
+    ],
+
+    "achievements": [
+      "achievement-research-first-methodology",
+      "achievement-repeatable-learning"
+    ]
+
+  },
+
+  "relatedTechnologies": [
+
+  ],
+
+  "relatedSkills": [
+    "skill-technical-writing",
+    "skill-interviewing",
+    "skill-critical-thinking"
+  ],
+
+  "sources": [
+    "resume",
+    "career_interviews"
+  ],
+
+  "verification": {
+    "status": "verified"
+  }
+
+},
+{
+  "id": "skill-content-strategy",
+
+  "name": "Content Strategy",
+
+  "category": "Marketing",
+
+  "proficiency": "Advanced",
+
+  "summary": "Plans and develops content that aligns audience needs, business goals and search visibility.",
+
+  "evidence": {
+
+    "experiences": [
+      "experience-polaron",
+      "experience-lendcare",
+      "experience-productive-shop"
+    ],
+
+    "projects": [
+
+    ],
+
+    "achievements": [
+      "achievement-pol-seo-leadership",
+      "achievement-cross-industry-expertise"
+    ]
+
+  },
+
+  "relatedTechnologies": [
+
+  ],
+
+  "relatedSkills": [
+    "skill-seo",
+    "skill-technical-writing",
+    "skill-digital-marketing"
+  ],
+
+  "sources": [
+    "resume",
+    "career_interviews"
+  ],
+
+  "verification": {
+    "status": "verified"
+  }
+
+}
+{
+  "id": "skill-copywriting",
+
+  "name": "Copywriting",
+
+  "category": "Writing",
+
+  "proficiency": "Advanced",
+
+  "summary": "Writes persuasive marketing copy across digital channels while balancing audience engagement, brand voice and business objectives.",
+
+  "evidence": {
+
+    "experiences": [
+      "experience-solar-brokers-canada",
+      "experience-polaron",
+      "experience-lendcare",
+      "experience-riley-wallace-creative"
+    ],
+
+    "projects": [
+      "project-independent-marketing-consulting",
+      "project-lowes-retail-expansion"
+    ],
+
+    "achievements": [
+      "achievement-cross-industry-expertise"
+    ]
+
+  },
+
+  "relatedSkills": [
+    "skill-content-strategy",
+    "skill-editing",
+    "skill-digital-marketing"
+  ],
+
+  "sources": [
+    "resume",
+    "career_interviews"
+  ],
+
+  "verification": {
+    "status": "verified"
+  }
+
+},
+{
+  "id": "skill-editing",
+
+  "name": "Editing",
+
+  "category": "Writing",
+
+  "proficiency": "Advanced",
+
+  "summary": "Reviews and refines content for clarity, accuracy, consistency and audience appropriateness before publication.",
+
+  "evidence": {
+
+    "experiences": [
+      "experience-journalism",
+      "experience-lendcare",
+      "experience-productive-shop"
+    ],
+
+    "projects": [
+      "project-journalism-portfolio"
+    ],
+
+    "achievements": [
+      "achievement-professional-reputation"
+    ]
+
+  },
+
+  "relatedSkills": [
+    "skill-technical-writing",
+    "skill-copywriting",
+    "skill-research"
+  ],
+
+  "sources": [
+    "resume",
+    "career_interviews"
+  ],
+
+  "verification": {
+    "status": "verified"
+  }
+
+},
+{
+  "id": "skill-interviewing",
+
+  "name": "Interviewing",
+
+  "category": "Communication",
+
+  "proficiency": "Advanced",
+
+  "summary": "Conducts interviews that uncover meaningful information and translates conversations into accurate, engaging content.",
+
+  "evidence": {
+
+    "experiences": [
+      "experience-harbourfront",
+      "experience-journalism"
+    ],
+
+    "projects": [
+      "project-journalism-portfolio",
+      "project-harbourfront-digital-communications"
+    ],
+
+    "achievements": [
+      "achievement-hf-storytelling",
+      "achievement-journalism-career-foundation"
+    ]
+
+  },
+
+  "relatedSkills": [
+    "skill-research",
+    "skill-storytelling",
+    "skill-writing"
+  ],
+
+  "sources": [
+    "resume",
+    "career_interviews"
+  ],
+
+  "verification": {
+    "status": "verified"
+  }
+
+}
+{
+  "id": "skill-digital-marketing",
+
+  "name": "Digital Marketing",
+
+  "category": "Marketing",
+
+  "proficiency": "Advanced",
+
+  "summary": "Plans and executes digital marketing initiatives that align business objectives, customer acquisition and brand growth.",
+
+  "evidence": {
+
+    "experiences": [
+      "experience-solar-brokers-canada",
+      "experience-polaron",
+      "experience-intelligent-properties",
+      "experience-riley-wallace-creative"
+    ],
+
+    "projects": [
+      "project-lowes-retail-expansion",
+      "project-independent-marketing-consulting"
+    ],
+
+    "achievements": [
+      "achievement-sbc-20m-sales",
+      "achievement-ip-integrated-marketing"
+    ]
+
+  },
+
+  "relatedSkills": [
+    "skill-seo",
+    "skill-content-strategy",
+    "skill-lead-generation"
+  ],
+
+  "sources": [
+    "resume",
+    "career_interviews"
+  ],
+
+  "verification": {
+    "status": "verified"
+  }
+
+},
+{
+  "id": "skill-marketing-strategy",
+
+  "name": "Marketing Strategy",
+
+  "category": "Marketing",
+
+  "proficiency": "Advanced",
+
+  "summary": "Develops marketing strategies that connect organizational objectives with audience needs, channel selection and measurable business outcomes.",
+
+  "evidence": {
+
+    "experiences": [
+      "experience-solar-brokers-canada",
+      "experience-polaron",
+      "experience-riley-wallace-creative"
+    ],
+
+    "projects": [
+      "project-lowes-retail-expansion",
+      "project-seo-transformation",
+      "project-independent-marketing-consulting"
+    ],
+
+    "achievements": [
+      "achievement-sbc-marketing-budget",
+      "achievement-pol-seo-leadership"
+    ]
+
+  },
+
+  "relatedSkills": [
+    "skill-digital-marketing",
+    "skill-content-strategy",
+    "skill-seo"
+  ],
+
+  "sources": [
+    "resume",
+    "career_interviews"
+  ],
+
+  "verification": {
+    "status": "verified"
+  }
+
+},
+{
+  "id": "skill-social-media-marketing",
+
+  "name": "Social Media Marketing",
+
+  "category": "Marketing",
+
+  "proficiency": "Advanced",
+
+  "summary": "Plans and manages social media content and campaigns to build awareness, engage audiences and support broader marketing objectives.",
+
+  "evidence": {
+
+    "experiences": [
+      "experience-harbourfront",
+      "experience-bam",
+      "experience-intelligent-properties"
+    ],
+
+    "projects": [
+      "project-harbourfront-digital-communications",
+      "project-facebook-adoption"
+    ],
+
+    "achievements": [
+      "achievement-bam-facebook-early-adoption"
+    ]
+
+  },
+
+  "relatedSkills": [
+    "skill-copywriting",
+    "skill-digital-marketing",
+    "skill-content-strategy"
+  ],
+
+  "sources": [
+    "resume",
+    "career_interviews"
+  ],
+
+  "verification": {
+    "status": "verified"
+  }
+
+}
+{
+  "id": "skill-consulting",
+
+  "name": "Consulting",
+
+  "category": "Business",
+
+  "proficiency": "Advanced",
+
+  "summary": "Works with organizations to understand business objectives, identify communication challenges and develop practical marketing and content solutions.",
+
+  "evidence": {
+
+    "experiences": [
+      "experience-riley-wallace-creative"
+    ],
+
+    "projects": [
+      "project-independent-marketing-consulting",
+      "project-career-agent"
+    ],
+
+    "achievements": [
+      "achievement-rwc-independent-consulting"
+    ]
+
+  },
+
+  "relatedSkills": [
+    "skill-marketing-strategy",
+    "skill-research",
+    "skill-content-strategy"
+  ],
+
+  "sources": [
+    "resume",
+    "career_interviews"
+  ],
+
+  "verification": {
+    "status": "verified"
+  }
+
+},
+{
+  "id": "skill-client-management",
+
+  "name": "Client Management",
+
+  "category": "Business",
+
+  "proficiency": "Advanced",
+
+  "summary": "Builds and maintains professional client relationships while balancing business objectives, communication and project delivery.",
+
+  "evidence": {
+
+    "experiences": [
+      "experience-riley-wallace-creative",
+      "experience-bam"
+    ],
+
+    "projects": [
+      "project-independent-marketing-consulting",
+      "project-facebook-adoption"
+    ],
+
+    "achievements": [
+      "achievement-rwc-independent-consulting"
+    ]
+
+  },
+
+  "relatedSkills": [
+    "skill-consulting",
+    "skill-project-management",
+    "skill-communication"
+  ],
+
+  "sources": [
+    "resume",
+    "career_interviews"
+  ],
+
+  "verification": {
+    "status": "verified"
+  }
+
+},
+{
+  "id": "skill-project-management",
+
+  "name": "Project Management",
+
+  "category": "Business",
+
+  "proficiency": "Advanced",
+
+  "summary": "Plans, coordinates and delivers marketing, content and technology initiatives while balancing priorities, timelines and stakeholder expectations.",
+
+  "evidence": {
+
+    "experiences": [
+      "experience-solar-brokers-canada",
+      "experience-riley-wallace-creative",
+      "experience-productive-shop"
+    ],
+
+    "projects": [
+      "project-career-agent",
+      "project-lowes-retail-expansion",
+      "project-ai-workflow-development"
+    ],
+
+    "achievements": [
+      "achievement-sbc-marketing-budget",
+      "achievement-systems-thinking"
+    ]
+
+  },
+
+  "relatedSkills": [
+    "skill-consulting",
+    "skill-marketing-strategy",
+    "skill-research"
+  ],
+
+  "sources": [
+    "resume",
+    "career_interviews"
+  ],
+
+  "verification": {
+    "status": "verified"
+  }
+
+}
+{
+  "id": "skill-artificial-intelligence",
+
+  "name": "Artificial Intelligence",
+
+  "category": "Technology",
+
+  "proficiency": "Advanced",
+
+  "summary": "Applies generative AI to research, writing, workflow development and knowledge management while maintaining human editorial oversight.",
+
+  "evidence": {
+
+    "experiences": [
+      "experience-lendcare",
+      "experience-riley-wallace-creative",
+      "experience-productive-shop"
+    ],
+
+    "projects": [
+      "project-career-agent",
+      "project-ai-workflow-development",
+      "project-lendcare-ai-content-modernization"
+    ],
+
+    "achievements": [
+      "achievement-lc-ai-workflows",
+      "achievement-rwc-ai-consulting",
+      "achievement-human-centered-ai"
+    ]
+
+  },
+
+  "relatedSkills": [
+    "skill-technical-writing",
+    "skill-research",
+    "skill-consulting"
+  ],
+
+  "sources": [
+    "resume",
+    "career_interviews"
+  ],
+
+  "verification": {
+    "status": "verified"
+  }
+
+},
+{
+  "id": "skill-prompt-engineering",
+
+  "name": "Prompt Engineering",
+
+  "category": "Technology",
+
+  "proficiency": "Advanced",
+
+  "summary": "Designs structured prompts that improve consistency, accuracy and repeatability when working with large language models.",
+
+  "evidence": {
+
+    "experiences": [
+      "experience-riley-wallace-creative",
+      "experience-productive-shop"
+    ],
+
+    "projects": [
+      "project-career-agent",
+      "project-ai-workflow-development"
+    ],
+
+    "achievements": [
+      "achievement-rwc-ai-consulting"
+    ]
+
+  },
+
+  "relatedSkills": [
+    "skill-artificial-intelligence",
+    "skill-technical-writing"
+  ],
+
+  "sources": [
+    "career_interviews"
+  ],
+
+  "verification": {
+    "status": "interview_verified"
+  }
+
+},
+{
+  "id": "skill-knowledge-architecture",
+
+  "name": "Knowledge Architecture",
+
+  "category": "Technology",
+
+  "proficiency": "Advanced",
+
+  "summary": "Designs structured information systems that organize, connect and reuse professional knowledge across multiple applications.",
+
+  "evidence": {
+
+    "experiences": [
+      "experience-riley-wallace-creative",
+      "experience-productive-shop"
+    ],
+
+    "projects": [
+      "project-career-agent"
+    ],
+
+    "achievements": [
+      "achievement-ps-knowledge-systems",
+      "achievement-systems-thinking"
+    ]
+
+  },
+
+  "relatedSkills": [
+    "skill-artificial-intelligence",
+    "skill-project-management",
+    "skill-research"
+  ],
+
+  "sources": [
+    "career_interviews"
+  ],
+
+  "verification": {
+    "status": "interview_verified"
+  }
+
+}
+{
+  "id": "skill-storytelling",
+
+  "name": "Storytelling",
+
+  "category": "Communication",
+
+  "proficiency": "Advanced",
+
+  "summary": "Develops narratives that make complex ideas engaging, understandable and relevant for specific audiences.",
+
+  "evidence": {
+
+    "experiences": [
+      "experience-harbourfront",
+      "experience-journalism",
+      "experience-polaron",
+      "experience-lendcare"
+    ],
+
+    "projects": [
+      "project-journalism-portfolio",
+      "project-harbourfront-digital-communications"
+    ],
+
+    "achievements": [
+      "achievement-hf-storytelling",
+      "achievement-technical-translation",
+      "achievement-journalism-career-foundation"
+    ]
+
+  },
+
+  "relatedSkills": [
+    "skill-copywriting",
+    "skill-technical-writing",
+    "skill-interviewing"
+  ],
+
+  "sources": [
+    "resume",
+    "career_interviews"
+  ],
+
+  "verification": {
+    "status": "verified"
+  }
+
+},
+{
+  "id": "skill-technical-communication",
+
+  "name": "Technical Communication",
+
+  "category": "Communication",
+
+  "proficiency": "Advanced",
+
+  "summary": "Communicates technical and specialized information in a way that is accurate, accessible and appropriate for the intended audience.",
+
+  "evidence": {
+
+    "experiences": [
+      "experience-lendcare",
+      "experience-productive-shop",
+      "experience-riley-wallace-creative"
+    ],
+
+    "projects": [
+      "project-career-agent",
+      "project-ai-workflow-development"
+    ],
+
+    "achievements": [
+      "achievement-technical-translation"
+    ]
+
+  },
+
+  "relatedSkills": [
+    "skill-technical-writing",
+    "skill-research",
+    "skill-storytelling"
+  ],
+
+  "sources": [
+    "resume",
+    "career_interviews"
+  ],
+
+  "verification": {
+    "status": "verified"
+  }
+
+},
+{
+  "id": "skill-audience-analysis",
+
+  "name": "Audience Analysis",
+
+  "category": "Communication",
+
+  "proficiency": "Advanced",
+
+  "summary": "Adapts communication to the needs, knowledge level and goals of different audiences across journalism, marketing and technical content.",
+
+  "evidence": {
+
+    "experiences": [
+      "experience-harbourfront",
+      "experience-journalism",
+      "experience-polaron",
+      "experience-lendcare",
+      "experience-productive-shop"
+    ],
+
+    "projects": [
+      "project-journalism-portfolio",
+      "project-independent-marketing-consulting"
+    ],
+
+    "achievements": [
+      "achievement-cross-industry-expertise",
+      "achievement-technical-translation"
+    ]
+
+  },
+
+  "relatedSkills": [
+    "skill-storytelling",
+    "skill-copywriting",
+    "skill-content-strategy"
+  ],
+
+  "sources": [
+    "resume",
+    "career_interviews"
+  ],
+
+  "verification": {
+    "status": "verified"
+  }
+
+}
+{
+  "id": "skill-strategic-planning",
+
+  "name": "Strategic Planning",
+
+  "category": "Business",
+
+  "proficiency": "Advanced",
+
+  "summary": "Develops long-term marketing and content initiatives that align communication activities with organizational goals.",
+
+  "evidence": {
+
+    "experiences": [
+      "experience-solar-brokers-canada",
+      "experience-polaron",
+      "experience-riley-wallace-creative"
+    ],
+
+    "projects": [
+      "project-lowes-retail-expansion",
+      "project-seo-transformation",
+      "project-independent-marketing-consulting"
+    ],
+
+    "achievements": [
+      "achievement-sbc-marketing-budget",
+      "achievement-pol-seo-leadership"
+    ]
+
+  },
+
+  "relatedSkills": [
+    "skill-marketing-strategy",
+    "skill-project-management",
+    "skill-consulting"
+  ],
+
+  "sources": [
+    "resume",
+    "career_interviews"
+  ],
+
+  "verification": {
+    "status": "verified"
+  }
+
+},
+{
+  "id": "skill-budget-management",
+
+  "name": "Budget Management",
+
+  "category": "Business",
+
+  "proficiency": "Advanced",
+
+  "summary": "Plans and manages marketing budgets while balancing organizational priorities and business objectives.",
+
+  "evidence": {
+
+    "experiences": [
+      "experience-solar-brokers-canada"
+    ],
+
+    "projects": [
+      "project-lowes-retail-expansion"
+    ],
+
+    "achievements": [
+      "achievement-sbc-marketing-budget"
+    ]
+
+  },
+
+  "relatedSkills": [
+    "skill-project-management",
+    "skill-marketing-strategy"
+  ],
+
+  "sources": [
+    "career_interviews"
+  ],
+
+  "verification": {
+    "status": "interview_verified"
+  }
+
+},
+{
+  "id": "skill-stakeholder-communication",
+
+  "name": "Stakeholder Communication",
+
+  "category": "Business",
+
+  "proficiency": "Advanced",
+
+  "summary": "Communicates effectively with clients, leadership teams and subject matter experts to align expectations and support successful project delivery.",
+
+  "evidence": {
+
+    "experiences": [
+      "experience-riley-wallace-creative",
+      "experience-solar-brokers-canada",
+      "experience-lendcare",
+      "experience-productive-shop"
+    ],
+
+    "projects": [
+      "project-independent-marketing-consulting",
+      "project-career-agent"
+    ],
+
+    "achievements": [
+      "achievement-rwc-independent-consulting"
+    ]
+
+  },
+
+  "relatedSkills": [
+    "skill-consulting",
+    "skill-client-management",
+    "skill-project-management"
+  ],
+
+  "sources": [
+    "resume",
+    "career_interviews"
+  ],
+
+  "verification": {
+    "status": "verified"
+  }
+
 }
