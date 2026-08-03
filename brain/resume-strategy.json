@@ -1,241 +1,236 @@
 {
-  "_comment": "Rules for deriving temporary ResumeDocument outputs. The data array is intentionally empty; _template and _example are documentation and are not source records.",
-  "schemaVersion": "2.0.0",
-  "entityType": "resume-strategy",
-  "schema": {
-    "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "$id": "brain/resume-strategy.json.schema.json",
-    "title": "Resume Strategy",
-    "description": "Rules for deriving temporary ResumeDocument outputs.",
-    "type": "object",
-    "additionalProperties": false,
-    "properties": {
-      "_comment": {
-        "type": "string"
-      },
-      "id": {
-        "type": "string"
-      },
-      "createdAt": {
-        "type": "string"
-      },
-      "updatedAt": {
-        "type": "string"
-      },
-      "tags": {
-        "type": "array",
-        "items": {
-          "type": "string"
-        }
-      },
-      "relatedObjects": {
-        "type": "array",
-        "items": {
-          "type": "object",
-          "additionalProperties": false,
-          "properties": {
-            "objectType": {
-              "type": "string"
-            },
-            "objectId": {
-              "type": "string"
-            },
-            "relationship": {
-              "type": "string"
-            }
-          },
-          "required": [
-            "objectType",
-            "objectId",
-            "relationship"
-          ]
-        }
-      },
-      "onePageRules": {
-        "type": "array",
-        "items": {
-          "type": "string"
-        }
-      },
-      "twoPageRules": {
-        "type": "array",
-        "items": {
-          "type": "string"
-        }
-      },
-      "accomplishmentPrioritization": {
-        "type": "array",
-        "items": {
-          "type": "string"
-        }
-      },
-      "globalRules": {
-        "type": "array",
-        "items": {
-          "type": "string"
-        }
-      },
-      "tailoringRules": {
-        "type": "object",
-        "additionalProperties": false,
-        "properties": {
-          "technicalWriting": {
-            "type": "array",
-            "items": {
-              "type": "string"
-            }
-          },
-          "marketing": {
-            "type": "array",
-            "items": {
-              "type": "string"
-            }
-          },
-          "leadership": {
-            "type": "array",
-            "items": {
-              "type": "string"
-            }
-          },
-          "contentStrategy": {
-            "type": "array",
-            "items": {
-              "type": "string"
-            }
-          },
-          "editorial": {
-            "type": "array",
-            "items": {
-              "type": "string"
-            }
-          },
-          "ai": {
-            "type": "array",
-            "items": {
-              "type": "string"
-            }
-          },
-          "automation": {
-            "type": "array",
-            "items": {
-              "type": "string"
-            }
-          }
-        },
-        "required": [
-          "technicalWriting",
-          "marketing",
-          "leadership",
-          "contentStrategy",
-          "editorial",
-          "ai",
-          "automation"
-        ]
-      },
-      "selectionGuardrails": {
-        "type": "array",
-        "items": {
-          "type": "string"
-        }
-      }
+  "schemaVersion": "1.0.0",
+  "entityType": "resumeStrategy",
+  "data": [
+
+    {
+
+      "id": "resume-strategy-primary",
+
+      "name": "Primary Resume Strategy",
+
+      "summary": "Editorial principles governing how resumes are generated from the Career Brain.",
+
+      "version": "1.0"
+
+    }
+
+  ]
+}
+{
+  "principles": [
+
+    "Evidence before adjectives.",
+
+    "Quantify accomplishments whenever evidence exists.",
+
+    "Never invent metrics or responsibilities.",
+
+    "Use projects and achievements to demonstrate impact.",
+
+    "Tailor resumes to the target role while remaining factually accurate.",
+
+    "Prioritize clarity over creativity.",
+
+    "Support every major claim with evidence from the Brain."
+
+  ]
+}
+{
+  "writingRules": {
+
+    "voice": "Professional",
+
+    "tense": {
+
+      "currentRole": "Present",
+
+      "previousRoles": "Past"
+
     },
-    "required": [
-      "_comment",
-      "id",
-      "createdAt",
-      "updatedAt",
-      "tags",
-      "relatedObjects",
-      "onePageRules",
-      "twoPageRules",
-      "accomplishmentPrioritization",
-      "globalRules",
-      "tailoringRules",
-      "selectionGuardrails"
+
+    "bulletStyle": "Achievement-oriented",
+
+    "paragraphStyle": "Minimal",
+
+    "preferredLength": "Concise",
+
+    "readingLevel": "Professional"
+
+  }
+}
+{
+  "contentPriority": [
+
+    "Relevant experience",
+
+    "Relevant achievements",
+
+    "Relevant projects",
+
+    "Relevant skills",
+
+    "Relevant technologies"
+
+  ]
+}
+{
+  "tailoring": {
+
+    "targetIndustry": true,
+
+    "targetRole": true,
+
+    "prioritizeRelevantProjects": true,
+
+    "prioritizeRelevantSkills": true,
+
+    "reorderExperience": false,
+
+    "omitIrrelevantInformation": true,
+
+    "preserveChronology": true
+
+  }
+}
+{
+  "never": [
+
+    "Invent accomplishments.",
+
+    "Invent metrics.",
+
+    "Exaggerate leadership.",
+
+    "Use unsupported buzzwords.",
+
+    "Duplicate information across sections.",
+
+    "Sacrifice accuracy for optimization."
+
+  ]
+}
+{
+  "emphasis": [
+
+    "Business impact",
+
+    "Systems thinking",
+
+    "Research",
+
+    "Artificial intelligence",
+
+    "Technical communication",
+
+    "Marketing strategy",
+
+    "Continuous learning"
+
+  ]
+}
+{
+  "objectives": [
+
+    "Demonstrate measurable impact.",
+
+    "Show progression of responsibility.",
+
+    "Highlight transferable skills.",
+
+    "Present an accurate and defensible career narrative.",
+
+    "Optimize readability for both ATS and human reviewers."
+
+  ]
+}
+{
+  "qualityChecks": {
+
+    "accuracy": [
+
+      "Every accomplishment must be supported by an achievement, project or experience.",
+
+      "Never invent metrics, dates or responsibilities.",
+
+      "Do not exaggerate leadership or ownership.",
+
+      "All claims must be defensible in an interview."
+
+    ],
+
+    "consistency": [
+
+      "Dates must align with experience.json.",
+
+      "Projects must exist in projects.json.",
+
+      "Skills must exist in skills.json.",
+
+      "Technologies must exist in technologies.json.",
+
+      "Organization names must match identity and experience records."
+
+    ],
+
+    "writing": [
+
+      "Use active voice.",
+
+      "Lead with accomplishments, not responsibilities.",
+
+      "Keep bullet points concise.",
+
+      "Eliminate repetition.",
+
+      "Avoid unnecessary jargon.",
+
+      "Prefer evidence over adjectives."
+
+    ],
+
+    "optimization": [
+
+      "Prioritize the most relevant experience for the target role.",
+
+      "Surface the strongest related projects.",
+
+      "Highlight transferable skills when direct experience is limited.",
+
+      "Maintain ATS-friendly formatting.",
+
+      "Balance keyword optimization with readability."
+
+    ],
+
+    "finalValidation": [
+
+      "Resume tells a coherent career story.",
+
+      "No unsupported claims remain.",
+
+      "No duplicate accomplishments appear.",
+
+      "The document reflects Riley's authentic voice.",
+
+      "Every major statement can be traced back to the Career Brain."
+
     ]
-  },
-  "data": [],
-  "_template": {
-    "_comment": "Rules for transforming Brain knowledge into a temporary ResumeDocument. Contains policy, never professional facts.",
-    "id": "",
-    "createdAt": "",
-    "updatedAt": "",
-    "tags": [],
-    "relatedObjects": [],
-    "onePageRules": [],
-    "twoPageRules": [],
-    "accomplishmentPrioritization": [],
-    "globalRules": [],
-    "tailoringRules": {
-      "technicalWriting": [],
-      "marketing": [],
-      "leadership": [],
-      "contentStrategy": [],
-      "editorial": [],
-      "ai": [],
-      "automation": []
-    },
-    "selectionGuardrails": []
-  },
-  "_example": {
-    "_comment": "Rules for transforming Brain knowledge into a temporary ResumeDocument. Contains policy, never professional facts.",
-    "id": "00000000-0000-4000-8000-000000000001",
-    "createdAt": "2026-01-01T00:00:00Z",
-    "updatedAt": "2026-01-01T00:00:00Z",
-    "tags": [
-      "example-tag"
-    ],
-    "relatedObjects": [
-      {
-        "objectType": "achievement",
-        "objectId": "00000000-0000-4000-8000-000000000002",
-        "relationship": "supports"
-      }
-    ],
-    "onePageRules": [
-      "Use for early-career or narrowly scoped applications when all decisive evidence fits legibly."
-    ],
-    "twoPageRules": [
-      "Use when relevant depth, leadership scope, or multiple evidence-rich roles materially improve the decision."
-    ],
-    "accomplishmentPrioritization": [
-      "Target relevance",
-      "Magnitude of impact",
-      "Evidence confidence",
-      "Recency"
-    ],
-    "globalRules": [
-      "Treat the Brain as the only factual source.",
-      "Never infer a metric.",
-      "Preserve factual meaning when compressing.",
-      "Generate ResumeDocument as temporary output only."
-    ],
-    "tailoringRules": {
-      "technicalWriting": [
-        "Prioritize audience outcomes, domain complexity, research rigor, and samples."
-      ],
-      "marketing": [
-        "Prioritize customer insight, positioning, campaigns, and growth impact."
-      ],
-      "leadership": [
-        "Prioritize organizational scope, decisions, talent development, and business outcomes."
-      ],
-      "contentStrategy": [
-        "Prioritize systems, governance, audience strategy, and portfolio impact."
-      ],
-      "editorial": [
-        "Prioritize editorial judgment, process, quality, and publishing outcomes."
-      ],
-      "ai": [
-        "Prioritize applied AI outcomes, evaluation, responsible use, and human workflows."
-      ],
-      "automation": [
-        "Prioritize repeatable systems, time savings, reliability, and measurable scale."
-      ]
-    },
-    "selectionGuardrails": [
-      "Exclude private data unless explicitly authorized.",
-      "Flag missing or conflicting evidence for human review."
-    ]
+
+  }
+}
+{
+  "confidenceRequirements": {
+
+    "minimumEvidenceThreshold": "High",
+
+    "allowInference": false,
+
+    "requireSourceLinks": true,
+
+    "flagUnsupportedClaims": true,
+
+    "requestClarificationWhenEvidenceIsMissing": true
+
   }
 }
