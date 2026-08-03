@@ -1,180 +1,977 @@
 {
-  "_comment": "Tools and platforms with evidence and recency. The data array is intentionally empty; _template and _example are documentation and are not source records.",
-  "schemaVersion": "2.0.0",
-  "entityType": "technologies",
-  "schema": {
-    "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "$id": "brain/technologies.json.schema.json",
-    "title": "Technologies",
-    "description": "Tools and platforms with evidence and recency.",
-    "type": "object",
-    "additionalProperties": false,
-    "properties": {
-      "_comment": {
-        "type": "string"
-      },
-      "id": {
-        "type": "string"
-      },
-      "createdAt": {
-        "type": "string"
-      },
-      "updatedAt": {
-        "type": "string"
-      },
-      "tags": {
-        "type": "array",
-        "items": {
-          "type": "string"
-        }
-      },
-      "relatedObjects": {
-        "type": "array",
-        "items": {
-          "type": "object",
-          "additionalProperties": false,
-          "properties": {
-            "objectType": {
-              "type": "string"
-            },
-            "objectId": {
-              "type": "string"
-            },
-            "relationship": {
-              "type": "string"
-            }
-          },
-          "required": [
-            "objectType",
-            "objectId",
-            "relationship"
-          ]
-        }
-      },
-      "name": {
-        "type": "string"
-      },
-      "category": {
-        "type": "string"
-      },
-      "description": {
-        "type": "string"
-      },
-      "proficiency": {
-        "type": "string"
-      },
-      "years": {
-        "type": "number"
-      },
-      "lastUsedAt": {
-        "type": "string"
-      },
-      "useCases": {
-        "type": "array",
-        "items": {
-          "type": "string"
-        }
-      },
-      "supportingProjects": {
-        "type": "array",
-        "items": {
-          "type": "string"
-        }
-      },
-      "supportingExperience": {
-        "type": "array",
-        "items": {
-          "type": "string"
-        }
-      },
+  "schemaVersion": "1.0.0",
+  "entityType": "technology",
+  "data": [
+
+    {
+      "id": "technology-chatgpt",
+
+      "name": "ChatGPT",
+
+      "category": "Artificial Intelligence",
+
+      "proficiency": "Advanced",
+
+      "summary": "Uses ChatGPT for research, writing, structured reasoning, prompt development and knowledge management.",
+
+      "usedFor": [
+
+        "Research",
+        "Writing",
+        "Prompt Engineering",
+        "Knowledge Architecture"
+
+      ],
+
       "evidence": {
-        "type": "array",
-        "items": {
-          "type": "string"
-        }
+
+        "experiences": [
+
+          "experience-riley-wallace-creative",
+          "experience-lendcare",
+          "experience-productive-shop"
+
+        ],
+
+        "projects": [
+
+          "project-career-agent",
+          "project-ai-workflow-development"
+
+        ],
+
+        "skills": [
+
+          "skill-artificial-intelligence",
+          "skill-prompt-engineering"
+
+        ]
+
       },
-      "relatedSkills": {
-        "type": "array",
-        "items": {
-          "type": "string"
-        }
+
+      "sources": [
+
+        "career_interviews"
+
+      ],
+
+      "verification": {
+
+        "status": "verified"
+
       }
-    },
-    "required": [
-      "_comment",
-      "id",
-      "createdAt",
-      "updatedAt",
-      "tags",
-      "relatedObjects",
-      "name",
-      "category",
-      "description",
-      "proficiency",
-      "years",
-      "lastUsedAt",
-      "useCases",
-      "supportingProjects",
-      "supportingExperience",
-      "evidence",
-      "relatedSkills"
+
+    }
+
+  ]
+}
+{
+  "id": "technology-claude",
+
+  "name": "Claude",
+
+  "category": "Artificial Intelligence",
+
+  "proficiency": "Advanced",
+
+  "summary": "Uses Claude for long-form writing, JSON normalization, information synthesis and structured knowledge engineering.",
+
+  "usedFor": [
+
+    "Long-form Writing",
+    "JSON Refactoring",
+    "Knowledge Engineering",
+    "Research"
+
+  ],
+
+  "evidence": {
+
+    "experiences": [
+
+      "experience-riley-wallace-creative"
+
+    ],
+
+    "projects": [
+
+      "project-career-agent"
+
+    ],
+
+    "skills": [
+
+      "skill-artificial-intelligence",
+      "skill-knowledge-architecture"
+
     ]
+
   },
-  "data": [],
-  "_template": {
-    "_comment": "A tool, language, platform, or framework with recency, use cases, and evidence.",
-    "id": "",
-    "createdAt": "",
-    "updatedAt": "",
-    "tags": [],
-    "relatedObjects": [],
-    "name": "",
-    "category": "",
-    "description": "",
-    "proficiency": "",
-    "years": 0,
-    "lastUsedAt": "",
-    "useCases": [],
-    "supportingProjects": [],
-    "supportingExperience": [],
-    "evidence": [],
-    "relatedSkills": []
-  },
-  "_example": {
-    "_comment": "A tool, language, platform, or framework with recency, use cases, and evidence.",
-    "id": "00000000-0000-4000-8000-000000000001",
-    "createdAt": "2026-01-01T00:00:00Z",
-    "updatedAt": "2026-01-01T00:00:00Z",
-    "tags": [
-      "example-tag"
-    ],
-    "relatedObjects": [
-      {
-        "objectType": "achievement",
-        "objectId": "00000000-0000-4000-8000-000000000002",
-        "relationship": "supports"
-      }
-    ],
-    "name": "Example Technology",
-    "category": "platform",
-    "description": "How and why the technology is used.",
-    "proficiency": "advanced",
-    "years": 4,
-    "lastUsedAt": "2025-01",
-    "useCases": [
-      "Example use case"
-    ],
-    "supportingProjects": [
-      "00000000-0000-4000-8000-000000000030"
-    ],
-    "supportingExperience": [
-      "00000000-0000-4000-8000-000000000070"
-    ],
-    "evidence": [
-      "00000000-0000-4000-8000-000000000060"
-    ],
-    "relatedSkills": [
-      "00000000-0000-4000-8000-000000000050"
-    ]
+
+  "sources": [
+
+    "career_interviews"
+
+  ],
+
+  "verification": {
+
+    "status": "verified"
+
   }
+
+}
+{
+  "id": "technology-google-analytics",
+
+  "name": "Google Analytics",
+
+  "category": "Analytics",
+
+  "proficiency": "Advanced",
+
+  "summary": "Uses Google Analytics to evaluate website performance, user behaviour and marketing effectiveness.",
+
+  "usedFor": [
+
+    "Traffic Analysis",
+    "Campaign Measurement",
+    "SEO",
+    "Performance Reporting"
+
+  ],
+
+  "evidence": {
+
+    "experiences": [
+
+      "experience-solar-brokers-canada",
+      "experience-polaron",
+      "experience-intelligent-properties"
+
+    ],
+
+    "projects": [
+
+      "project-lowes-retail-expansion",
+      "project-seo-transformation"
+
+    ],
+
+    "skills": [
+
+      "skill-seo",
+      "skill-digital-marketing"
+
+    ]
+
+  },
+
+  "sources": [
+
+    "resume"
+
+  ],
+
+  "verification": {
+
+    "status": "verified"
+
+  }
+
+}
+{
+  "id": "technology-google-search-console",
+
+  "name": "Google Search Console",
+
+  "category": "SEO",
+
+  "proficiency": "Advanced",
+
+  "summary": "Uses Google Search Console to monitor search performance, diagnose indexing issues and support SEO strategy.",
+
+  "usedFor": [
+
+    "Search Performance",
+    "Technical SEO",
+    "Index Monitoring",
+    "Keyword Analysis"
+
+  ],
+
+  "evidence": {
+
+    "experiences": [
+
+      "experience-solar-brokers-canada",
+      "experience-polaron",
+      "experience-productive-shop"
+
+    ],
+
+    "projects": [
+
+      "project-seo-transformation"
+
+    ],
+
+    "skills": [
+
+      "skill-seo"
+
+    ]
+
+  },
+
+  "sources": [
+
+    "resume"
+
+  ],
+
+  "verification": {
+
+    "status": "verified"
+
+  }
+
+}
+{
+  "id": "technology-wordpress",
+
+  "name": "WordPress",
+
+  "category": "Content Management System",
+
+  "proficiency": "Advanced",
+
+  "summary": "Uses WordPress to publish, manage and optimize website content supporting SEO and digital marketing initiatives.",
+
+  "usedFor": [
+
+    "Content Publishing",
+    "SEO",
+    "Website Management",
+    "Content Strategy"
+
+  ],
+
+  "evidence": {
+
+    "experiences": [
+
+      "experience-solar-brokers-canada",
+      "experience-polaron",
+      "experience-riley-wallace-creative"
+
+    ],
+
+    "projects": [
+
+      "project-seo-transformation",
+      "project-independent-marketing-consulting"
+
+    ],
+
+    "skills": [
+
+      "skill-seo",
+      "skill-content-strategy"
+
+    ]
+
+  },
+
+  "sources": [
+
+    "resume",
+    "career_interviews"
+
+  ],
+
+  "verification": {
+
+    "status": "verified"
+
+  }
+
+},
+{
+  "id": "technology-google-ads",
+
+  "name": "Google Ads",
+
+  "category": "Advertising",
+
+  "proficiency": "Advanced",
+
+  "summary": "Uses Google Ads to support customer acquisition and digital marketing campaigns.",
+
+  "usedFor": [
+
+    "Search Advertising",
+    "Campaign Management",
+    "Lead Generation",
+    "Performance Analysis"
+
+  ],
+
+  "evidence": {
+
+    "experiences": [
+
+      "experience-solar-brokers-canada",
+      "experience-intelligent-properties"
+
+    ],
+
+    "projects": [
+
+      "project-lowes-retail-expansion"
+
+    ],
+
+    "skills": [
+
+      "skill-digital-marketing"
+
+    ]
+
+  },
+
+  "sources": [
+
+    "resume"
+
+  ],
+
+  "verification": {
+
+    "status": "verified"
+
+  }
+
+},
+{
+  "id": "technology-meta-ads-manager",
+
+  "name": "Meta Ads Manager",
+
+  "category": "Advertising",
+
+  "proficiency": "Advanced",
+
+  "summary": "Uses Meta Ads Manager to create, manage and evaluate Facebook and Instagram advertising campaigns.",
+
+  "usedFor": [
+
+    "Facebook Advertising",
+    "Instagram Advertising",
+    "Audience Targeting",
+    "Campaign Optimization"
+
+  ],
+
+  "evidence": {
+
+    "experiences": [
+
+      "experience-bam",
+      "experience-solar-brokers-canada"
+
+    ],
+
+    "projects": [
+
+      "project-facebook-adoption"
+
+    ],
+
+    "skills": [
+
+      "skill-social-media-marketing"
+
+    ]
+
+  },
+
+  "sources": [
+
+    "resume",
+    "career_interviews"
+
+  ],
+
+  "verification": {
+
+    "status": "verified"
+
+  }
+
+},
+{
+  "id": "technology-github",
+
+  "name": "GitHub",
+
+  "category": "Development",
+
+  "proficiency": "Intermediate",
+
+  "summary": "Uses GitHub for version control, collaboration and managing AI and knowledge engineering projects.",
+
+  "usedFor": [
+
+    "Version Control",
+    "Documentation",
+    "Project Organization"
+
+  ],
+
+  "evidence": {
+
+    "experiences": [
+
+      "experience-riley-wallace-creative"
+
+    ],
+
+    "projects": [
+
+      "project-career-agent"
+
+    ],
+
+    "skills": [
+
+      "skill-knowledge-architecture"
+
+    ]
+
+  },
+
+  "sources": [
+
+    "career_interviews"
+
+  ],
+
+  "verification": {
+
+    "status": "verified"
+
+  }
+
+}
+{
+  "id": "technology-perplexity",
+
+  "name": "Perplexity",
+
+  "category": "Artificial Intelligence",
+
+  "proficiency": "Advanced",
+
+  "summary": "Uses Perplexity for research, source discovery and validating information during technical writing and knowledge development.",
+
+  "usedFor": [
+
+    "Research",
+    "Source Discovery",
+    "Fact Verification"
+
+  ],
+
+  "evidence": {
+
+    "experiences": [
+
+      "experience-riley-wallace-creative",
+      "experience-productive-shop"
+
+    ],
+
+    "projects": [
+
+      "project-career-agent",
+      "project-ai-workflow-development"
+
+    ],
+
+    "skills": [
+
+      "skill-research",
+      "skill-artificial-intelligence"
+
+    ]
+
+  },
+
+  "sources": [
+
+    "career_interviews"
+
+  ],
+
+  "verification": {
+
+    "status": "verified"
+
+  }
+
+},
+{
+  "id": "technology-n8n",
+
+  "name": "n8n",
+
+  "category": "Automation",
+
+  "proficiency": "Intermediate",
+
+  "summary": "Uses n8n to automate AI-assisted workflows and connect multiple services into repeatable processes.",
+
+  "usedFor": [
+
+    "Workflow Automation",
+    "AI Integration",
+    "Process Automation"
+
+  ],
+
+  "evidence": {
+
+    "experiences": [
+
+      "experience-riley-wallace-creative"
+
+    ],
+
+    "projects": [
+
+      "project-ai-workflow-development",
+      "project-career-agent"
+
+    ],
+
+    "skills": [
+
+      "skill-artificial-intelligence"
+
+    ]
+
+  },
+
+  "sources": [
+
+    "career_interviews"
+
+  ],
+
+  "verification": {
+
+    "status": "verified"
+
+  }
+
+},
+{
+  "id": "technology-google-workspace",
+
+  "name": "Google Workspace",
+
+  "category": "Productivity",
+
+  "proficiency": "Advanced",
+
+  "summary": "Uses Google Workspace for document creation, collaboration, presentations and day-to-day project coordination.",
+
+  "usedFor": [
+
+    "Documentation",
+    "Collaboration",
+    "Presentations",
+    "Project Coordination"
+
+  ],
+
+  "evidence": {
+
+    "experiences": [
+
+      "experience-solar-brokers-canada",
+      "experience-polaron",
+      "experience-lendcare",
+      "experience-riley-wallace-creative",
+      "experience-productive-shop"
+
+    ],
+
+    "projects": [
+
+      "project-career-agent"
+
+    ],
+
+    "skills": [
+
+      "skill-project-management"
+
+    ]
+
+  },
+
+  "sources": [
+
+    "resume",
+    "career_interviews"
+
+  ],
+
+  "verification": {
+
+    "status": "verified"
+
+  }
+
+},
+{
+  "id": "technology-markdown",
+
+  "name": "Markdown",
+
+  "category": "Documentation",
+
+  "proficiency": "Advanced",
+
+  "summary": "Uses Markdown to create structured documentation, technical content and AI knowledge resources.",
+
+  "usedFor": [
+
+    "Documentation",
+    "Knowledge Management",
+    "Technical Writing"
+
+  ],
+
+  "evidence": {
+
+    "experiences": [
+
+      "experience-riley-wallace-creative",
+      "experience-productive-shop"
+
+    ],
+
+    "projects": [
+
+      "project-career-agent"
+
+    ],
+
+    "skills": [
+
+      "skill-technical-writing",
+      "skill-knowledge-architecture"
+
+    ]
+
+  },
+
+  "sources": [
+
+    "career_interviews"
+
+  ],
+
+  "verification": {
+
+    "status": "verified"
+
+  }
+
+}
+{
+  "id": "technology-semrush",
+
+  "name": "Semrush",
+
+  "category": "SEO",
+
+  "proficiency": "Advanced",
+
+  "summary": "Uses Semrush to support keyword research, competitive analysis, content planning and SEO strategy.",
+
+  "usedFor": [
+
+    "Keyword Research",
+    "Competitive Analysis",
+    "SEO Auditing",
+    "Content Planning"
+
+  ],
+
+  "evidence": {
+
+    "experiences": [
+
+      "experience-solar-brokers-canada",
+      "experience-polaron",
+      "experience-productive-shop"
+
+    ],
+
+    "projects": [
+
+      "project-seo-transformation"
+
+    ],
+
+    "skills": [
+
+      "skill-seo",
+      "skill-content-strategy"
+
+    ]
+
+  },
+
+  "sources": [
+
+    "resume",
+    "career_interviews"
+
+  ],
+
+  "verification": {
+
+    "status": "verified"
+
+  }
+
+},
+{
+  "id": "technology-slack",
+
+  "name": "Slack",
+
+  "category": "Collaboration",
+
+  "proficiency": "Advanced",
+
+  "summary": "Uses Slack for team communication, collaboration and day-to-day project coordination.",
+
+  "usedFor": [
+
+    "Team Communication",
+    "Project Collaboration",
+    "Knowledge Sharing"
+
+  ],
+
+  "evidence": {
+
+    "experiences": [
+
+      "experience-lendcare",
+      "experience-productive-shop"
+
+    ],
+
+    "projects": [
+
+      "project-career-agent"
+
+    ],
+
+    "skills": [
+
+      "skill-project-management",
+      "skill-stakeholder-communication"
+
+    ]
+
+  },
+
+  "sources": [
+
+    "resume",
+    "career_interviews"
+
+  ],
+
+  "verification": {
+
+    "status": "verified"
+
+  }
+
+},
+{
+  "id": "technology-hubspot",
+
+  "name": "HubSpot",
+
+  "category": "CRM & Marketing Automation",
+
+  "proficiency": "Advanced",
+
+  "summary": "Uses HubSpot to support content marketing, lead management and marketing operations.",
+
+  "usedFor": [
+
+    "CRM",
+    "Lead Management",
+    "Marketing Automation",
+    "Content Management"
+
+  ],
+
+  "evidence": {
+
+    "experiences": [
+
+      "experience-lendcare",
+      "experience-riley-wallace-creative"
+
+    ],
+
+    "projects": [
+
+      "project-independent-marketing-consulting"
+
+    ],
+
+    "skills": [
+
+      "skill-digital-marketing",
+      "skill-marketing-strategy"
+
+    ]
+
+  },
+
+  "sources": [
+
+    "career_interviews"
+
+  ],
+
+  "verification": {
+
+    "status": "interview_verified"
+
+  }
+
+}
+{
+  "id": "technology-google-tag-manager",
+
+  "name": "Google Tag Manager",
+
+  "category": "Analytics & Measurement",
+
+  "proficiency": "Intermediate",
+
+  "summary": "Uses Google Tag Manager to deploy and manage website tracking and marketing tags.",
+
+  "usedFor": [
+    "Analytics",
+    "Marketing Measurement",
+    "Tag Deployment"
+  ],
+
+  "verification": {
+    "status": "verified"
+  }
+
+},
+{
+  "id": "technology-looker-studio",
+
+  "name": "Looker Studio",
+
+  "category": "Reporting & Analytics",
+
+  "proficiency": "Intermediate",
+
+  "summary": "Uses Looker Studio to build dashboards and visualize marketing and website performance.",
+
+  "usedFor": [
+    "Reporting",
+    "Dashboards",
+    "Data Visualization"
+  ],
+
+  "verification": {
+    "status": "verified"
+  }
+
+},
+{
+  "id": "technology-adobe-creative-suite",
+
+  "name": "Adobe Creative Cloud",
+
+  "category": "Creative",
+
+  "proficiency": "Advanced",
+
+  "summary": "Uses Adobe Creative Cloud applications to create and edit marketing, web and editorial assets.",
+
+  "usedFor": [
+    "Image Editing",
+    "Graphic Design",
+    "Marketing Assets"
+  ],
+
+  "verification": {
+    "status": "verified"
+  }
+
+},
+{
+  "id": "technology-mailchimp",
+
+  "name": "Mailchimp",
+
+  "category": "Email Marketing",
+
+  "proficiency": "Advanced",
+
+  "summary": "Uses Mailchimp to build, distribute and analyze email marketing campaigns.",
+
+  "usedFor": [
+    "Email Campaigns",
+    "Marketing Automation",
+    "Audience Management"
+  ],
+
+  "verification": {
+    "status": "verified"
+  }
+
+},
+{
+  "id": "technology-figma",
+
+  "name": "Figma",
+
+  "category": "Design",
+
+  "proficiency": "Intermediate",
+
+  "summary": "Uses Figma to collaborate on interface concepts, layouts and design workflows.",
+
+  "usedFor": [
+    "Wireframes",
+    "UI Collaboration",
+    "Design Reviews"
+  ],
+
+  "verification": {
+    "status": "verified"
+  }
+
 }
