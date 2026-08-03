@@ -1,243 +1,1045 @@
 {
-  "_comment": "Atomic measurable accomplishments with provenance. The data array is intentionally empty; _template and _example are documentation and are not source records.",
-  "schemaVersion": "2.0.0",
-  "entityType": "achievements",
-  "schema": {
-    "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "$id": "brain/achievements.json.schema.json",
-    "title": "Achievements",
-    "description": "Atomic measurable accomplishments with provenance.",
-    "type": "object",
-    "additionalProperties": false,
-    "properties": {
-      "_comment": {
-        "type": "string"
+  "schemaVersion": "1.0.0",
+  "entityType": "achievement",
+  "data": [
+
+    {
+      "id": "achievement-sbc-20m-sales",
+
+      "title": "Supported More Than $20 Million in Sales",
+
+      "category": "Business Impact",
+
+      "organization": "Solar Brokers Canada",
+
+      "experienceId": "experience-solar-brokers-canada",
+
+      "dateRange": {
+        "start": "2016-08",
+        "end": "2018-05"
       },
-      "id": {
-        "type": "string"
-      },
-      "createdAt": {
-        "type": "string"
-      },
-      "updatedAt": {
-        "type": "string"
-      },
-      "tags": {
-        "type": "array",
-        "items": {
-          "type": "string"
-        }
-      },
-      "relatedObjects": {
-        "type": "array",
-        "items": {
-          "type": "object",
-          "additionalProperties": false,
-          "properties": {
-            "objectType": {
-              "type": "string"
-            },
-            "objectId": {
-              "type": "string"
-            },
-            "relationship": {
-              "type": "string"
-            }
-          },
-          "required": [
-            "objectType",
-            "objectId",
-            "relationship"
-          ]
-        }
-      },
-      "title": {
-        "type": "string"
-      },
-      "description": {
-        "type": "string"
-      },
+
+      "summary": "Marketing initiatives contributed to more than $20 million in sales during a period of rapid organizational growth.",
+
       "impact": {
-        "type": "string"
+        "type": "Revenue",
+        "value": ">20000000",
+        "currency": "CAD"
       },
-      "metric": {
-        "type": "object",
-        "additionalProperties": false,
-        "properties": {
-          "name": {
-            "type": "string"
-          },
-          "baseline": {
-            "type": "string"
-          },
-          "result": {
-            "type": "string"
-          },
-          "change": {
-            "type": "string"
-          },
-          "unit": {
-            "type": "string"
-          },
-          "timeframe": {
-            "type": "string"
-          }
-        },
-        "required": [
-          "name",
-          "baseline",
-          "result",
-          "change",
-          "unit",
-          "timeframe"
-        ]
-      },
-      "confidence": {
-        "type": "string"
-      },
-      "supportingEvidence": {
-        "type": "array",
-        "items": {
-          "type": "object",
-          "additionalProperties": false,
-          "properties": {
-            "evidenceType": {
-              "type": "string"
-            },
-            "reference": {
-              "type": "string"
-            },
-            "verificationStatus": {
-              "type": "string"
-            },
-            "notes": {
-              "type": "string"
-            }
-          },
-          "required": [
-            "evidenceType",
-            "reference",
-            "verificationStatus",
-            "notes"
-          ]
-        }
-      },
-      "relatedCompanies": {
-        "type": "array",
-        "items": {
-          "type": "string"
-        }
-      },
-      "relatedProjects": {
-        "type": "array",
-        "items": {
-          "type": "string"
-        }
-      },
-      "relatedSkills": {
-        "type": "array",
-        "items": {
-          "type": "string"
-        }
-      },
-      "keywords": {
-        "type": "array",
-        "items": {
-          "type": "string"
-        }
+
+      "competencies": [
+        "Growth Marketing",
+        "Campaign Strategy",
+        "Digital Marketing",
+        "Leadership"
+      ],
+
+      "supportingEvidence": [
+        "Led marketing initiatives supporting company growth.",
+        "Marketing campaigns contributed to measurable revenue generation."
+      ],
+
+      "sources": [
+        "resume",
+        "career_interviews"
+      ],
+
+      "verification": {
+        "status": "verified"
       }
+
     },
-    "required": [
-      "_comment",
-      "id",
-      "createdAt",
-      "updatedAt",
-      "tags",
-      "relatedObjects",
-      "title",
-      "description",
-      "impact",
-      "metric",
-      "confidence",
-      "supportingEvidence",
-      "relatedCompanies",
-      "relatedProjects",
-      "relatedSkills",
-      "keywords"
-    ]
-  },
-  "data": [],
-  "_template": {
-    "_comment": "One atomic, measurable accomplishment. Confidence and evidence prevent unsupported generation.",
-    "id": "",
-    "createdAt": "",
-    "updatedAt": "",
-    "tags": [],
-    "relatedObjects": [],
-    "title": "",
-    "description": "",
-    "impact": "",
-    "metric": {
-      "name": "",
-      "baseline": "",
-      "result": "",
-      "change": "",
-      "unit": "",
-      "timeframe": ""
-    },
-    "confidence": "",
-    "supportingEvidence": [],
-    "relatedCompanies": [],
-    "relatedProjects": [],
-    "relatedSkills": [],
-    "keywords": []
-  },
-  "_example": {
-    "_comment": "One atomic, measurable accomplishment. Confidence and evidence prevent unsupported generation.",
-    "id": "00000000-0000-4000-8000-000000000001",
-    "createdAt": "2026-01-01T00:00:00Z",
-    "updatedAt": "2026-01-01T00:00:00Z",
-    "tags": [
-      "example-tag"
-    ],
-    "relatedObjects": [
-      {
-        "objectType": "achievement",
-        "objectId": "00000000-0000-4000-8000-000000000002",
-        "relationship": "supports"
+
+    {
+      "id": "achievement-sbc-marketing-budget",
+
+      "title": "Managed Approximately $1.3 Million Annual Marketing Budget",
+
+      "category": "Leadership",
+
+      "organization": "Solar Brokers Canada",
+
+      "experienceId": "experience-solar-brokers-canada",
+
+      "summary": "Oversaw approximately $1.3 million in annual marketing investment while leading departmental marketing operations.",
+
+      "impact": {
+        "type": "Budget",
+        "value": 1300000,
+        "currency": "CAD"
+      },
+
+      "competencies": [
+        "Leadership",
+        "Budget Management",
+        "Strategic Planning"
+      ],
+
+      "supportingEvidence": [
+        "Responsible for departmental marketing investment.",
+        "Balanced strategic planning with operational execution."
+      ],
+
+      "sources": [
+        "career_interviews"
+      ],
+
+      "verification": {
+        "status": "interview_verified"
       }
-    ],
-    "title": "Example measurable accomplishment",
-    "description": "What changed and the professional contribution.",
-    "impact": "Why the outcome mattered.",
-    "metric": {
-      "name": "Example KPI",
-      "baseline": "100",
-      "result": "125",
-      "change": "25",
-      "unit": "percent",
-      "timeframe": "12 months"
+
     },
-    "confidence": "high",
-    "supportingEvidence": [
-      {
-        "evidenceType": "analytics",
-        "reference": "Example source URI or internal reference",
-        "verificationStatus": "unverified",
-        "notes": "What this source proves."
+
+    {
+      "id": "achievement-journalism-1000-publications",
+
+      "title": "Published Nearly 1,000 Articles",
+
+      "category": "Writing",
+
+      "organization": "Journalism",
+
+      "experienceId": "experience-journalism",
+
+      "summary": "Published reviews, interviews and feature articles across established North American music publications.",
+
+      "impact": {
+        "type": "Publications",
+        "value": 1000,
+        "qualifier": "approximate"
+      },
+
+      "competencies": [
+        "Writing",
+        "Interviewing",
+        "Research",
+        "Editorial"
+      ],
+
+      "supportingEvidence": [
+        "Produced reviews, interviews and editorial features over multiple years."
+      ],
+
+      "sources": [
+        "resume"
+      ],
+
+      "verification": {
+        "status": "verified"
       }
-    ],
-    "relatedCompanies": [
-      "00000000-0000-4000-8000-000000000070"
-    ],
-    "relatedProjects": [
-      "00000000-0000-4000-8000-000000000030"
-    ],
-    "relatedSkills": [
-      "00000000-0000-4000-8000-000000000050"
-    ],
-    "keywords": [
-      "example outcome keyword"
-    ]
-  }
+
+    }
+
+  ]
 }
+    {
+      "id": "achievement-sbc-seo-transformation",
+
+      "title": "Built an Internal SEO Capability",
+
+      "category": "Operational Improvement",
+
+      "organization": "Solar Brokers Canada",
+
+      "experienceId": "experience-solar-brokers-canada",
+
+      "summary": "Transitioned SEO from an outsourced service to an internally managed marketing capability, improving strategic control over organic search.",
+
+      "impact": {
+        "type": "Operational",
+        "value": "Internal capability established"
+      },
+
+      "competencies": [
+        "SEO",
+        "Leadership",
+        "Process Improvement",
+        "Digital Marketing"
+      ],
+
+      "supportingEvidence": [
+        "Developed in-house SEO processes.",
+        "Reduced reliance on outsourced SEO services."
+      ],
+
+      "sources": [
+        "career_interviews"
+      ],
+
+      "verification": {
+        "status": "interview_verified"
+      }
+
+    },
+
+    {
+      "id": "achievement-lc-ai-workflows",
+
+      "title": "Introduced AI-Assisted Editorial Workflows",
+
+      "category": "Innovation",
+
+      "organization": "LendCare",
+
+      "experienceId": "experience-lendcare",
+
+      "summary": "Introduced AI-assisted content workflows while preserving editorial review, factual accuracy and brand consistency.",
+
+      "impact": {
+        "type": "Innovation",
+        "value": "Workflow modernization"
+      },
+
+      "competencies": [
+        "Artificial Intelligence",
+        "Editorial",
+        "Workflow Design",
+        "Change Management"
+      ],
+
+      "supportingEvidence": [
+        "Integrated LLM-assisted workflows.",
+        "Maintained human editorial oversight."
+      ],
+
+      "sources": [
+        "resume",
+        "career_interviews"
+      ],
+
+      "verification": {
+        "status": "verified"
+      }
+
+    },
+
+    {
+      "id": "achievement-rwc-ai-consulting",
+
+      "title": "Developed AI-Powered Marketing Workflows",
+
+      "category": "Innovation",
+
+      "organization": "Riley Wallace Creative",
+
+      "experienceId": "experience-riley-wallace-creative",
+
+      "summary": "Designed reusable AI-assisted consulting workflows using automation and multiple large language models while maintaining professional editorial standards.",
+
+      "impact": {
+        "type": "Workflow",
+        "value": "Reusable consulting system"
+      },
+
+      "competencies": [
+        "Automation",
+        "Artificial Intelligence",
+        "Consulting",
+        "Systems Design"
+      ],
+
+      "supportingEvidence": [
+        "Built reusable n8n workflows.",
+        "Integrated Claude, ChatGPT and Perplexity into consulting processes."
+      ],
+
+      "sources": [
+        "resume",
+        "career_interviews"
+      ],
+
+      "verification": {
+        "status": "verified"
+      }
+
+    },
+        {
+      "id": "achievement-pol-seo-leadership",
+
+      "title": "Led SEO Strategy for a National Renewable Energy Brand",
+
+      "category": "Strategic Leadership",
+
+      "organization": "Polaron Solar Energy",
+
+      "experienceId": "experience-polaron",
+
+      "summary": "Led SEO strategy and content planning supporting one of Canada's largest residential solar installers.",
+
+      "impact": {
+        "type": "Strategic",
+        "value": "Organization-wide SEO leadership"
+      },
+
+      "competencies": [
+        "SEO",
+        "Content Strategy",
+        "Strategic Marketing",
+        "Brand Communications"
+      ],
+
+      "supportingEvidence": [
+        "Directed long-term SEO strategy.",
+        "Integrated search strategy with content planning.",
+        "Supported brand consolidation initiatives."
+      ],
+
+      "sources": [
+        "resume",
+        "career_interviews"
+      ],
+
+      "verification": {
+        "status": "verified"
+      }
+
+    },
+
+    {
+      "id": "achievement-ps-ai-search",
+
+      "title": "Developed Expertise in AI Search and Generative Search Optimization",
+
+      "category": "Professional Development",
+
+      "organization": "Productive Shop",
+
+      "experienceId": "experience-productive-shop",
+
+      "summary": "Expanded professional expertise beyond traditional SEO into AI-assisted search, generative search optimization (GEO) and AI-enabled knowledge systems.",
+
+      "impact": {
+        "type": "Professional Growth",
+        "value": "Emerging specialization"
+      },
+
+      "competencies": [
+        "Artificial Intelligence",
+        "Technical Research",
+        "Generative Search",
+        "Knowledge Architecture"
+      ],
+
+      "supportingEvidence": [
+        "Researched AI search platforms.",
+        "Applied GEO principles to technical content.",
+        "Built repeatable AI-assisted research workflows."
+      ],
+
+      "sources": [
+        "resume",
+        "career_interviews"
+      ],
+
+      "verification": {
+        "status": "verified"
+      }
+
+    },
+
+    {
+      "id": "achievement-hf-storytelling",
+
+      "title": "Built Professional Interviewing and Storytelling Skills",
+
+      "category": "Professional Development",
+
+      "organization": "Harbourfront Centre",
+
+      "experienceId": "experience-harbourfront",
+
+      "summary": "Developed interviewing, editorial writing and public storytelling skills while creating content for artists, cultural programming and community audiences.",
+
+      "impact": {
+        "type": "Career Foundation",
+        "value": "Core communication capability"
+      },
+
+      "competencies": [
+        "Interviewing",
+        "Writing",
+        "Storytelling",
+        "Public Communications"
+      ],
+
+      "supportingEvidence": [
+        "Interviewed artists.",
+        "Produced editorial content.",
+        "Translated creative work for public audiences."
+      ],
+
+      "sources": [
+        "career_interviews"
+      ],
+
+      "verification": {
+        "status": "interview_verified"
+      }
+
+    },
+        {
+      "id": "achievement-sbc-lowes-expansion",
+
+      "title": "Supported National Lowe's Retail Expansion",
+
+      "category": "Business Growth",
+
+      "organization": "Solar Brokers Canada",
+
+      "experienceId": "experience-solar-brokers-canada",
+
+      "summary": "Supported the marketing initiatives behind Solar Brokers Canada's national retail partnership with Lowe's, helping scale customer acquisition during a period of rapid growth.",
+
+      "impact": {
+        "type": "Business Growth",
+        "value": "National retail expansion"
+      },
+
+      "competencies": [
+        "Growth Marketing",
+        "Retail Marketing",
+        "Campaign Strategy",
+        "Marketing Leadership"
+      ],
+
+      "supportingEvidence": [
+        "Supported marketing for the Lowe's partnership.",
+        "Created campaigns supporting national retail growth."
+      ],
+
+      "sources": [
+        "career_interviews"
+      ],
+
+      "verification": {
+        "status": "interview_verified"
+      }
+
+    },
+
+    {
+      "id": "achievement-bam-facebook-early-adoption",
+
+      "title": "Adopted Facebook Advertising During Its Early Commercial Growth",
+
+      "category": "Innovation",
+
+      "organization": "BAM",
+
+      "experienceId": "experience-bam",
+
+      "summary": "Helped clients adopt Facebook advertising while the platform was still emerging as a viable business marketing channel.",
+
+      "impact": {
+        "type": "Innovation",
+        "value": "Early platform adoption"
+      },
+
+      "competencies": [
+        "Social Media Marketing",
+        "Digital Advertising",
+        "Client Consulting",
+        "Innovation"
+      ],
+
+      "supportingEvidence": [
+        "Developed early Facebook advertising campaigns.",
+        "Guided clients in adopting emerging social platforms."
+      ],
+
+      "sources": [
+        "career_interviews"
+      ],
+
+      "verification": {
+        "status": "interview_verified"
+      }
+
+    },
+
+    {
+      "id": "achievement-ip-integrated-marketing",
+
+      "title": "Directed Multi-Channel Lead Generation",
+
+      "category": "Marketing Leadership",
+
+      "organization": "Intelligent Properties",
+
+      "experienceId": "experience-intelligent-properties",
+
+      "summary": "Directed integrated marketing initiatives across paid, organic and social channels to support lead generation and brand growth.",
+
+      "impact": {
+        "type": "Marketing",
+        "value": "Integrated acquisition strategy"
+      },
+
+      "competencies": [
+        "Lead Generation",
+        "Digital Marketing",
+        "Campaign Management",
+        "Brand Communications"
+      ],
+
+      "supportingEvidence": [
+        "Managed paid, organic and social marketing initiatives.",
+        "Combined brand communications with lead generation."
+      ],
+
+      "sources": [
+        "resume"
+      ],
+
+      "verification": {
+        "status": "verified"
+      }
+
+    },
+        {
+      "id": "achievement-journalism-career-foundation",
+
+      "title": "Established a Professional Foundation in Journalism",
+
+      "category": "Career Foundation",
+
+      "organization": "Journalism",
+
+      "experienceId": "experience-journalism",
+
+      "summary": "Built the interviewing, research and editorial storytelling skills that became the foundation of a later career in marketing, communications and AI-enabled content strategy.",
+
+      "impact": {
+        "type": "Career Foundation",
+        "value": "Transferable professional capability"
+      },
+
+      "competencies": [
+        "Interviewing",
+        "Research",
+        "Editorial Writing",
+        "Storytelling"
+      ],
+
+      "supportingEvidence": [
+        "Published interviews and feature articles.",
+        "Developed a research-first writing process.",
+        "Applied journalism skills throughout later marketing roles."
+      ],
+
+      "sources": [
+        "resume",
+        "career_interviews"
+      ],
+
+      "verification": {
+        "status": "verified"
+      }
+
+    },
+
+    {
+      "id": "achievement-ps-knowledge-systems",
+
+      "title": "Transitioned from Content Production to Knowledge Architecture",
+
+      "category": "Professional Evolution",
+
+      "organization": "Productive Shop",
+
+      "experienceId": "experience-productive-shop",
+
+      "summary": "Expanded beyond writing individual deliverables to designing reusable knowledge systems, AI-assisted research workflows and structured information architecture.",
+
+      "impact": {
+        "type": "Career Evolution",
+        "value": "Professional specialization"
+      },
+
+      "competencies": [
+        "Knowledge Architecture",
+        "Systems Thinking",
+        "Artificial Intelligence",
+        "Workflow Design"
+      ],
+
+      "supportingEvidence": [
+        "Designed reusable research systems.",
+        "Applied AI to structured knowledge workflows.",
+        "Focused on scalable information design."
+      ],
+
+      "sources": [
+        "career_interviews"
+      ],
+
+      "verification": {
+        "status": "interview_verified"
+      }
+
+    },
+
+    {
+      "id": "achievement-rwc-independent-consulting",
+
+      "title": "Built and Sustained an Independent Consulting Practice",
+
+      "category": "Entrepreneurship",
+
+      "organization": "Riley Wallace Creative",
+
+      "experienceId": "experience-riley-wallace-creative",
+
+      "summary": "Established an independent consulting practice delivering marketing communications, content strategy and AI-enabled workflow development across multiple industries.",
+
+      "impact": {
+        "type": "Business",
+        "value": "Independent consulting practice"
+      },
+
+      "competencies": [
+        "Consulting",
+        "Client Management",
+        "Business Development",
+        "Marketing Strategy"
+      ],
+
+      "supportingEvidence": [
+        "Worked with multiple organizations.",
+        "Delivered strategy and execution.",
+        "Continually evolved service offerings with emerging technology."
+      ],
+
+      "sources": [
+        "resume",
+        "career_interviews"
+      ],
+
+      "verification": {
+        "status": "verified"
+      }
+
+    },
+        {
+      "id": "achievement-cross-industry-expertise",
+
+      "title": "Built Marketing Expertise Across Multiple Industries",
+
+      "category": "Professional Breadth",
+
+      "organization": "Multiple Organizations",
+
+      "experienceIds": [
+        "experience-productive-shop",
+        "experience-riley-wallace-creative",
+        "experience-lendcare",
+        "experience-polaron",
+        "experience-intelligent-properties",
+        "experience-solar-brokers-canada"
+      ],
+
+      "summary": "Successfully applied marketing, content strategy and communication skills across technology, financial services, renewable energy, real estate and professional services.",
+
+      "impact": {
+        "type": "Professional Breadth",
+        "value": "Multi-industry expertise"
+      },
+
+      "competencies": [
+        "Adaptability",
+        "Learning Agility",
+        "Strategic Communication",
+        "Content Strategy"
+      ],
+
+      "supportingEvidence": [
+        "Consistently became productive in unfamiliar industries.",
+        "Adapted communication for different audiences and business models.",
+        "Applied transferable marketing principles across sectors."
+      ],
+
+      "sources": [
+        "resume",
+        "career_interviews"
+      ],
+
+      "verification": {
+        "status": "verified"
+      }
+
+    },
+
+    {
+      "id": "achievement-technical-translation",
+
+      "title": "Made Complex Topics Accessible to Diverse Audiences",
+
+      "category": "Communication Excellence",
+
+      "organization": "Multiple Organizations",
+
+      "experienceIds": [
+        "experience-journalism",
+        "experience-polaron",
+        "experience-lendcare",
+        "experience-productive-shop"
+      ],
+
+      "summary": "Consistently translated complex technical, financial and industry-specific subjects into practical, audience-focused communication.",
+
+      "impact": {
+        "type": "Communication",
+        "value": "Career-long specialization"
+      },
+
+      "competencies": [
+        "Technical Communication",
+        "Storytelling",
+        "Audience Analysis",
+        "Writing"
+      ],
+
+      "supportingEvidence": [
+        "Explained technology for business audiences.",
+        "Communicated renewable energy to homeowners.",
+        "Produced financial marketing content.",
+        "Applied journalism principles throughout marketing roles."
+      ],
+
+      "sources": [
+        "resume",
+        "career_interviews"
+      ],
+
+      "verification": {
+        "status": "verified"
+      }
+
+    },
+
+    {
+      "id": "achievement-continuous-learning",
+
+      "title": "Demonstrated Continuous Professional Reinvention",
+
+      "category": "Professional Growth",
+
+      "organization": "Career",
+
+      "experienceIds": [
+        "experience-journalism",
+        "experience-solar-brokers-canada",
+        "experience-polaron",
+        "experience-lendcare",
+        "experience-riley-wallace-creative",
+        "experience-productive-shop"
+      ],
+
+      "summary": "Repeatedly adapted to major shifts in media, marketing, search and artificial intelligence while continuing to build relevant professional expertise.",
+
+      "impact": {
+        "type": "Career Development",
+        "value": "Long-term adaptability"
+      },
+
+      "competencies": [
+        "Continuous Learning",
+        "Adaptability",
+        "Technology Adoption",
+        "Professional Development"
+      ],
+
+      "supportingEvidence": [
+        "Transitioned from journalism to digital marketing.",
+        "Adopted SEO as search matured.",
+        "Integrated AI into professional workflows.",
+        "Continued evolving with changing technology."
+      ],
+
+      "sources": [
+        "resume",
+        "career_interviews"
+      ],
+
+      "verification": {
+        "status": "verified"
+      }
+
+    },
+        {
+      "id": "achievement-research-first-methodology",
+
+      "title": "Established a Research-First Professional Methodology",
+
+      "category": "Professional Practice",
+
+      "organization": "Career",
+
+      "experienceIds": [
+        "experience-harbourfront",
+        "experience-journalism",
+        "experience-productive-shop"
+      ],
+
+      "summary": "Developed and consistently applied a research-first approach to writing, marketing and technical communication throughout multiple stages of his career.",
+
+      "impact": {
+        "type": "Professional Practice",
+        "value": "Career-long methodology"
+      },
+
+      "competencies": [
+        "Research",
+        "Critical Thinking",
+        "Technical Communication",
+        "Editorial Judgment"
+      ],
+
+      "supportingEvidence": [
+        "Prepared extensively before interviews.",
+        "Researched unfamiliar technologies before writing.",
+        "Validated information before publication."
+      ],
+
+      "sources": [
+        "resume",
+        "career_interviews"
+      ],
+
+      "verification": {
+        "status": "verified"
+      }
+
+    },
+
+    {
+      "id": "achievement-human-centered-ai",
+
+      "title": "Developed a Human-Centered AI Workflow Philosophy",
+
+      "category": "Innovation",
+
+      "organization": "Career",
+
+      "experienceIds": [
+        "experience-lendcare",
+        "experience-riley-wallace-creative",
+        "experience-productive-shop"
+      ],
+
+      "summary": "Established a practical philosophy for integrating AI into professional work while preserving human creativity, editorial judgment and accountability.",
+
+      "impact": {
+        "type": "Professional Philosophy",
+        "value": "Repeatable AI operating model"
+      },
+
+      "competencies": [
+        "Artificial Intelligence",
+        "Editorial Leadership",
+        "Workflow Design",
+        "Responsible AI"
+      ],
+
+      "supportingEvidence": [
+        "Introduced AI into production workflows.",
+        "Maintained human review and fact-checking.",
+        "Designed repeatable AI-assisted processes."
+      ],
+
+      "sources": [
+        "resume",
+        "career_interviews"
+      ],
+
+      "verification": {
+        "status": "verified"
+      }
+
+    },
+
+    {
+      "id": "achievement-systems-thinking",
+
+      "title": "Evolved from Deliverables to Systems Thinking",
+
+      "category": "Professional Evolution",
+
+      "organization": "Career",
+
+      "experienceIds": [
+        "experience-riley-wallace-creative",
+        "experience-productive-shop"
+      ],
+
+      "summary": "Progressed from creating individual marketing assets to designing scalable systems, workflows and knowledge structures that improve long-term productivity.",
+
+      "impact": {
+        "type": "Career Evolution",
+        "value": "Systems-oriented professional practice"
+      },
+
+      "competencies": [
+        "Systems Thinking",
+        "Knowledge Architecture",
+        "Workflow Design",
+        "Strategic Planning"
+      ],
+
+      "supportingEvidence": [
+        "Designed reusable workflows.",
+        "Created structured knowledge systems.",
+        "Focused on repeatable processes over isolated outputs."
+      ],
+
+      "sources": [
+        "career_interviews"
+      ],
+
+      "verification": {
+        "status": "interview_verified"
+      }
+
+    },
+        {
+      "id": "achievement-career-cross-disciplinary",
+
+      "title": "Built a Cross-Disciplinary Career Across Journalism, Marketing and AI",
+
+      "category": "Career Distinction",
+
+      "organization": "Career",
+
+      "experienceIds": [
+        "experience-harbourfront",
+        "experience-journalism",
+        "experience-solar-brokers-canada",
+        "experience-riley-wallace-creative",
+        "experience-productive-shop"
+      ],
+
+      "summary": "Successfully evolved from journalism into marketing leadership, consulting and AI-enabled knowledge work while continuously applying and expanding the same core communication skills.",
+
+      "impact": {
+        "type": "Career",
+        "value": "Cross-disciplinary expertise"
+      },
+
+      "competencies": [
+        "Communication",
+        "Strategic Marketing",
+        "Artificial Intelligence",
+        "Adaptability"
+      ],
+
+      "supportingEvidence": [
+        "Professional journalism experience.",
+        "Marketing leadership roles.",
+        "Independent consulting.",
+        "AI-enabled technical communication."
+      ],
+
+      "sources": [
+        "resume",
+        "career_interviews"
+      ],
+
+      "verification": {
+        "status": "verified"
+      }
+
+    },
+
+    {
+      "id": "achievement-repeatable-learning",
+
+      "title": "Consistently Became Productive in New Domains",
+
+      "category": "Professional Capability",
+
+      "organization": "Career",
+
+      "experienceIds": [
+        "experience-polaron",
+        "experience-lendcare",
+        "experience-productive-shop"
+      ],
+
+      "summary": "Repeatedly entered unfamiliar industries, developed subject-matter expertise through structured research and produced work suitable for professional publication and business use.",
+
+      "impact": {
+        "type": "Learning",
+        "value": "Rapid domain acquisition"
+      },
+
+      "competencies": [
+        "Learning Agility",
+        "Research",
+        "Technical Writing",
+        "Knowledge Transfer"
+      ],
+
+      "supportingEvidence": [
+        "Renewable energy.",
+        "Financial technology.",
+        "Cybersecurity.",
+        "Healthcare technology.",
+        "Industrial AI."
+      ],
+
+      "sources": [
+        "resume",
+        "career_interviews"
+      ],
+
+      "verification": {
+        "status": "verified"
+      }
+
+    },
+
+    {
+      "id": "achievement-professional-reputation",
+
+      "title": "Maintained High Editorial Standards Across Every Career Stage",
+
+      "category": "Professional Excellence",
+
+      "organization": "Career",
+
+      "experienceIds": [
+        "experience-journalism",
+        "experience-lendcare",
+        "experience-riley-wallace-creative",
+        "experience-productive-shop"
+      ],
+
+      "summary": "Consistently prioritized factual accuracy, thoughtful research and human editorial judgment regardless of industry, technology or production workflow.",
+
+      "impact": {
+        "type": "Professional Practice",
+        "value": "Consistent quality standard"
+      },
+
+      "competencies": [
+        "Editorial Judgment",
+        "Professional Integrity",
+        "Research",
+        "Writing"
+      ],
+
+      "supportingEvidence": [
+        "Research-first methodology.",
+        "Editorial review before publication.",
+        "Human oversight of AI-assisted work."
+      ],
+
+      "sources": [
+        "career_interviews"
+      ],
+
+      "verification": {
+        "status": "interview_verified"
+      }
+
+    },
