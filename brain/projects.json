@@ -1,228 +1,765 @@
 {
-  "_comment": "Employer-independent initiatives and their outcomes. The data array is intentionally empty; _template and _example are documentation and are not source records.",
-  "schemaVersion": "2.0.0",
-  "entityType": "projects",
-  "schema": {
-    "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "$id": "brain/projects.json.schema.json",
-    "title": "Projects",
-    "description": "Employer-independent initiatives and their outcomes.",
-    "type": "object",
-    "additionalProperties": false,
-    "properties": {
-      "_comment": {
-        "type": "string"
-      },
-      "id": {
-        "type": "string"
-      },
-      "createdAt": {
-        "type": "string"
-      },
-      "updatedAt": {
-        "type": "string"
-      },
-      "tags": {
-        "type": "array",
-        "items": {
-          "type": "string"
-        }
-      },
-      "relatedObjects": {
-        "type": "array",
-        "items": {
-          "type": "object",
-          "additionalProperties": false,
-          "properties": {
-            "objectType": {
-              "type": "string"
-            },
-            "objectId": {
-              "type": "string"
-            },
-            "relationship": {
-              "type": "string"
-            }
-          },
-          "required": [
-            "objectType",
-            "objectId",
-            "relationship"
-          ]
-        }
-      },
-      "name": {
-        "type": "string"
-      },
-      "problem": {
-        "type": "string"
-      },
-      "goal": {
-        "type": "string"
-      },
-      "solution": {
-        "type": "string"
-      },
-      "approach": {
-        "type": "array",
-        "items": {
-          "type": "string"
-        }
-      },
-      "timeline": {
-        "type": "object",
-        "additionalProperties": false,
-        "properties": {
-          "start": {
-            "type": "string"
-          },
-          "end": {
-            "type": "string"
-          },
-          "status": {
-            "type": "string"
-          }
-        },
-        "required": [
-          "start",
-          "end",
-          "status"
-        ]
-      },
-      "role": {
-        "type": "string"
-      },
-      "technologies": {
-        "type": "array",
-        "items": {
-          "type": "string"
-        }
-      },
-      "results": {
-        "type": "array",
-        "items": {
-          "type": "string"
-        }
-      },
-      "metrics": {
-        "type": "array",
-        "items": {
-          "type": "string"
-        }
-      },
-      "lessons": {
-        "type": "array",
-        "items": {
-          "type": "string"
-        }
-      },
-      "relatedExperiences": {
-        "type": "array",
-        "items": {
-          "type": "string"
-        }
-      },
-      "relatedSkills": {
-        "type": "array",
-        "items": {
-          "type": "string"
-        }
+  "schemaVersion": "1.0.0",
+  "entityType": "project",
+  "data": [
+
+    {
+      "id": "project-career-agent",
+
+      "title": "Career Agent",
+
+      "status": "Active",
+
+      "category": "Artificial Intelligence",
+
+      "organization": "Riley Wallace Creative",
+
+      "experienceId": "experience-riley-wallace-creative",
+
+      "summary": "Designed and developed an AI-powered career intelligence platform that transforms professional experience into a structured knowledge graph capable of generating resumes, interview answers, career coaching and other career assets.",
+
+      "objective": "Separate career knowledge from presentation so a single source of truth can power multiple career experiences.",
+
+      "role": "Founder, Architect and Product Designer",
+
+      "responsibilities": [
+
+        "Designed the Brain architecture.",
+        "Created normalized JSON schemas.",
+        "Defined entity relationships.",
+        "Designed provenance model.",
+        "Developed prompting workflows.",
+        "Directed AI-assisted knowledge engineering."
+
+      ],
+
+      "deliverables": [
+
+        "identity.json",
+        "experience.json",
+        "achievements.json"
+
+      ],
+
+      "technologies": [
+
+        "JSON",
+        "Markdown",
+        "Claude",
+        "ChatGPT",
+        "Codex",
+        "GitHub"
+
+      ],
+
+      "competencies": [
+
+        "Knowledge Architecture",
+        "Artificial Intelligence",
+        "Systems Thinking",
+        "Prompt Engineering",
+        "Information Design"
+
+      ],
+
+      "relatedAchievements": [
+
+        "achievement-rwc-ai-consulting",
+        "achievement-ps-knowledge-systems",
+        "achievement-human-centered-ai",
+        "achievement-systems-thinking"
+
+      ],
+
+      "artifacts": [
+
+      ],
+
+      "statusNotes": "Actively evolving.",
+
+      "sources": [
+
+        "career_interviews"
+
+      ],
+
+      "verification": {
+
+        "status": "verified"
+
       }
-    },
-    "required": [
-      "_comment",
-      "id",
-      "createdAt",
-      "updatedAt",
-      "tags",
-      "relatedObjects",
-      "name",
-      "problem",
-      "goal",
-      "solution",
-      "approach",
-      "timeline",
-      "role",
-      "technologies",
-      "results",
-      "metrics",
-      "lessons",
-      "relatedExperiences",
-      "relatedSkills"
-    ]
-  },
-  "data": [],
-  "_template": {
-    "_comment": "An initiative independent of employer chronology and reusable across outputs.",
-    "id": "",
-    "createdAt": "",
-    "updatedAt": "",
-    "tags": [],
-    "relatedObjects": [],
-    "name": "",
-    "problem": "",
-    "goal": "",
-    "solution": "",
-    "approach": [],
-    "timeline": {
-      "start": "",
-      "end": "",
-      "status": ""
-    },
-    "role": "",
-    "technologies": [],
-    "results": [],
-    "metrics": [],
-    "lessons": [],
-    "relatedExperiences": [],
-    "relatedSkills": []
-  },
-  "_example": {
-    "_comment": "An initiative independent of employer chronology and reusable across outputs.",
-    "id": "00000000-0000-4000-8000-000000000001",
-    "createdAt": "2026-01-01T00:00:00Z",
-    "updatedAt": "2026-01-01T00:00:00Z",
-    "tags": [
-      "example-tag"
-    ],
-    "relatedObjects": [
-      {
-        "objectType": "achievement",
-        "objectId": "00000000-0000-4000-8000-000000000002",
-        "relationship": "supports"
+
+    }
+
+  ]
+}
+    {
+      "id": "project-lowes-retail-expansion",
+
+      "title": "Lowe's National Retail Expansion",
+
+      "status": "Completed",
+
+      "category": "Growth Marketing",
+
+      "organization": "Solar Brokers Canada",
+
+      "experienceId": "experience-solar-brokers-canada",
+
+      "summary": "Supported the marketing strategy behind Solar Brokers Canada's partnership with Lowe's, helping scale customer acquisition through a national retail presence.",
+
+      "objective": "Support rapid organizational growth by expanding customer acquisition through a major national retail partnership.",
+
+      "role": "Marketing Manager",
+
+      "responsibilities": [
+
+        "Develop marketing campaigns supporting retail expansion.",
+        "Coordinate digital marketing initiatives.",
+        "Support customer acquisition strategies.",
+        "Align marketing with business growth objectives."
+
+      ],
+
+      "deliverables": [
+
+        "Retail marketing campaigns",
+        "Digital advertising",
+        "Marketing collateral",
+        "Growth initiatives"
+
+      ],
+
+      "technologies": [
+
+        "Google Ads",
+        "Facebook Ads",
+        "Google Analytics",
+        "SEO"
+
+      ],
+
+      "competencies": [
+
+        "Growth Marketing",
+        "Campaign Strategy",
+        "Retail Marketing",
+        "Digital Marketing",
+        "Leadership"
+
+      ],
+
+      "relatedAchievements": [
+
+        "achievement-sbc-20m-sales",
+        "achievement-sbc-marketing-budget",
+        "achievement-sbc-lowes-expansion",
+        "achievement-sbc-seo-transformation"
+
+      ],
+
+      "businessImpact": {
+
+        "salesContribution": "$20M+",
+
+        "annualBudget": "$1.3M"
+
+      },
+
+      "artifacts": [
+
+      ],
+
+      "sources": [
+
+        "resume",
+        "career_interviews"
+
+      ],
+
+      "verification": {
+
+        "status": "verified"
+
       }
-    ],
-    "name": "Example Initiative",
-    "problem": "Problem or opportunity that initiated the work.",
-    "goal": "Explicit desired outcome.",
-    "solution": "What was delivered.",
-    "approach": [
-      "Discovery step",
-      "Execution step"
-    ],
-    "timeline": {
-      "start": "2023-01",
-      "end": "2023-06",
-      "status": "completed"
+
     },
-    "role": "Example role and ownership boundary",
-    "technologies": [
-      "00000000-0000-4000-8000-000000000040"
-    ],
-    "results": [
-      "Observed qualitative outcome"
-    ],
-    "metrics": [
-      "00000000-0000-4000-8000-000000000060"
-    ],
-    "lessons": [
-      "Example project lesson"
-    ],
-    "relatedExperiences": [
-      "00000000-0000-4000-8000-000000000070"
-    ],
-    "relatedSkills": [
-      "00000000-0000-4000-8000-000000000050"
-    ]
+        {
+      "id": "project-seo-transformation",
+
+      "title": "SEO Transformation Program",
+
+      "status": "Completed",
+
+      "category": "Digital Transformation",
+
+      "organization": "Solar Brokers Canada",
+
+      "experienceId": "experience-solar-brokers-canada",
+
+      "summary": "Designed and implemented an internal SEO capability, transitioning search engine optimization from an outsourced service to a strategic in-house function.",
+
+      "objective": "Increase organizational control over search strategy while building sustainable internal SEO expertise.",
+
+      "role": "Marketing Manager",
+
+      "responsibilities": [
+
+        "Evaluate existing SEO processes.",
+        "Develop internal SEO strategy.",
+        "Implement repeatable optimization workflows.",
+        "Integrate SEO with content marketing."
+
+      ],
+
+      "deliverables": [
+
+        "SEO strategy",
+        "Content optimization framework",
+        "Keyword research process",
+        "Internal SEO workflows"
+
+      ],
+
+      "technologies": [
+
+        "Google Search Console",
+        "Google Analytics",
+        "Keyword Research Tools",
+        "CMS Platforms"
+
+      ],
+
+      "competencies": [
+
+        "SEO",
+        "Digital Strategy",
+        "Content Strategy",
+        "Process Improvement"
+
+      ],
+
+      "relatedAchievements": [
+
+        "achievement-sbc-seo-transformation",
+        "achievement-sbc-20m-sales"
+
+      ],
+
+      "businessImpact": {
+
+        "type": "Operational",
+
+        "description": "Established an internal SEO capability supporting long-term organic growth."
+
+      },
+
+      "artifacts": [
+
+      ],
+
+      "sources": [
+
+        "career_interviews"
+
+      ],
+
+      "verification": {
+
+        "status": "interview_verified"
+
+      }
+
+    },
+        {
+      "id": "project-seo-transformation",
+
+      "title": "SEO Transformation Program",
+
+      "status": "Completed",
+
+      "category": "Digital Transformation",
+
+      "organization": "Solar Brokers Canada",
+
+      "experienceId": "experience-solar-brokers-canada",
+
+      "summary": "Designed and implemented an internal SEO capability, transitioning search engine optimization from an outsourced service to a strategic in-house function.",
+
+      "objective": "Increase organizational control over search strategy while building sustainable internal SEO expertise.",
+
+      "role": "Marketing Manager",
+
+      "responsibilities": [
+
+        "Evaluate existing SEO processes.",
+        "Develop internal SEO strategy.",
+        "Implement repeatable optimization workflows.",
+        "Integrate SEO with content marketing."
+
+      ],
+
+      "deliverables": [
+
+        "SEO strategy",
+        "Content optimization framework",
+        "Keyword research process",
+        "Internal SEO workflows"
+
+      ],
+
+      "technologies": [
+
+        "Google Search Console",
+        "Google Analytics",
+        "Keyword Research Tools",
+        "CMS Platforms"
+
+      ],
+
+      "competencies": [
+
+        "SEO",
+        "Digital Strategy",
+        "Content Strategy",
+        "Process Improvement"
+
+      ],
+
+      "relatedAchievements": [
+
+        "achievement-sbc-seo-transformation",
+        "achievement-sbc-20m-sales"
+
+      ],
+
+      "businessImpact": {
+
+        "type": "Operational",
+
+        "description": "Established an internal SEO capability supporting long-term organic growth."
+
+      },
+
+      "artifacts": [
+
+      ],
+
+      "sources": [
+
+        "career_interviews"
+
+      ],
+
+      "verification": {
+
+        "status": "interview_verified"
+
+      }
+
+    },
+        {
+      "id": "project-ai-workflow-development",
+
+      "title": "AI Workflow Development",
+
+      "status": "Active",
+
+      "category": "Artificial Intelligence",
+
+      "organization": "Riley Wallace Creative",
+
+      "experienceIds": [
+        "experience-riley-wallace-creative",
+        "experience-lendcare",
+        "experience-productive-shop"
+      ],
+
+      "summary": "Designed and refined AI-assisted workflows that combine large language models, structured prompting and human editorial review to improve research, writing and knowledge management.",
+
+      "objective": "Create repeatable AI-assisted workflows that increase productivity while maintaining professional quality and accountability.",
+
+      "role": "Designer, Researcher and Implementation Lead",
+
+      "responsibilities": [
+
+        "Evaluate emerging AI models.",
+        "Design reusable prompt frameworks.",
+        "Develop structured research workflows.",
+        "Integrate AI into professional writing.",
+        "Maintain human editorial oversight."
+
+      ],
+
+      "deliverables": [
+
+        "Prompt libraries",
+        "Research workflows",
+        "AI-assisted writing process",
+        "Knowledge management workflows"
+
+      ],
+
+      "technologies": [
+
+        "ChatGPT",
+        "Claude",
+        "Perplexity",
+        "n8n",
+        "JSON",
+        "Markdown"
+
+      ],
+
+      "competencies": [
+
+        "Artificial Intelligence",
+        "Workflow Design",
+        "Prompt Engineering",
+        "Knowledge Architecture",
+        "Research"
+
+      ],
+
+      "relatedAchievements": [
+
+        "achievement-lc-ai-workflows",
+        "achievement-rwc-ai-consulting",
+        "achievement-human-centered-ai",
+        "achievement-systems-thinking"
+
+      ],
+
+      "businessImpact": {
+
+        "type": "Operational",
+
+        "description": "Established reusable AI-assisted workflows that improved consistency, scalability and knowledge reuse across professional work."
+
+      },
+
+      "artifacts": [
+
+      ],
+
+      "sources": [
+
+        "career_interviews"
+
+      ],
+
+      "verification": {
+
+        "status": "verified"
+
+      }
+
+    },
+        {
+      "id": "project-journalism-portfolio",
+
+      "title": "Professional Journalism Portfolio",
+
+      "status": "Completed",
+
+      "category": "Editorial",
+
+      "organization": "Independent Journalism",
+
+      "experienceId": "experience-journalism",
+
+      "summary": "Built a substantial body of published journalism consisting of reviews, interviews and feature articles across established North American music publications.",
+
+      "objective": "Produce thoughtful, well-researched editorial content that informed readers while documenting artists, albums and the broader music industry.",
+
+      "role": "Journalist and Music Critic",
+
+      "responsibilities": [
+
+        "Research artists and releases.",
+        "Conduct interviews.",
+        "Write reviews and feature stories.",
+        "Meet publication deadlines.",
+        "Develop editorial relationships."
+
+      ],
+
+      "deliverables": [
+
+        "Album reviews",
+        "Artist interviews",
+        "Feature articles",
+        "Festival coverage",
+        "Editorial content"
+
+      ],
+
+      "technologies": [
+
+        "Editorial CMS",
+        "Digital Publishing",
+        "Photography",
+        "Audio Recording"
+
+      ],
+
+      "competencies": [
+
+        "Interviewing",
+        "Writing",
+        "Research",
+        "Storytelling",
+        "Editorial Judgment"
+
+      ],
+
+      "relatedAchievements": [
+
+        "achievement-journalism-1000-publications",
+        "achievement-journalism-career-foundation",
+        "achievement-technical-translation",
+        "achievement-research-first-methodology"
+
+      ],
+
+      "businessImpact": {
+
+        "type": "Professional Development",
+
+        "description": "Established the research, interviewing and storytelling foundation that influenced every subsequent communications and marketing role."
+
+      },
+
+      "artifacts": [
+
+      ],
+
+      "sources": [
+
+        "resume",
+        "career_interviews"
+
+      ],
+
+      "verification": {
+
+        "status": "verified"
+
+      }
+
+    },
+        {
+      "id": "project-independent-marketing-consulting",
+
+      "title": "Independent Marketing Consulting Practice",
+
+      "status": "Active",
+
+      "category": "Consulting",
+
+      "organization": "Riley Wallace Creative",
+
+      "experienceId": "experience-riley-wallace-creative",
+
+      "summary": "Built and operated an independent consulting practice delivering content strategy, SEO, AI implementation and marketing communications for organizations across multiple industries.",
+
+      "objective": "Help organizations improve marketing performance by combining strategic thinking, strong communication and practical implementation.",
+
+      "role": "Founder and Principal Consultant",
+
+      "responsibilities": [
+
+        "Lead client discovery and strategy sessions.",
+        "Develop content and SEO strategies.",
+        "Design AI-assisted workflows.",
+        "Create technical and marketing content.",
+        "Advise clients on digital transformation."
+
+      ],
+
+      "deliverables": [
+
+        "Marketing strategies",
+        "SEO programs",
+        "Content strategies",
+        "AI implementation plans",
+        "Technical documentation"
+
+      ],
+
+      "technologies": [
+
+        "ChatGPT",
+        "Claude",
+        "Perplexity",
+        "n8n",
+        "Google Workspace",
+        "JSON"
+
+      ],
+
+      "competencies": [
+
+        "Consulting",
+        "Marketing Strategy",
+        "SEO",
+        "Artificial Intelligence",
+        "Client Management",
+        "Technical Communication"
+
+      ],
+
+      "relatedAchievements": [
+
+        "achievement-rwc-independent-consulting",
+        "achievement-rwc-ai-consulting",
+        "achievement-cross-industry-expertise",
+        "achievement-repeatable-learning"
+
+      ],
+
+      "businessImpact": {
+
+        "type": "Professional Practice",
+
+        "description": "Established an adaptable consulting practice capable of serving organizations across multiple industries while continuously evolving with emerging technology."
+
+      },
+
+      "artifacts": [
+
+      ],
+
+      "sources": [
+
+        "resume",
+        "career_interviews"
+
+      ],
+
+      "verification": {
+
+        "status": "verified"
+
+      }
+
+    },
+    {
+  "id": "project-lendcare-ai-content-modernization",
+
+  "title": "AI Content Modernization",
+
+  "status": "Completed",
+
+  "category": "Content Operations",
+
+  "organization": "LendCare",
+
+  "experienceId": "experience-lendcare",
+
+  "summary": "Integrated AI-assisted content creation into existing editorial workflows while maintaining quality standards and human review.",
+
+  "objective": "Improve content production efficiency without compromising editorial quality.",
+
+  "role": "Content Marketing Manager",
+
+  "responsibilities": [
+    "Evaluate AI-assisted workflows.",
+    "Integrate AI into content production.",
+    "Maintain editorial standards.",
+    "Refine production processes."
+  ],
+
+  "relatedAchievements": [
+    "achievement-lc-ai-workflows",
+    "achievement-human-centered-ai"
+  ],
+
+  "sources": [
+    "resume",
+    "career_interviews"
+  ],
+
+  "verification": {
+    "status": "verified"
   }
+
+}
+{
+  "id": "project-harbourfront-digital-communications",
+
+  "title": "Harbourfront Digital Communications",
+
+  "status": "Completed",
+
+  "category": "Digital Communications",
+
+  "organization": "Harbourfront Centre",
+
+  "experienceId": "experience-harbourfront",
+
+  "summary": "Produced editorial and social media content that promoted artists, cultural programming and public events while strengthening audience engagement.",
+
+  "objective": "Increase awareness of Harbourfront Centre programming through compelling digital storytelling.",
+
+  "role": "Social Media Specialist",
+
+  "responsibilities": [
+    "Create editorial content.",
+    "Interview artists.",
+    "Manage social media communications.",
+    "Promote cultural programming."
+  ],
+
+  "relatedAchievements": [
+    "achievement-hf-storytelling"
+  ],
+
+  "sources": [
+    "career_interviews"
+  ],
+
+  "verification": {
+    "status": "interview_verified"
+  }
+
+}
+{
+  "id": "project-facebook-adoption",
+
+  "title": "Early Facebook Advertising Adoption",
+
+  "status": "Completed",
+
+  "category": "Digital Marketing",
+
+  "organization": "BAM",
+
+  "experienceId": "experience-bam",
+
+  "summary": "Helped clients adopt Facebook advertising during the platform's early years as a commercial marketing channel.",
+
+  "objective": "Introduce emerging social advertising capabilities into client marketing strategies.",
+
+  "role": "Digital Marketing Specialist",
+
+  "responsibilities": [
+    "Develop Facebook advertising campaigns.",
+    "Advise clients on social media marketing.",
+    "Evaluate campaign performance.",
+    "Support digital marketing strategy."
+  ],
+
+  "relatedAchievements": [
+    "achievement-bam-facebook-early-adoption"
+  ],
+
+  "sources": [
+    "career_interviews"
+  ],
+
+  "verification": {
+    "status": "interview_verified"
+  }
+
 }
