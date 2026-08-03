@@ -1,203 +1,1071 @@
 {
-  "_comment": "Reusable STAR narratives with competency links. The data array is intentionally empty; _template and _example are documentation and are not source records.",
-  "schemaVersion": "2.0.0",
-  "entityType": "interview-stories",
-  "schema": {
-    "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "$id": "brain/interview-stories.json.schema.json",
-    "title": "Interview Stories",
-    "description": "Reusable STAR narratives with competency links.",
-    "type": "object",
-    "additionalProperties": false,
-    "properties": {
-      "_comment": {
-        "type": "string"
+  "schemaVersion": "1.0.0",
+  "entityType": "interviewStory",
+  "data": [
+
+    {
+      "id": "story-lowes-retail-expansion",
+
+      "title": "Supporting Lowe's National Retail Expansion",
+
+      "category": "Growth Marketing",
+
+      "difficulty": "Intermediate",
+
+      "summary": "Marketing support for a national retail expansion during a period of rapid organizational growth.",
+
+      "context": {
+
+        "organization": "Solar Brokers Canada",
+
+        "experienceId": "experience-solar-brokers-canada",
+
+        "projectId": "project-lowes-retail-expansion"
+
       },
-      "id": {
-        "type": "string"
+
+      "story": {
+
+        "context": "",
+
+        "challenge": "",
+
+        "actions": [
+
+        ],
+
+        "result": "",
+
+        "learning": ""
+
       },
-      "createdAt": {
-        "type": "string"
-      },
-      "updatedAt": {
-        "type": "string"
-      },
-      "tags": {
-        "type": "array",
-        "items": {
-          "type": "string"
-        }
-      },
-      "relatedObjects": {
-        "type": "array",
-        "items": {
-          "type": "object",
-          "additionalProperties": false,
-          "properties": {
-            "objectType": {
-              "type": "string"
-            },
-            "objectId": {
-              "type": "string"
-            },
-            "relationship": {
-              "type": "string"
-            }
-          },
-          "required": [
-            "objectType",
-            "objectId",
-            "relationship"
-          ]
-        }
-      },
-      "title": {
-        "type": "string"
-      },
-      "situation": {
-        "type": "string"
-      },
-      "task": {
-        "type": "string"
-      },
-      "action": {
-        "type": "array",
-        "items": {
-          "type": "string"
-        }
-      },
-      "result": {
-        "type": "object",
-        "additionalProperties": false,
-        "properties": {
-          "summary": {
-            "type": "string"
-          },
-          "metrics": {
-            "type": "array",
-            "items": {
-              "type": "string"
-            }
-          }
-        },
-        "required": [
-          "summary",
-          "metrics"
-        ]
-      },
-      "lessons": {
-        "type": "array",
-        "items": {
-          "type": "string"
-        }
-      },
-      "competenciesDemonstrated": {
-        "type": "array",
-        "items": {
-          "type": "string"
-        }
-      },
-      "keywords": {
-        "type": "array",
-        "items": {
-          "type": "string"
-        }
-      },
-      "relatedExperiences": {
-        "type": "array",
-        "items": {
-          "type": "string"
-        }
-      },
-      "relatedProjects": {
-        "type": "array",
-        "items": {
-          "type": "string"
-        }
+
+      "demonstrates": [
+
+        "skill-marketing-strategy",
+        "skill-project-management",
+        "skill-digital-marketing"
+
+      ],
+
+      "relatedAchievements": [
+
+        "achievement-sbc-20m-sales",
+        "achievement-sbc-lowes-expansion"
+
+      ],
+
+      "commonInterviewQuestions": [
+
+        "Tell me about a large marketing initiative.",
+
+        "Describe a project with measurable business impact.",
+
+        "Tell me about supporting organizational growth."
+
+      ],
+
+      "followUpTopics": [
+
+      ],
+
+      "sources": [
+
+        "career_interviews"
+
+      ],
+
+      "verification": {
+
+        "status": "verified"
+
       }
-    },
-    "required": [
-      "_comment",
-      "id",
-      "createdAt",
-      "updatedAt",
-      "tags",
-      "relatedObjects",
-      "title",
-      "situation",
-      "task",
-      "action",
-      "result",
-      "lessons",
-      "competenciesDemonstrated",
-      "keywords",
-      "relatedExperiences",
-      "relatedProjects"
-    ]
+
+    }
+
+  ]
+}
+{
+  "id": "story-seo-transformation",
+
+  "title": "Building an Internal SEO Capability",
+
+  "category": "Digital Transformation",
+
+  "difficulty": "Advanced",
+
+  "summary": "Transitioned SEO from an outsourced function to an internal strategic capability.",
+
+  "context": {
+
+    "organization": "Solar Brokers Canada",
+
+    "experienceId": "experience-solar-brokers-canada",
+
+    "projectId": "project-seo-transformation"
+
   },
-  "data": [],
-  "_template": {
-    "_comment": "One reusable interview narrative in explicit STAR form with evidence links.",
-    "id": "",
-    "createdAt": "",
-    "updatedAt": "",
-    "tags": [],
-    "relatedObjects": [],
-    "title": "",
-    "situation": "",
-    "task": "",
-    "action": [],
-    "result": {
-      "summary": "",
-      "metrics": []
-    },
-    "lessons": [],
-    "competenciesDemonstrated": [],
-    "keywords": [],
-    "relatedExperiences": [],
-    "relatedProjects": []
+
+  "story": {
+
+    "context": "",
+
+    "challenge": "",
+
+    "actions": [
+
+    ],
+
+    "result": "",
+
+    "learning": ""
+
   },
-  "_example": {
-    "_comment": "One reusable interview narrative in explicit STAR form with evidence links.",
-    "id": "00000000-0000-4000-8000-000000000001",
-    "createdAt": "2026-01-01T00:00:00Z",
-    "updatedAt": "2026-01-01T00:00:00Z",
-    "tags": [
-      "example-tag"
-    ],
-    "relatedObjects": [
-      {
-        "objectType": "achievement",
-        "objectId": "00000000-0000-4000-8000-000000000002",
-        "relationship": "supports"
-      }
-    ],
-    "title": "Example STAR story",
-    "situation": "Context, stakes, and constraints.",
-    "task": "Specific responsibility and desired outcome.",
-    "action": [
-      "Concrete action personally taken"
-    ],
-    "result": {
-      "summary": "Outcome of the actions.",
-      "metrics": [
-        "00000000-0000-4000-8000-000000000060"
-      ]
-    },
-    "lessons": [
-      "What was learned or would change next time."
-    ],
-    "competenciesDemonstrated": [
-      "00000000-0000-4000-8000-000000000050"
-    ],
-    "keywords": [
-      "example behavioral keyword"
-    ],
-    "relatedExperiences": [
-      "00000000-0000-4000-8000-000000000070"
-    ],
-    "relatedProjects": [
-      "00000000-0000-4000-8000-000000000030"
-    ]
+
+  "demonstrates": [
+
+    "skill-seo",
+    "skill-strategic-planning",
+    "skill-project-management"
+
+  ],
+
+  "relatedAchievements": [
+
+    "achievement-sbc-seo-transformation"
+
+  ],
+
+  "commonInterviewQuestions": [
+
+    "Tell me about process improvement.",
+
+    "Describe a strategic initiative.",
+
+    "Tell me about improving an existing system."
+
+  ],
+
+  "sources": [
+
+    "career_interviews"
+
+  ],
+
+  "verification": {
+
+    "status": "verified"
+
   }
+
+}
+{
+  "id": "story-ai-content-modernization",
+
+  "title": "Introducing AI Into Content Production",
+
+  "category": "Innovation",
+
+  "difficulty": "Advanced",
+
+  "summary": "Integrated AI-assisted workflows into content production while maintaining editorial quality and human oversight.",
+
+  "context": {
+
+    "organization": "LendCare",
+
+    "experienceId": "experience-lendcare",
+
+    "projectId": "project-lendcare-ai-content-modernization"
+
+  },
+
+  "story": {
+
+    "context": "",
+
+    "challenge": "",
+
+    "actions": [
+
+    ],
+
+    "result": "",
+
+    "learning": ""
+
+  },
+
+  "demonstrates": [
+
+    "skill-artificial-intelligence",
+    "skill-technical-writing",
+    "skill-project-management",
+    "skill-stakeholder-communication"
+
+  ],
+
+  "relatedAchievements": [
+
+    "achievement-lc-ai-workflows",
+    "achievement-human-centered-ai"
+
+  ],
+
+  "commonInterviewQuestions": [
+
+    "Tell me about introducing new technology.",
+
+    "Describe a process improvement initiative.",
+
+    "Tell me about leading change.",
+
+    "How have you used AI professionally?"
+
+  ],
+
+  "followUpTopics": [
+
+    "Editorial review",
+
+    "Responsible AI",
+
+    "Workflow design"
+
+  ],
+
+  "storyStrength": {
+
+    "behavioral": 5,
+
+    "leadership": 4,
+
+    "technical": 5,
+
+    "communication": 4
+
+  },
+
+  "sources": [
+
+    "career_interviews"
+
+  ],
+
+  "verification": {
+
+    "status": "verified"
+
+  }
+
+}
+{
+  "id": "story-journalism-foundation",
+
+  "title": "Building a Journalism Career",
+
+  "category": "Communication",
+
+  "difficulty": "Intermediate",
+
+  "summary": "Developed interviewing, research and editorial skills that became the foundation of a later career in marketing and technical communication.",
+
+  "context": {
+
+    "organization": "Independent Journalism",
+
+    "experienceId": "experience-journalism",
+
+    "projectId": "project-journalism-portfolio"
+
+  },
+
+  "story": {
+
+    "context": "",
+
+    "challenge": "",
+
+    "actions": [
+
+    ],
+
+    "result": "",
+
+    "learning": ""
+
+  },
+
+  "demonstrates": [
+
+    "skill-research",
+    "skill-interviewing",
+    "skill-storytelling",
+    "skill-editing"
+
+  ],
+
+  "relatedAchievements": [
+
+    "achievement-journalism-1000-publications",
+    "achievement-journalism-career-foundation"
+
+  ],
+
+  "commonInterviewQuestions": [
+
+    "Tell me about your career journey.",
+
+    "How did you develop your communication skills?",
+
+    "Tell me about learning a profession."
+
+  ],
+
+  "followUpTopics": [
+
+    "Interview preparation",
+
+    "Research methodology",
+
+    "Editorial standards"
+
+  ],
+
+  "storyStrength": {
+
+    "behavioral": 5,
+
+    "leadership": 2,
+
+    "technical": 3,
+
+    "communication": 5
+
+  },
+
+  "sources": [
+
+    "career_interviews"
+
+  ],
+
+  "verification": {
+
+    "status": "verified"
+
+  }
+
+}
+{
+  "id": "story-independent-consulting",
+
+  "title": "Building an Independent Consulting Practice",
+
+  "category": "Entrepreneurship",
+
+  "difficulty": "Advanced",
+
+  "summary": "Built an independent consulting practice that evolved alongside changes in digital marketing, search and artificial intelligence.",
+
+  "context": {
+
+    "organization": "Riley Wallace Creative",
+
+    "experienceId": "experience-riley-wallace-creative",
+
+    "projectId": "project-independent-marketing-consulting"
+
+  },
+
+  "story": {
+
+    "context": "",
+
+    "challenge": "",
+
+    "actions": [
+
+    ],
+
+    "result": "",
+
+    "learning": ""
+
+  },
+
+  "demonstrates": [
+
+    "skill-consulting",
+    "skill-client-management",
+    "skill-marketing-strategy",
+    "skill-artificial-intelligence"
+
+  ],
+
+  "relatedAchievements": [
+
+    "achievement-rwc-independent-consulting",
+    "achievement-rwc-ai-consulting"
+
+  ],
+
+  "commonInterviewQuestions": [
+
+    "Tell me about working independently.",
+
+    "Describe a time you built something from scratch.",
+
+    "How do you manage multiple priorities?",
+
+    "Tell me about adapting to change."
+
+  ],
+
+  "purpose": [
+
+    "Career Journey",
+    "Adaptability",
+    "Initiative",
+    "Entrepreneurship"
+
+  ],
+
+  "storyStrength": {
+
+    "behavioral": 5,
+
+    "leadership": 4,
+
+    "technical": 3,
+
+    "communication": 5
+
+  },
+
+  "sources": [
+
+    "career_interviews"
+
+  ],
+
+  "verification": {
+
+    "status": "verified"
+
+  }
+
+}
+{
+  "id": "story-learning-new-industry",
+
+  "title": "Becoming Effective in Unfamiliar Industries",
+
+  "category": "Adaptability",
+
+  "difficulty": "Intermediate",
+
+  "summary": "Repeatedly entered unfamiliar industries and developed enough subject-matter expertise to create credible marketing and technical content.",
+
+  "context": {
+
+    "organization": "Multiple Organizations",
+
+    "experienceIds": [
+
+      "experience-polaron",
+      "experience-lendcare",
+      "experience-productive-shop"
+
+    ]
+
+  },
+
+  "story": {
+
+    "context": "",
+
+    "challenge": "",
+
+    "actions": [
+
+    ],
+
+    "result": "",
+
+    "learning": ""
+
+  },
+
+  "demonstrates": [
+
+    "skill-research",
+    "skill-technical-writing",
+    "skill-content-strategy",
+    "skill-audience-analysis"
+
+  ],
+
+  "relatedAchievements": [
+
+    "achievement-repeatable-learning",
+    "achievement-cross-industry-expertise"
+
+  ],
+
+  "commonInterviewQuestions": [
+
+    "Tell me about learning something new.",
+
+    "Describe working outside your comfort zone.",
+
+    "How do you become productive in a new role?",
+
+    "Tell me about adapting to a new industry."
+
+  ],
+
+  "purpose": [
+
+    "Adaptability",
+    "Learning",
+    "Problem Solving",
+    "Career Growth"
+
+  ],
+
+  "storyStrength": {
+
+    "behavioral": 5,
+
+    "leadership": 2,
+
+    "technical": 5,
+
+    "communication": 5
+
+  },
+
+  "sources": [
+
+    "career_interviews"
+
+  ],
+
+  "verification": {
+
+    "status": "verified"
+
+  }
+
+}
+{
+  "id": "story-learning-new-industry",
+
+  "title": "Becoming Effective in Unfamiliar Industries",
+
+  "category": "Adaptability",
+
+  "difficulty": "Intermediate",
+
+  "summary": "Repeatedly entered unfamiliar industries and developed enough subject-matter expertise to create credible marketing and technical content.",
+
+  "context": {
+
+    "organization": "Multiple Organizations",
+
+    "experienceIds": [
+
+      "experience-polaron",
+      "experience-lendcare",
+      "experience-productive-shop"
+
+    ]
+
+  },
+
+  "story": {
+
+    "context": "",
+
+    "challenge": "",
+
+    "actions": [
+
+    ],
+
+    "result": "",
+
+    "learning": ""
+
+  },
+
+  "demonstrates": [
+
+    "skill-research",
+    "skill-technical-writing",
+    "skill-content-strategy",
+    "skill-audience-analysis"
+
+  ],
+
+  "relatedAchievements": [
+
+    "achievement-repeatable-learning",
+    "achievement-cross-industry-expertise"
+
+  ],
+
+  "commonInterviewQuestions": [
+
+    "Tell me about learning something new.",
+
+    "Describe working outside your comfort zone.",
+
+    "How do you become productive in a new role?",
+
+    "Tell me about adapting to a new industry."
+
+  ],
+
+  "purpose": [
+
+    "Adaptability",
+    "Learning",
+    "Problem Solving",
+    "Career Growth"
+
+  ],
+
+  "storyStrength": {
+
+    "behavioral": 5,
+
+    "leadership": 2,
+
+    "technical": 5,
+
+    "communication": 5
+
+  },
+
+  "sources": [
+
+    "career_interviews"
+
+  ],
+
+  "verification": {
+
+    "status": "verified"
+
+  }
+
+}
+{
+  "id": "story-career-agent",
+
+  "title": "Designing Career Agent",
+
+  "category": "Product Development",
+
+  "difficulty": "Advanced",
+
+  "summary": "Designed and built a structured career intelligence system that transforms professional experience into a reusable AI knowledge graph.",
+
+  "context": {
+
+    "organization": "Riley Wallace Creative",
+
+    "experienceId": "experience-riley-wallace-creative",
+
+    "projectId": "project-career-agent"
+
+  },
+
+  "story": {
+
+    "context": "",
+
+    "challenge": "",
+
+    "actions": [
+
+    ],
+
+    "result": "",
+
+    "learning": ""
+
+  },
+
+  "demonstrates": [
+
+    "skill-artificial-intelligence",
+    "skill-knowledge-architecture",
+    "skill-project-management",
+    "skill-consulting"
+
+  ],
+
+  "relatedAchievements": [
+
+    "achievement-systems-thinking",
+    "achievement-human-centered-ai"
+
+  ],
+
+  "commonInterviewQuestions": [
+
+    "Tell me about something you built from scratch.",
+
+    "Describe a complex problem you solved.",
+
+    "Tell me about working with ambiguity.",
+
+    "Describe an innovative project."
+
+  ],
+
+  "purpose": [
+
+    "Innovation",
+    "Systems Thinking",
+    "Initiative",
+    "Product Design",
+    "Problem Solving"
+
+  ],
+
+  "storyStrength": {
+
+    "behavioral": 5,
+
+    "leadership": 4,
+
+    "technical": 5,
+
+    "communication": 5
+
+  },
+
+  "sources": [
+
+    "career_interviews"
+
+  ],
+
+  "verification": {
+
+    "status": "verified"
+
+  }
+
+}
+{
+  "id": "story-early-facebook-adoption",
+
+  "title": "Helping Clients Adopt Facebook Advertising",
+
+  "category": "Innovation",
+
+  "difficulty": "Intermediate",
+
+  "summary": "Helped clients begin using Facebook advertising during the platform's early years as a viable marketing channel.",
+
+  "context": {
+
+    "organization": "BAM",
+
+    "experienceId": "experience-bam",
+
+    "projectId": "project-facebook-adoption"
+
+  },
+
+  "story": {
+
+    "context": "",
+
+    "challenge": "",
+
+    "actions": [
+
+    ],
+
+    "result": "",
+
+    "learning": "",
+
+    "takeaway": ""
+
+  },
+
+  "demonstrates": [
+
+    "skill-social-media-marketing",
+    "skill-digital-marketing",
+    "skill-client-management"
+
+  ],
+
+  "relatedAchievements": [
+
+    "achievement-bam-facebook-early-adoption"
+
+  ],
+
+  "commonInterviewQuestions": [
+
+    "Tell me about adopting a new technology.",
+
+    "Describe a time you introduced a new idea.",
+
+    "Tell me about working in a rapidly changing industry."
+
+  ],
+
+  "purpose": [
+
+    "Innovation",
+    "Adaptability",
+    "Emerging Technology"
+
+  ],
+
+  "storyStrength": {
+
+    "behavioral": 4,
+
+    "leadership": 2,
+
+    "technical": 3,
+
+    "communication": 4
+
+  },
+
+  "sources": [
+
+    "career_interviews"
+
+  ],
+
+  "verification": {
+
+    "status": "interview_verified"
+
+  }
+
+}
+{
+  "id": "story-harbourfront-digital-communications",
+
+  "title": "Telling Stories for Harbourfront Centre",
+
+  "category": "Communications",
+
+  "difficulty": "Intermediate",
+
+  "summary": "Created digital content that promoted artists, performances and cultural programming while adapting communications for diverse public audiences.",
+
+  "context": {
+
+    "organization": "Harbourfront Centre",
+
+    "experienceId": "experience-harbourfront",
+
+    "projectId": "project-harbourfront-digital-communications"
+
+  },
+
+  "story": {
+
+    "context": "",
+
+    "challenge": "",
+
+    "actions": [
+
+    ],
+
+    "result": "",
+
+    "learning": "",
+
+    "takeaway": ""
+
+  },
+
+  "demonstrates": [
+
+    "skill-storytelling",
+    "skill-interviewing",
+    "skill-copywriting",
+    "skill-audience-analysis"
+
+  ],
+
+  "relatedAchievements": [
+
+    "achievement-hf-storytelling"
+
+  ],
+
+  "commonInterviewQuestions": [
+
+    "Tell me about communicating with different audiences.",
+
+    "Describe a creative communications project.",
+
+    "Tell me about producing content under deadlines.",
+
+    "How do you make complex or creative work accessible?"
+
+  ],
+
+  "purpose": [
+
+    "Communication",
+    "Creativity",
+    "Stakeholder Communication",
+    "Audience Engagement"
+
+  ],
+
+  "storyStrength": {
+
+    "behavioral": 4,
+
+    "leadership": 2,
+
+    "technical": 2,
+
+    "communication": 5
+
+  },
+
+  "sources": [
+
+    "career_interviews"
+
+  ],
+
+  "verification": {
+
+    "status": "interview_verified"
+
+  }
+
+}
+{
+  "id": "story-content-strategy",
+
+  "title": "Developing Content That Served Both Users and Business Goals",
+
+  "category": "Content Strategy",
+
+  "difficulty": "Intermediate",
+
+  "summary": "Balanced audience needs, search visibility and business objectives when developing content strategies across multiple organizations.",
+
+  "context": {
+
+    "organization": "Multiple Organizations",
+
+    "experienceIds": [
+
+      "experience-polaron",
+      "experience-lendcare",
+      "experience-productive-shop"
+
+    ]
+
+  },
+
+  "story": {
+
+    "context": "",
+
+    "challenge": "",
+
+    "actions": [
+
+    ],
+
+    "result": "",
+
+    "learning": "",
+
+    "takeaway": ""
+
+  },
+
+  "demonstrates": [
+
+    "skill-content-strategy",
+    "skill-seo",
+    "skill-audience-analysis",
+    "skill-technical-writing"
+
+  ],
+
+  "relatedProjects": [
+
+    "project-seo-transformation"
+
+  ],
+
+  "relatedAchievements": [
+
+    "achievement-pol-seo-leadership",
+    "achievement-technical-translation"
+
+  ],
+
+  "commonInterviewQuestions": [
+
+    "Tell me about developing a content strategy.",
+
+    "How do you balance business goals with user needs?",
+
+    "Describe a strategic marketing initiative.",
+
+    "How do you prioritize competing objectives?"
+
+  ],
+
+  "purpose": [
+
+    "Strategy",
+    "Planning",
+    "Communication",
+    "Problem Solving"
+
+  ],
+
+  "storyStrength": {
+
+    "behavioral": 4,
+
+    "leadership": 3,
+
+    "technical": 4,
+
+    "communication": 5
+
+  },
+
+  "sources": [
+
+    "career_interviews"
+
+  ],
+
+  "verification": {
+
+    "status": "verified"
+
+  }
+
 }
