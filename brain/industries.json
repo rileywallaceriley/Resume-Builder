@@ -1,174 +1,311 @@
 {
-  "_comment": "Domain knowledge, exposure, and affinity. The data array is intentionally empty; _template and _example are documentation and are not source records.",
-  "schemaVersion": "2.0.0",
-  "entityType": "industries",
-  "schema": {
-    "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "$id": "brain/industries.json.schema.json",
-    "title": "Industries",
-    "description": "Domain knowledge, exposure, and affinity.",
-    "type": "object",
-    "additionalProperties": false,
-    "properties": {
-      "_comment": {
-        "type": "string"
-      },
-      "id": {
-        "type": "string"
-      },
-      "createdAt": {
-        "type": "string"
-      },
-      "updatedAt": {
-        "type": "string"
-      },
-      "tags": {
-        "type": "array",
-        "items": {
-          "type": "string"
-        }
-      },
-      "relatedObjects": {
-        "type": "array",
-        "items": {
-          "type": "object",
-          "additionalProperties": false,
-          "properties": {
-            "objectType": {
-              "type": "string"
-            },
-            "objectId": {
-              "type": "string"
-            },
-            "relationship": {
-              "type": "string"
-            }
-          },
-          "required": [
-            "objectType",
-            "objectId",
-            "relationship"
-          ]
-        }
-      },
-      "name": {
-        "type": "string"
-      },
-      "description": {
-        "type": "string"
-      },
-      "experienceLevel": {
-        "type": "string"
-      },
-      "years": {
-        "type": "number"
-      },
-      "domainKnowledge": {
-        "type": "array",
-        "items": {
-          "type": "string"
-        }
-      },
-      "enjoymentDrivers": {
-        "type": "array",
-        "items": {
-          "type": "string"
-        }
-      },
-      "supportingExperience": {
-        "type": "array",
-        "items": {
-          "type": "string"
-        }
-      },
-      "supportingProjects": {
-        "type": "array",
-        "items": {
-          "type": "string"
-        }
-      },
-      "relatedSkills": {
-        "type": "array",
-        "items": {
-          "type": "string"
-        }
-      },
-      "targetPriority": {
-        "type": "string"
-      }
-    },
-    "required": [
-      "_comment",
-      "id",
-      "createdAt",
-      "updatedAt",
-      "tags",
-      "relatedObjects",
-      "name",
-      "description",
-      "experienceLevel",
-      "years",
-      "domainKnowledge",
-      "enjoymentDrivers",
-      "supportingExperience",
-      "supportingProjects",
-      "relatedSkills",
-      "targetPriority"
-    ]
-  },
-  "data": [],
-  "_template": {
-    "_comment": "Industry knowledge, experience, and affinity represented separately from career preferences.",
-    "id": "",
-    "createdAt": "",
-    "updatedAt": "",
-    "tags": [],
-    "relatedObjects": [],
-    "name": "",
-    "description": "",
-    "experienceLevel": "",
-    "years": 0,
-    "domainKnowledge": [],
-    "enjoymentDrivers": [],
-    "supportingExperience": [],
-    "supportingProjects": [],
-    "relatedSkills": [],
-    "targetPriority": ""
-  },
-  "_example": {
-    "_comment": "Industry knowledge, experience, and affinity represented separately from career preferences.",
-    "id": "00000000-0000-4000-8000-000000000001",
-    "createdAt": "2026-01-01T00:00:00Z",
-    "updatedAt": "2026-01-01T00:00:00Z",
-    "tags": [
-      "example-tag"
-    ],
-    "relatedObjects": [
-      {
-        "objectType": "achievement",
-        "objectId": "00000000-0000-4000-8000-000000000002",
-        "relationship": "supports"
-      }
-    ],
-    "name": "Example Industry",
-    "description": "Relevant domain scope.",
-    "experienceLevel": "deep",
-    "years": 5,
-    "domainKnowledge": [
-      "Example domain concept"
-    ],
-    "enjoymentDrivers": [
-      "What makes this industry appealing"
-    ],
-    "supportingExperience": [
-      "00000000-0000-4000-8000-000000000070"
-    ],
-    "supportingProjects": [
-      "00000000-0000-4000-8000-000000000030"
-    ],
-    "relatedSkills": [
-      "00000000-0000-4000-8000-000000000050"
-    ],
-    "targetPriority": "high"
-  }
+  "schemaVersion": "1.0.0",
+  "entityType": "industry",
+  "data": [
+
+    {
+
+      "id": "industry-renewable-energy",
+
+      "name": "Renewable Energy",
+
+      "summary": "Professional experience supporting residential renewable energy marketing, customer acquisition and digital strategy.",
+
+      "experienceLevel": "Professional"
+
+    }
+
+  ]
+}
+{
+  "id": "industry-renewable-energy",
+
+  "name": "Renewable Energy",
+
+  "summary": "Professional marketing and communications experience supporting residential renewable energy, customer acquisition and digital growth initiatives.",
+
+  "experienceLevel": "Professional",
+
+  "experiences": [
+    "experience-solar-brokers-canada"
+  ],
+
+  "projects": [
+    "project-lowes-retail-expansion",
+    "project-seo-transformation"
+  ],
+
+  "achievements": [
+    "achievement-sbc-20m-sales",
+    "achievement-sbc-seo-transformation",
+    "achievement-sbc-lowes-expansion"
+  ],
+
+  "skills": [
+    "skill-marketing-strategy",
+    "skill-seo",
+    "skill-content-strategy",
+    "skill-digital-marketing"
+  ],
+
+  "writingFormats": [
+    "Landing Pages",
+    "Website Copy",
+    "Educational Articles",
+    "SEO Content",
+    "Marketing Campaigns"
+  ],
+
+  "domainKnowledge": [
+    "Residential solar adoption",
+    "Consumer education",
+    "Lead generation",
+    "Energy efficiency",
+    "Digital customer acquisition"
+  ],
+
+  "audiences": [
+    "Homeowners",
+    "Prospective Customers",
+    "Sales Teams",
+    "Marketing Teams"
+  ],
+
+  "businessObjectives": [
+    "Lead generation",
+    "Customer acquisition",
+    "Brand awareness",
+    "Organic traffic growth"
+  ]
+}
+{
+  "id": "industry-financial-services",
+
+  "name": "Financial Services",
+
+  "summary": "Professional experience creating educational, marketing and technical content for consumer finance organizations.",
+
+  "experienceLevel": "Professional",
+
+  "experiences": [
+    "experience-lendcare"
+  ],
+
+  "projects": [
+    "project-lendcare-ai-content-modernization"
+  ],
+
+  "skills": [
+    "skill-technical-writing",
+    "skill-content-strategy",
+    "skill-research"
+  ],
+
+  "writingFormats": [
+    "Knowledge Base",
+    "Help Content",
+    "Educational Articles",
+    "Technical Documentation"
+  ],
+
+  "domainKnowledge": [
+    "Consumer lending",
+    "Financial education",
+    "Product communication",
+    "Customer support content"
+  ],
+
+  "audiences": [
+    "Consumers",
+    "Customer Service",
+    "Internal Teams"
+  ],
+
+  "businessObjectives": [
+    "Customer education",
+    "Content quality",
+    "Operational efficiency",
+    "Clear communication"
+  ]
+}
+{
+  "id": "industry-artificial-intelligence",
+
+  "name": "Artificial Intelligence",
+
+  "summary": "Professional experience researching, implementing and applying generative AI to writing, workflow design and knowledge management.",
+
+  "experienceLevel": "Professional",
+
+  "experiences": [
+    "experience-riley-wallace-creative",
+    "experience-productive-shop"
+  ],
+
+  "projects": [
+    "project-career-agent",
+    "project-ai-workflow-development"
+  ],
+
+  "skills": [
+    "skill-artificial-intelligence",
+    "skill-prompt-engineering",
+    "skill-knowledge-architecture"
+  ],
+
+  "writingFormats": [
+    "Research",
+    "Technical Documentation",
+    "Knowledge Bases",
+    "Implementation Guides"
+  ],
+
+  "domainKnowledge": [
+    "Generative AI",
+    "Prompt engineering",
+    "Knowledge architecture",
+    "Workflow automation",
+    "Human-AI collaboration"
+  ],
+
+  "audiences": [
+    "Business Leaders",
+    "Knowledge Workers",
+    "Content Teams",
+    "Technical Professionals"
+  ],
+
+  "businessObjectives": [
+    "Workflow improvement",
+    "Knowledge management",
+    "Operational efficiency",
+    "AI adoption"
+  ]
+}
+{
+  "id": "industry-technology",
+
+  "name": "Technology",
+
+  "summary": "Experience creating technical and educational content for technology organizations and digital products.",
+
+  "experienceLevel": "Professional",
+
+  "experiences": [
+
+    "experience-productive-shop",
+    "experience-riley-wallace-creative"
+
+  ],
+
+  "projects": [
+
+    "project-career-agent"
+
+  ],
+
+  "skills": [
+
+    "skill-technical-writing",
+    "skill-content-strategy",
+    "skill-research"
+
+  ]
+
+}
+{
+  "id": "industry-arts-culture",
+
+  "name": "Arts & Culture",
+
+  "summary": "Experience supporting cultural organizations through journalism, digital communications and audience engagement.",
+
+  "experienceLevel": "Professional",
+
+  "experiences": [
+
+    "experience-harbourfront",
+    "experience-journalism"
+
+  ],
+
+  "projects": [
+
+    "project-journalism-portfolio",
+    "project-harbourfront-digital-communications"
+
+  ],
+
+  "skills": [
+
+    "skill-storytelling",
+    "skill-interviewing",
+    "skill-copywriting"
+
+  ]
+
+}
+{
+  "id": "industry-real-estate",
+
+  "name": "Real Estate",
+
+  "summary": "Experience supporting real estate marketing through digital strategy, content and lead generation.",
+
+  "experienceLevel": "Professional",
+
+  "experiences": [
+
+    "experience-intelligent-properties"
+
+  ],
+
+  "skills": [
+
+    "skill-digital-marketing",
+    "skill-content-strategy"
+
+  ],
+
+  "writingFormats": [
+
+    "Website Copy",
+    "Landing Pages",
+    "Marketing Content"
+
+  ]
+
+}
+{
+  "id": "industry-marketing-advertising",
+
+  "name": "Marketing & Advertising",
+
+  "summary": "Experience developing integrated marketing strategies, digital campaigns and content across agency, in-house and consulting environments.",
+
+  "experienceLevel": "Professional",
+
+  "experiences": [
+
+    "experience-bam",
+    "experience-riley-wallace-creative",
+    "experience-polaron"
+
+  ],
+
+  "projects": [
+
+    "project-facebook-adoption",
+    "project-independent-marketing-consulting"
+
+  ],
+
+  "skills": [
+
+    "skill-marketing-strategy",
+    "skill-consulting",
+    "skill-digital-marketing"
+
+  ]
+
 }
