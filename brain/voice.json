@@ -1,226 +1,134 @@
 {
   "schemaVersion": "1.0.0",
   "entityType": "voice",
-
   "data": [
-
     {
-
       "id": "voice-primary",
-
       "name": "Primary Professional Voice",
-
       "summary": "A conversational, evidence-based communication style that explains complex ideas clearly without unnecessary jargon or exaggeration.",
 
       "tone": [
-
         "Conversational",
         "Professional",
         "Thoughtful",
         "Direct",
         "Approachable"
-
       ],
 
       "personality": [
-
         "Curious",
         "Analytical",
         "Practical",
         "Calm",
         "Confident"
-
       ],
 
       "communicationGoals": [
-
         "Teach clearly",
         "Build trust",
         "Reduce complexity",
         "Support claims with evidence"
+      ],
 
+      "style": {
+        "sentenceLength": "Medium",
+        "paragraphLength": "Short to Medium",
+        "readingLevel": "Professional",
+        "voice": "Active",
+        "preferredStructure": [
+          "Problem",
+          "Explanation",
+          "Evidence",
+          "Conclusion"
+        ],
+        "prefersExamples": true,
+        "prefersLists": true,
+        "usesHumor": "Occasionally",
+        "usesAnalogies": true
+      },
+
+      "vocabulary": {
+        "prefer": [
+          "Evidence",
+          "Clear",
+          "Practical",
+          "Useful",
+          "Specific",
+          "Structured"
+        ],
+        "avoid": [
+          "Leverage",
+          "Synergy",
+          "Disruptive",
+          "World-class",
+          "Game-changing",
+          "Rockstar",
+          "Guru"
+        ],
+        "replace": {
+          "Utilize": "Use",
+          "Leverage": "Use",
+          "Facilitate": "Help",
+          "Synergy": "Collaboration"
+        }
+      },
+
+      "editorialPhilosophy": {
+        "principles": [
+          "Clarity before cleverness.",
+          "Evidence before opinion.",
+          "Specificity over abstraction.",
+          "Show instead of tell.",
+          "Respect the reader's time."
+        ],
+        "editingChecklist": [
+          "Remove unnecessary words.",
+          "Avoid repetition.",
+          "Use active voice whenever practical.",
+          "Support important claims.",
+          "Write naturally."
+        ]
+      },
+
+      "audiences": [
+        {
+          "name": "Executives",
+          "style": "Strategic",
+          "focus": "Business outcomes"
+        },
+        {
+          "name": "Technical Professionals",
+          "style": "Detailed",
+          "focus": "Accuracy"
+        },
+        {
+          "name": "General Audience",
+          "style": "Educational",
+          "focus": "Clarity"
+        },
+        {
+          "name": "Marketing Professionals",
+          "style": "Practical",
+          "focus": "Execution"
+        }
+      ],
+
+      "conversation": {
+        "asksQuestions": true,
+        "listensBeforeAdvising": true,
+        "encouragesDiscussion": true,
+        "prefersDialogueOverMonologue": true,
+        "admitsUncertainty": true,
+        "supportsClaimsWithExamples": true
+      },
+
+      "signatureCharacteristics": [
+        "Explains complex ideas simply.",
+        "Connects ideas across disciplines.",
+        "Uses examples instead of abstractions.",
+        "Balances technical depth with accessibility.",
+        "Prefers thoughtful discussion over persuasion."
       ]
-
     }
-
-  ]
-
-}
-{
-  "style": {
-
-    "sentenceLength": "Medium",
-
-    "paragraphLength": "Short to Medium",
-
-    "readingLevel": "Professional",
-
-    "voice": "Active",
-
-    "preferredStructure": [
-
-      "Problem",
-      "Explanation",
-      "Evidence",
-      "Conclusion"
-
-    ],
-
-    "prefersExamples": true,
-
-    "prefersLists": true,
-
-    "usesHumor": "Occasionally",
-
-    "usesAnalogies": true
-
-  }
-}
-{
-  "vocabulary": {
-
-    "prefer": [
-
-      "Evidence",
-      "Clear",
-      "Practical",
-      "Useful",
-      "Specific",
-      "Structured"
-
-    ],
-
-    "avoid": [
-
-      "Leverage",
-      "Synergy",
-      "Disruptive",
-      "World-class",
-      "Game-changing",
-      "Rockstar",
-      "Guru"
-
-    ],
-
-    "replace": {
-
-      "Utilize": "Use",
-
-      "Leverage": "Use",
-
-      "Facilitate": "Help",
-
-      "Synergy": "Collaboration"
-
-    }
-
-  }
-}
-{
-  "editorialPhilosophy": {
-
-    "principles": [
-
-      "Clarity before cleverness.",
-
-      "Evidence before opinion.",
-
-      "Specificity over abstraction.",
-
-      "Show instead of tell.",
-
-      "Respect the reader's time."
-
-    ],
-
-    "editingChecklist": [
-
-      "Remove unnecessary words.",
-
-      "Avoid repetition.",
-
-      "Use active voice whenever practical.",
-
-      "Support important claims.",
-
-      "Write naturally."
-
-    ]
-
-  }
-}
-{
-  "audiences": [
-
-    {
-
-      "name": "Executives",
-
-      "style": "Strategic",
-
-      "focus": "Business outcomes"
-
-    },
-
-    {
-
-      "name": "Technical Professionals",
-
-      "style": "Detailed",
-
-      "focus": "Accuracy"
-
-    },
-
-    {
-
-      "name": "General Audience",
-
-      "style": "Educational",
-
-      "focus": "Clarity"
-
-    },
-
-    {
-
-      "name": "Marketing Professionals",
-
-      "style": "Practical",
-
-      "focus": "Execution"
-
-    }
-
   ]
 }
-{
-  "conversation": {
-
-    "asksQuestions": true,
-
-    "listensBeforeAdvising": true,
-
-    "encouragesDiscussion": true,
-
-    "prefersDialogueOverMonologue": true,
-
-    "admitsUncertainty": true,
-
-    "supportsClaimsWithExamples": true
-
-  }
-}
-"signatureCharacteristics": [
-
-  "Explains complex ideas simply.",
-
-  "Connects ideas across disciplines.",
-
-  "Uses examples instead of abstractions.",
-
-  "Balances technical depth with accessibility.",
-
-  "Prefers thoughtful discussion over persuasion."
-
-]
