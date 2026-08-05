@@ -2,274 +2,152 @@
   "schemaVersion": "1.0.0",
   "entityType": "writing",
   "data": [
-
     {
-
       "id": "writing-profile",
-
       "name": "Professional Writing Profile",
-
       "summary": "Defines Riley's writing capabilities, preferred formats, editorial workflow and communication objectives.",
+      "version": "1.0",
 
-      "version": "1.0"
+      "writingFormats": [
+        "Technical Documentation",
+        "Knowledge Base Articles",
+        "SEO Articles",
+        "Blog Posts",
+        "Landing Pages",
+        "Website Copy",
+        "Email Campaigns",
+        "Case Studies",
+        "White Papers",
+        "Thought Leadership",
+        "Product Documentation",
+        "Social Media Content",
+        "Artist Interviews",
+        "Album Reviews",
+        "Feature Articles"
+      ],
 
+      "audiences": [
+        "Executive Leadership",
+        "Marketing Professionals",
+        "Technical Professionals",
+        "Developers",
+        "Business Decision Makers",
+        "Consumers",
+        "General Public",
+        "Music Audiences"
+      ],
+
+      "objectives": [
+        "Explain complex concepts clearly.",
+        "Educate before persuading.",
+        "Support business goals.",
+        "Improve discoverability.",
+        "Reduce ambiguity.",
+        "Build reader trust.",
+        "Create actionable content."
+      ],
+
+      "researchWorkflow": [
+        "Understand the audience.",
+        "Gather primary and secondary sources.",
+        "Validate information.",
+        "Identify knowledge gaps.",
+        "Organize findings.",
+        "Draft.",
+        "Edit for clarity.",
+        "Fact-check before publication."
+      ],
+
+      "editingWorkflow": [
+        "Verify factual accuracy.",
+        "Improve clarity.",
+        "Remove unnecessary words.",
+        "Simplify complex language.",
+        "Strengthen transitions.",
+        "Check consistency.",
+        "Proofread."
+      ],
+
+      "contentCharacteristics": [
+        "Research-driven",
+        "Audience-focused",
+        "Evidence-based",
+        "Structured",
+        "Practical",
+        "Accessible",
+        "Scannable"
+      ],
+
+      "qualityStandards": [
+        "Accurate",
+        "Useful",
+        "Readable",
+        "Well-structured",
+        "Factually supported",
+        "Free of unnecessary jargon",
+        "Consistent with Riley's voice"
+      ],
+
+      "contentStrategy": {
+        "planningPrinciples": [
+          "Begin with audience needs.",
+          "Align content with business objectives.",
+          "Support discoverability through search optimization.",
+          "Structure information for readability.",
+          "Provide actionable value."
+        ],
+        "contentLifecycle": [
+          "Research",
+          "Outline",
+          "Draft",
+          "Review",
+          "Edit",
+          "Publish",
+          "Measure",
+          "Update"
+        ]
+      },
+
+      "writingStrengths": [
+        "Explaining complex concepts.",
+        "Technical translation.",
+        "Research synthesis.",
+        "Audience adaptation.",
+        "Information organization.",
+        "Long-form educational content.",
+        "Business storytelling."
+      ],
+
+      "contentPrinciples": [
+        "Accuracy before speed.",
+        "Teach before selling.",
+        "Use evidence whenever possible.",
+        "Write for humans first.",
+        "Every paragraph should have a purpose.",
+        "Respect the reader's time.",
+        "Remove anything that doesn't add value."
+      ],
+
+      "aiWriting": {
+        "usesAI": true,
+        "principles": [
+          "AI accelerates research and drafting.",
+          "Human judgment remains responsible for quality.",
+          "Verify AI-generated information.",
+          "Maintain Riley's voice through editing.",
+          "Never publish unverified AI output."
+        ]
+      },
+
+      "qualityChecks": [
+        "Is the content accurate?",
+        "Is it useful?",
+        "Is the structure logical?",
+        "Does every section have a purpose?",
+        "Can unnecessary words be removed?",
+        "Is the tone consistent with voice.json?",
+        "Is every important claim supported?"
+      ]
     }
-
-  ]
-}
-{
-  "writingFormats": [
-
-    "Technical Documentation",
-    "Knowledge Base Articles",
-    "SEO Articles",
-    "Blog Posts",
-    "Landing Pages",
-    "Website Copy",
-    "Email Campaigns",
-    "Case Studies",
-    "White Papers",
-    "Thought Leadership",
-    "Product Documentation",
-    "Social Media Content",
-    "Artist Interviews",
-    "Album Reviews",
-    "Feature Articles"
-
-  ]
-}
-{
-  "audiences": [
-
-    "Executive Leadership",
-
-    "Marketing Professionals",
-
-    "Technical Professionals",
-
-    "Developers",
-
-    "Business Decision Makers",
-
-    "Consumers",
-
-    "General Public",
-
-    "Music Audiences"
-
-  ]
-}
-{
-  "objectives": [
-
-    "Explain complex concepts clearly.",
-
-    "Educate before persuading.",
-
-    "Support business goals.",
-
-    "Improve discoverability.",
-
-    "Reduce ambiguity.",
-
-    "Build reader trust.",
-
-    "Create actionable content."
-
-  ]
-}
-{
-  "researchWorkflow": [
-
-    "Understand the audience.",
-
-    "Gather primary and secondary sources.",
-
-    "Validate information.",
-
-    "Identify knowledge gaps.",
-
-    "Organize findings.",
-
-    "Draft.",
-
-    "Edit for clarity.",
-
-    "Fact-check before publication."
-
-  ]
-}
-{
-  "editingWorkflow": [
-
-    "Verify factual accuracy.",
-
-    "Improve clarity.",
-
-    "Remove unnecessary words.",
-
-    "Simplify complex language.",
-
-    "Strengthen transitions.",
-
-    "Check consistency.",
-
-    "Proofread."
-
-  ]
-}
-{
-  "contentCharacteristics": [
-
-    "Research-driven",
-
-    "Audience-focused",
-
-    "Evidence-based",
-
-    "Structured",
-
-    "Practical",
-
-    "Accessible",
-
-    "Scannable"
-
-  ]
-}
-{
-  "qualityStandards": [
-
-    "Accurate",
-
-    "Useful",
-
-    "Readable",
-
-    "Well-structured",
-
-    "Factually supported",
-
-    "Free of unnecessary jargon",
-
-    "Consistent with Riley's voice"
-
-  ]
-}
-{
-  "contentStrategy": {
-
-    "planningPrinciples": [
-
-      "Begin with audience needs.",
-
-      "Align content with business objectives.",
-
-      "Support discoverability through search optimization.",
-
-      "Structure information for readability.",
-
-      "Provide actionable value."
-
-    ],
-
-    "contentLifecycle": [
-
-      "Research",
-
-      "Outline",
-
-      "Draft",
-
-      "Review",
-
-      "Edit",
-
-      "Publish",
-
-      "Measure",
-
-      "Update"
-
-    ]
-
-  }
-}
-{
-  "writingStrengths": [
-
-    "Explaining complex concepts.",
-
-    "Technical translation.",
-
-    "Research synthesis.",
-
-    "Audience adaptation.",
-
-    "Information organization.",
-
-    "Long-form educational content.",
-
-    "Business storytelling."
-
-  ]
-}
-{
-  "contentPrinciples": [
-
-    "Accuracy before speed.",
-
-    "Teach before selling.",
-
-    "Use evidence whenever possible.",
-
-    "Write for humans first.",
-
-    "Every paragraph should have a purpose.",
-
-    "Respect the reader's time.",
-
-    "Remove anything that doesn't add value."
-
-  ]
-}
-{
-  "aiWriting": {
-
-    "usesAI": true,
-
-    "principles": [
-
-      "AI accelerates research and drafting.",
-
-      "Human judgment remains responsible for quality.",
-
-      "Verify AI-generated information.",
-
-      "Maintain Riley's voice through editing.",
-
-      "Never publish unverified AI output."
-
-    ]
-
-  }
-}
-{
-  "qualityChecks": [
-
-    "Is the content accurate?",
-
-    "Is it useful?",
-
-    "Is the structure logical?",
-
-    "Does every section have a purpose?",
-
-    "Can unnecessary words be removed?",
-
-    "Is the tone consistent with voice.json?",
-
-    "Is every important claim supported?"
-
   ]
 }
