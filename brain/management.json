@@ -1,166 +1,90 @@
 {
   "schemaVersion": "1.0.0",
   "entityType": "management",
-
   "data": [
-
     {
-
       "id": "management-profile",
-
       "name": "Professional Operating Principles",
-
       "summary": "Defines Riley's approach to leadership, collaboration, decision-making and professional execution.",
+      "version": "1.0",
 
-      "version": "1.0"
+      "leadershipPhilosophy": [
+        "Lead through clarity and accountability.",
+        "Support people with context instead of assumptions.",
+        "Empower others through documentation and knowledge sharing.",
+        "Build repeatable systems rather than relying on individual effort.",
+        "Success is measured by sustainable outcomes, not short-term wins."
+      ],
 
+      "decisionMaking": [
+        "Start with evidence before forming conclusions.",
+        "Gather enough information to make informed decisions without creating unnecessary delays.",
+        "Prioritize long-term value over short-term convenience.",
+        "Simplify complexity whenever possible.",
+        "Document important decisions and their rationale."
+      ],
+
+      "planning": [
+        "Define objectives before selecting tactics.",
+        "Break large initiatives into manageable milestones.",
+        "Prioritize work based on business impact.",
+        "Review assumptions regularly.",
+        "Adapt plans when new information becomes available."
+      ],
+
+      "collaboration": [
+        "Communicate expectations clearly.",
+        "Share information openly.",
+        "Encourage constructive discussion.",
+        "Respect subject matter expertise.",
+        "Document decisions to improve alignment."
+      ],
+
+      "feedback": [
+        "Provide direct, respectful feedback.",
+        "Focus on improving work rather than assigning blame.",
+        "Use specific examples whenever possible.",
+        "Treat feedback as an opportunity for continuous improvement."
+      ],
+
+      "documentation": [
+        "Document processes that others will need to repeat.",
+        "Write documentation for future readers, not current assumptions.",
+        "Favor structured knowledge over scattered notes.",
+        "Maintain a single source of truth whenever practical."
+      ],
+
+      "aiPhilosophy": [
+        "Use AI to accelerate thinking, not replace judgment.",
+        "Verify AI-generated information before using it.",
+        "Keep humans accountable for important decisions.",
+        "Design workflows where AI enhances professional expertise."
+      ],
+
+      "continuousLearning": [
+        "Learn by building.",
+        "Research unfamiliar subjects thoroughly.",
+        "Apply new knowledge quickly through practical work.",
+        "Continuously refine systems based on experience.",
+        "Treat curiosity as a professional advantage."
+      ],
+
+      "qualityStandards": [
+        "Accuracy before speed.",
+        "Consistency across deliverables.",
+        "Evidence over assumptions.",
+        "Continuous refinement.",
+        "Professional integrity in all work."
+      ],
+
+      "operatingRules": [
+        "Clarify before executing.",
+        "Document before scaling.",
+        "Question assumptions.",
+        "Build systems instead of shortcuts.",
+        "Leave work better than you found it.",
+        "Prefer durable solutions over quick fixes."
+      ]
     }
-
-  ]
-}
-{
-  "leadershipPhilosophy": [
-
-    "Lead through clarity and accountability.",
-
-    "Support people with context instead of assumptions.",
-
-    "Empower others through documentation and knowledge sharing.",
-
-    "Build repeatable systems rather than relying on individual effort.",
-
-    "Success is measured by sustainable outcomes, not short-term wins."
-
-  ]
-}
-{
-  "decisionMaking": [
-
-    "Start with evidence before forming conclusions.",
-
-    "Gather enough information to make informed decisions without creating unnecessary delays.",
-
-    "Prioritize long-term value over short-term convenience.",
-
-    "Simplify complexity whenever possible.",
-
-    "Document important decisions and their rationale."
-
-  ]
-}
-{
-  "planning": [
-
-    "Define objectives before selecting tactics.",
-
-    "Break large initiatives into manageable milestones.",
-
-    "Prioritize work based on business impact.",
-
-    "Review assumptions regularly.",
-
-    "Adapt plans when new information becomes available."
-
-  ]
-}
-{
-  "collaboration": [
-
-    "Communicate expectations clearly.",
-
-    "Share information openly.",
-
-    "Encourage constructive discussion.",
-
-    "Respect subject matter expertise.",
-
-    "Document decisions to improve alignment."
-
-  ]
-}
-{
-  "feedback": [
-
-    "Provide direct, respectful feedback.",
-
-    "Focus on improving work rather than assigning blame.",
-
-    "Use specific examples whenever possible.",
-
-    "Treat feedback as an opportunity for continuous improvement."
-
-  ]
-}
-{
-  "documentation": [
-
-    "Document processes that others will need to repeat.",
-
-    "Write documentation for future readers, not current assumptions.",
-
-    "Favor structured knowledge over scattered notes.",
-
-    "Maintain a single source of truth whenever practical."
-
-  ]
-}
-{
-  "aiPhilosophy": [
-
-    "Use AI to accelerate thinking, not replace judgment.",
-
-    "Verify AI-generated information before using it.",
-
-    "Keep humans accountable for important decisions.",
-
-    "Design workflows where AI enhances professional expertise."
-
-  ]
-}
-{
-  "continuousLearning": [
-
-    "Learn by building.",
-
-    "Research unfamiliar subjects thoroughly.",
-
-    "Apply new knowledge quickly through practical work.",
-
-    "Continuously refine systems based on experience.",
-
-    "Treat curiosity as a professional advantage."
-
-  ]
-}
-{
-  "qualityStandards": [
-
-    "Accuracy before speed.",
-
-    "Consistency across deliverables.",
-
-    "Evidence over assumptions.",
-
-    "Continuous refinement.",
-
-    "Professional integrity in all work."
-
-  ]
-}
-{
-  "operatingRules": [
-
-    "Clarify before executing.",
-
-    "Document before scaling.",
-
-    "Question assumptions.",
-
-    "Build systems instead of shortcuts.",
-
-    "Leave work better than you found it.",
-
-    "Prefer durable solutions over quick fixes."
-
   ]
 }
