@@ -2,235 +2,124 @@
   "schemaVersion": "1.0.0",
   "entityType": "resumeStrategy",
   "data": [
-
     {
-
       "id": "resume-strategy-primary",
-
       "name": "Primary Resume Strategy",
-
       "summary": "Editorial principles governing how resumes are generated from the Career Brain.",
+      "version": "1.0",
 
-      "version": "1.0"
+      "principles": [
+        "Evidence before adjectives.",
+        "Quantify accomplishments whenever evidence exists.",
+        "Never invent metrics or responsibilities.",
+        "Use projects and achievements to demonstrate impact.",
+        "Tailor resumes to the target role while remaining factually accurate.",
+        "Prioritize clarity over creativity.",
+        "Support every major claim with evidence from the Brain."
+      ],
 
+      "writingRules": {
+        "voice": "Professional",
+        "tense": {
+          "currentRole": "Present",
+          "previousRoles": "Past"
+        },
+        "bulletStyle": "Achievement-oriented",
+        "paragraphStyle": "Minimal",
+        "preferredLength": "Concise",
+        "readingLevel": "Professional"
+      },
+
+      "contentPriority": [
+        "Relevant experience",
+        "Relevant achievements",
+        "Relevant projects",
+        "Relevant skills",
+        "Relevant technologies"
+      ],
+
+      "tailoring": {
+        "targetIndustry": true,
+        "targetRole": true,
+        "prioritizeRelevantProjects": true,
+        "prioritizeRelevantSkills": true,
+        "reorderExperience": false,
+        "omitIrrelevantInformation": true,
+        "preserveChronology": true
+      },
+
+      "never": [
+        "Invent accomplishments.",
+        "Invent metrics.",
+        "Exaggerate leadership.",
+        "Use unsupported buzzwords.",
+        "Duplicate information across sections.",
+        "Sacrifice accuracy for optimization."
+      ],
+
+      "emphasis": [
+        "Business impact",
+        "Systems thinking",
+        "Research",
+        "Artificial intelligence",
+        "Technical communication",
+        "Marketing strategy",
+        "Continuous learning"
+      ],
+
+      "objectives": [
+        "Demonstrate measurable impact.",
+        "Show progression of responsibility.",
+        "Highlight transferable skills.",
+        "Present an accurate and defensible career narrative.",
+        "Optimize readability for both ATS and human reviewers."
+      ],
+
+      "qualityChecks": {
+        "accuracy": [
+          "Every accomplishment must be supported by an achievement, project or experience.",
+          "Never invent metrics, dates or responsibilities.",
+          "Do not exaggerate leadership or ownership.",
+          "All claims must be defensible in an interview."
+        ],
+        "consistency": [
+          "Dates must align with experience.json.",
+          "Projects must exist in projects.json.",
+          "Skills must exist in skills.json.",
+          "Technologies must exist in technologies.json.",
+          "Organization names must match identity and experience records."
+        ],
+        "writing": [
+          "Use active voice.",
+          "Lead with accomplishments, not responsibilities.",
+          "Keep bullet points concise.",
+          "Eliminate repetition.",
+          "Avoid unnecessary jargon.",
+          "Prefer evidence over adjectives."
+        ],
+        "optimization": [
+          "Prioritize the most relevant experience for the target role.",
+          "Surface the strongest related projects.",
+          "Highlight transferable skills when direct experience is limited.",
+          "Maintain ATS-friendly formatting.",
+          "Balance keyword optimization with readability."
+        ],
+        "finalValidation": [
+          "Resume tells a coherent career story.",
+          "No unsupported claims remain.",
+          "No duplicate accomplishments appear.",
+          "The document reflects Riley's authentic voice.",
+          "Every major statement can be traced back to the Career Brain."
+        ]
+      },
+
+      "confidenceRequirements": {
+        "minimumEvidenceThreshold": "High",
+        "allowInference": false,
+        "requireSourceLinks": true,
+        "flagUnsupportedClaims": true,
+        "requestClarificationWhenEvidenceIsMissing": true
+      }
     }
-
   ]
-}
-{
-  "principles": [
-
-    "Evidence before adjectives.",
-
-    "Quantify accomplishments whenever evidence exists.",
-
-    "Never invent metrics or responsibilities.",
-
-    "Use projects and achievements to demonstrate impact.",
-
-    "Tailor resumes to the target role while remaining factually accurate.",
-
-    "Prioritize clarity over creativity.",
-
-    "Support every major claim with evidence from the Brain."
-
-  ]
-}
-{
-  "writingRules": {
-
-    "voice": "Professional",
-
-    "tense": {
-
-      "currentRole": "Present",
-
-      "previousRoles": "Past"
-
-    },
-
-    "bulletStyle": "Achievement-oriented",
-
-    "paragraphStyle": "Minimal",
-
-    "preferredLength": "Concise",
-
-    "readingLevel": "Professional"
-
-  }
-}
-{
-  "contentPriority": [
-
-    "Relevant experience",
-
-    "Relevant achievements",
-
-    "Relevant projects",
-
-    "Relevant skills",
-
-    "Relevant technologies"
-
-  ]
-}
-{
-  "tailoring": {
-
-    "targetIndustry": true,
-
-    "targetRole": true,
-
-    "prioritizeRelevantProjects": true,
-
-    "prioritizeRelevantSkills": true,
-
-    "reorderExperience": false,
-
-    "omitIrrelevantInformation": true,
-
-    "preserveChronology": true
-
-  }
-}
-{
-  "never": [
-
-    "Invent accomplishments.",
-
-    "Invent metrics.",
-
-    "Exaggerate leadership.",
-
-    "Use unsupported buzzwords.",
-
-    "Duplicate information across sections.",
-
-    "Sacrifice accuracy for optimization."
-
-  ]
-}
-{
-  "emphasis": [
-
-    "Business impact",
-
-    "Systems thinking",
-
-    "Research",
-
-    "Artificial intelligence",
-
-    "Technical communication",
-
-    "Marketing strategy",
-
-    "Continuous learning"
-
-  ]
-}
-{
-  "objectives": [
-
-    "Demonstrate measurable impact.",
-
-    "Show progression of responsibility.",
-
-    "Highlight transferable skills.",
-
-    "Present an accurate and defensible career narrative.",
-
-    "Optimize readability for both ATS and human reviewers."
-
-  ]
-}
-{
-  "qualityChecks": {
-
-    "accuracy": [
-
-      "Every accomplishment must be supported by an achievement, project or experience.",
-
-      "Never invent metrics, dates or responsibilities.",
-
-      "Do not exaggerate leadership or ownership.",
-
-      "All claims must be defensible in an interview."
-
-    ],
-
-    "consistency": [
-
-      "Dates must align with experience.json.",
-
-      "Projects must exist in projects.json.",
-
-      "Skills must exist in skills.json.",
-
-      "Technologies must exist in technologies.json.",
-
-      "Organization names must match identity and experience records."
-
-    ],
-
-    "writing": [
-
-      "Use active voice.",
-
-      "Lead with accomplishments, not responsibilities.",
-
-      "Keep bullet points concise.",
-
-      "Eliminate repetition.",
-
-      "Avoid unnecessary jargon.",
-
-      "Prefer evidence over adjectives."
-
-    ],
-
-    "optimization": [
-
-      "Prioritize the most relevant experience for the target role.",
-
-      "Surface the strongest related projects.",
-
-      "Highlight transferable skills when direct experience is limited.",
-
-      "Maintain ATS-friendly formatting.",
-
-      "Balance keyword optimization with readability."
-
-    ],
-
-    "finalValidation": [
-
-      "Resume tells a coherent career story.",
-
-      "No unsupported claims remain.",
-
-      "No duplicate accomplishments appear.",
-
-      "The document reflects Riley's authentic voice.",
-
-      "Every major statement can be traced back to the Career Brain."
-
-    ]
-
-  }
-}
-{
-  "confidenceRequirements": {
-
-    "minimumEvidenceThreshold": "High",
-
-    "allowInference": false,
-
-    "requireSourceLinks": true,
-
-    "flagUnsupportedClaims": true,
-
-    "requestClarificationWhenEvidenceIsMissing": true
-
-  }
 }
