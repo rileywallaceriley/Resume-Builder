@@ -29,9 +29,9 @@
 
       "salaryTargets": {
         "currency": "CAD",
-        "minimumBase": 150000,
-        "targetBase": 180000,
-        "targetTotalCompensation": 220000,
+        "minimumBase": 85000,
+        "targetBase": 100000,
+        "targetTotalCompensation": 100000,
         "period": "annual",
         "visibility": "private"
       },
@@ -142,7 +142,7 @@
         "allowHybrid": true,
         "requireRemotePreference": true,
         "maximumTravelPercent": 10,
-        "minimumBaseSalary": 150000,
+        "minimumBaseSalary": 85000,
         "autoRejectIndustries": [
           "Gambling",
           "Tobacco",
