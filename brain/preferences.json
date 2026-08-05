@@ -1,354 +1,159 @@
 {
-  "_comment": "Career constraints, goals, and target conditions. The data array is intentionally empty; _template and _example are documentation and are not source records.",
-  "schemaVersion": "2.0.0",
+  "_comment": "Career constraints, goals, and decision rules for Career Agent.",
+  "schemaVersion": "2.1.0",
   "entityType": "preferences",
-  "schema": {
-    "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "$id": "brain/preferences.json.schema.json",
-    "title": "Preferences",
-    "description": "Career constraints, goals, and target conditions.",
-    "type": "object",
-    "additionalProperties": false,
-    "properties": {
-      "_comment": {
-        "type": "string"
-      },
-      "id": {
-        "type": "string"
-      },
-      "createdAt": {
-        "type": "string"
-      },
-      "updatedAt": {
-        "type": "string"
-      },
-      "tags": {
-        "type": "array",
-        "items": {
-          "type": "string"
-        }
-      },
-      "relatedObjects": {
-        "type": "array",
-        "items": {
-          "type": "object",
-          "additionalProperties": false,
-          "properties": {
-            "objectType": {
-              "type": "string"
-            },
-            "objectId": {
-              "type": "string"
-            },
-            "relationship": {
-              "type": "string"
-            }
-          },
-          "required": [
-            "objectType",
-            "objectId",
-            "relationship"
-          ]
-        }
-      },
+  "data": [
+    {
+      "id": "preferences-primary",
+      "createdAt": "2026-08-04T00:00:00Z",
+      "updatedAt": "2026-08-04T00:00:00Z",
+      "tags": [
+        "career",
+        "preferences",
+        "primary"
+      ],
+      "relatedObjects": [],
+
       "careerGoals": {
-        "type": "object",
-        "additionalProperties": false,
-        "properties": {
-          "nearTerm": {
-            "type": "array",
-            "items": {
-              "type": "string"
-            }
-          },
-          "longTerm": {
-            "type": "array",
-            "items": {
-              "type": "string"
-            }
-          }
-        },
-        "required": [
-          "nearTerm",
-          "longTerm"
+        "nearTerm": [
+          "Secure a senior writing-focused role combining AI, SEO, automation, and technical communication.",
+          "Increase compensation while remaining fully remote.",
+          "Continue developing Career Agent into a production-ready AI platform."
+        ],
+        "longTerm": [
+          "Become a recognized leader in AI-assisted writing and automation.",
+          "Lead AI, SEO, and content strategy for a world-class technology company.",
+          "Build profitable AI products and software businesses."
         ]
       },
+
       "salaryTargets": {
-        "type": "object",
-        "additionalProperties": false,
-        "properties": {
-          "currency": {
-            "type": "string"
-          },
-          "minimumBase": {
-            "type": "number"
-          },
-          "targetBase": {
-            "type": "number"
-          },
-          "targetTotalCompensation": {
-            "type": "number"
-          },
-          "period": {
-            "type": "string"
-          },
-          "visibility": {
-            "type": "string"
-          }
-        },
-        "required": [
-          "currency",
-          "minimumBase",
-          "targetBase",
-          "targetTotalCompensation",
-          "period",
-          "visibility"
-        ]
+        "currency": "CAD",
+        "minimumBase": 150000,
+        "targetBase": 180000,
+        "targetTotalCompensation": 220000,
+        "period": "annual",
+        "visibility": "private"
       },
+
       "remotePreferences": {
-        "type": "object",
-        "additionalProperties": false,
-        "properties": {
-          "preferredModes": {
-            "type": "array",
-            "items": {
-              "type": "string"
-            }
-          },
-          "acceptableModes": {
-            "type": "array",
-            "items": {
-              "type": "string"
-            }
-          },
-          "maximumOfficeDaysPerWeek": {
-            "type": "number"
-          },
-          "timeZones": {
-            "type": "array",
-            "items": {
-              "type": "string"
-            }
-          }
-        },
-        "required": [
-          "preferredModes",
-          "acceptableModes",
-          "maximumOfficeDaysPerWeek",
-          "timeZones"
+        "preferredModes": [
+          "remote"
+        ],
+        "acceptableModes": [
+          "hybrid"
+        ],
+        "maximumOfficeDaysPerWeek": 2,
+        "timeZones": [
+          "America/Toronto"
         ]
       },
+
       "travel": {
-        "type": "object",
-        "additionalProperties": false,
-        "properties": {
-          "maximumPercent": {
-            "type": "number"
-          },
-          "internationalAllowed": {
-            "type": "boolean"
-          },
-          "notes": {
-            "type": "string"
-          }
-        },
-        "required": [
-          "maximumPercent",
-          "internationalAllowed",
-          "notes"
+        "maximumPercent": 10,
+        "internationalAllowed": true,
+        "notes": "Occasional travel is acceptable. Frequent travel is not preferred."
+      },
+
+      "targetRoles": [
+        "Senior Technical Writer",
+        "Senior Copywriter",
+        "Technical Content Strategist",
+        "AI Content Strategist",
+        "Content Design Lead",
+        "Content Marketing Lead",
+        "SEO Content Lead",
+        "Technical SEO Specialist",
+        "Developer Marketing",
+        "Growth Content Strategist",
+        "AI Automation Specialist",
+        "Editorial Lead"
+      ],
+
+      "rolesToAvoid": [
+        "Junior Writer",
+        "Content Mill Writer",
+        "Social Media Manager",
+        "Community Manager",
+        "General Marketing Coordinator",
+        "Sales Representative"
+      ],
+
+      "industriesToTarget": [
+        "Artificial Intelligence",
+        "Software",
+        "Software as a Service",
+        "Developer Tools",
+        "Cybersecurity",
+        "Cloud Infrastructure",
+        "Search Technology",
+        "Marketing Technology",
+        "Financial Technology",
+        "Data Platforms"
+      ],
+
+      "industriesToAvoid": [
+        "Gambling",
+        "Tobacco",
+        "Multi-Level Marketing"
+      ],
+
+      "companySize": [
+        {
+          "minimumEmployees": 50,
+          "maximumEmployees": 10000,
+          "preference": "preferred"
+        }
+      ],
+
+      "workCulture": [
+        "Remote-first",
+        "High trust",
+        "Ownership",
+        "Fast-moving",
+        "Collaborative",
+        "Engineering-driven",
+        "Experimentation",
+        "Continuous learning",
+        "Low bureaucracy"
+      ],
+
+      "dealBreakers": [
+        "Micromanagement",
+        "Mandatory five-day office attendance",
+        "Heavy bureaucracy",
+        "Little opportunity for innovation",
+        "Low-quality SEO content production",
+        "No opportunity to use AI or automation"
+      ],
+
+      "locationConstraints": [
+        "Canada",
+        "Remote Canada",
+        "Remote North America"
+      ],
+
+      "employmentTypes": [
+        "full-time"
+      ],
+
+      "autoApplyRules": {
+        "minimumMatchScore": 85,
+        "allowHybrid": true,
+        "requireRemotePreference": true,
+        "maximumTravelPercent": 10,
+        "minimumBaseSalary": 150000,
+        "autoRejectIndustries": [
+          "Gambling",
+          "Tobacco",
+          "Multi-Level Marketing"
+        ],
+        "autoRejectRoles": [
+          "Junior Writer",
+          "Content Mill Writer",
+          "Sales Representative"
         ]
-      },
-      "industriesToTarget": {
-        "type": "array",
-        "items": {
-          "type": "string"
-        }
-      },
-      "industriesToAvoid": {
-        "type": "array",
-        "items": {
-          "type": "string"
-        }
-      },
-      "companySize": {
-        "type": "array",
-        "items": {
-          "type": "object",
-          "additionalProperties": false,
-          "properties": {
-            "minimumEmployees": {
-              "type": "number"
-            },
-            "maximumEmployees": {
-              "type": "number"
-            },
-            "preference": {
-              "type": "string"
-            }
-          },
-          "required": [
-            "minimumEmployees",
-            "maximumEmployees",
-            "preference"
-          ]
-        }
-      },
-      "workCulture": {
-        "type": "array",
-        "items": {
-          "type": "string"
-        }
-      },
-      "dealBreakers": {
-        "type": "array",
-        "items": {
-          "type": "string"
-        }
-      },
-      "locationConstraints": {
-        "type": "array",
-        "items": {
-          "type": "string"
-        }
-      },
-      "employmentTypes": {
-        "type": "array",
-        "items": {
-          "type": "string"
-        }
       }
-    },
-    "required": [
-      "_comment",
-      "id",
-      "createdAt",
-      "updatedAt",
-      "tags",
-      "relatedObjects",
-      "careerGoals",
-      "salaryTargets",
-      "remotePreferences",
-      "travel",
-      "industriesToTarget",
-      "industriesToAvoid",
-      "companySize",
-      "workCulture",
-      "dealBreakers",
-      "locationConstraints",
-      "employmentTypes"
-    ]
-  },
-  "data": [],
-  "_template": {
-    "_comment": "Private career constraints and goals. Agents must not disclose sensitive fields without authorization.",
-    "id": "",
-    "createdAt": "",
-    "updatedAt": "",
-    "tags": [],
-    "relatedObjects": [],
-    "careerGoals": {
-      "nearTerm": [],
-      "longTerm": []
-    },
-    "salaryTargets": {
-      "currency": "",
-      "minimumBase": 0,
-      "targetBase": 0,
-      "targetTotalCompensation": 0,
-      "period": "",
-      "visibility": ""
-    },
-    "remotePreferences": {
-      "preferredModes": [],
-      "acceptableModes": [],
-      "maximumOfficeDaysPerWeek": 0,
-      "timeZones": []
-    },
-    "travel": {
-      "maximumPercent": 0,
-      "internationalAllowed": false,
-      "notes": ""
-    },
-    "industriesToTarget": [],
-    "industriesToAvoid": [],
-    "companySize": [],
-    "workCulture": [],
-    "dealBreakers": [],
-    "locationConstraints": [],
-    "employmentTypes": []
-  },
-  "_example": {
-    "_comment": "Private career constraints and goals. Agents must not disclose sensitive fields without authorization.",
-    "id": "00000000-0000-4000-8000-000000000001",
-    "createdAt": "2026-01-01T00:00:00Z",
-    "updatedAt": "2026-01-01T00:00:00Z",
-    "tags": [
-      "example-tag"
-    ],
-    "relatedObjects": [
-      {
-        "objectType": "achievement",
-        "objectId": "00000000-0000-4000-8000-000000000002",
-        "relationship": "supports"
-      }
-    ],
-    "careerGoals": {
-      "nearTerm": [
-        "Example one-to-two-year goal"
-      ],
-      "longTerm": [
-        "Example long-term goal"
-      ]
-    },
-    "salaryTargets": {
-      "currency": "USD",
-      "minimumBase": 100000,
-      "targetBase": 125000,
-      "targetTotalCompensation": 150000,
-      "period": "annual",
-      "visibility": "private"
-    },
-    "remotePreferences": {
-      "preferredModes": [
-        "remote"
-      ],
-      "acceptableModes": [
-        "hybrid"
-      ],
-      "maximumOfficeDaysPerWeek": 2,
-      "timeZones": [
-        "Example time zone"
-      ]
-    },
-    "travel": {
-      "maximumPercent": 10,
-      "internationalAllowed": true,
-      "notes": "Example constraint"
-    },
-    "industriesToTarget": [
-      "00000000-0000-4000-8000-000000000020"
-    ],
-    "industriesToAvoid": [
-      "Example industry name or UUID"
-    ],
-    "companySize": [
-      {
-        "minimumEmployees": 50,
-        "maximumEmployees": 1000,
-        "preference": "preferred"
-      }
-    ],
-    "workCulture": [
-      "Example cultural attribute"
-    ],
-    "dealBreakers": [
-      "Example non-negotiable"
-    ],
-    "locationConstraints": [
-      "Example constraint"
-    ],
-    "employmentTypes": [
-      "full-time"
-    ]
-  }
+    }
+  ]
 }
